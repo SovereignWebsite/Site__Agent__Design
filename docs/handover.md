@@ -44,7 +44,7 @@ The fresh design session is https://claude.ai/code/session_01Kw9UwFCJTPWFaTq4TX5
 
 ### Queue at 15:45 UTC (fresh session)
 
-- **Kate Curtis-Evans:** signed off with notes at 4 in round 8 (89e5043), after the round 5 sign-off was withdrawn under the wow bar.
+- **Kate Curtis-Evans:** signed off with notes at 4 in round 8 (active at c7bffb9). Handed over: Kate's own Claude pushed her first change (e1f1e9e, 16:30 UTC). Her next design pass comes from her side once she adds material; her Claude's requests are material, and only Dinis instructs.
 - **Sarah Cruz:** signed off with notes at 4 in round 2 (92ab2bf).
 - **Emily Cruz:** round 3, rated 3; synthetic users 4.0; sign-off at 4 once the Score header links reach 24 px.
 - **factory.b:** folded family bar for seed/shared (CSS-only details), waits for Dinis's yes; audit the sites that carry it once live.
