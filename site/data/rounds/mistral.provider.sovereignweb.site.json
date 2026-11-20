@@ -1,6 +1,6 @@
 {
  "site": "mistral.provider.sovereignweb.site",
- "updated": "2026-11-20T23:45Z",
+ "updated": "2026-11-21T00:00Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "conductor.mistral",
  "rounds": [
@@ -8,11 +8,21 @@
    "round": 1,
    "what": "audit, synthetic users; header, hackathon facts, sources, copy buttons, own content per design",
    "commit_reviewed": "983035b",
-   "answered_by": null,
+   "answered_by": "6cbfa89",
    "rating": "3",
    "synthetic_score": 3.0,
    "review": "https://design.agents.sovereignweb.site/reviews-mistral-2026-11-20-round-1.html",
    "run": "https://design.agents.sovereignweb.site/runs-mistral-2026-11-20-r1.html"
+  },
+  {
+   "round": 2,
+   "what": "round 1 answered; footnote target size, clipped console code, old headers on team and evals",
+   "commit_reviewed": "6cbfa89",
+   "answered_by": null,
+   "rating": "2 (3 once the target size is fixed)",
+   "synthetic_score": null,
+   "review": "https://design.agents.sovereignweb.site/reviews-mistral-2026-11-20-round-2.html",
+   "run": null
   }
  ]
 }
