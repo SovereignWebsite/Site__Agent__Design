@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-21T00:00Z",
+ "updated": "2026-11-21T00:20Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -374,11 +374,21 @@
      "round": 2,
      "what": "round 1 answered; footnote target size, clipped console code, old headers on team and evals",
      "commit_reviewed": "6cbfa89",
-     "answered_by": null,
+     "answered_by": "a17c9c7",
      "rating": "2 (3 once the target size is fixed)",
      "synthetic_score": null,
      "review": "https://design.agents.sovereignweb.site/reviews-mistral-2026-11-20-round-2.html",
      "run": null
+    },
+    {
+     "round": 3,
+     "what": "rated 3, nearly a wow; /swarm/ into the shell, its link text, a scroll hint",
+     "commit_reviewed": "a17c9c7",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.4,
+     "review": "https://design.agents.sovereignweb.site/reviews-mistral-2026-11-21-round-3.html",
+     "run": "https://design.agents.sovereignweb.site/runs-mistral-2026-11-21-r3.html"
     }
    ]
   }

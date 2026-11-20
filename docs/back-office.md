@@ -53,7 +53,8 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | agentic-cells.startups | startups.b | [3](reviews-startups-2026-11-20-round-3.html): craft done; three decisions | 115fd9f | | 3 | [3.4](runs-startups-2026-11-20-r3.html) |
 | sovereign-website.startups | startups.b | [3](reviews-startups-2026-11-20-round-3.html): craft done; three decisions | 49f41b9 | | 3 | [2.8](runs-startups-2026-11-20-r3.html) |
 | mistral.provider | conductor.mistral | [1](reviews-mistral-2026-11-20-round-1.html): clean and honest; own content per design, the hackathon's facts | 983035b | 6cbfa89 | 3 |
-| mistral.provider | conductor.mistral | [2](reviews-mistral-2026-11-20-round-2.html): round 1 answered; footnote size, clipped console | 6cbfa89 | | 2 (3 with the fix) |  | [3.0](runs-mistral-2026-11-20-r1.html) |
+| mistral.provider | conductor.mistral | [2](reviews-mistral-2026-11-20-round-2.html): round 1 answered; footnote size, clipped console | 6cbfa89 | a17c9c7 | 2 to 3 |  |
+| mistral.provider | conductor.mistral | [3](reviews-mistral-2026-11-21-round-3.html): rated 3, nearly a wow; /swarm/ into the shell | a17c9c7 | | 3 | [3.4](runs-mistral-2026-11-21-r3.html) | [3.0](runs-mistral-2026-11-20-r1.html) |
 
 Earlier rounds by the first design.b session (hub, pipeline-demo, the review of all sites) are on the [reviews page](reviews.html).
 
@@ -78,6 +79,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [Chiswick Cheese Market demonstration, pass 3](runs-chiswick-cheese-market-2026-11-20-r3.html): 3.0; the Poster Wall voted best, the organiser's "wow"
 - [The five startup brochures, round 3](runs-startups-2026-11-20-r3.html): 3.2, 3.0, 3.4, 3.4, 2.8 (two agents first shared a crop folder; both redid their crops)
 - [Mistral provider site, round 1](runs-mistral-2026-11-20-r1.html): 3.0, no favourite design
+- [Mistral provider site, round 3](runs-mistral-2026-11-21-r3.html): 3.4, up from 3.0
 
 ## Seed adoption (factory.b's Factory dev f3dc468..f759821)
 
