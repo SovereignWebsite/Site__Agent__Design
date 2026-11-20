@@ -1,6 +1,6 @@
 {
  "site": "chiswick-cheese-market.organisation.sovereignweb.site",
- "updated": "2026-11-20T22:50Z",
+ "updated": "2026-11-20T23:10Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "chiswick-cheese-market.b",
  "rounds": [
@@ -28,11 +28,21 @@
    "round": 3,
    "what": "pass 2: review of pass 1 live; the Cave to a tasting menu",
    "commit_reviewed": "b301884",
-   "answered_by": null,
+   "answered_by": "74ec98c",
    "rating": "2",
    "synthetic_score": 3.2,
    "review": "https://design.agents.sovereignweb.site/reviews-chiswick-cheese-market-2026-11-20-round-2-pass-2.html",
    "run": "https://design.agents.sovereignweb.site/runs-chiswick-cheese-market-2026-11-20-r2.html"
+  },
+  {
+   "round": 4,
+   "what": "pass 3: ready to show; Poster Wall first; design 1 banner (2.2.2), door, fuller Cave",
+   "commit_reviewed": "74ec98c",
+   "answered_by": null,
+   "rating": "2 (3 when the banner can be paused)",
+   "synthetic_score": 3.0,
+   "review": "https://design.agents.sovereignweb.site/reviews-chiswick-cheese-market-2026-11-20-round-2-pass-3.html",
+   "run": "https://design.agents.sovereignweb.site/runs-chiswick-cheese-market-2026-11-20-r3.html"
   }
  ]
 }
