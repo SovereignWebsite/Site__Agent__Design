@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T16:45Z",
+ "updated": "2026-11-20T16:50Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -67,13 +67,14 @@
   },
   "emily-cruz.artist.sovereignweb.site": {
    "repo": "Site__Artist__Emily-Cruz",
-   "commit": "99d9f5e",
-   "rating": 3,
+   "commit": "f85a9e2",
+   "rating": 4,
    "five_designs": true,
    "rounds": 3,
    "agent": "emily.b",
-   "blocking": "round 3: wow round strong, synthetic users 4.0; one serious axe failure (Score header links 4 and 8 px); sign-off at 4 when fixed; and guidelines 1.12: the family bar must leave the top of the page (factory.b)",
-   "synthetic_score": 4.0
+   "blocking": "design signed off at 4 (round 3, f85a9e2), suspended under guidelines 1.12: the family bar is at the top of the page (factory.b)",
+   "synthetic_score": 4.0,
+   "signed_off": false
   },
   "whois.tool.sovereignweb.site": {
    "repo": "Site__Tool__Whois",
