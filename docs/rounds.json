@@ -218,12 +218,12 @@
     {
      "round": 1,
      "what": "audit of dev before deploy; six designs to ideas",
-     "commit_reviewed": "86a14d8",
+     "commit_reviewed": "86a14d8 (live v0.1.2)",
      "answered_by": null,
      "rating": "1",
-     "synthetic_score": null,
+     "synthetic_score": 3.0,
      "review": "https://design.agents.sovereignweb.site/reviews-chiswick-cheese-market-2026-11-20-round-1.html",
-     "run": null
+     "run": "https://design.agents.sovereignweb.site/runs-chiswick-cheese-market-2026-11-20-r1.html"
     }
    ]
   }

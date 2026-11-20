@@ -38,7 +38,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | risk-mandate.startups | startups.b | [1](reviews-risk-mandate-2026-11-20-round-1.html): bland; five new designs, two on the real identity | 125112b | | 3 | [3.0](runs-risk-mandate-2026-11-20-r1.html) |
 | agentic-cells.startups | startups.b | [1](reviews-agentic-cells-2026-11-20-round-1.html): bland; five new designs, two on the real identity | eab18eb | | 3 | [3.0](runs-agentic-cells-2026-11-20-r1.html) |
 | sovereign-website.startups | startups.b | [1](reviews-sovereign-website-2026-11-20-round-1.html): bland; five new designs, two on the real identity | 490c1c9 | | 3 | [2.8](runs-sovereign-website-2026-11-20-r1.html) |
-| chiswick-cheese-market.organisation | chiswick-cheese-market.b | [1](reviews-chiswick-cheese-market-2026-11-20-round-1.html): before deploy; six designs to ideas (deadline Sunday 22 Nov) | 86a14d8 | | 1 | in round 2 |
+| chiswick-cheese-market.organisation | chiswick-cheese-market.b | [1](reviews-chiswick-cheese-market-2026-11-20-round-1.html): before deploy; six designs to ideas (deadline Sunday 22 Nov) | 86a14d8 | | 1 | [3.0](runs-chiswick-cheese-market-2026-11-20-r1.html) |
 
 Earlier rounds by the first design.b session (hub, pipeline-demo, the review of all sites) are on the [reviews page](reviews.html).
 
@@ -57,6 +57,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [RiskMandate brochure, round 1](runs-risk-mandate-2026-11-20-r1.html): 3.0, one agent playing all five personas
 - [AgentiCCells brochure, round 1](runs-agentic-cells-2026-11-20-r1.html): 3.0, one agent playing all five personas
 - [Sovereign Website brochure, round 1](runs-sovereign-website-2026-11-20-r1.html): 2.8, one agent playing all five personas
+- [Chiswick Cheese Market demonstration, round 1](runs-chiswick-cheese-market-2026-11-20-r1.html): 3.0; design 5 voted best
 
 ## Seed adoption (factory.b's Factory dev f3dc468..f759821)
 
