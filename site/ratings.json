@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T15:55Z",
+ "updated": "2026-11-20T16:00Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -67,12 +67,12 @@
   },
   "emily-cruz.artist.sovereignweb.site": {
    "repo": "Site__Artist__Emily-Cruz",
-   "commit": "5925335",
+   "commit": "af957fd",
    "rating": 3,
    "five_designs": true,
    "rounds": 2,
    "agent": "emily.b",
-   "blocking": "round 2: 28 views clean, header 166 px, five ideas; 20 to 22 px contact and index links; main tabindex=-1; synthetic users due, then 4"
+   "blocking": "round 2 fixes in (af957fd); held at 3: Dinis finds four of five designs vanilla (Contact sheet better); wow round, visual chooser in the header, no explainer bars"
   },
   "whois.tool.sovereignweb.site": {
    "repo": "Site__Tool__Whois",
