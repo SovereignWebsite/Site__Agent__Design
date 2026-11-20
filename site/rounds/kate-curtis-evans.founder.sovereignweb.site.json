@@ -1,6 +1,6 @@
 {
  "site": "kate-curtis-evans.founder.sovereignweb.site",
- "updated": "2026-11-20T17:05Z",
+ "updated": "2026-11-20T17:35Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "kate-curtis-evans.b",
  "rounds": [
@@ -76,9 +76,9 @@
   },
   {
    "round": 8,
-   "what": "design signed off; suspended under guidelines 1.12 to 1.14",
+   "what": "signed off at 4, active at c7bffb9 after guidelines 1.12 to 1.14",
    "commit_reviewed": "89e5043",
-   "answered_by": null,
+   "answered_by": "c7bffb9",
    "rating": "3 to 4",
    "synthetic_score": null,
    "review": "https://design.agents.sovereignweb.site/reviews-kate-curtis-evans-2026-11-20-round-8-sign-off.html",

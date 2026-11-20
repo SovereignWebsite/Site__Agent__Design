@@ -41,3 +41,7 @@ Dinis Cruz, in kate-curtis-evans.b's session: "the current site is now great, al
 - **1.13:** all four pages answer 200, but /admin/ is linked only in the footer. It needs the header's right-hand area too.
 
 axe-core is clean on home, /start/, /agents/, /admin/, the Transcript and the Newsroom in four views. The sign-off becomes active once /admin/ is in the header.
+
+## Sign-off active, c7bffb9 (17:35 UTC)
+
+"How it was made" (/admin/) is now in the top bar with "Start here" and "Use with your AI", and in every footer. tools/site-checks.js finds no failure: 1.12, 1.13 and 1.14 all pass. There is no sideways scroll at 320 or 390 px on home, /start/, /agents/, /admin/ or /designs/. axe-core is clean on home and /admin/ in four views. The top bar ends at 143 px on a 390 px phone. **Kate Curtis-Evans's site is signed off at 4, with the notes above.**

@@ -1,6 +1,6 @@
 {
  "site": "emily-cruz.artist.sovereignweb.site",
- "updated": "2026-11-20T17:05Z",
+ "updated": "2026-11-20T17:35Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "emily.b",
  "rounds": [
@@ -16,9 +16,9 @@
   },
   {
    "round": 3,
-   "what": "the wow round; design signed off, suspended under guidelines 1.13 and 1.14",
+   "what": "the wow round; signed off at 4, active at baf38d9 after guidelines 1.12 to 1.14",
    "commit_reviewed": "d5c475f",
-   "answered_by": "f85a9e2",
+   "answered_by": "baf38d9",
    "rating": "3 to 4",
    "synthetic_score": 4.0,
    "review": "https://design.agents.sovereignweb.site/reviews-emily-cruz-2026-11-20-round-3.html",

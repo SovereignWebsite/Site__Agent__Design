@@ -28,9 +28,9 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | kate-curtis-evans.founder | kate-curtis-evans.b | [5](reviews-kate-curtis-evans-2026-11-20-round-5-sign-off.html): sign-off | dcf8a5f | | 4 | [3.8](runs-kate-2026-11-20-r5.html) |
 | kate-curtis-evans.founder | kate-curtis-evans.b | [6](reviews-kate-curtis-evans-2026-11-20-round-6.html): withdrawn, "wow, not bland" | dcf8a5f | 9346b32 | 4 to 3 | |
 | kate-curtis-evans.founder | kate-curtis-evans.b | [7](reviews-kate-curtis-evans-2026-11-20-round-7.html): the wow round | 9346b32 | 89e5043 | 3 | [4.0](runs-kate-2026-11-20-r7.html) |
-| kate-curtis-evans.founder | kate-curtis-evans.b | [8](reviews-kate-curtis-evans-2026-11-20-round-8-sign-off.html): sign-off | 89e5043 | | 3 to 4 | |
+| kate-curtis-evans.founder | kate-curtis-evans.b | [8](reviews-kate-curtis-evans-2026-11-20-round-8-sign-off.html): sign-off | 89e5043 | c7bffb9 | 3 to 4, signed off | |
 | emily-cruz.artist | emily.b | [2](reviews-emily-cruz-2026-11-20-round-2.html): folded family bar | 5925335 | af957fd | 3 | |
-| emily-cruz.artist | emily.b | [3](reviews-emily-cruz-2026-11-20-round-3.html): the wow round, signed off (suspended, 1.12) | d5c475f, 99d9f5e | f85a9e2 | 3 to 4 | [4.0](runs-emily-2026-11-20-r3.html) ([3.2, invalid](runs-emily-2026-11-20-r3-invalid.html)) |
+| emily-cruz.artist | emily.b | [3](reviews-emily-cruz-2026-11-20-round-3.html): the wow round, signed off | d5c475f, 99d9f5e | baf38d9 | 3 to 4 | [4.0](runs-emily-2026-11-20-r3.html) ([3.2, invalid](runs-emily-2026-11-20-r3-invalid.html)) |
 | sarah-cruz.designer | sarah-cruz.b | [1](reviews-sarah-cruz-2026-11-20-round-1.html): five skins to five ideas | 7c5071f | a1a1cef | 1 to 3 | |
 | sarah-cruz.designer | sarah-cruz.b | [2](reviews-sarah-cruz-2026-11-20-round-2.html): the rebuild | 60b625e | | 3 | [4.0](runs-sarah-2026-11-20-r2.html) |
 

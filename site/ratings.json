@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T17:25Z",
+ "updated": "2026-11-20T17:35Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -67,14 +67,14 @@
   },
   "emily-cruz.artist.sovereignweb.site": {
    "repo": "Site__Artist__Emily-Cruz",
-   "commit": "0e824db",
+   "commit": "baf38d9",
    "rating": 4,
    "five_designs": true,
    "rounds": 3,
    "agent": "emily.b",
-   "blocking": "design signed off at 4 (round 3); 1.12 and 1.14 pass at 0e824db; suspended on 1.13 (/admin/ not in the header) and sideways scroll on phones on /agents/ (a 459 px URL) and /start/ (395 px)",
+   "blocking": "signed off with notes (round 3, active at baf38d9): small credit text on dark red, soft video stills; one more pass after Emily adds material",
    "synthetic_score": 4.0,
-   "signed_off": false
+   "signed_off": true
   },
   "whois.tool.sovereignweb.site": {
    "repo": "Site__Tool__Whois",
@@ -97,21 +97,22 @@
   },
   "kate-curtis-evans.founder.sovereignweb.site": {
    "repo": "Site__Founder__Kate-Curtis-Evans",
-   "commit": "5cabbc9",
+   "commit": "c7bffb9",
    "rating": 4,
    "five_designs": true,
    "rounds": 8,
    "agent": "kate-curtis-evans.b",
-   "blocking": "design signed off at 4 (round 8); Dinis: 'the current site is now great'. 1.12 and 1.14 pass at 5cabbc9; suspended only on 1.13: /admin/ linked in the footer, not the header",
+   "blocking": "signed off with notes (round 8, active at c7bffb9): only the desk photo; long phone page; one more pass after Kate adds material",
    "synthetic_score": 4.0,
-   "signed_off": false
+   "signed_off": true
   }
  },
  "kpi": {
   "rounds_to_signoff": {
-   "kate-curtis-evans.founder.sovereignweb.site": 8
+   "kate-curtis-evans.founder.sovereignweb.site": 8,
+   "emily-cruz.artist.sovereignweb.site": 3
   },
-  "signed_off": 0,
+  "signed_off": 2,
   "public_sites": 11
  },
  "runs": [
