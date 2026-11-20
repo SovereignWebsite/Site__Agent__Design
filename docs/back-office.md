@@ -36,7 +36,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 
 Earlier rounds by the first design.b session (hub, pipeline-demo, the review of all sites) are on the [reviews page](reviews.html).
 
-Each site's rounds are also published as JSON for its own `/admin/` page to link to or pull: `rounds/<site>.json`, for example [rounds/kate-curtis-evans.founder.sovereignweb.site.json](rounds/kate-curtis-evans.founder.sovereignweb.site.json).
+Each site's rounds are also published as JSON for its own `/admin/` page to link to or pull: `data/rounds/<site>.json` (also at `rounds/<site>.json`), for example [data/rounds/kate-curtis-evans.founder.sovereignweb.site.json](data/rounds/kate-curtis-evans.founder.sovereignweb.site.json); it feeds the Design panel of each site's admin dashboard.
 
 ## Synthetic user runs
 

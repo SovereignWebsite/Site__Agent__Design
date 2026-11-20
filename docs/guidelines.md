@@ -183,3 +183,28 @@ Five variations of one website do not count ("just about looks like five, the sa
 ### Push, do not wait for sign-off (Dinis Cruz, 20 November 2026)
 
 "I don't need to sign off the design. You push the sign off. You push it, and I see it on the website." Site agents and design.b push design rounds to dev and live without waiting for Dinis; he reviews them on the live site. Every site with five designs shows them all at once in its visual chooser (the panel of five screenshot cards), so they can be seen side by side.
+
+### The admin dashboard (Dinis Cruz, 20 November 2026)
+
+Every customer site's `/admin/` (guidelines 1.13) becomes "a proper admin dashboard... lots of graphs and powerful visualisations". It is the same generic page on every site: Kate Curtis-Evans's site is the pilot, and factory.b turns it into a seed page. Dinis gave this at about 16:50 UTC, relayed by the other design.b session.
+
+**What it shows**, each as a panel with a heading:
+1. **Version:** the commit live now, when it was built, and a link to it.
+2. **CI checks:** the latest runs and their results.
+3. **Activity by author:** commits over time, by author: the owner, the site's agent, design.b, and others.
+4. **Content and weight:** pages, images, words, and first-load weight per page against the budget (section 9).
+5. **Quality history:** accessibility results, contrast failures and overflow per commit, where they are recorded.
+6. **Design rounds and synthetic users:** each round's rating and each run's look score, from design.b's `data/rounds/<site>.json` on design.agents.sovereignweb.site. Fetch it at build time, or link to it.
+7. **Agents:** which agents have worked on the site, with their roles and their published keys.
+8. **Ask Claude:** example prompts for the owner (change a word, add photos, choose a design) and for a visitor (ask about the owner's work), as on `/agents/`.
+9. **Visitors:** a placeholder that says plainly that no visitor data is collected today (section 1.1: no tracking). It is filled only if the owner later chooses a privacy-respecting count.
+
+**How it is built:**
+- **Build-time data only.** Every figure comes from files written at build: git log, CI results and design.b's JSON. Nothing is fetched from another host when a visitor opens the page.
+- **No email addresses, and no private data.** Show authors by name or role, never by email.
+- **The chart library is vendored:** served from the site itself, with a version pinned, and loaded with `defer` (section 9). No CDN.
+- **Every chart has a data table behind it**, reachable as a `<details>` "Show the data" or a linked table. Colour is never the only signal. Charts follow the site's light and dark tokens.
+- **It works on a phone:** charts reflow into one column at 390 px, with no sideways scroll; wide tables scroll inside their own focusable box.
+- **It is noindex:** `<meta name="robots" content="noindex">`. It is linked from the site (1.13), but kept out of search results.
+
+design.b audits the dashboard like any other page, in all four views. It also checks that each chart's table matches its source data.

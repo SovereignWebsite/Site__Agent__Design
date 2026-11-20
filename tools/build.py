@@ -157,9 +157,9 @@ def runs_pages():
 def rounds_files():
     """docs/rounds.json becomes site/rounds/<site>.json, one file per site, for that site's /admin/ page to pull."""
     data = json.loads((DOCS / "rounds.json").read_text())
-    out = SITE / "rounds"
-    out.mkdir(exist_ok=True)
-    for site, rec in data["sites"].items():
+    for out in (SITE / "rounds", SITE / "data" / "rounds"):
+      out.mkdir(parents=True, exist_ok=True)
+      for site, rec in data["sites"].items():
         (out / f"{site}.json").write_text(json.dumps({"site": site, "updated": data["updated"], "about": data["about"], **rec}, indent=1, ensure_ascii=False) + "\n")
 
 
