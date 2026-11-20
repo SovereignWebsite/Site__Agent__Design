@@ -49,19 +49,19 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 
 ## Seed adoption (factory.b's Factory dev f3dc468..f759821)
 
-design.b asked for this at 20:47 UTC. As each site's pipeline goes green, design.b.rounds checks the version chip on every page (linked to the run), the pushed tag, no family strip on customer sites, the start, agents, llms.txt and admin pages, and og:image at 1200 x 630. Checked live with `tools/site-checks.js` and a page-by-page search for links to a run, at about 20:50 UTC. Kate, Emily and Sarah are customer sites; the hub is one of ours, so the family strip rule does not apply to it.
+design.b asked for this at 20:47 UTC. As each site's pipeline goes green, design.b.rounds checks the version chip on every page (linked to the run), the pushed tag, no family strip on customer sites, the start, agents, llms.txt and admin pages, and og:image at 1200 x 630. Checked live with `tools/site-checks.js` and a crawl of every same-site page for the chip and its link to the run; first at about 20:50 UTC, again at about 21:40 UTC (below). Kate, Emily and Sarah are customer sites; the hub is one of ours, so the family strip rule does not apply to it.
 
 | Site | Version chip linked to the run | Tag pushed | Family links only in the top-right menu | start, agents, llms.txt, admin | og:image 1200 x 630 | State |
 |---|---|---|---|---|---|---|
-| Kate Curtis-Evans | none on home, start, agents, admin, designs | no tags | yes | all 200; start/ missing from the footer | yes (img/share-card.jpg) | not adopted yet |
-| Emily Cruz | none | no tags | yes | all 200, linked | yes (images/social-card.jpg) | not adopted yet |
-| Sarah Cruz | none | no tags | yes | all 200, linked | yes (img/share.jpg) | not adopted yet |
-| Hub | none | no tags | not applicable (ours) | all four 404 | yes (og.jpg); og:image:alt and twitter:title, description and image missing | not adopted yet |
+| Kate Curtis-Evans | none on any of 30 pages (version.json is the old format, 2f4c67f) | no tags | yes | all 200; start/ moved out of the footer on purpose (3a14b91: editor links live in Admin and the menu) | yes (img/share-card.jpg) | **not adopted**: pages.yml is a protected path, so kate-curtis-evans.b waits for Dinis's or Kate's own yes |
+| Emily Cruz | yes, on all 12 pages, linked to run 44816655537 | v0.1.0, v0.1.1 (f62b6b4) | **no**: the new "Sovereign Website" credit sits on a second row at the left, under Emily's name (1.12 wants it at the top right) | all 200, linked | yes (images/social-card.jpg) | **adopted** (run green), one fix: move the credit to the top right |
+| Sarah Cruz | yes, on all 10 pages, linked to run 44816666938 | v0.1.0, v0.1.1 (64be152) | yes, top right | all 200, linked | yes (img/share.jpg) | **adopted**, passes |
+| Hub | yes, linked to run 44820227333 | v0.1.0 to v0.1.6 (1353ac9) | not applicable (ours) | not applicable (ours, agent template) | yes (og.jpg), all tags | **adopted**, passes |
 | design.agents (ours) | yes, on all 42 pages, linked to run 39 | v0.1.0 on 327f73f | not applicable (ours; SWS_OWN_SITE=1) | not added: these seed pages are for customer sites | yes (share-card.jpg) | **adopted** 21:26 UTC: run 39 green (build, share, quality, html-validate, axe, deploy, tag); moved to seed/agent-template (de05b7c) at about 21:35 UTC |
 
 Each row is checked again when its site agent reports a green pipeline.
 
-Notes for the seed (sent to factory.b through design.b): the chip sits after the footer, outside any landmark (axe best practice 'region'); placed inside a footer it takes the footer's muted colour and, with opacity .75, falls to 3.9:1. On this site the chip goes inside the footer and the footer sets it to the full text colour.
+All four adopted sites show one moderate axe best-practice finding on every page, the seed's own: 'region' on the chip. Notes for the seed (sent to factory.b through design.b): the chip sits after the footer, outside any landmark (axe best practice 'region'); placed inside a footer it takes the footer's muted colour and, with opacity .75, falls to 3.9:1. On this site the chip goes inside the footer and the footer sets it to the full text colour.
 
 ## Milestones
 
