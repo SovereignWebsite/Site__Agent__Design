@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T17:35Z",
+ "updated": "2026-11-20T17:45Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -87,13 +87,14 @@
   },
   "sarah-cruz.designer.sovereignweb.site": {
    "repo": "Site__Designer__Sarah-Cruz",
-   "commit": "f37c19b",
-   "rating": 3,
+   "commit": "92ab2bf",
+   "rating": 4,
    "five_designs": true,
    "rounds": 2,
    "agent": "sarah-cruz.b",
-   "blocking": "round 2 fixes in (f37c19b): 28 views clean, 1.12 to 1.14 pass; one left: /start/ 395 px on a 390 px phone (an unbreakable link); then sign-off at 4",
-   "synthetic_score": 4.0
+   "blocking": "signed off with notes (round 2, 92ab2bf): more room for the strongest pack photography; photographer credits when Sarah supplies them; one more pass after she adds material",
+   "synthetic_score": 4.0,
+   "signed_off": true
   },
   "kate-curtis-evans.founder.sovereignweb.site": {
    "repo": "Site__Founder__Kate-Curtis-Evans",
@@ -110,9 +111,10 @@
  "kpi": {
   "rounds_to_signoff": {
    "kate-curtis-evans.founder.sovereignweb.site": 8,
-   "emily-cruz.artist.sovereignweb.site": 3
+   "emily-cruz.artist.sovereignweb.site": 3,
+   "sarah-cruz.designer.sovereignweb.site": 2
   },
-  "signed_off": 2,
+  "signed_off": 3,
   "public_sites": 11
  },
  "runs": [
