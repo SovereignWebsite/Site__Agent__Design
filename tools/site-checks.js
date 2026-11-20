@@ -1,4 +1,4 @@
-// Customer-site rules from guidelines 1.12 to 1.14, checked live. Read-only.
+// Customer-site rules, checked live: 1.12 to 1.14 (menu, pages, link previews and the 1200x630 share card) and 2a (five designs). Read-only.
 // Usage: node tools/site-checks.js https://owner.example.sovereignweb.site/ [more roots...]
 const { chromium } = require('playwright');
 
@@ -45,6 +45,18 @@ const OG = ['og:title', 'og:description', 'og:type', 'og:url', 'og:image', 'og:i
       else if (!size || size[0] !== 1200 || size[1] !== 630) r.fails.push(`1.14 og:image is ${size ? size.join(' x ') : 'unreadable'}, not 1200 x 630`);
       await img.close();
     }
+
+    // 2a: five designs, reached from a visible chooser: the chooser (a details, nav or menu that says "Choose a design"
+    // or is labelled as the designs) must link to five distinct designs, the current one included.
+    r.designs = await page.evaluate(() => {
+      const isChooser = el => /choose a design/i.test((el.querySelector('summary, button, h2')?.textContent || '')) || /^designs? of this page|^choose a design/i.test(el.getAttribute('aria-label') || '');
+      const box = [...document.querySelectorAll('details')].find(isChooser) || [...document.querySelectorAll('nav, [role=menu]')].find(isChooser);
+      if (!box) return { chooser: false, count: 0 };
+      const hrefs = new Set([...box.querySelectorAll('a[href]')].map(a => a.getAttribute('href')).filter(h => !/designs\/(index\.html)?$/.test(h)));
+      return { chooser: true, count: hrefs.size };
+    });
+    if (!r.designs.chooser) r.fails.push('2a no visible "Choose a design" control on the home page');
+    else if (r.designs.count < 5) r.fails.push(`2a the chooser offers ${r.designs.count} designs, not five`);
 
     // 1.12: our links only inside one closed pop-up menu, at the top right
     r.family = await page.evaluate((hosts) => {

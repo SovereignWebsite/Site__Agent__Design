@@ -72,9 +72,25 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--focus);outline-off
 .fam summary{border-color:var(--line)}
 @media(max-width:40rem){.dn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.brand{font-size:.95rem;line-height:1.2}}
 .foot{max-width:80rem;margin:3rem auto 0;padding:1.4rem 1rem 2.4rem;border-top:1px solid var(--line);font-size:.95rem;color:var(--muted)}
-.foot a{color:var(--fg)}
+.foot a,.foot .sws-version{color:var(--fg);opacity:1}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 """
+
+HOSTURL = "https://design.agents.sovereignweb.site/designs/hub/"
+
+
+def og(n, title):
+    t = e(f"{title}, Sovereign Website Hub (design prototype)")
+    d = e(f"Design {n} of 5 for the Sovereign Website Hub: {DESIGNS[n-1][2]}")
+    u = HOSTURL + ("" if title == "Five designs" else f"{n}.html")
+    img = "https://design.agents.sovereignweb.site/share-card.jpg"
+    tags = [("property", "og:title", t), ("property", "og:description", d), ("property", "og:url", u), ("property", "og:type", "website"),
+            ("property", "og:site_name", "design.b"), ("property", "og:locale", "en_GB"), ("property", "og:image", img),
+            ("property", "og:image:width", "1200"), ("property", "og:image:height", "630"),
+            ("property", "og:image:alt", "design.b: Five designs, always. Guidelines, ratings and reviews for every site."),
+            ("name", "twitter:card", "summary_large_image"), ("name", "twitter:title", t), ("name", "twitter:description", d), ("name", "twitter:image", img)]
+    return "\n".join(f'<meta {a}="{k}" content="{v}">' for a, k, v in tags)
+
 
 def page(n, title, tokens, css, body, scheme="light dark"):
     dname = DESIGNS[n - 1][1]
@@ -86,6 +102,7 @@ def page(n, title, tokens, css, body, scheme="light dark"):
 <meta name="color-scheme" content="{scheme}"><meta name="robots" content="noindex">
 <title>{e(title)}, Sovereign Website Hub</title>
 <meta name="description" content="Design {n} of 5 for the Sovereign Website Hub: {e(DESIGNS[n-1][2])}">
+{og(n, title)}
 <style>{tokens}
 {BASE}{css}</style></head><body>
 <a class="skip" href="#main">Skip to the sites</a>

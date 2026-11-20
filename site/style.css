@@ -85,3 +85,6 @@ th { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: 
 .prose figure.shot{display:inline-block;vertical-align:top;margin:0 1rem 1.5rem 0;max-width:min(100%,560px)}
 .prose figure.shot img{display:block;max-width:100%;height:auto;border:1px solid var(--line);border-radius:.4rem}
 .prose figure.shot figcaption{font-size:.9rem;color:var(--muted);margin-top:.3rem}
+
+/* The pipeline's version chip sits in the footer: full text colour, so it keeps 4.5:1 after the seed's opacity. */
+.site-footer .sws-version { color: var(--fg); opacity: 1; }

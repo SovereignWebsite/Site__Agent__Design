@@ -21,7 +21,7 @@ let n = 0;
 const walk = (d) => { for (const x of readdirSync(d, { withFileTypes: true })) { const p = join(d, x.name); if (x.isDirectory()) walk(p); else if (x.name.endsWith('.html')) {
   let s = readFileSync(p, 'utf8');
   if (/<meta\s+http-equiv="refresh"/i.test(s)) continue;
-  s = s.replace(/<a class="sws-version"[^>]*>[^<]*<\/a>/g, '').replace(/<link rel="stylesheet" href="\/assets\/sws-version\.css">\n?/g, '').replace(/<\/head>/i, `${link}\n</head>`).replace(/<\/body>/i, `${chip}\n</body>`);
+  s = s.replace(/<a class="sws-version"[^>]*>[^<]*<\/a>/g, '').replace(/<link rel="stylesheet" href="\/assets\/sws-version\.css">\n?/g, '').replace(/<\/head>/i, `${link}\n</head>`).replace(/<\/footer>(?![\s\S]*<\/footer>)|<\/body>/i, (m) => `${chip}\n${m}`); // design.agents: inside the last footer, so the chip sits in a landmark (axe 'region')
   writeFileSync(p, s); n++;
 } } };
 walk('_site');

@@ -44,6 +44,24 @@ BRAND_SVG = ('<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rec
              'stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 
 
+HOST = "https://design.agents.sovereignweb.site/"
+
+
+def share_tags(path, title, description):
+    """Open Graph and Twitter tags for the link preview (guidelines 1.14; checked by .github/ci/share-check.mjs)."""
+    t, d = html.escape(f"{title}, design.b"), html.escape(description)
+    url = HOST + ("" if path == "index.html" else path)
+    alt = "design.b: Five designs, always. Guidelines, ratings and reviews for every site."
+    return "\n".join([
+        f'<meta property="og:title" content="{t}">', f'<meta property="og:description" content="{d}">',
+        f'<meta property="og:url" content="{url}">', '<meta property="og:type" content="website">',
+        '<meta property="og:site_name" content="design.b">', '<meta property="og:locale" content="en_GB">',
+        f'<meta property="og:image" content="{HOST}share-card.jpg">', '<meta property="og:image:width" content="1200">',
+        '<meta property="og:image:height" content="630">', f'<meta property="og:image:alt" content="{alt}">',
+        '<meta name="twitter:card" content="summary_large_image">', f'<meta name="twitter:title" content="{t}">',
+        f'<meta name="twitter:description" content="{d}">', f'<meta name="twitter:image" content="{HOST}share-card.jpg">'])
+
+
 def page(path, title, body, description, extra_head=""):
     nav = "".join(
         f'<a href="{href}"{" aria-current=\"page\"" if href == path else ""}>{name}</a>' for href, name in NAV
@@ -57,6 +75,7 @@ def page(path, title, body, description, extra_head=""):
 <meta name="description" content="{html.escape(description)}">
 <meta name="color-scheme" content="light dark">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'">
+{share_tags(path, title, description)}
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">{extra_head}
 </head>

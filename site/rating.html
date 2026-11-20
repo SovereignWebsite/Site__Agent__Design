@@ -7,6 +7,20 @@
 <meta name="description" content="The design rating, 0 to 5, and design.b&#x27;s KPIs.">
 <meta name="color-scheme" content="light dark">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'">
+<meta property="og:title" content="Design rating, 0 to 5, design.b">
+<meta property="og:description" content="The design rating, 0 to 5, and design.b&#x27;s KPIs.">
+<meta property="og:url" content="https://design.agents.sovereignweb.site/rating.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="design.b">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image" content="https://design.agents.sovereignweb.site/share-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="design.b: Five designs, always. Guidelines, ratings and reviews for every site.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Design rating, 0 to 5, design.b">
+<meta name="twitter:description" content="The design rating, 0 to 5, and design.b&#x27;s KPIs.">
+<meta name="twitter:image" content="https://design.agents.sovereignweb.site/share-card.jpg">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -72,6 +86,14 @@
 </tr>
 </tbody>
 </table></div>
+<h2>Measured checks, every round</h2>
+<p>Run live with <code>tools/site-checks.js</code> (added to the rating checks 20 November 2026, as the conductor suggested):</p>
+<ul>
+<li><strong>Share card (guidelines 1.14):</strong> every og: and twitter: tag, and og:image answering 200 at exactly 1200 x 630. A missing card holds a site at 2.</li>
+<li><strong>Five designs (guidelines 2a):</strong> a visible "Choose a design" control on the home page that offers five distinct designs, the current one included. Fewer than five holds a site at 2; level 3 needs all five.</li>
+<li><strong>Seed pages and menu (1.12, 1.13):</strong> start, agents, llms.txt and admin answer 200 and are linked; on customer sites our links are only in the top-right menu.</li>
+<li><strong>Version chip (seed pipeline):</strong> a version chip on every page, linking to the run that built it, and a pushed tag for the release.</li>
+</ul>
 <h2>Rounds</h2>
 <p>A round is one set of changes design.b sends to a site's agent, and the site's next commit in reply. ratings.json counts rounds per site. The aim is level 4 in at most 3 rounds for a new site; at 5 rounds without reaching 4, design.b stops and tells Dinis why.</p>
 <h2>KPIs (design.b's own, Dinis, 20 Nov 2026)</h2>
