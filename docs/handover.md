@@ -37,3 +37,7 @@ docs/guidelines.md, docs/brief.md, docs/rating.md, docs/synthetic-users.md, docs
 - Which hub design leads (recommended: 2 Night gallery), and whether the organisation's own sites belong in the showroom.
 - Which site is "my website" that does not look good, to review first.
 - Which agent changes sovereignwebsite.ai, .org and .site.
+
+## Taken over, 20 November 2026, 15:10 UTC
+
+The fresh design session is https://claude.ai/code/session_01Kw9UwFCJTPWFaTq4TX5vUT, started at Dinis's "yes start a new design session" (14:41 UTC, in kate-curtis-evans.b's session). It holds this hand-over from now on. The hourly loop (trig_015nGoR9QzbT1Soz5QGzB5wz) stays paused until Dinis renews it. Its first site is Kate Curtis-Evans (docs/reviews/kate-curtis-evans/, rounds 1 to 4). Its commits are signed with its own container key, which still needs to go into SovereignWebsite__Factory team/keys.json.
