@@ -61,7 +61,7 @@ BODY = f"""<main id="main">
     <p class="eyebrow">Founder, Audio Genius</p>
     <h1>Kate Curtis&#8209;Evans</h1>
     <p class="lede">A practising legal transcriber who built a live transcription platform without knowing how to code.</p>
-    <p>Kate is based in the United Kingdom and is now looking for a technical co-founder, to own the part of Audio Genius nobody sees.</p>
+    <p>Kate is based in the United Kingdom and is now looking for a technical co-founder.</p>
     <div class="btns"><a class="btn main" href="{LI}">Message Kate on LinkedIn</a><a class="btn" href="{AG}">Visit audio-genius.com</a></div>
   </div>
 </header>
