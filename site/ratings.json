@@ -36,7 +36,7 @@
    "five_designs": true,
    "rounds": 2,
    "agent": "hub.b",
-   "blocking": "heading order in flattened designs (round 2 sent 13:17 UTC); Dinis to choose one of the five"
+   "blocking": "round 2 in; audit in the 14:07 run; Dinis to choose one of the five"
   },
   "vault.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Vault",
@@ -63,7 +63,7 @@
    "five_designs": false,
    "rounds": 2,
    "agent": "sites.b",
-   "blocking": "five designs (round 2 sent 13:17 UTC); eyebrow shows the old address"
+   "blocking": "round 2 in (07fa97d, five designs); audit in the 14:07 run"
   },
   "emily-cruz.artist.sovereignweb.site": {
    "repo": "not yet checked",
@@ -81,13 +81,22 @@
    "five_designs": null,
    "rounds": 0,
    "agent": "sites.b",
-   "blocking": "not yet reviewed; first in the 14:07 run. Check that lookups go to other hosts only when the visitor asks, and say so"
+   "blocking": "not yet reviewed; due in the 15:07 run (a4e004c ready)"
+  },
+  "sarah-cruz.designer.sovereignweb.site": {
+   "repo": "Site__Designer__Sarah-Cruz",
+   "commit": "10edfdb (not yet reviewed)",
+   "rating": null,
+   "five_designs": null,
+   "rounds": 0,
+   "agent": "sarah-cruz.b",
+   "blocking": "not yet reviewed; due in the 15:07 run"
   }
  },
  "kpi": {
   "rounds_to_signoff": {},
   "signed_off": 0,
-  "public_sites": 9
+  "public_sites": 10
  },
  "runs": [
   {
