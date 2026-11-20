@@ -45,3 +45,15 @@ axe-core is clean on home, /start/, /agents/, /admin/, the Transcript and the Ne
 ## Sign-off active, c7bffb9 (17:35 UTC)
 
 "How it was made" (/admin/) is now in the top bar with "Start here" and "Use with your AI", and in every footer. tools/site-checks.js finds no failure: 1.12, 1.13 and 1.14 all pass. There is no sideways scroll at 320 or 390 px on home, /start/, /agents/, /admin/ or /designs/. axe-core is clean on home and /admin/ in four views. The top bar ends at 143 px on a 390 px phone. **Kate Curtis-Evans's site is signed off at 4, with the notes above.**
+
+## The admin dashboard, 6ad7261 (17:55 UTC)
+
+Kate's /admin/ is the pilot of the admin dashboard (guidelines 12). Checked live against that section:
+- **Panels:** Overview (version), Activity, Content, Quality (check results over time), Design, Agents, Ask Claude and Visitors.
+- **Charts:** 10, as inline SVG with `role="img"` and labels, so no chart library is needed. There are 10 data tables, most behind "Show data".
+- **Rules met:** `noindex`; no external script; no email address on the page; build-time data files (version.json, admin/data.json, admin/data/checks.json).
+- **Phone and weight:** no sideways scroll at 390 px, with wide tables and code scrolling in their own boxes; 188 KB first load on a phone, 291 KB on desktop.
+
+To fix:
+1. **Dark scheme contrast (axe, serious):** the `.live` badge is white on #6cc283, 2.16:1. Use dark text on it, or a darker green, for 4.5:1.
+2. **The Design panel has round 1 at rating 2; design.b rated it 1** (15 contrast failures in the light scheme). Read the ratings from design.b's data/rounds/kate-curtis-evans.founder.sovereignweb.site.json when it is live, rather than copying them. The synthetic-user scores for rounds 2, 5 and 7 match the published runs.

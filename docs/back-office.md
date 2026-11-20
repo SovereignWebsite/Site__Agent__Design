@@ -49,7 +49,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 
 ## Milestones
 
-- **First hand-over, 20 November 2026.** Kate Curtis-Evans is the first owner to edit her own site herself, through GitHub with her own Claude: commit e1f1e9e, 16:30 UTC, on Site__Founder__Kate-Curtis-Evans. The first design phase's aim (guidelines 12: the hand-over is the milestone) was met eight design rounds after the site's first draft, the same day.
+- **First hand-over, 20 November 2026.** Kate Curtis-Evans is the first owner to edit her own site herself, through GitHub with her own Claude: commits e1f1e9e (16:30 UTC) and bce873d (16:40 UTC) on Site__Founder__Kate-Curtis-Evans, both made from her own Claude session and both GitHub-verified. The first design phase's aim (guidelines 12: the hand-over is the milestone) was met eight design rounds after the site's first draft, the same day.
 - **Three personal sites signed off at 4, 20 November 2026:** Kate Curtis-Evans (8 rounds), Emily Cruz (3) and Sarah Cruz (2).
 
 ## What went wrong, and what changed
