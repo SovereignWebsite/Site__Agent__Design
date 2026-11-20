@@ -40,6 +40,11 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | sovereign-website.startups | startups.b | [1](reviews-sovereign-website-2026-11-20-round-1.html): bland; five new designs, two on the real identity | 490c1c9 | | 3 | [2.8](runs-sovereign-website-2026-11-20-r1.html) |
 | chiswick-cheese-market.organisation | chiswick-cheese-market.b | [1](reviews-chiswick-cheese-market-2026-11-20-round-1.html): before deploy; six designs to ideas (deadline Sunday 22 Nov) | 86a14d8 | ed085f3, 6fcf6d8 | 1 | [3.0](runs-chiswick-cheese-market-2026-11-20-r1.html) |
 | chiswick-cheese-market.organisation | chiswick-cheese-market.b | [2](reviews-chiswick-cheese-market-2026-11-20-round-2-four-designs.html): pass 1, a centre of gravity for designs 2 to 5 | 6fcf6d8 | | to check live | |
+| sgit.startups | startups.b | [2](reviews-startups-2026-11-20-round-2.html): real ideas in; below the fold next | f2878a0 | | 3 | [3.0](runs-startups-2026-11-20-r2.html) |
+| the-cyber-boardroom.startups | startups.b | [2](reviews-startups-2026-11-20-round-2.html): real ideas in; below the fold next | 9529348 | | 3 | [3.0](runs-startups-2026-11-20-r2.html) |
+| risk-mandate.startups | startups.b | [2](reviews-startups-2026-11-20-round-2.html): real ideas in; below the fold next | f77d6eb | | 3 | [3.6](runs-startups-2026-11-20-r2.html) |
+| agentic-cells.startups | startups.b | [2](reviews-startups-2026-11-20-round-2.html): real ideas in; below the fold next | b491fa1 | | 3 | [3.0](runs-startups-2026-11-20-r2.html) |
+| sovereign-website.startups | startups.b | [2](reviews-startups-2026-11-20-round-2.html): real ideas in; below the fold next | c110a7e | | 3 | [3.0](runs-startups-2026-11-20-r2.html) |
 
 Earlier rounds by the first design.b session (hub, pipeline-demo, the review of all sites) are on the [reviews page](reviews.html).
 
@@ -59,6 +64,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [AgentiCCells brochure, round 1](runs-agentic-cells-2026-11-20-r1.html): 3.0, one agent playing all five personas
 - [Sovereign Website brochure, round 1](runs-sovereign-website-2026-11-20-r1.html): 2.8, one agent playing all five personas
 - [Chiswick Cheese Market demonstration, round 1](runs-chiswick-cheese-market-2026-11-20-r1.html): 3.0; design 5 voted best
+- [The five startup brochures, round 2](runs-startups-2026-11-20-r2.html): 3.0, 3.0, 3.6, 3.0, 3.0
 
 ## Seed adoption (factory.b's Factory dev f3dc468..f759821)
 

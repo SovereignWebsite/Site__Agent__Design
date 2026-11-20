@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-20T22:05Z",
+ "updated": "2026-11-20T22:35Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -144,11 +144,21 @@
      "round": 1,
      "what": "audit, synthetic users, five new designs (two on the real identity)",
      "commit_reviewed": "69be1c9",
-     "answered_by": null,
+     "answered_by": "f2878a0",
      "rating": "3",
      "synthetic_score": 3.0,
      "review": "https://design.agents.sovereignweb.site/reviews-sgit-2026-11-20-round-1.html",
      "run": "https://design.agents.sovereignweb.site/runs-sgit-2026-11-20-r1.html"
+    },
+    {
+     "round": 2,
+     "what": "real ideas in; below the fold, plain line, phone screenshots",
+     "commit_reviewed": "f2878a0",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.0,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-20-round-2.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-20-r2.html"
     }
    ]
   },
@@ -159,11 +169,21 @@
      "round": 1,
      "what": "audit, synthetic users, five new designs (two on the real identity)",
      "commit_reviewed": "fe6a639",
-     "answered_by": null,
+     "answered_by": "9529348",
      "rating": "3",
      "synthetic_score": 3.0,
      "review": "https://design.agents.sovereignweb.site/reviews-the-cyber-boardroom-2026-11-20-round-1.html",
      "run": "https://design.agents.sovereignweb.site/runs-the-cyber-boardroom-2026-11-20-r1.html"
+    },
+    {
+     "round": 2,
+     "what": "real ideas in; below the fold, plain line, phone screenshots",
+     "commit_reviewed": "9529348",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.0,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-20-round-2.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-20-r2.html"
     }
    ]
   },
@@ -174,11 +194,21 @@
      "round": 1,
      "what": "audit, synthetic users, five new designs (two on the real identity)",
      "commit_reviewed": "125112b",
-     "answered_by": null,
+     "answered_by": "f77d6eb",
      "rating": "3",
      "synthetic_score": 3.0,
      "review": "https://design.agents.sovereignweb.site/reviews-risk-mandate-2026-11-20-round-1.html",
      "run": "https://design.agents.sovereignweb.site/runs-risk-mandate-2026-11-20-r1.html"
+    },
+    {
+     "round": 2,
+     "what": "real ideas in; below the fold, plain line, phone screenshots",
+     "commit_reviewed": "f77d6eb",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.6,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-20-round-2.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-20-r2.html"
     }
    ]
   },
@@ -189,11 +219,21 @@
      "round": 1,
      "what": "audit, synthetic users, five new designs (two on the real identity)",
      "commit_reviewed": "eab18eb",
-     "answered_by": null,
+     "answered_by": "b491fa1",
      "rating": "3",
      "synthetic_score": 3.0,
      "review": "https://design.agents.sovereignweb.site/reviews-agentic-cells-2026-11-20-round-1.html",
      "run": "https://design.agents.sovereignweb.site/runs-agentic-cells-2026-11-20-r1.html"
+    },
+    {
+     "round": 2,
+     "what": "real ideas in; below the fold, plain line, phone screenshots",
+     "commit_reviewed": "b491fa1",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.0,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-20-round-2.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-20-r2.html"
     }
    ]
   },
@@ -204,11 +244,21 @@
      "round": 1,
      "what": "audit, synthetic users, five new designs (two on the real identity)",
      "commit_reviewed": "490c1c9",
-     "answered_by": null,
+     "answered_by": "c110a7e",
      "rating": "3",
      "synthetic_score": 2.8,
      "review": "https://design.agents.sovereignweb.site/reviews-sovereign-website-2026-11-20-round-1.html",
      "run": "https://design.agents.sovereignweb.site/runs-sovereign-website-2026-11-20-r1.html"
+    },
+    {
+     "round": 2,
+     "what": "real ideas in; below the fold, plain line, phone screenshots",
+     "commit_reviewed": "c110a7e",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.0,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-20-round-2.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-20-r2.html"
     }
    ]
   },

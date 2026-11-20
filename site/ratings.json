@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T22:05Z",
+ "updated": "2026-11-20T22:35Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -109,48 +109,48 @@
   },
   "sgit.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sgit",
-   "commit": "69be1c9 (v0.1.3)",
+   "commit": "f2878a0 (v0.1.5)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 1,
+   "rounds": 2,
    "agent": "startups.b",
-   "blocking": "round 1: synthetic 3.0, no wow; one-row phone header; chooser text; source clutter; no imagery; the same five templates as the other startups: rebuild as five ideas, two on sgit.ai's identity"
+   "blocking": "round 2: synthetic 3.0; real ideas and identity in; next: no source marker on headlines, a plain what-it-is line, readable phone screenshot crops, one full-bleed band below the fold, the ⋮ menu for our links"
   },
   "the-cyber-boardroom.startups.sovereignweb.site": {
    "repo": "Site__Startups__The-Cyber-Boardroom",
-   "commit": "fe6a639 (v0.1.3)",
+   "commit": "9529348 (v0.1.5)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 1,
+   "rounds": 2,
    "agent": "startups.b",
-   "blocking": "round 1: synthetic 3.0, no wow; one-row phone header; chooser text; source clutter; no imagery; the same five templates as the other startups: rebuild as five ideas, two on thecyberboardroom.com's identity"
+   "blocking": "round 2: synthetic 3.0; real ideas and identity in; next: no source marker on headlines, a plain what-it-is line, readable phone screenshot crops, one full-bleed band below the fold, the ⋮ menu for our links"
   },
   "risk-mandate.startups.sovereignweb.site": {
    "repo": "Site__Startups__Risk-Mandate",
-   "commit": "125112b (v0.1.3)",
+   "commit": "f77d6eb (v0.1.5)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 1,
+   "rounds": 2,
    "agent": "startups.b",
-   "blocking": "round 1: synthetic 3.0, no wow; one-row phone header; chooser text; source clutter; no imagery; the same five templates as the other startups: rebuild as five ideas, two on riskmandate.ai's identity"
+   "blocking": "round 2: synthetic 3.6; real ideas and identity in; next: no source marker on headlines, a plain what-it-is line, readable phone screenshot crops, one full-bleed band below the fold, the ⋮ menu for our links"
   },
   "agentic-cells.startups.sovereignweb.site": {
    "repo": "Site__Startups__Agentic-Cells",
-   "commit": "eab18eb (v0.1.3)",
+   "commit": "b491fa1 (v0.1.5)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 1,
+   "rounds": 2,
    "agent": "startups.b",
-   "blocking": "round 1: synthetic 3.0, no wow; one-row phone header; chooser text; source clutter; no imagery; the same five templates as the other startups: rebuild as five ideas, two on agenticcells.ai's identity"
+   "blocking": "round 2: synthetic 3.0; real ideas and identity in; next: no source marker on headlines, a plain what-it-is line, readable phone screenshot crops, one full-bleed band below the fold, the ⋮ menu for our links"
   },
   "sovereign-website.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sovereign-Website",
-   "commit": "490c1c9 (v0.1.3)",
+   "commit": "c110a7e (v0.1.5)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 1,
+   "rounds": 2,
    "agent": "startups.b",
-   "blocking": "round 1: synthetic 2.8, no wow; one-row phone header; chooser text; source clutter; no imagery; the same five templates as the other startups: rebuild as five ideas, two on sovereignwebsite.ai's identity"
+   "blocking": "round 2: synthetic 3.0; real ideas and identity in; next: no source marker on headlines, a plain what-it-is line, readable phone screenshot crops, one full-bleed band below the fold, the ⋮ menu for our links"
   },
   "chiswick-cheese-market.organisation.sovereignweb.site": {
    "repo": "Site__Organisation__Chiswick-Cheese-Market",
