@@ -18,7 +18,7 @@ const combos = [
     const u = new URL(url);
     const slug = (u.host + u.pathname).replace(/[^a-z0-9.]+/gi, '_');
     for (const c of combos) {
-      const ctx = await browser.newContext({ viewport: { width: c.w, height: c.h }, colorScheme: c.scheme, deviceScaleFactor: 1, isMobile: c.w < 500, hasTouch: c.w < 500 });
+      const ctx = await browser.newContext({ bypassCSP: true, viewport: { width: c.w, height: c.h }, colorScheme: c.scheme, deviceScaleFactor: 1, isMobile: c.w < 500, hasTouch: c.w < 500 });
       const page = await ctx.newPage();
       const reqs = []; const consoleErr = [];
       let bytes = 0;
