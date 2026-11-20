@@ -34,7 +34,7 @@ h2{font-family:var(--serif);font-size:clamp(1.45rem,3.6vw,2rem);line-height:1.2;
 .card.wanted{border:2px dashed var(--accent);padding:1rem}
 .card.wanted b{font-family:var(--serif);font-size:1.4rem}
 .card.wanted p{margin:.5rem 0}
-.card .n{font-family:var(--serif);font-size:1.8rem;font-weight:700;line-height:1.1}
+.card .n{display:block;font-family:var(--serif);font-size:1.8rem;font-weight:700;line-height:1.1}
 .below{display:grid;gap:2rem;border-top:1px solid var(--line);padding:2rem 0}
 @media (min-width:56rem){.below{grid-template-columns:1fr 1fr;gap:3rem}}
 .below p{margin:0 0 .9rem;max-width:40rem}
