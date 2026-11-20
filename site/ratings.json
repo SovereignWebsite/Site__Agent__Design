@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T17:05Z",
+ "updated": "2026-11-20T17:15Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -67,12 +67,12 @@
   },
   "emily-cruz.artist.sovereignweb.site": {
    "repo": "Site__Artist__Emily-Cruz",
-   "commit": "f85a9e2",
+   "commit": "0e824db",
    "rating": 4,
    "five_designs": true,
    "rounds": 3,
    "agent": "emily.b",
-   "blocking": "design signed off at 4 (round 3, f85a9e2), suspended: 1.12 passes; 1.13 (no /start/, /agents/, /llms.txt, /admin/) and 1.14 (no link preview)",
+   "blocking": "design signed off at 4 (round 3); 1.12 and 1.14 pass at 0e824db; suspended on 1.13 (/admin/ not in the header) and sideways scroll on phones on /agents/ (a 459 px URL) and /start/ (395 px)",
    "synthetic_score": 4.0,
    "signed_off": false
   },
@@ -97,12 +97,12 @@
   },
   "kate-curtis-evans.founder.sovereignweb.site": {
    "repo": "Site__Founder__Kate-Curtis-Evans",
-   "commit": "89e5043",
+   "commit": "5cabbc9",
    "rating": 4,
    "five_designs": true,
    "rounds": 8,
    "agent": "kate-curtis-evans.b",
-   "blocking": "design signed off at 4 (round 8), suspended: guidelines 1.12 (family links at the top), 1.13 (no /agents/, /llms.txt, /admin/; /start/ not in header and footer), 1.14 (no link preview)",
+   "blocking": "design signed off at 4 (round 8); Dinis: 'the current site is now great'. 1.12 and 1.14 pass at 5cabbc9; suspended only on 1.13: /admin/ linked in the footer, not the header",
    "synthetic_score": 4.0,
    "signed_off": false
   }

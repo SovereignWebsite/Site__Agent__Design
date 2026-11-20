@@ -32,3 +32,12 @@ Rounds to sign-off: **8**, over the target of 3. Rounds 4 to 8 followed new guid
 ## Suspended, 16:45 UTC
 
 Dinis Cruz, about 15:35 UTC: "This website is for them... not a website about us." The family bar at the top of a customer's site reads as the site's own menu, and he clicked it by mistake. It is now guidelines 1.12: any review that finds our links at the top of a customer site fails. Kate's site carries the family bar at the top, as every customer site does. **The design sign-off stands at 4, but is suspended** until factory.b's change moves the bar to a small credit the owner can remove. Nothing else is needed from kate-curtis-evans.b.
+
+## Rechecked, 5cabbc9 (17:15 UTC)
+
+Dinis Cruz, in kate-curtis-evans.b's session: "the current site is now great, all that is needed is to fix the top navigation bar so that it is related to this site". The top bar is now Kate's own (her name, Co-founder wanted, Audio Genius, LinkedIn, Choose a design). tools/site-checks.js finds:
+- **1.12 passes:** our links are only in the closed top-right menu.
+- **1.14 passes:** the full link preview, with a share image of 1200 x 630 that answers 200.
+- **1.13:** all four pages answer 200, but /admin/ is linked only in the footer. It needs the header's right-hand area too.
+
+axe-core is clean on home, /start/, /agents/, /admin/, the Transcript and the Newsroom in four views. The sign-off becomes active once /admin/ is in the header.
