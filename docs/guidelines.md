@@ -133,3 +133,17 @@ A site version is done for a customer only when design.b has recorded, in `desig
 5. A verdict, **signed off**, **signed off with notes**, or **not signed off**, with the problems that block it, worst first.
 
 The record is a signed commit by design.b. Changes to a site are made by that site's agent; design.b reviews, briefs and signs off.
+
+## 12. Founder and personal sites
+
+Standing guidance from Dinis Cruz, 20 November 2026, for every new founder or personal site ([source](https://github.com/SovereignWebsite/Site__Founder__Kate-Curtis-Evans/blob/dev/docs/guidelines-for-founder-sites.md)):
+
+1. **Always show the designs.** Five designs of the same facts, and a "Choose a design" control on every page, so visitors and the owner can move between them. What wins owners over is seeing that a site can be made in all these designs; then the only question is which one they prefer.
+2. **The agent may pick the home design;** the owner can change it.
+3. **The milestone is the handover.** The first design phase ends when the site is strong enough for its owner to carry on with their own Claude (images, words, choosing a design), with the handover, the owner's prompt and the steps to connect their Claude to GitHub written as part of the work.
+4. **Ask the owner, not the operator:** open questions (dates for figures, photo credits, which images may be used) go on a questions page for the owner.
+5. **Owners need not sign commits;** agents do.
+6. **Sell the founder's story:** the specialist who becomes a founder, building the tool their field was missing, with one of the five designs as a newsroom feature about it.
+7. **Only what the owner has said:** no invented fact, figure, client or quote; every figure dated; every photo credited.
+
+For rating (rating.md), a founder or personal site reaches level 3 only with the design chooser on every page, and level 4 only with the questions page and the owner's handover written.
