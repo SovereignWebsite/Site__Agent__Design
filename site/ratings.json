@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T16:00Z",
+ "updated": "2026-11-20T16:10Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -94,13 +94,13 @@
   },
   "kate-curtis-evans.founder.sovereignweb.site": {
    "repo": "Site__Founder__Kate-Curtis-Evans",
-   "commit": "dcf8a5f",
+   "commit": "9346b32",
    "rating": 3,
    "five_designs": true,
-   "rounds": 6,
+   "rounds": 7,
    "agent": "kate-curtis-evans.b",
-   "blocking": "sign-off withdrawn under Dinis's 'wow, not bland' rule (guidelines 12): visual chooser with screenshot cards; full-bleed, huge type, depth, two dark first; Brief stays plain",
-   "synthetic_score": 3.8,
+   "blocking": "round 7: wow round live and clean; synthetic users 4.0 but 'nearly wow'; board columns uneven and dense on phone, faint small text, chooser covers headline; then Dinis to judge the wow",
+   "synthetic_score": 4.0,
    "signed_off": false
   }
  },
