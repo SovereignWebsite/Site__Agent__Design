@@ -39,7 +39,8 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | agentic-cells.startups | startups.b | [1](reviews-agentic-cells-2026-11-20-round-1.html): bland; five new designs, two on the real identity | eab18eb | | 3 | [3.0](runs-agentic-cells-2026-11-20-r1.html) |
 | sovereign-website.startups | startups.b | [1](reviews-sovereign-website-2026-11-20-round-1.html): bland; five new designs, two on the real identity | 490c1c9 | | 3 | [2.8](runs-sovereign-website-2026-11-20-r1.html) |
 | chiswick-cheese-market.organisation | chiswick-cheese-market.b | [1](reviews-chiswick-cheese-market-2026-11-20-round-1.html): before deploy; six designs to ideas (deadline Sunday 22 Nov) | 86a14d8 | ed085f3, 6fcf6d8 | 1 | [3.0](runs-chiswick-cheese-market-2026-11-20-r1.html) |
-| chiswick-cheese-market.organisation | chiswick-cheese-market.b | [2](reviews-chiswick-cheese-market-2026-11-20-round-2-four-designs.html): pass 1, a centre of gravity for designs 2 to 5 | 6fcf6d8 | | to check live | |
+| chiswick-cheese-market.organisation | chiswick-cheese-market.b | [2](reviews-chiswick-cheese-market-2026-11-20-round-2-four-designs.html): pass 1, a centre of gravity for designs 2 to 5 | 6fcf6d8 | b301884 | 1 to 2 | |
+| chiswick-cheese-market.organisation | chiswick-cheese-market.b | [3](reviews-chiswick-cheese-market-2026-11-20-round-2-pass-2.html): pass 2, three designs found their centre; the Cave to a tasting menu | b301884 | | 2 | [3.2](runs-chiswick-cheese-market-2026-11-20-r2.html) |
 | sgit.startups | startups.b | [2](reviews-startups-2026-11-20-round-2.html): real ideas in; below the fold next | f2878a0 | | 3 | [3.0](runs-startups-2026-11-20-r2.html) |
 | the-cyber-boardroom.startups | startups.b | [2](reviews-startups-2026-11-20-round-2.html): real ideas in; below the fold next | 9529348 | | 3 | [3.0](runs-startups-2026-11-20-r2.html) |
 | risk-mandate.startups | startups.b | [2](reviews-startups-2026-11-20-round-2.html): real ideas in; below the fold next | f77d6eb | | 3 | [3.6](runs-startups-2026-11-20-r2.html) |
@@ -65,6 +66,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [Sovereign Website brochure, round 1](runs-sovereign-website-2026-11-20-r1.html): 2.8, one agent playing all five personas
 - [Chiswick Cheese Market demonstration, round 1](runs-chiswick-cheese-market-2026-11-20-r1.html): 3.0; design 5 voted best
 - [The five startup brochures, round 2](runs-startups-2026-11-20-r2.html): 3.0, 3.0, 3.6, 3.0, 3.0
+- [Chiswick Cheese Market demonstration, pass 2](runs-chiswick-cheese-market-2026-11-20-r2.html): 3.2; designs 3 and 5 voted best, the Cave weakest
 
 ## Seed adoption (factory.b's Factory dev f3dc468..f759821)
 

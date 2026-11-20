@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-20T22:35Z",
+ "updated": "2026-11-20T22:50Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -279,11 +279,21 @@
      "round": 2,
      "what": "pass 1 of Dinis's 'couple passes': a centre of gravity, focus and UX for designs 2 to 5",
      "commit_reviewed": "6fcf6d8",
-     "answered_by": null,
+     "answered_by": "b301884",
      "rating": "1 to 2 (fixes in; to be checked live)",
      "synthetic_score": null,
      "review": "https://design.agents.sovereignweb.site/reviews-chiswick-cheese-market-2026-11-20-round-2-four-designs.html",
      "run": null
+    },
+    {
+     "round": 3,
+     "what": "pass 2: review of pass 1 live; the Cave to a tasting menu",
+     "commit_reviewed": "b301884",
+     "answered_by": null,
+     "rating": "2",
+     "synthetic_score": 3.2,
+     "review": "https://design.agents.sovereignweb.site/reviews-chiswick-cheese-market-2026-11-20-round-2-pass-2.html",
+     "run": "https://design.agents.sovereignweb.site/runs-chiswick-cheese-market-2026-11-20-r2.html"
     }
    ]
   }

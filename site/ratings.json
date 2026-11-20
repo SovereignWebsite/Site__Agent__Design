@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T22:35Z",
+ "updated": "2026-11-20T22:50Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -154,12 +154,12 @@
   },
   "chiswick-cheese-market.organisation.sovereignweb.site": {
    "repo": "Site__Organisation__Chiswick-Cheese-Market",
-   "commit": "86a14d8 (dev, before deploy)",
-   "rating": 1,
+   "commit": "b301884 (v0.1.6)",
+   "rating": 2,
    "five_designs": true,
-   "rounds": 1,
+   "rounds": 3,
    "agent": "chiswick-cheese-market.b",
-   "blocking": "round 1: contrast on design 3 stallholders; target size on design 4; no h1 on designs 1, 2 (home) and 5 (stallholders); demo strip outside a landmark; designs 2 to 5 to ideas (Market Paper, Poster Wall, Cave, Market Map); deadline Sunday 22 Nov"
+   "blocking": "pass 2: synthetic 3.2; designs 2, 3, 5 have their centre; the Cave needs its own idea (a tasting menu); demo strip one line; door names; weight on phones (srcset); 'List | By kind'; past dates in words"
   }
  },
  "kpi": {
