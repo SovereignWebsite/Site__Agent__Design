@@ -78,21 +78,21 @@ open('../designs/5.html', 'w').write(page(5, "The Brief", "The Brief, Kate Curti
 IDX_CSS = """
 main{max-width:56rem;margin:0 auto;padding:2rem 1rem}
 h1{font-family:var(--serif);font-size:clamp(2rem,6vw,3rem);line-height:1.1;margin:0 0 .6rem}
-ol{list-style:none;padding:0;margin:1.5rem 0;display:grid;gap:1rem}
-li{border:1px solid var(--line);border-radius:8px;padding:1rem}
-li h2{font-family:var(--serif);font-size:1.4rem;margin:0 0 .3rem}
-li p{margin:0}
+.designs{list-style:none;padding:0;margin:1.5rem 0;display:grid;gap:1rem}
+.designs li{border:1px solid var(--line);border-radius:8px;padding:1rem}
+.designs h2{font-family:var(--serif);font-size:1.4rem;margin:0 0 .3rem}
+.designs p{margin:0}
 """
 DESIGNS = [
-  ("1.html", "1. The Transcript", "The page as a legal transcript, the document Kate produces every day: a cover sheet, numbered turns, Q and A, her own words verbatim, the beta figures as Exhibit A."),
-  ("2.html", "2. The Edit Window", "Designed dark first, as a transcription editor: a waveform, her roles as tracks on a timeline drawn to the year, each section a segment with its label."),
-  ("3.html", "3. The Workflow Board", "Audio Genius manages transcription work, so Kate's own work is a board: delivered, in progress, on hold on purpose, and one open job, the technical co-founder."),
-  ("4.html", "4. Foundations", "Her post says the part nobody sees comes first, so the page is drawn in section: the product above ground, privacy below it, an empty slot for the co-founder, six years of transcription as bedrock."),
+  ("../index.html", "1. The Workflow Board (the home page)", "Audio Genius manages transcription work, so Kate's own work is a board: delivered, in progress, on hold on purpose, and one open job, the technical co-founder."),
+  ("1.html", "2. The Transcript", "The page as a legal transcript, the document Kate produces every day: a cover sheet, numbered turns, Q and A, her own words verbatim, the beta figures as Exhibit A."),
+  ("2.html", "3. The Edit Window", "Designed dark first, as a transcription editor: a waveform, her roles as tracks on a timeline drawn to the year, each section a segment with its label."),
+  ("newsroom.html", "4. The Newsroom", "Her founder story told as a news feature: the specialist who became a founder. A headline, a standfirst, the lead photo, the story with her quote pulled out, and the figures in an at-a-glance box."),
   ("5.html", "5. The Brief", "Plain and printable for people in a hurry: the ask, the product, the figures and her record on one or two sheets of A4."),
 ]
 IDX = f"""<main id="main">
 <h1>Five designs for Kate Curtis&#8209;Evans</h1>
 <p>Each is an idea from Kate's own world that rebuilds the page. Every word on them is from her own LinkedIn profile and posts, as on the live page.</p>
-<ol>{''.join(f'<li><h2><a href="{h}">{t}</a></h2><p>{d}</p></li>' for h, t, d in DESIGNS)}</ol>
+<ol class="designs">{''.join(f'<li><h2><a href="{h}">{t}</a></h2><p>{d}</p></li>' for h, t, d in DESIGNS)}</ol>
 </main>"""
 open('../designs/index.html', 'w').write(page("index", "the index", "Five designs, Kate Curtis-Evans", TOK, IDX_CSS, IDX).replace("<p>Design index of 5, the index. <a href=\"index.html\">All five designs</a>.</p>\n", ""))

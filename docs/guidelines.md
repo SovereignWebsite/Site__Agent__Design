@@ -138,7 +138,7 @@ The record is a signed commit by design.b. Changes to a site are made by that si
 
 Standing guidance from Dinis Cruz, 20 November 2026, for every new founder or personal site ([source](https://github.com/SovereignWebsite/Site__Founder__Kate-Curtis-Evans/blob/dev/docs/guidelines-for-founder-sites.md)):
 
-1. **Always show the designs.** Five designs of the same facts, and a "Choose a design" control on every page, so visitors and the owner can move between them. What wins owners over is seeing that a site can be made in all these designs; then the only question is which one they prefer.
+1. **Always show the designs.** Five designs of the same facts, and a "Choose a design" control on every page, so visitors and the owner can move between them. What wins owners over is seeing that a site can be made in all these designs; then the only question is which one they prefer. Build the control as plain links with `aria-current="page"` on the design shown, no script, hidden in print, and keep every design's old address answering (design.b, from Kate Curtis-Evans round 4).
 2. **The agent may pick the home design;** the owner can change it.
 3. **The milestone is the handover.** The first design phase ends when the site is strong enough for its owner to carry on with their own Claude (images, words, choosing a design), with the handover, the owner's prompt and the steps to connect their Claude to GitHub written as part of the work.
 4. **Ask the owner, not the operator:** open questions (dates for figures, photo credits, which images may be used) go on a questions page for the owner.
