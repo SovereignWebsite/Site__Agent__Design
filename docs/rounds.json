@@ -1,0 +1,131 @@
+{
+ "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
+ "updated": "2026-11-20T17:00Z",
+ "sites": {
+  "kate-curtis-evans.founder.sovereignweb.site": {
+   "agent": "kate-curtis-evans.b",
+   "rounds": [
+    {
+     "round": 1,
+     "what": "audit, five designs",
+     "commit_reviewed": "28823d2",
+     "answered_by": "3ec583f",
+     "rating": "1",
+     "synthetic_score": null,
+     "review": "https://design.agents.sovereignweb.site/reviews-kate-curtis-evans-2026-11-20-round-1.html",
+     "run": null
+    },
+    {
+     "round": 2,
+     "what": "checked live",
+     "commit_reviewed": "3ec583f",
+     "answered_by": "b0554b2",
+     "rating": "1 to 2",
+     "synthetic_score": 4.0,
+     "review": "https://design.agents.sovereignweb.site/reviews-kate-curtis-evans-2026-11-20-round-2.html",
+     "run": "https://design.agents.sovereignweb.site/runs-kate-2026-11-20-r2.html"
+    },
+    {
+     "round": 3,
+     "what": "hand checks",
+     "commit_reviewed": "b0554b2",
+     "answered_by": "6027d61",
+     "rating": "2",
+     "synthetic_score": null,
+     "review": "https://design.agents.sovereignweb.site/reviews-kate-curtis-evans-2026-11-20-round-3.html",
+     "run": null
+    },
+    {
+     "round": 4,
+     "what": "chooser and the Newsroom",
+     "commit_reviewed": "31a98f2",
+     "answered_by": "dcf8a5f",
+     "rating": "2",
+     "synthetic_score": null,
+     "review": "https://design.agents.sovereignweb.site/reviews-kate-curtis-evans-2026-11-20-round-4.html",
+     "run": null
+    },
+    {
+     "round": 5,
+     "what": "sign-off",
+     "commit_reviewed": "dcf8a5f",
+     "answered_by": null,
+     "rating": "4",
+     "synthetic_score": 3.8,
+     "review": "https://design.agents.sovereignweb.site/reviews-kate-curtis-evans-2026-11-20-round-5-sign-off.html",
+     "run": "https://design.agents.sovereignweb.site/runs-kate-2026-11-20-r5.html"
+    },
+    {
+     "round": 6,
+     "what": "sign-off withdrawn: wow, not bland",
+     "commit_reviewed": "dcf8a5f",
+     "answered_by": "9346b32",
+     "rating": "4 to 3",
+     "synthetic_score": null,
+     "review": "https://design.agents.sovereignweb.site/reviews-kate-curtis-evans-2026-11-20-round-6.html",
+     "run": null
+    },
+    {
+     "round": 7,
+     "what": "the wow round",
+     "commit_reviewed": "9346b32",
+     "answered_by": "89e5043",
+     "rating": "3",
+     "synthetic_score": 4.0,
+     "review": "https://design.agents.sovereignweb.site/reviews-kate-curtis-evans-2026-11-20-round-7.html",
+     "run": "https://design.agents.sovereignweb.site/runs-kate-2026-11-20-r7.html"
+    },
+    {
+     "round": 8,
+     "what": "design signed off; suspended under guidelines 1.12 to 1.14",
+     "commit_reviewed": "89e5043",
+     "answered_by": null,
+     "rating": "3 to 4",
+     "synthetic_score": null,
+     "review": "https://design.agents.sovereignweb.site/reviews-kate-curtis-evans-2026-11-20-round-8-sign-off.html",
+     "run": null
+    }
+   ]
+  },
+  "emily-cruz.artist.sovereignweb.site": {
+   "agent": "emily.b",
+   "rounds": [
+    {
+     "round": 2,
+     "what": "folded family bar",
+     "commit_reviewed": "5925335",
+     "answered_by": "af957fd",
+     "rating": "3",
+     "synthetic_score": null,
+     "review": "https://design.agents.sovereignweb.site/reviews-emily-cruz-2026-11-20-round-2.html",
+     "run": null
+    },
+    {
+     "round": 3,
+     "what": "the wow round; design signed off, suspended under guidelines 1.13 and 1.14",
+     "commit_reviewed": "d5c475f",
+     "answered_by": "f85a9e2",
+     "rating": "3 to 4",
+     "synthetic_score": 4.0,
+     "review": "https://design.agents.sovereignweb.site/reviews-emily-cruz-2026-11-20-round-3.html",
+     "run": "https://design.agents.sovereignweb.site/runs-emily-2026-11-20-r3.html"
+    }
+   ]
+  },
+  "sarah-cruz.designer.sovereignweb.site": {
+   "agent": "sarah-cruz.b",
+   "rounds": [
+    {
+     "round": 1,
+     "what": "five skins to five ideas",
+     "commit_reviewed": "7c5071f",
+     "answered_by": "a1a1cef",
+     "rating": "1 to 3",
+     "synthetic_score": null,
+     "review": "https://design.agents.sovereignweb.site/reviews-sarah-cruz-2026-11-20-round-1.html",
+     "run": null
+    }
+   ]
+  }
+ }
+}

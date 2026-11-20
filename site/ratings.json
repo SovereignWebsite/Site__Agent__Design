@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T16:50Z",
+ "updated": "2026-11-20T17:00Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -72,7 +72,7 @@
    "five_designs": true,
    "rounds": 3,
    "agent": "emily.b",
-   "blocking": "design signed off at 4 (round 3, f85a9e2), suspended under guidelines 1.12: the family bar is at the top of the page (factory.b)",
+   "blocking": "design signed off at 4 (round 3, f85a9e2), suspended: 1.12 passes; 1.13 (no /start/, /agents/, /llms.txt, /admin/) and 1.14 (no link preview)",
    "synthetic_score": 4.0,
    "signed_off": false
   },
@@ -101,7 +101,7 @@
    "five_designs": true,
    "rounds": 8,
    "agent": "kate-curtis-evans.b",
-   "blocking": "design signed off at 4 (round 8), suspended under guidelines 1.12: the family bar is at the top of the page; factory.b is moving it to a small removable credit",
+   "blocking": "design signed off at 4 (round 8), suspended: guidelines 1.12 (family links at the top), 1.13 (no /agents/, /llms.txt, /admin/; /start/ not in header and footer), 1.14 (no link preview)",
    "synthetic_score": 4.0,
    "signed_off": false
   }

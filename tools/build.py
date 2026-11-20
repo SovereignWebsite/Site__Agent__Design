@@ -154,6 +154,15 @@ def runs_pages():
         (SITE / dest).write_text(page(dest, title, '<article class="prose">' + md(text) + "</article>", title))
 
 
+def rounds_files():
+    """docs/rounds.json becomes site/rounds/<site>.json, one file per site, for that site's /admin/ page to pull."""
+    data = json.loads((DOCS / "rounds.json").read_text())
+    out = SITE / "rounds"
+    out.mkdir(exist_ok=True)
+    for site, rec in data["sites"].items():
+        (out / f"{site}.json").write_text(json.dumps({"site": site, "updated": data["updated"], "about": data["about"], **rec}, indent=1, ensure_ascii=False) + "\n")
+
+
 def index_page():
     body = """<section class="hero">
 <p class="mark">An SWS agent</p>
@@ -201,4 +210,5 @@ if __name__ == "__main__":
     ratings_page()
     reviews_page()
     runs_pages()
+    rounds_files()
     print("built", sorted(p.name for p in SITE.glob("*.html")))

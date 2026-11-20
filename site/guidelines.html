@@ -46,7 +46,15 @@
 <li>No text in images; no image without <code>alt</code> (empty <code>alt=""</code> for decoration).</li>
 <li>No em dashes or en dashes in text.</li>
 <li>Browser storage only for what the visitor asked to keep, and the page says so (the Vault's "kept here, in this browser's own storage, until you forget them" is the pattern).</li>
-<li><strong>On a customer's site, the top of the page belongs to the owner</strong> (Dinis Cruz, 20 November 2026: "This website is for them... not a website about us"). No family bar, organisation links or our menus above or inside the site's own header; he clicked the family bar on a customer site by mistake, taking it for the site's menu. Credit the Sovereign Website family once, small, at the side or in the footer, where the owner may remove it. Any review that finds our links at the top of a customer site fails. Our own organisation sites keep the family bar.</li>
+<li><strong>On a customer's site, the page is about the owner, not about us</strong> (Dinis Cruz, 20 November 2026: "This website is for them... not a website about us"; and on the first fix: "better Too much. It needs to fundamentally be about the site and who is it about. I'm happy that just shows on some top right pop-up menu."). Our links (the Sovereign Website family) appear <strong>only in one small pop-up menu at the far top right</strong>, after the owner's own navigation and "Choose a design": a button that opens a list, closed by default. No family bar, strip or row of our links anywhere on the page; a small footer credit is optional and the owner may remove it. Any review that finds our links outside that menu fails. Our own organisation sites keep the family bar.</li>
+<li><strong>Every customer site has three pages, and each is easy to find</strong> (Dinis Cruz, 20 November 2026: "those links need to be very visible"):<ul>
+<li><code>/start/</code>: where to start, for the owner, including connecting GitHub and their own Claude;</li>
+<li><code>/agents/</code> and <code>/llms.txt</code>: how to use this site with an AI, as on yiheng-wang.agenticcells.site;</li>
+<li><code>/admin/</code>: how the site was made: its agents, design rounds, commits and synthetic-user runs (it can link to or pull <code>rounds/&lt;site&gt;.json</code> on design.agents.sovereignweb.site).
+They are linked in the header's right-hand area or directly under the hero, and again in the footer; on a phone, in the menu. A review fails if one is missing, answers anything but 200, or is hidden.</li>
+</ul>
+</li>
+<li><strong>Every page has a link preview</strong> (Dinis Cruz, 20 November 2026: "we are missing the social media link preview image"): <code>og:title</code>, <code>og:description</code>, <code>og:type</code>, <code>og:url</code>, <code>og:image</code> (absolute URL), <code>og:image:alt</code>, <code>og:image:width</code> and <code>og:image:height</code>, plus <code>twitter:card</code> (<code>summary_large_image</code>), <code>twitter:title</code>, <code>twitter:description</code> and <code>twitter:image</code>. The share image is 1200 x 630, made from the owner's own cleared material, served from the site itself. design.b's audit fetches it and fails the review unless it answers 200 at 1200 x 630.</li>
 </ol>
 <h2>2. The family and the site</h2>
 <p>Every site is two layers:</p>
