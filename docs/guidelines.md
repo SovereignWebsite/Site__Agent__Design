@@ -31,7 +31,9 @@ The SovereignWebsite organisation's own sites (.ai, .org, .site, hub, vault, dem
 
 ## 2a. Five designs, always
 
-Every site has five designs (Dinis Cruz, 20 November 2026: "a key requirement is 5 designs"). They show what the team can do and let the owner choose. They live in `site/designs/1.html` to `5.html` with an index, one tap apart, as on sovereignwebsite.ai; the chosen one becomes `site/theme.css`. The five must differ in idea, not only in colour: for example one editorial (type-led), one gallery (image-led), one bold (a strong colour field), one quiet (paper and serif), one unexpected. Each of the five meets every rule in this document, light and dark, before it is shown. A site without five designs is rated no higher than 2 (rating.md, level 3 needs them).
+Every site has five designs (Dinis Cruz, 20 November 2026: "a key requirement is 5 designs"). They show what the team can do and let the owner choose. They live in `site/designs/1.html` to `5.html` with an index, one tap apart, as on sovereignwebsite.ai; the chosen one becomes `site/theme.css`. The five must differ in idea, not only in colour, and **each idea comes from the owner's own world**, as on the AgentiCCells personal sites (examples page): a filmmaker's Premiere, a composer's Cue Sheet and Record Sleeve, a pastry chef turned project manager's Pass, with her results as order tickets on a rail. Each design is named for its idea and **rebuilds the page around it**: the structure, the hero, the order of sections and the way facts are drawn change, not just colours and fonts. Five skins of one layout do not count as five designs. At least one should be designed dark first, and one should be the plain, printable version (a Brief) for people in a hurry.
+
+Concept first, then craft: before any CSS, write for each design one sentence saying what it is a metaphor for, and which of the owner's own facts it will draw (a timeline, a cast list, a map, a set of tickets). Nothing drawn may be invented. Each of the five meets every rule in this document, light and dark, before it is shown. A site without five designs is rated no higher than 2 (rating.md, level 3 needs them).
 
 ## 3. Layout
 
@@ -106,7 +108,7 @@ Sign-off needs all of these, checked by axe-core and by hand:
 
 ## 9. Performance
 
-- A page, everything included, under 100 KB transferred on first load (today most are 6 to 30 KB; keep it so). Images: SVG where possible, otherwise AVIF or WebP with width and height set, `loading="lazy"` below the first screen.
+- First load, everything included: under 100 KB for a page of words; under 1 MB for a portfolio with images. Video and audio load only when the visitor presses play. Images: SVG where possible, otherwise AVIF or WebP with width and height set, `loading="lazy"` below the first screen.
 - One stylesheet (or two: family and site). Inline CSS only for a single-page site.
 - No JavaScript unless the page does something; a page that only shows words has none. Script, when there is one, is a file on the site's own host (CSP friendly), loaded with `defer`.
 - A favicon (`favicon.svg`), a `description`, and a title of the form "Page, Site".

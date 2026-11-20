@@ -34,11 +34,43 @@ Reference sites from Dinis Cruz, 20 November 2026: [influences.sgit.ai](https://
 - For **CV** sites: dated, measured achievements set large, as these set their numbers.
 - Status pills are a good pattern for any site with a list: an artist's works (shown, sold, in progress), a CV's roles, a company's products.
 
+## Personal sites that set the bar: Silvio, Gabriel and Vicky
+
+The AgentiCCells personal sites Dinis Cruz named on 20 November 2026 as the standard: [silvio-switha.agenticcells.site](https://silvio-switha.agenticcells.site/), [gabriel-dacruz.agenticcells.site](https://gabriel-dacruz.agenticcells.site/) and [yiheng-wang.agenticcells.site](https://yiheng-wang.agenticcells.site/) (Yiheng, Vicky, Wang). Looked at 14:00 UTC at 390 and 1366 px, light and dark, next to emily-cruz.artist.sovereignweb.site.
+
+**Speciality:** personal sites (a producer, a composer, a project manager).
+
+### What makes them good
+
+1. **Each design is an idea from the person's own world, not a style.** Silvio: Premiere (his film first), Universe, The Studio, The Proposal, On Tour. Gabriel: Premiere, The Studio, The Sleeve (his record cover), The Cue Sheet (reel by reel), The Score, The Signal Chain. Vicky: The Pass (the pastry kitchen pass she came from: order tickets clipped on a rail), The Brief, The Profile, Mission Control, The Journey. The name of the design is a metaphor, and the page is rebuilt around it.
+2. **The structure changes with the idea**, not only the colours. Vicky's results hang as order tickets on a rail; Gabriel's cues are drawn on a reel timeline; Silvio's making-of is a funnel from 2,300 words to 1 film.
+3. **A hero that is an image, not a layout.** Silvio's film still full-bleed behind his name, with a strip of scenes; Gabriel's portrait lit out of the dark; Vicky's photo with an offset colour block and a rotated caption card.
+4. **Type with character.** A big display serif (Gabriel, Vicky) or a heavy display face with an italic serif accent (Silvio); letterspaced small capitals for labels; a second voice in italic.
+5. **The person's own facts, drawn.** Numbers set large with their source, and diagrams of real work (cues, agents, the making of a film). Nothing invented, nothing generic.
+6. **Designed dark first** where it suits the person (Silvio, Gabriel), so dark mode is the design, not an inversion.
+
+### What not to copy
+
+- **Weight.** First load at 390 px: Silvio about 2.5 MB (a background video), Gabriel about 470 KB, Vicky about 310 KB. Rich is right for a portfolio, but video must load only on play; the portfolio budget is now 1 MB first load (guidelines, section 9).
+- **An empty band on Vicky's home page**: in a full-page capture the Results section is blank for most of a screen (a scroll reveal). Content must never depend on scrolling to appear.
+- Small accessibility items: content outside landmarks (all three), heading order and small targets (Gabriel), an aside inside a section (Vicky).
+
+### Next to them: Emily Cruz (e4a8981)
+
+Correct and clean: no outside requests on load, both schemes, a credit on every photo, five designs. But it reads as a well-made template, and the difference is exactly points 1 to 5 above:
+
+- The live page is design 1, "Sage quiet": a photo, a name and three buttons, the plainest of the five.
+- The five designs are one structure in five colour and type skins (photo, name, three buttons, the same sections in the same order). Programme, Blue light, Contact sheet and Score are good ideas from her world, but the page is not rebuilt around them.
+- The showreels are empty dark boxes with a play icon, where the others show real frames.
+- The type is a system sans at default weights, with no second voice.
+- Nothing of her own is drawn: her credits, roles, instruments and the tour are text, not the shape of the page.
+
 ## By speciality
 
 | Speciality | Examples looked at |
 |---|---|
 | Knowledge or documentation network | The sgit.ai sites, above |
+| Personal (producer, composer, project manager) | Silvio Switha, Gabriel DaCruz, Yiheng (Vicky) Wang, above |
 | CV | None yet |
 | Artist | None yet |
 | Designer | None yet |

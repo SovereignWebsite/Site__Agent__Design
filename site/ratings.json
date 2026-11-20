@@ -67,12 +67,12 @@
   },
   "emily-cruz.artist.sovereignweb.site": {
    "repo": "Site__Artist__Emily-Cruz",
-   "commit": "e770480 (not yet reviewed)",
-   "rating": null,
-   "five_designs": null,
-   "rounds": 0,
+   "commit": "e4a8981",
+   "rating": 3,
+   "five_designs": true,
+   "rounds": 1,
    "agent": "emily.b",
-   "blocking": "not yet reviewed; due in the 16:07 run"
+   "blocking": "five designs are colour skins of one layout, not ideas that rebuild the page; live page is the plainest (Sage). Round 1 sent 14:05 UTC, compared with Silvio, Gabriel and Vicky"
   },
   "whois.tool.sovereignweb.site": {
    "repo": "Site__Tool__Whois",
