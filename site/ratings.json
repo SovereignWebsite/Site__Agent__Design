@@ -85,12 +85,12 @@
   },
   "sarah-cruz.designer.sovereignweb.site": {
    "repo": "Site__Designer__Sarah-Cruz",
-   "commit": "10edfdb (not yet reviewed)",
-   "rating": null,
-   "five_designs": null,
-   "rounds": 0,
+   "commit": "7c5071f",
+   "rating": 1,
+   "five_designs": false,
+   "rounds": 1,
    "agent": "sarah-cruz.b",
-   "blocking": "not yet reviewed; due in the 15:07 run"
+   "blocking": "round 1 sent: five skins of one layout (rebuild as Wine List, Shelf, Front and Back, Timeline, Cut Paper); contrast in 4 and 5 (25 nodes); 15 to 17 px targets; no designs index; about 1 MB on desktop"
   },
   "kate-curtis-evans.founder.sovereignweb.site": {
    "repo": "Site__Founder__Kate-Curtis-Evans",
