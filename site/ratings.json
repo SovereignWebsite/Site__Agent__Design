@@ -73,12 +73,21 @@
    "rounds": 0,
    "agent": "emily.b",
    "blocking": "not yet reviewed"
+  },
+  "whois.tool.sovereignweb.site": {
+   "repo": "Site__Tool__Whois",
+   "commit": "d7d6d6d (not yet reviewed)",
+   "rating": null,
+   "five_designs": null,
+   "rounds": 0,
+   "agent": "sites.b",
+   "blocking": "not yet reviewed; first in the 14:07 run. Check that lookups go to other hosts only when the visitor asks, and say so"
   }
  },
  "kpi": {
   "rounds_to_signoff": {},
   "signed_off": 0,
-  "public_sites": 8
+  "public_sites": 9
  },
  "runs": [
   {
