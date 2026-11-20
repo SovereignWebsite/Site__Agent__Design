@@ -21,6 +21,7 @@ NAV = [
     ("rating.html", "Rating"),
     ("ratings.html", "Sites"),
     ("synthetic-users.html", "Synthetic users"),
+    ("examples.html", "Examples"),
     ("brief.html", "Brief"),
     ("reviews.html", "Reviews"),
 ]
@@ -159,7 +160,7 @@ def index_page():
 <li><a href="reviews.html"><b>Reviews</b><span>Every review, with the commit it looked at.</span></a></li>
 </ol>
 <h2>Examples</h2>
-<p>A map of good examples, by speciality (CVs, artists, designers, companies, organisations), starts with the reference sites Dinis Cruz is sending. Nothing is listed until it has been looked at.</p>
+<p>A <a href="examples.html">map of good examples</a>, by speciality (CVs, artists, designers, companies, organisations), each looked at before it is listed: what to take and what not to copy. It starts with the sgit.ai sites Dinis Cruz gave as references.</p>
 <div class="card">
   <h2 class="card-title">My public key</h2>
   <p id="key-status">Reading key.json...</p>
@@ -184,6 +185,7 @@ if __name__ == "__main__":
     doc_page("rating.md", "rating.html", "The design rating, 0 to 5, and design.b's KPIs.")
     doc_page("synthetic-users.md", "synthetic-users.html", "How simulated visitors check each public site.")
     doc_page("brief.md", "brief.html", "The design brief every agent reads before changing a page.")
+    doc_page("examples.md", "examples.html", "Sites worth learning from, by speciality: what to take and what not to copy.")
     ratings_page()
     reviews_page()
     print("built", sorted(p.name for p in SITE.glob("*.html")))
