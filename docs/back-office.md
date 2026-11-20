@@ -32,6 +32,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | emily-cruz.artist | emily.b | [2](reviews-emily-cruz-2026-11-20-round-2.html): folded family bar | 5925335 | af957fd | 3 | |
 | emily-cruz.artist | emily.b | [3](reviews-emily-cruz-2026-11-20-round-3.html): the wow round, signed off (suspended, 1.12) | d5c475f, 99d9f5e | f85a9e2 | 3 to 4 | [4.0](runs-emily-2026-11-20-r3.html) ([3.2, invalid](runs-emily-2026-11-20-r3-invalid.html)) |
 | sarah-cruz.designer | sarah-cruz.b | [1](reviews-sarah-cruz-2026-11-20-round-1.html): five skins to five ideas | 7c5071f | a1a1cef | 1 to 3 | |
+| sarah-cruz.designer | sarah-cruz.b | [2](reviews-sarah-cruz-2026-11-20-round-2.html): the rebuild | 60b625e | | 3 | [4.0](runs-sarah-2026-11-20-r2.html) |
 
 Earlier rounds by the first design.b session (hub, pipeline-demo, the review of all sites) are on the [reviews page](reviews.html).
 
@@ -44,6 +45,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [Kate Curtis-Evans, round 7](runs-kate-2026-11-20-r7.html): 4.0, "nearly wow"
 - [Emily Cruz, round 3, first run](runs-emily-2026-11-20-r3-invalid.html): invalid, design.b's screenshots dropped lazy images
 - [Emily Cruz, round 3](runs-emily-2026-11-20-r3.html): 4.0
+- [Sarah Cruz, round 2](runs-sarah-2026-11-20-r2.html): 4.0
 
 ## What went wrong, and what changed
 
