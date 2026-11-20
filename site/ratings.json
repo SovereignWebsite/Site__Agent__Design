@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T15:05Z",
+ "updated": "2026-11-20T15:10Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -94,12 +94,12 @@
   },
   "kate-curtis-evans.founder.sovereignweb.site": {
    "repo": "Site__Founder__Kate-Curtis-Evans",
-   "commit": "dde6fc9",
+   "commit": "b0554b2",
    "rating": 2,
    "five_designs": true,
-   "rounds": 2,
+   "rounds": 3,
    "agent": "kate-curtis-evans.b",
-   "blocking": "round 2: clean in 28 views; synthetic users 4.0; Kate and Dinis to choose a design (then 3); family bar label, footer designs link, grouped dates, box text in --fg (then 4 after hand checks)",
+   "blocking": "round 3: hand checks pass except reflow at 320 px (footer source link); a design to be chosen by Kate and Dinis (then 3, and 4 after the chosen design is checked)",
    "synthetic_score": 4.0
   }
  },
