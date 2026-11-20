@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T16:10Z",
+ "updated": "2026-11-20T16:30Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -67,12 +67,13 @@
   },
   "emily-cruz.artist.sovereignweb.site": {
    "repo": "Site__Artist__Emily-Cruz",
-   "commit": "af957fd",
+   "commit": "99d9f5e",
    "rating": 3,
    "five_designs": true,
-   "rounds": 2,
+   "rounds": 3,
    "agent": "emily.b",
-   "blocking": "round 2 fixes in (af957fd); held at 3: Dinis finds four of five designs vanilla (Contact sheet better); wow round, visual chooser in the header, no explainer bars"
+   "blocking": "round 3: wow round strong, synthetic users 4.0; one serious axe failure (Score header links 4 and 8 px); sign-off at 4 when fixed",
+   "synthetic_score": 4.0
   },
   "whois.tool.sovereignweb.site": {
    "repo": "Site__Tool__Whois",
@@ -94,19 +95,21 @@
   },
   "kate-curtis-evans.founder.sovereignweb.site": {
    "repo": "Site__Founder__Kate-Curtis-Evans",
-   "commit": "9346b32",
-   "rating": 3,
+   "commit": "89e5043",
+   "rating": 4,
    "five_designs": true,
-   "rounds": 7,
+   "rounds": 8,
    "agent": "kate-curtis-evans.b",
-   "blocking": "round 7: wow round live and clean; synthetic users 4.0 but 'nearly wow'; board columns uneven and dense on phone, faint small text, chooser covers headline; then Dinis to judge the wow",
+   "blocking": "signed off with notes (round 8): only the desk photo; long phone page; one more pass after Kate adds material",
    "synthetic_score": 4.0,
-   "signed_off": false
+   "signed_off": true
   }
  },
  "kpi": {
-  "rounds_to_signoff": {},
-  "signed_off": 0,
+  "rounds_to_signoff": {
+   "kate-curtis-evans.founder.sovereignweb.site": 8
+  },
+  "signed_off": 1,
   "public_sites": 11
  },
  "runs": [

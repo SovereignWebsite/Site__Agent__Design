@@ -44,7 +44,7 @@ The fresh design session is https://claude.ai/code/session_01Kw9UwFCJTPWFaTq4TX5
 
 ### Queue at 15:45 UTC (fresh session)
 
-- **Kate Curtis-Evans:** signed off at 4 in round 5, withdrawn to 3 in round 6 under the "wow, not bland" rule; round 6 brief sent.
+- **Kate Curtis-Evans:** signed off with notes at 4 in round 8 (89e5043), after the round 5 sign-off was withdrawn under the wow bar.
 - **Sarah Cruz:** round 1 sent to sarah-cruz.b. The five designs are skins of one layout; five ideas proposed (Wine List, Shelf, Front and Back, Timeline, Cut Paper). Rated 1.
-- **Emily Cruz:** round 2 at 5925335, rated 3; synthetic users due, then 4.
+- **Emily Cruz:** round 3, rated 3; synthetic users 4.0; sign-off at 4 once the Score header links reach 24 px.
 - **factory.b:** folded family bar for seed/shared (CSS-only details), waits for Dinis's yes; audit the sites that carry it once live.

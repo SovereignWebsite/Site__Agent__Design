@@ -32,6 +32,11 @@ const combos = [
         rec.status = resp && resp.status();
         await page.waitForTimeout(300);
         rec.firstLoadBytes = bytes; // before the full-page screenshot, which loads lazy images
+        // scroll through the page so lazy images load, as they would for a reader; then back to the top
+        const fullH = await page.evaluate(() => document.documentElement.scrollHeight);
+        for (let y = 0; y < fullH; y += c.h * 0.8) { await page.evaluate(v => window.scrollTo(0, v), y); await page.waitForTimeout(120); }
+        await page.waitForLoadState('networkidle').catch(() => {});
+        await page.evaluate(() => window.scrollTo(0, 0)); await page.waitForTimeout(300);
         const file = path.join(outDir, `${slug}__${c.name}.png`);
         await page.screenshot({ path: file, fullPage: true });
         rec.shot = file;
