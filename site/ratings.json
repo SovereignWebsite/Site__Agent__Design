@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T13:17Z",
+ "updated": "2026-11-20T14:10Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -36,7 +36,7 @@
    "five_designs": true,
    "rounds": 2,
    "agent": "hub.b",
-   "blocking": "round 2 in; audit in the 14:07 run; Dinis to choose one of the five"
+   "blocking": "round 2 done (d640c50): audit due; Dinis to choose one of the five"
   },
   "vault.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Vault",
@@ -72,7 +72,7 @@
    "five_designs": true,
    "rounds": 1,
    "agent": "emily.b",
-   "blocking": "five designs are colour skins of one layout, not ideas that rebuild the page; live page is the plainest (Sage). Round 1 sent 13:56 UTC, compared with Silvio, Gabriel and Vicky"
+   "blocking": "round 1 done (c9f0f45): five designs rebuilt around their ideas; full audit and synthetic users due; Score the weakest"
   },
   "whois.tool.sovereignweb.site": {
    "repo": "Site__Tool__Whois",
@@ -101,10 +101,16 @@
  "runs": [
   {
    "when": "2026-11-20T13:15Z",
-   "what": "by hand: round 1 audits of pipeline-demo and hub",
+   "what": "by hand: round 1 audits of pipeline-demo and hub, and the work up to 14:07",
    "cost_usd_start": 10.82,
-   "cost_usd_end": null,
-   "note": "end figure added after this turn"
+   "cost_usd_end": 28.75,
+   "difference": 17.93
+  },
+  {
+   "when": "2026-11-20T14:07Z",
+   "what": "loop run skipped: day past the 20 USD ceiling; context 696k; loop paused for Dinis",
+   "cost_usd_start": 28.75,
+   "cost_usd_end": null
   }
  ]
 }
