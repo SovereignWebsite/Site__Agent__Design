@@ -172,3 +172,7 @@ On a founder site that was correct but plain: "it feels like websites created 10
 Five variations of one website do not count ("just about looks like five, the same website with a couple of five different variations"). Before building, each site writes `docs/designs.md`, one section per design: its **philosophy** (a way of thinking about the owner), its **visual narrative** (what a visitor sees first, second, third, and why), its **pipeline** (how the facts become the page: material, layout system, interaction), its colour and type, and what makes it unlike the other four. Each design is built from its own section.
 
 **Use the technology:** JavaScript, charts, visualisations, maps, 3D and frameworks are welcome when they serve the idea, served from the site itself (vendored, no CDN, nothing loaded from another host), working at a basic level without JavaScript, respecting reduced motion, and within the first-load budget. **At least two designs are way out there:** their own colour schemes and layouts, the whole screen, timelines, brands placed in different positions. One design is the plain, printable Brief.
+
+### Push, do not wait for sign-off (Dinis Cruz, 20 November 2026)
+
+"I don't need to sign off the design. You push the sign off. You push it, and I see it on the website." Site agents and design.b push design rounds to dev and live without waiting for Dinis; he reviews them on the live site. Every site with five designs shows them all at once in its visual chooser (the panel of five screenshot cards), so they can be seen side by side.
