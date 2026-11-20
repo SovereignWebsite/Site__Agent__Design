@@ -57,3 +57,5 @@ Kate's /admin/ is the pilot of the admin dashboard (guidelines 12). Checked live
 To fix:
 1. **Dark scheme contrast (axe, serious):** the `.live` badge is white on #6cc283, 2.16:1. Use dark text on it, or a darker green, for 4.5:1.
 2. **The Design panel has round 1 at rating 2; design.b rated it 1** (15 contrast failures in the light scheme). Read the ratings from design.b's data/rounds/kate-curtis-evans.founder.sovereignweb.site.json when it is live, rather than copying them. The synthetic-user scores for rounds 2, 5 and 7 match the published runs.
+
+**Dashboard checked, 2bedbc3 (18:10 UTC):** the `.live` badge passes at 7.85:1 in dark and 5.27:1 in light, and axe-core is clean in all four views. The Design panel's round 1 now reads 1, and every round and synthetic-user score matches design.b's records. The dashboard meets the admin dashboard section of guidelines 12.
