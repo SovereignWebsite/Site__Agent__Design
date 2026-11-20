@@ -59,3 +59,18 @@ To fix:
 2. **The Design panel has round 1 at rating 2; design.b rated it 1** (15 contrast failures in the light scheme). Read the ratings from design.b's data/rounds/kate-curtis-evans.founder.sovereignweb.site.json when it is live, rather than copying them. The synthetic-user scores for rounds 2, 5 and 7 match the published runs.
 
 **Dashboard checked, 2bedbc3 (18:10 UTC):** the `.live` badge passes at 7.85:1 in dark and 5.27:1 in light, and axe-core is clean in all four views. The Design panel's round 1 now reads 1, and every round and synthetic-user score matches design.b's records. The dashboard meets the admin dashboard section of guidelines 12.
+
+## The message page, 2f4c67f (18:20 UTC)
+
+/admin/message/ lets Kate and Dinis send signed, sealed requests to the site's agent. It was checked at 320, 390 and 1366 px, light and dark:
+- no sideways scroll; 47 KB; noindex; local scripts only;
+- the add-key and "What the agent will do" panels are visible in every view.
+
+Sent to kate-curtis-evans.b:
+1. Dark contrast: "Add my key" is white on #e58a63 at 2.57:1 (axe, serious).
+2. An empty band of about 90 px where the hidden compose form reserves space.
+3. Show the key state as a `role="status"` line with a word and a dot, not a card.
+4. Order the panels by state (with no key, and with a key).
+5. Two columns on desktop, with the rules panel sticky beside the message being written.
+6. A one-line pointer to the rules under the intro on phones.
+7. A visible label on the key input, and a cleanly breaking footer link.
