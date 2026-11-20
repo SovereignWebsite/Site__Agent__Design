@@ -74,3 +74,14 @@ Sent to kate-curtis-evans.b:
 5. Two columns on desktop, with the rules panel sticky beside the message being written.
 6. A one-line pointer to the rules under the intro on phones.
 7. A visible label on the key input, and a cleanly breaking footer link.
+
+**Message page checked, c03a930 (18:30 UTC):**
+- **Measured:** axe-core is clean in four views, with no sideways scroll at 320 or 390 px.
+- **Status:** the key state is a `role="status"` line with a dot and a word.
+- **Layout:**
+  - The panels follow the state: Add your key, then the rules, then Replies without a key; Write a message, then Replies, then a closed "Add your key", then the rules with one.
+  - Over 60rem there are two columns, with "What the agent will do" and the QR sticky on the right.
+  - The pointer line under the intro links to the rules, and the empty band is gone.
+- **Fixes and panels:** the dark buttons pass, and the add-key and rules panels are visible in every view.
+
+All seven points are met.
