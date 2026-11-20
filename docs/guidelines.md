@@ -157,3 +157,11 @@ In his words, in design.b's session: "part of the objective for us is to do the 
 - **One more pass as part of the service:** once the owner has added photos or material, the site's agent and design.b do one more design round.
 - **Smooth and automated:** the handover, pushing to dev and the deploy should be as automatic as possible.
 - **Public material only:** "for these websites, we only work with public materials", so everything we touch is already published and owned by someone else. Credit it; never use what is not public.
+
+### Wow, not bland (Dinis Cruz, 20 November 2026)
+
+On a founder site that was correct but plain: "it feels like websites created 10 years ago ... it needs to really have that wow factor, because when I show her the Silvio website, she said, wow. If I show her that now, she would have said, oh, this is interesting." So, for every founder and personal site:
+
+- **A visual chooser,** as on silvio-switha.agenticcells.site: "Choose a design" opens five cards, each with a real screenshot of that design, its name and its one-line idea, the current one outlined; a plain link bar stays as the no-script fallback.
+- **Every design must make a visitor say "wow":** a full-bleed hero image or scene, huge display type with a second voice, depth (layered images, offset colour, light and shadow), vivid colour, at least two designs dark first. Plain paper and a heading is the Brief only.
+- **Generated stock imagery is allowed** where no cleared photo exists: agents may create images with OpenRouter image models, within a budget the accountant agent sets and tracks. Art-direct them per design; never show the owner, a client or any real person; never let an image stand for a fact; caption each "Generated image".
