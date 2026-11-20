@@ -147,3 +147,13 @@ Standing guidance from Dinis Cruz, 20 November 2026, for every new founder or pe
 7. **Only what the owner has said:** no invented fact, figure, client or quote; every figure dated; every photo credited.
 
 For rating (rating.md), a founder or personal site reaches level 3 only with the design chooser on every page, and level 4 only with the questions page and the owner's handover written.
+
+### The handover is the objective (Dinis Cruz, 20 November 2026)
+
+In his words, in design.b's session: "part of the objective for us is to do the handover ... a lot of the design stuff that we have is designed to do handover, is designed for them to add the materials, because we would always, never going to have the best materials, they're always going to have more". So:
+
+- **Design for the owner to add to.** The owner will always have better and more material than we do. Every design must take more photos, words and links without breaking: galleries that grow, sections that can be added, slots ready for material we do not have yet.
+- **It still has to look amazing** at handover; the aim is for us to do the least ourselves after it, not to hand over less.
+- **One more pass as part of the service:** once the owner has added photos or material, the site's agent and design.b do one more design round.
+- **Smooth and automated:** the handover, pushing to dev and the deploy should be as automatic as possible.
+- **Public material only:** "for these websites, we only work with public materials", so everything we touch is already published and owned by someone else. Credit it; never use what is not public.
