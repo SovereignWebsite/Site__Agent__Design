@@ -1,0 +1,83 @@
+{
+ "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
+ "updated": "2026-11-20T13:10Z",
+ "sites": {
+  "sovereignwebsite.ai": {
+   "repo": "SovereignWebsite__Website",
+   "commit": "73c4e8a",
+   "rating": 3,
+   "five_designs": true,
+   "rounds": 0,
+   "agent": "not yet named",
+   "blocking": "phone header 247 px; offer aside landmark"
+  },
+  "sovereignwebsite.org": {
+   "repo": "SovereignWebsite__Org",
+   "commit": "8f104e0",
+   "rating": 2,
+   "five_designs": false,
+   "rounds": 0,
+   "agent": "not yet named",
+   "blocking": "old look, code block cut off on phone, no five designs"
+  },
+  "sovereignwebsite.site": {
+   "repo": "SovereignWebsite__Site",
+   "commit": "81ec3cc",
+   "rating": 2,
+   "five_designs": false,
+   "rounds": 0,
+   "agent": "not yet named",
+   "blocking": "old look, no favicon, no five designs"
+  },
+  "hub.sovereignwebsite.site": {
+   "repo": "SovereignWebsite__Hub",
+   "commit": "2f3436e",
+   "rating": 2,
+   "five_designs": true,
+   "rounds": 1,
+   "agent": "hub.b",
+   "blocking": "phone cards full-length screenshots; contrast in designs 3 and 4; no light/dark per design; round 1 sent 13:09 UTC"
+  },
+  "vault.sovereignwebsite.site": {
+   "repo": "SovereignWebsite__Vault",
+   "commit": "b9c44a1 (changed since, recheck)",
+   "rating": 1,
+   "five_designs": false,
+   "rounds": 0,
+   "agent": "hub.b",
+   "blocking": "key field border 1.25:1; no skip link"
+  },
+  "google-maps.sovereignwebsite.site": {
+   "repo": "Site__google-maps",
+   "commit": "2ea36b3",
+   "rating": 1,
+   "five_designs": false,
+   "rounds": 0,
+   "agent": "sites.b",
+   "blocking": "form field borders 1.25:1; button looks broken while off"
+  },
+  "pipeline-demo.sovereignweb.site": {
+   "repo": "Site__pipeline-demo",
+   "commit": "57b9d89",
+   "rating": 1,
+   "five_designs": false,
+   "rounds": 1,
+   "agent": "sites.b",
+   "blocking": "family bar contrast 3.87:1; request JSON cut off; round 1 sent 13:08 UTC"
+  },
+  "emily-cruz.artist.sovereignweb.site": {
+   "repo": "not yet checked",
+   "commit": null,
+   "rating": null,
+   "five_designs": null,
+   "rounds": 0,
+   "agent": "emily.b",
+   "blocking": "not yet reviewed"
+  }
+ },
+ "kpi": {
+  "rounds_to_signoff": {},
+  "signed_off": 0,
+  "public_sites": 8
+ }
+}
