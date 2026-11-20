@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T13:10Z",
+ "updated": "2026-11-20T13:17Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -31,12 +31,12 @@
   },
   "hub.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Hub",
-   "commit": "2f3436e",
+   "commit": "c85ef63",
    "rating": 2,
    "five_designs": true,
-   "rounds": 1,
+   "rounds": 2,
    "agent": "hub.b",
-   "blocking": "phone cards full-length screenshots; contrast in designs 3 and 4; no light/dark per design; round 1 sent 13:09 UTC"
+   "blocking": "heading order in flattened designs (round 2 sent 13:17 UTC); Dinis to choose one of the five"
   },
   "vault.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Vault",
@@ -58,12 +58,12 @@
   },
   "pipeline-demo.sovereignweb.site": {
    "repo": "Site__pipeline-demo",
-   "commit": "57b9d89",
-   "rating": 1,
+   "commit": "ba8bc1c",
+   "rating": 2,
    "five_designs": false,
-   "rounds": 1,
+   "rounds": 2,
    "agent": "sites.b",
-   "blocking": "family bar contrast 3.87:1; request JSON cut off; round 1 sent 13:08 UTC"
+   "blocking": "five designs (round 2 sent 13:17 UTC); eyebrow shows the old address"
   },
   "emily-cruz.artist.sovereignweb.site": {
    "repo": "not yet checked",
@@ -79,5 +79,14 @@
   "rounds_to_signoff": {},
   "signed_off": 0,
   "public_sites": 8
- }
+ },
+ "runs": [
+  {
+   "when": "2026-11-20T13:15Z",
+   "what": "by hand: round 1 audits of pipeline-demo and hub",
+   "cost_usd_start": 10.82,
+   "cost_usd_end": null,
+   "note": "end figure added after this turn"
+  }
+ ]
 }
