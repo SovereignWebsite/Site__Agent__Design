@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-20T21:45Z",
+ "updated": "2026-11-20T22:05Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -209,6 +209,21 @@
      "synthetic_score": 2.8,
      "review": "https://design.agents.sovereignweb.site/reviews-sovereign-website-2026-11-20-round-1.html",
      "run": "https://design.agents.sovereignweb.site/runs-sovereign-website-2026-11-20-r1.html"
+    }
+   ]
+  },
+  "chiswick-cheese-market.organisation.sovereignweb.site": {
+   "agent": "chiswick-cheese-market.b",
+   "rounds": [
+    {
+     "round": 1,
+     "what": "audit of dev before deploy; six designs to ideas",
+     "commit_reviewed": "86a14d8",
+     "answered_by": null,
+     "rating": "1",
+     "synthetic_score": null,
+     "review": "https://design.agents.sovereignweb.site/reviews-chiswick-cheese-market-2026-11-20-round-1.html",
+     "run": null
     }
    ]
   }
