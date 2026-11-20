@@ -1,4 +1,4 @@
-"""Shared shell for the five Kate Curtis-Evans designs (design.c, 20 Nov 2026).
+"""Shared shell for the five Kate Curtis-Evans designs (design.b.rounds@SovereignWebsite.dinis, 20 Nov 2026).
 Family bar, skip link, footer and photo credit copied from the live page at 28823d2;
 family links raised to 24 px targets. Every sentence in the designs is from the live page."""
 
