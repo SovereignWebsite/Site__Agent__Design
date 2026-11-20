@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T15:40Z",
+ "updated": "2026-11-20T15:50Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -85,12 +85,12 @@
   },
   "sarah-cruz.designer.sovereignweb.site": {
    "repo": "Site__Designer__Sarah-Cruz",
-   "commit": "7c5071f",
-   "rating": 1,
-   "five_designs": false,
+   "commit": "a1a1cef",
+   "rating": 3,
+   "five_designs": true,
    "rounds": 1,
    "agent": "sarah-cruz.b",
-   "blocking": "round 1 sent: five skins of one layout (rebuild as Wine List, Shelf, Front and Back, Timeline, Cut Paper); contrast in 4 and 5 (25 nodes); 15 to 17 px targets; no designs index; about 1 MB on desktop"
+   "blocking": "round 1 fixes in (a1a1cef, 28 views clean); rebuilding the five as ideas waits on Dinis's go-ahead"
   },
   "kate-curtis-evans.founder.sovereignweb.site": {
    "repo": "Site__Founder__Kate-Curtis-Evans",

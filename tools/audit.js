@@ -31,6 +31,7 @@ const combos = [
         const resp = await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
         rec.status = resp && resp.status();
         await page.waitForTimeout(300);
+        rec.firstLoadBytes = bytes; // before the full-page screenshot, which loads lazy images
         const file = path.join(outDir, `${slug}__${c.name}.png`);
         await page.screenshot({ path: file, fullPage: true });
         rec.shot = file;
