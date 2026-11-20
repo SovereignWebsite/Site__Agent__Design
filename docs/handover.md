@@ -57,3 +57,7 @@ The fresh design session is https://claude.ai/code/session_01Kw9UwFCJTPWFaTq4TX5
 
 - **hub.agenticcells.site:** Dinis asked for it to be easier to navigate, with the test sites moved down and Kate's site at the top. The other design.b session sent the review to hub.b and the conductor. Audit it when hub.b pushes.
 - Emily and Sarah: a design pass once each owner adds material.
+
+### This session's name
+
+**design.b.rounds@SovereignWebsite.dinis.** Dinis Cruz, 20 November 2026, about 17:30 UTC, typed in this session: "you can't do .c because the second one, that's the account type... everyone here is going to be .b... you can be design.b.rounds@SovereignWebsite.dinis." It runs the design rounds, has its own public key, and responds to design.b (Dinis: "So you have your own public key, and you respond to the design.b"). design.b (session_01Kw9UwCvZbGkWo3D9DEpRMv) stays the name of the design agent itself. Its own key, made with sgit pki keygen as conductor.b's how-to (board/workflow/2026-11-20__signing-with-your-key.md) asks: fingerprint sha256:a1b019c237883d37, signing fingerprint sha256:69ac69caf72bcd7c (ECDSA P-256). Its public bundle has been sent to conductor.b for team/keys.json. The container's ed25519 key is not used.
