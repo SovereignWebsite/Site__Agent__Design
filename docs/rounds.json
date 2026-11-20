@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-20T23:10Z",
+ "updated": "2026-11-20T23:15Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -154,11 +154,21 @@
      "round": 2,
      "what": "real ideas in; below the fold, plain line, phone screenshots",
      "commit_reviewed": "f2878a0",
-     "answered_by": null,
+     "answered_by": "6c1fcae",
      "rating": "3",
      "synthetic_score": 3.0,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-20-round-2.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-20-r2.html"
+    },
+    {
+     "round": 3,
+     "what": "craft done; three decisions (source markers, chooser in header, nothing sold)",
+     "commit_reviewed": "6c1fcae",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.2,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-20-round-3.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-20-r3.html"
     }
    ]
   },
@@ -179,11 +189,21 @@
      "round": 2,
      "what": "real ideas in; below the fold, plain line, phone screenshots",
      "commit_reviewed": "9529348",
-     "answered_by": null,
+     "answered_by": "344e189",
      "rating": "3",
      "synthetic_score": 3.0,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-20-round-2.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-20-r2.html"
+    },
+    {
+     "round": 3,
+     "what": "craft done; three decisions (source markers, chooser in header, nothing sold)",
+     "commit_reviewed": "344e189",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.0,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-20-round-3.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-20-r3.html"
     }
    ]
   },
@@ -204,11 +224,21 @@
      "round": 2,
      "what": "real ideas in; below the fold, plain line, phone screenshots",
      "commit_reviewed": "f77d6eb",
-     "answered_by": null,
+     "answered_by": "3b27943",
      "rating": "3",
      "synthetic_score": 3.6,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-20-round-2.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-20-r2.html"
+    },
+    {
+     "round": 3,
+     "what": "craft done; three decisions (source markers, chooser in header, nothing sold)",
+     "commit_reviewed": "3b27943",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.4,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-20-round-3.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-20-r3.html"
     }
    ]
   },
@@ -229,11 +259,21 @@
      "round": 2,
      "what": "real ideas in; below the fold, plain line, phone screenshots",
      "commit_reviewed": "b491fa1",
-     "answered_by": null,
+     "answered_by": "115fd9f",
      "rating": "3",
      "synthetic_score": 3.0,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-20-round-2.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-20-r2.html"
+    },
+    {
+     "round": 3,
+     "what": "craft done; three decisions (source markers, chooser in header, nothing sold)",
+     "commit_reviewed": "115fd9f",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.4,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-20-round-3.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-20-r3.html"
     }
    ]
   },
@@ -254,11 +294,21 @@
      "round": 2,
      "what": "real ideas in; below the fold, plain line, phone screenshots",
      "commit_reviewed": "c110a7e",
-     "answered_by": null,
+     "answered_by": "49f41b9",
      "rating": "3",
      "synthetic_score": 3.0,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-20-round-2.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-20-r2.html"
+    },
+    {
+     "round": 3,
+     "what": "craft done; three decisions (source markers, chooser in header, nothing sold)",
+     "commit_reviewed": "49f41b9",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 2.8,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-20-round-3.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-20-r3.html"
     }
    ]
   },

@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T23:10Z",
+ "updated": "2026-11-20T23:15Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -109,48 +109,48 @@
   },
   "sgit.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sgit",
-   "commit": "f2878a0 (v0.1.5)",
+   "commit": "6c1fcae (v0.1.8)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 2,
+   "rounds": 3,
    "agent": "startups.b",
-   "blocking": "round 2: synthetic 3.0; real ideas and identity in; next: no source marker on headlines, a plain what-it-is line, readable phone screenshot crops, one full-bleed band below the fold, the ⋮ menu for our links"
+   "blocking": "round 3: synthetic 3.2; craft fixes listed; look held near 3 by source markers in body text, the chooser in the visitor header (decisions for design.b and Dinis) and 'nothing sold yet'"
   },
   "the-cyber-boardroom.startups.sovereignweb.site": {
    "repo": "Site__Startups__The-Cyber-Boardroom",
-   "commit": "9529348 (v0.1.5)",
+   "commit": "344e189 (v0.1.8)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 2,
+   "rounds": 3,
    "agent": "startups.b",
-   "blocking": "round 2: synthetic 3.0; real ideas and identity in; next: no source marker on headlines, a plain what-it-is line, readable phone screenshot crops, one full-bleed band below the fold, the ⋮ menu for our links"
+   "blocking": "round 3: synthetic 3.0; craft fixes listed; look held near 3 by source markers in body text, the chooser in the visitor header (decisions for design.b and Dinis) and 'nothing sold yet'"
   },
   "risk-mandate.startups.sovereignweb.site": {
    "repo": "Site__Startups__Risk-Mandate",
-   "commit": "f77d6eb (v0.1.5)",
+   "commit": "3b27943 (v0.1.8)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 2,
+   "rounds": 3,
    "agent": "startups.b",
-   "blocking": "round 2: synthetic 3.6; real ideas and identity in; next: no source marker on headlines, a plain what-it-is line, readable phone screenshot crops, one full-bleed band below the fold, the ⋮ menu for our links"
+   "blocking": "round 3: synthetic 3.4; craft fixes listed; look held near 3 by source markers in body text, the chooser in the visitor header (decisions for design.b and Dinis) and 'nothing sold yet'"
   },
   "agentic-cells.startups.sovereignweb.site": {
    "repo": "Site__Startups__Agentic-Cells",
-   "commit": "b491fa1 (v0.1.5)",
+   "commit": "115fd9f (v0.1.8)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 2,
+   "rounds": 3,
    "agent": "startups.b",
-   "blocking": "round 2: synthetic 3.0; real ideas and identity in; next: no source marker on headlines, a plain what-it-is line, readable phone screenshot crops, one full-bleed band below the fold, the ⋮ menu for our links"
+   "blocking": "round 3: synthetic 3.4; craft fixes listed; look held near 3 by source markers in body text, the chooser in the visitor header (decisions for design.b and Dinis) and 'nothing sold yet'"
   },
   "sovereign-website.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sovereign-Website",
-   "commit": "c110a7e (v0.1.5)",
+   "commit": "49f41b9 (v0.1.8)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 2,
+   "rounds": 3,
    "agent": "startups.b",
-   "blocking": "round 2: synthetic 3.0; real ideas and identity in; next: no source marker on headlines, a plain what-it-is line, readable phone screenshot crops, one full-bleed band below the fold, the ⋮ menu for our links"
+   "blocking": "round 3: synthetic 2.8; craft fixes listed; look held near 3 by source markers in body text, the chooser in the visitor header (decisions for design.b and Dinis) and 'nothing sold yet'"
   },
   "chiswick-cheese-market.organisation.sovereignweb.site": {
    "repo": "Site__Organisation__Chiswick-Cheese-Market",

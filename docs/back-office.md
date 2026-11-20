@@ -47,6 +47,11 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | risk-mandate.startups | startups.b | [2](reviews-startups-2026-11-20-round-2.html): real ideas in; below the fold next | f77d6eb | | 3 | [3.6](runs-startups-2026-11-20-r2.html) |
 | agentic-cells.startups | startups.b | [2](reviews-startups-2026-11-20-round-2.html): real ideas in; below the fold next | b491fa1 | | 3 | [3.0](runs-startups-2026-11-20-r2.html) |
 | sovereign-website.startups | startups.b | [2](reviews-startups-2026-11-20-round-2.html): real ideas in; below the fold next | c110a7e | | 3 | [3.0](runs-startups-2026-11-20-r2.html) |
+| sgit.startups | startups.b | [3](reviews-startups-2026-11-20-round-3.html): craft done; three decisions | 6c1fcae | | 3 | [3.2](runs-startups-2026-11-20-r3.html) |
+| the-cyber-boardroom.startups | startups.b | [3](reviews-startups-2026-11-20-round-3.html): craft done; three decisions | 344e189 | | 3 | [3.0](runs-startups-2026-11-20-r3.html) |
+| risk-mandate.startups | startups.b | [3](reviews-startups-2026-11-20-round-3.html): craft done; three decisions | 3b27943 | | 3 | [3.4](runs-startups-2026-11-20-r3.html) |
+| agentic-cells.startups | startups.b | [3](reviews-startups-2026-11-20-round-3.html): craft done; three decisions | 115fd9f | | 3 | [3.4](runs-startups-2026-11-20-r3.html) |
+| sovereign-website.startups | startups.b | [3](reviews-startups-2026-11-20-round-3.html): craft done; three decisions | 49f41b9 | | 3 | [2.8](runs-startups-2026-11-20-r3.html) |
 
 Earlier rounds by the first design.b session (hub, pipeline-demo, the review of all sites) are on the [reviews page](reviews.html).
 
@@ -69,6 +74,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [The five startup brochures, round 2](runs-startups-2026-11-20-r2.html): 3.0, 3.0, 3.6, 3.0, 3.0
 - [Chiswick Cheese Market demonstration, pass 2](runs-chiswick-cheese-market-2026-11-20-r2.html): 3.2; designs 3 and 5 voted best, the Cave weakest
 - [Chiswick Cheese Market demonstration, pass 3](runs-chiswick-cheese-market-2026-11-20-r3.html): 3.0; the Poster Wall voted best, the organiser's "wow"
+- [The five startup brochures, round 3](runs-startups-2026-11-20-r3.html): 3.2, 3.0, 3.4, 3.4, 2.8 (two agents first shared a crop folder; both redid their crops)
 
 ## Seed adoption (factory.b's Factory dev f3dc468..f759821)
 
