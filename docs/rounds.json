@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-20T23:20Z",
+ "updated": "2026-11-20T23:45Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -354,6 +354,21 @@
      "synthetic_score": 3.0,
      "review": "https://design.agents.sovereignweb.site/reviews-chiswick-cheese-market-2026-11-20-round-2-pass-3.html",
      "run": "https://design.agents.sovereignweb.site/runs-chiswick-cheese-market-2026-11-20-r3.html"
+    }
+   ]
+  },
+  "mistral.provider.sovereignweb.site": {
+   "agent": "conductor.mistral",
+   "rounds": [
+    {
+     "round": 1,
+     "what": "audit, synthetic users; header, hackathon facts, sources, copy buttons, own content per design",
+     "commit_reviewed": "983035b",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.0,
+     "review": "https://design.agents.sovereignweb.site/reviews-mistral-2026-11-20-round-1.html",
+     "run": "https://design.agents.sovereignweb.site/runs-mistral-2026-11-20-r1.html"
     }
    ]
   }

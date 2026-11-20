@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T23:20Z",
+ "updated": "2026-11-20T23:45Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -160,6 +160,15 @@
    "rounds": 4,
    "agent": "chiswick-cheese-market.b",
    "blocking": "ready for Monday: banner pause works, door fixed, Cave fuller; open on design 3, then 5, then 2; 4 needs a look score of 4"
+  },
+  "mistral.provider.sovereignweb.site": {
+   "repo": "Site__Provider__Mistral",
+   "commit": "983035b (v0.1.1)",
+   "rating": 3,
+   "five_designs": true,
+   "rounds": 1,
+   "agent": "conductor.mistral",
+   "blocking": "round 1: synthetic 3.0; phone header 200 px; poster has no where; inline sources; recipe copy and wrapping; designs 1, 3, 4 share their words; deadline 08:00 UTC 21 Nov"
   }
  },
  "kpi": {
