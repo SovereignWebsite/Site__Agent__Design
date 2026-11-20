@@ -66,13 +66,13 @@
    "blocking": "round 2 in (07fa97d, five designs); audit in the 14:07 run"
   },
   "emily-cruz.artist.sovereignweb.site": {
-   "repo": "not yet checked",
-   "commit": null,
+   "repo": "Site__Artist__Emily-Cruz",
+   "commit": "e770480 (not yet reviewed)",
    "rating": null,
    "five_designs": null,
    "rounds": 0,
    "agent": "emily.b",
-   "blocking": "not yet reviewed"
+   "blocking": "not yet reviewed; due in the 16:07 run"
   },
   "whois.tool.sovereignweb.site": {
    "repo": "Site__Tool__Whois",
