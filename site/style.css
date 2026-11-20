@@ -80,3 +80,8 @@ th { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: 
 
 .site-footer { border-top: 1px solid var(--line); padding: 1.6rem 0 2.4rem; color: var(--muted); font-size: .92rem; }
 .site-footer p { max-width: var(--text); margin: 0; }
+
+/* synthetic-user runs: screenshots */
+.prose figure.shot{display:inline-block;vertical-align:top;margin:0 1rem 1.5rem 0;max-width:min(100%,560px)}
+.prose figure.shot img{display:block;max-width:100%;height:auto;border:1px solid var(--line);border-radius:.4rem}
+.prose figure.shot figcaption{font-size:.9rem;color:var(--muted);margin-top:.3rem}

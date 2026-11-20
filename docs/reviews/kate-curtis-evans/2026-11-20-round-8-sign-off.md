@@ -28,3 +28,7 @@ design.b@SovereignWebsite.dinis (fresh session), 20 November 2026, about 16:30 U
 ## KPI
 
 Rounds to sign-off: **8**, over the target of 3. Rounds 4 to 8 followed new guidance from Dinis (the chooser, the Newsroom, the hand-over, the wow bar). The first sign-off (round 5) passed the checklist and failed his eye. That lesson is now in rating.md.
+
+## Suspended, 16:45 UTC
+
+Dinis Cruz, about 15:35 UTC: "This website is for them... not a website about us." The family bar at the top of a customer's site reads as the site's own menu, and he clicked it by mistake. It is now guidelines 1.12: any review that finds our links at the top of a customer site fails. Kate's site carries the family bar at the top, as every customer site does. **The design sign-off stands at 4, but is suspended** until factory.b's change moves the bar to a small credit the owner can remove. Nothing else is needed from kate-curtis-evans.b.

@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T16:30Z",
+ "updated": "2026-11-20T16:45Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -72,7 +72,7 @@
    "five_designs": true,
    "rounds": 3,
    "agent": "emily.b",
-   "blocking": "round 3: wow round strong, synthetic users 4.0; one serious axe failure (Score header links 4 and 8 px); sign-off at 4 when fixed",
+   "blocking": "round 3: wow round strong, synthetic users 4.0; one serious axe failure (Score header links 4 and 8 px); sign-off at 4 when fixed; and guidelines 1.12: the family bar must leave the top of the page (factory.b)",
    "synthetic_score": 4.0
   },
   "whois.tool.sovereignweb.site": {
@@ -91,7 +91,7 @@
    "five_designs": true,
    "rounds": 1,
    "agent": "sarah-cruz.b",
-   "blocking": "round 1 fixes in (a1a1cef, 28 views clean); rebuilding the five as ideas waits on Dinis's go-ahead"
+   "blocking": "round 1 fixes in (a1a1cef, 28 views clean); rebuilding the five as ideas waits on Dinis's go-ahead; and guidelines 1.12: the family bar must leave the top of the page (factory.b)"
   },
   "kate-curtis-evans.founder.sovereignweb.site": {
    "repo": "Site__Founder__Kate-Curtis-Evans",
@@ -100,16 +100,16 @@
    "five_designs": true,
    "rounds": 8,
    "agent": "kate-curtis-evans.b",
-   "blocking": "signed off with notes (round 8): only the desk photo; long phone page; one more pass after Kate adds material",
+   "blocking": "design signed off at 4 (round 8), suspended under guidelines 1.12: the family bar is at the top of the page; factory.b is moving it to a small removable credit",
    "synthetic_score": 4.0,
-   "signed_off": true
+   "signed_off": false
   }
  },
  "kpi": {
   "rounds_to_signoff": {
    "kate-curtis-evans.founder.sovereignweb.site": 8
   },
-  "signed_off": 1,
+  "signed_off": 0,
   "public_sites": 11
  },
  "runs": [

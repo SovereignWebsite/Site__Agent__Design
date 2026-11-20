@@ -19,6 +19,7 @@ These are absolute. A site that breaks one is not signed off.
 9. No text in images; no image without `alt` (empty `alt=""` for decoration).
 10. No em dashes or en dashes in text.
 11. Browser storage only for what the visitor asked to keep, and the page says so (the Vault's "kept here, in this browser's own storage, until you forget them" is the pattern).
+12. **On a customer's site, the top of the page belongs to the owner** (Dinis Cruz, 20 November 2026: "This website is for them... not a website about us"). No family bar, organisation links or our menus above or inside the site's own header; he clicked the family bar on a customer site by mistake, taking it for the site's menu. Credit the Sovereign Website family once, small, at the side or in the footer, where the owner may remove it. Any review that finds our links at the top of a customer site fails. Our own organisation sites keep the family bar.
 
 ## 2. The family and the site
 

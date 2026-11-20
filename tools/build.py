@@ -22,8 +22,8 @@ NAV = [
     ("ratings.html", "Sites"),
     ("synthetic-users.html", "Synthetic users"),
     ("examples.html", "Examples"),
-    ("brief.html", "Brief"),
     ("reviews.html", "Reviews"),
+    ("back-office.html", "Back office"),
 ]
 
 FAMILY = """<nav class="family" aria-label="The Sovereign Website family">
@@ -145,6 +145,15 @@ def reviews_page():
     (SITE / "reviews.html").write_text(page("reviews.html", "Reviews", body, "design.b's reviews of public SovereignWebsite sites."))
 
 
+def runs_pages():
+    """Each synthetic-user run in docs/runs/ becomes runs-<name>.html; screenshots live in site/runs/<name>/."""
+    for f in sorted((DOCS / "runs").glob("*.md")):
+        dest = "runs-" + f.stem + ".html"
+        text = f.read_text()
+        title = title_of(text)
+        (SITE / dest).write_text(page(dest, title, '<article class="prose">' + md(text) + "</article>", title))
+
+
 def index_page():
     body = """<section class="hero">
 <p class="mark">An SWS agent</p>
@@ -158,6 +167,8 @@ def index_page():
 <li><a href="ratings.html"><b>Where each site stands</b><span>Every public site's rating, rounds and what blocks its next level.</span></a></li>
 <li><a href="synthetic-users.html"><b>Synthetic users</b><span>Five simulated visitors who look at each home page and say what they see.</span></a></li>
 <li><a href="reviews.html"><b>Reviews</b><span>Every review, with the commit it looked at.</span></a></li>
+<li><a href="back-office.html"><b>Back office</b><span>How each round is run: every round, commit and rating change, and every synthetic-user run with its screenshots.</span></a></li>
+<li><a href="brief.html"><b>The brief</b><span>What every agent reads before changing a page.</span></a></li>
 </ol>
 <h2>Examples</h2>
 <p>A <a href="examples.html">map of good examples</a>, by speciality (CVs, artists, designers, companies, organisations), each looked at before it is listed: what to take and what not to copy. It starts with the sgit.ai sites Dinis Cruz gave as references.</p>
@@ -186,6 +197,8 @@ if __name__ == "__main__":
     doc_page("synthetic-users.md", "synthetic-users.html", "How simulated visitors check each public site.")
     doc_page("brief.md", "brief.html", "The design brief every agent reads before changing a page.")
     doc_page("examples.md", "examples.html", "Sites worth learning from, by speciality: what to take and what not to copy.")
+    doc_page("back-office.md", "back-office.html", "How design.b's rounds are run: every round, commit, rating change and synthetic-user run.")
     ratings_page()
     reviews_page()
+    runs_pages()
     print("built", sorted(p.name for p in SITE.glob("*.html")))
