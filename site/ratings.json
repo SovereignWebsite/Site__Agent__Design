@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T23:15Z",
+ "updated": "2026-11-20T23:20Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -154,12 +154,12 @@
   },
   "chiswick-cheese-market.organisation.sovereignweb.site": {
    "repo": "Site__Organisation__Chiswick-Cheese-Market",
-   "commit": "74ec98c (v0.1.7)",
-   "rating": 2,
+   "commit": "ae3dbac (v0.1.9)",
+   "rating": 3,
    "five_designs": true,
    "rounds": 4,
    "agent": "chiswick-cheese-market.b",
-   "blocking": "pass 3: synthetic 3.0, Poster Wall voted best (organiser 'wow'); design 1 banner cannot be paused (WCAG 2.2.2); door overlap and order; Cave fuller; Poster Wall 2 MB on phones"
+   "blocking": "ready for Monday: banner pause works, door fixed, Cave fuller; open on design 3, then 5, then 2; 4 needs a look score of 4"
   }
  },
  "kpi": {
