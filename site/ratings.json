@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T17:45Z",
+ "updated": "2026-11-20T18:55Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -31,12 +31,12 @@
   },
   "hub.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Hub",
-   "commit": "c85ef63",
+   "commit": "fbebd0d (hub.sovereignweb.site)",
    "rating": 2,
    "five_designs": true,
-   "rounds": 2,
+   "rounds": 3,
    "agent": "hub.b",
-   "blocking": "round 2 done (d640c50): audit due; Dinis to choose one of the five"
+   "blocking": "round 3: Kate leads and people come first (Dinis's reorder); contrast on the faded Google Maps card; lead screenshot cropped on phones; Emily's five-designs tag; '6 sites live' counts a site not switched on; five designs are skins"
   },
   "vault.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Vault",
