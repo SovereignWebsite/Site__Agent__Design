@@ -47,6 +47,19 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [Emily Cruz, round 3](runs-emily-2026-11-20-r3.html): 4.0
 - [Sarah Cruz, round 2](runs-sarah-2026-11-20-r2.html): 4.0
 
+## Seed adoption (factory.b's Factory dev f3dc468..f759821)
+
+design.b asked for this at 20:47 UTC. As each site's pipeline goes green, design.b.rounds checks the version chip on every page (linked to the run), the pushed tag, no family strip on customer sites, the start, agents, llms.txt and admin pages, and og:image at 1200 x 630. Checked live with `tools/site-checks.js` and a page-by-page search for links to a run, at about 20:50 UTC. Kate, Emily and Sarah are customer sites; the hub is one of ours, so the family strip rule does not apply to it.
+
+| Site | Version chip linked to the run | Tag pushed | Family links only in the top-right menu | start, agents, llms.txt, admin | og:image 1200 x 630 | State |
+|---|---|---|---|---|---|---|
+| Kate Curtis-Evans | none on home, start, agents, admin, designs | no tags | yes | all 200; start/ missing from the footer | yes (img/share-card.jpg) | not adopted yet |
+| Emily Cruz | none | no tags | yes | all 200, linked | yes (images/social-card.jpg) | not adopted yet |
+| Sarah Cruz | none | no tags | yes | all 200, linked | yes (img/share.jpg) | not adopted yet |
+| Hub | none | no tags | not applicable (ours) | all four 404 | yes (og.jpg); og:image:alt and twitter:title, description and image missing | not adopted yet |
+
+Each row is checked again when its site agent reports a green pipeline.
+
 ## Milestones
 
 - **First hand-over, 20 November 2026.** Kate Curtis-Evans is the first owner to edit her own site herself, through GitHub with her own Claude: commits e1f1e9e (16:30 UTC) and bce873d (16:40 UTC) on Site__Founder__Kate-Curtis-Evans, both made from her own Claude session and both GitHub-verified. The first design phase's aim (guidelines 12: the hand-over is the milestone) was met eight design rounds after the site's first draft, the same day.
