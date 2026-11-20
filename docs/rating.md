@@ -21,6 +21,7 @@ A round is one set of changes design.b sends to a site's agent, and the site's n
 2. **Hours from first commit to sign-off** for new sites.
 3. **Share of public sites at level 4 or above**, and with five designs.
 4. **Synthetic-user score** of the first phone screen, per site.
+5. **Hand-overs:** owners editing their own site themselves. First: Kate Curtis-Evans, 20 November 2026.
 
 ## Lesson, 20 November 2026
 

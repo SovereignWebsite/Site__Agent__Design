@@ -47,6 +47,11 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [Emily Cruz, round 3](runs-emily-2026-11-20-r3.html): 4.0
 - [Sarah Cruz, round 2](runs-sarah-2026-11-20-r2.html): 4.0
 
+## Milestones
+
+- **First hand-over, 20 November 2026.** Kate Curtis-Evans is the first owner to edit her own site herself, through GitHub with her own Claude: commit e1f1e9e, 16:30 UTC, on Site__Founder__Kate-Curtis-Evans. The first design phase's aim (guidelines 12: the hand-over is the milestone) was met eight design rounds after the site's first draft, the same day.
+- **Three personal sites signed off at 4, 20 November 2026:** Kate Curtis-Evans (8 rounds), Emily Cruz (3) and Sarah Cruz (2).
+
 ## What went wrong, and what changed
 
 - **A checklist pass is not a good site.** Kate's site passed every measured check at round 5 and was signed off, then Dinis found it bland. Level 4 now needs the "Wow, not bland" bar ([rating](rating.html)).

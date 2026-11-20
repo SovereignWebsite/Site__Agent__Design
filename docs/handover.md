@@ -48,3 +48,12 @@ The fresh design session is https://claude.ai/code/session_01Kw9UwFCJTPWFaTq4TX5
 - **Sarah Cruz:** signed off with notes at 4 in round 2 (92ab2bf).
 - **Emily Cruz:** round 3, rated 3; synthetic users 4.0; sign-off at 4 once the Score header links reach 24 px.
 - **factory.b:** folded family bar for seed/shared (CSS-only details), waits for Dinis's yes; audit the sites that carry it once live.
+
+### KPI: first hand-over
+
+**20 November 2026, 16:30 UTC:** Kate Curtis-Evans edited her own site herself, through GitHub with her own Claude (e1f1e9e). She is the first owner to do so (Dinis Cruz, about 16:00 UTC, relayed by the other design.b session).
+
+### Next in the queue
+
+- **hub.agenticcells.site:** Dinis asked for it to be easier to navigate, with the test sites moved down and Kate's site at the top. The other design.b session sent the review to hub.b and the conductor. Audit it when hub.b pushes.
+- Emily and Sarah: a design pass once each owner adds material.
