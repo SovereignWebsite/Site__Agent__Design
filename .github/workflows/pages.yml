@@ -1,13 +1,12 @@
 name: Pages
-# On every push to dev (and once a day): build, check, version, deploy, tag. The seed pipeline from
-# SovereignWebsite__Factory (f759821, seed/site-template), adopted for design.agents.sovereignweb.site:
-#  - the site is built from docs/ by tools/build.py (its output under site/ is also committed);
-#  - the agent's public key is copied from the Factory's team/keys.json into site/key.json, never typed by hand;
-#  - SWS_OWN_SITE=1: one of the organisation's own sites, so it keeps the family bar (quality.mjs check 4);
-#  - the version chip is placed inside the footer (.github/ci/build.mjs), so it sits in a landmark.
-# Any failed check stops the run before anything is deployed or tagged. The version is made from the git tags
-# (major and minor below, set by a person; the patch is the last tag's plus one); a commit that already has a
-# tag (the daily run) keeps it. It is shown on every page from version.json, never typed by hand.
+# On every push to dev: build, check, version, deploy, tag. Seeded by SovereignWebsite__Factory, after the
+# AgentiCCells site pipeline. Any failed check stops the run before anything is deployed or tagged.
+# Agent sites only: each run (and once a day) also copies the agent's entry from the Factory's team/keys.json
+# (the root that check-signatures trusts) into site/key.json, so the published key is never written by hand.
+# The version is made here from the git tags (major and minor below, set by a person; the patch is the
+# last tag's plus one) and shown on every page from version.json. It is never typed by hand.
+# From seed/agent-template (Factory de05b7c). design.agents only: the pages are first built from docs/ by
+# tools/build.py, and .github/ci/build.mjs puts the version chip inside the footer (a landmark).
 on:
   push:
     branches: [dev]
@@ -21,7 +20,6 @@ concurrency:
   cancel-in-progress: false
 env:
   VERSION_BASE: '0.1'
-  SWS_OWN_SITE: '1'
 defaults:
   run:
     shell: bash
@@ -30,7 +28,6 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       version: ${{ steps.version.outputs.version }}
-      tagged: ${{ steps.version.outputs.tagged }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -39,19 +36,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
       - id: version
         name: Work out the next version from the tags
         run: |
-          here=$(git tag --points-at HEAD --list "v${VERSION_BASE}.*" | head -1)
-          if [ -n "$here" ]; then echo "version=$here" >> "$GITHUB_OUTPUT"; echo "tagged=yes" >> "$GITHUB_OUTPUT"; echo "Version: $here (already tagged)" | tee -a "$GITHUB_STEP_SUMMARY"; exit 0; fi
           last=$(git tag --list "v${VERSION_BASE}.*" | sed "s/^v${VERSION_BASE}\.//" | grep -E '^[0-9]+$' | sort -n | tail -1 || true)
-          if [ -z "$last" ]; then next=0; else next=$((last + 1)); fi
+          if [ -z "$last" ]; then next=0; elif [ "$GITHUB_EVENT_NAME" = schedule ]; then next=$last; else next=$((last + 1)); fi
           echo "version=v${VERSION_BASE}.${next}" >> "$GITHUB_OUTPUT"
-          echo "tagged=no" >> "$GITHUB_OUTPUT"
           echo "Version: v${VERSION_BASE}.${next}" | tee -a "$GITHUB_STEP_SUMMARY"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - name: Build the pages from docs/ (tools/build.py)
         run: |
           pip install --quiet markdown==3.7
@@ -67,15 +61,20 @@ jobs:
               keys: ks.map((k) => ({ fingerprint: k.fingerprint, signing_fingerprint: k.signing_fingerprint, session: k.session, sign: k.bundle.sign, encrypt: k.bundle.encrypt })) };
             require("fs").writeFileSync("site/key.json", JSON.stringify(out, null, 2) + "\n");
             console.log(ks.length ? `published ${ks.length} key(s) for ${process.env.AGENT}` : `no active key in team/keys.json for ${process.env.AGENT}`);'
-          rm keys.json
       - name: Build (version.json and the version chip)
         run: node .github/ci/build.mjs
         env:
           SITE_VERSION: ${{ steps.version.outputs.version }}
       - name: Link previews (Open Graph tags and the share card)
         run: node .github/ci/share-check.mjs _site
-      - name: Links, em dashes, family strip and leak scan
+      - name: Links, em dashes and leak scan (an organisation site keeps its family bar)
         run: node .github/ci/quality.mjs _site
+        env:
+          # This template makes the organisation's own sites (the agents' sites), which keep the Sovereign Website
+          # family bar across the top. Customer sites must not have it (Dinis, 20 November 2026: "this is not a
+          # website about us"), so quality.mjs fails a customer page with <nav class="family">; this setting, set
+          # only here and never in a customer site's workflow, turns that one check off. Nothing else changes.
+          SWS_OWN_SITE: '1'
       - name: HTML validity
         run: npx --yes html-validate@8.24.0 --config .github/ci/htmlvalidate.json "_site/**/*.html"
       - name: Accessibility (axe-core)
@@ -101,7 +100,7 @@ jobs:
         uses: actions/deploy-pages@v4
   tag:
     needs: [build, deploy]
-    if: needs.build.outputs.tagged != 'yes'
+    if: github.event_name != 'schedule'
     runs-on: ubuntu-latest
     permissions:
       contents: write

@@ -57,7 +57,7 @@ design.b asked for this at 20:47 UTC. As each site's pipeline goes green, design
 | Emily Cruz | none | no tags | yes | all 200, linked | yes (images/social-card.jpg) | not adopted yet |
 | Sarah Cruz | none | no tags | yes | all 200, linked | yes (img/share.jpg) | not adopted yet |
 | Hub | none | no tags | not applicable (ours) | all four 404 | yes (og.jpg); og:image:alt and twitter:title, description and image missing | not adopted yet |
-| design.agents (ours) | yes, on all 42 pages, linked to run 39 | v0.1.0 on 327f73f | not applicable (ours; SWS_OWN_SITE=1) | not added: these seed pages are for customer sites | yes (share-card.jpg) | **adopted** 21:26 UTC: run 39 green (build, share, quality, html-validate, axe, deploy, tag) |
+| design.agents (ours) | yes, on all 42 pages, linked to run 39 | v0.1.0 on 327f73f | not applicable (ours; SWS_OWN_SITE=1) | not added: these seed pages are for customer sites | yes (share-card.jpg) | **adopted** 21:26 UTC: run 39 green (build, share, quality, html-validate, axe, deploy, tag); moved to seed/agent-template (de05b7c) at about 21:35 UTC |
 
 Each row is checked again when its site agent reports a green pipeline.
 
