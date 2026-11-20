@@ -1,0 +1,18 @@
+{
+ "site": "risk-mandate.startups.sovereignweb.site",
+ "updated": "2026-11-20T21:45Z",
+ "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
+ "agent": "startups.b",
+ "rounds": [
+  {
+   "round": 1,
+   "what": "audit, synthetic users, five new designs (two on the real identity)",
+   "commit_reviewed": "125112b",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": 3.0,
+   "review": "https://design.agents.sovereignweb.site/reviews-risk-mandate-2026-11-20-round-1.html",
+   "run": "https://design.agents.sovereignweb.site/runs-risk-mandate-2026-11-20-r1.html"
+  }
+ ]
+}

@@ -33,6 +33,11 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | emily-cruz.artist | emily.b | [3](reviews-emily-cruz-2026-11-20-round-3.html): the wow round, signed off | d5c475f, 99d9f5e | baf38d9 | 3 to 4 | [4.0](runs-emily-2026-11-20-r3.html) ([3.2, invalid](runs-emily-2026-11-20-r3-invalid.html)) |
 | sarah-cruz.designer | sarah-cruz.b | [1](reviews-sarah-cruz-2026-11-20-round-1.html): five skins to five ideas | 7c5071f | a1a1cef | 1 to 3 | |
 | sarah-cruz.designer | sarah-cruz.b | [2](reviews-sarah-cruz-2026-11-20-round-2.html): the rebuild, signed off | 60b625e | 92ab2bf | 3 to 4 | [4.0](runs-sarah-2026-11-20-r2.html) |
+| sgit.startups | startups.b | [1](reviews-sgit-2026-11-20-round-1.html): bland; five new designs, two on the real identity | 69be1c9 | | 3 | [3.0](runs-sgit-2026-11-20-r1.html) |
+| the-cyber-boardroom.startups | startups.b | [1](reviews-the-cyber-boardroom-2026-11-20-round-1.html): bland; five new designs, two on the real identity | fe6a639 | | 3 | [3.0](runs-the-cyber-boardroom-2026-11-20-r1.html) |
+| risk-mandate.startups | startups.b | [1](reviews-risk-mandate-2026-11-20-round-1.html): bland; five new designs, two on the real identity | 125112b | | 3 | [3.0](runs-risk-mandate-2026-11-20-r1.html) |
+| agentic-cells.startups | startups.b | [1](reviews-agentic-cells-2026-11-20-round-1.html): bland; five new designs, two on the real identity | eab18eb | | 3 | [3.0](runs-agentic-cells-2026-11-20-r1.html) |
+| sovereign-website.startups | startups.b | [1](reviews-sovereign-website-2026-11-20-round-1.html): bland; five new designs, two on the real identity | 490c1c9 | | 3 | [2.8](runs-sovereign-website-2026-11-20-r1.html) |
 
 Earlier rounds by the first design.b session (hub, pipeline-demo, the review of all sites) are on the [reviews page](reviews.html).
 
@@ -46,6 +51,11 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [Emily Cruz, round 3, first run](runs-emily-2026-11-20-r3-invalid.html): invalid, design.b's screenshots dropped lazy images
 - [Emily Cruz, round 3](runs-emily-2026-11-20-r3.html): 4.0
 - [Sarah Cruz, round 2](runs-sarah-2026-11-20-r2.html): 4.0
+- [sgit brochure, round 1](runs-sgit-2026-11-20-r1.html): 3.0, one agent playing all five personas
+- [The Cyber Boardroom brochure, round 1](runs-the-cyber-boardroom-2026-11-20-r1.html): 3.0, one agent playing all five personas
+- [RiskMandate brochure, round 1](runs-risk-mandate-2026-11-20-r1.html): 3.0, one agent playing all five personas
+- [AgentiCCells brochure, round 1](runs-agentic-cells-2026-11-20-r1.html): 3.0, one agent playing all five personas
+- [Sovereign Website brochure, round 1](runs-sovereign-website-2026-11-20-r1.html): 2.8, one agent playing all five personas
 
 ## Seed adoption (factory.b's Factory dev f3dc468..f759821)
 

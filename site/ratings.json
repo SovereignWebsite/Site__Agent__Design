@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T19:15Z",
+ "updated": "2026-11-20T21:45Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -106,6 +106,51 @@
    "blocking": "signed off with notes (round 8, active at c7bffb9): only the desk photo; long phone page; one more pass after Kate adds material",
    "synthetic_score": 4.0,
    "signed_off": true
+  },
+  "sgit.startups.sovereignweb.site": {
+   "repo": "Site__Startups__Sgit",
+   "commit": "69be1c9 (v0.1.3)",
+   "rating": 3,
+   "five_designs": true,
+   "rounds": 1,
+   "agent": "startups.b",
+   "blocking": "round 1: synthetic 3.0, no wow; one-row phone header; chooser text; source clutter; no imagery; the same five templates as the other startups: rebuild as five ideas, two on sgit.ai's identity"
+  },
+  "the-cyber-boardroom.startups.sovereignweb.site": {
+   "repo": "Site__Startups__The-Cyber-Boardroom",
+   "commit": "fe6a639 (v0.1.3)",
+   "rating": 3,
+   "five_designs": true,
+   "rounds": 1,
+   "agent": "startups.b",
+   "blocking": "round 1: synthetic 3.0, no wow; one-row phone header; chooser text; source clutter; no imagery; the same five templates as the other startups: rebuild as five ideas, two on thecyberboardroom.com's identity"
+  },
+  "risk-mandate.startups.sovereignweb.site": {
+   "repo": "Site__Startups__Risk-Mandate",
+   "commit": "125112b (v0.1.3)",
+   "rating": 3,
+   "five_designs": true,
+   "rounds": 1,
+   "agent": "startups.b",
+   "blocking": "round 1: synthetic 3.0, no wow; one-row phone header; chooser text; source clutter; no imagery; the same five templates as the other startups: rebuild as five ideas, two on riskmandate.ai's identity"
+  },
+  "agentic-cells.startups.sovereignweb.site": {
+   "repo": "Site__Startups__Agentic-Cells",
+   "commit": "eab18eb (v0.1.3)",
+   "rating": 3,
+   "five_designs": true,
+   "rounds": 1,
+   "agent": "startups.b",
+   "blocking": "round 1: synthetic 3.0, no wow; one-row phone header; chooser text; source clutter; no imagery; the same five templates as the other startups: rebuild as five ideas, two on agenticcells.ai's identity"
+  },
+  "sovereign-website.startups.sovereignweb.site": {
+   "repo": "Site__Startups__Sovereign-Website",
+   "commit": "490c1c9 (v0.1.3)",
+   "rating": 3,
+   "five_designs": true,
+   "rounds": 1,
+   "agent": "startups.b",
+   "blocking": "round 1: synthetic 2.8, no wow; one-row phone header; chooser text; source clutter; no imagery; the same five templates as the other startups: rebuild as five ideas, two on sovereignwebsite.ai's identity"
   }
  },
  "kpi": {
