@@ -31,12 +31,12 @@
   },
   "hub.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Hub",
-   "commit": "fbebd0d (hub.sovereignweb.site)",
-   "rating": 2,
+   "commit": "9aad391 (SovereignWebsite__Hub dev, live 18:46 UTC)",
+   "rating": 3,
    "five_designs": true,
-   "rounds": 3,
+   "rounds": 4,
    "agent": "hub.b",
-   "blocking": "round 3: Kate leads and people come first (Dinis's reorder); contrast on the faded Google Maps card; lead screenshot cropped on phones; Emily's five-designs tag; '6 sites live' counts a site not switched on; five designs are skins"
+   "blocking": "round 4: round 3 fixes 1 to 5 checked, axe clean in 20 views; Kate's screenshot twice on phones; no skip link, color-scheme meta or favicon; five designs are still skins"
   },
   "vault.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Vault",
