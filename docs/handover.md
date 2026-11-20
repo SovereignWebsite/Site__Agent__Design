@@ -41,3 +41,10 @@ docs/guidelines.md, docs/brief.md, docs/rating.md, docs/synthetic-users.md, docs
 ## Taken over, 20 November 2026, 15:10 UTC
 
 The fresh design session is https://claude.ai/code/session_01Kw9UwFCJTPWFaTq4TX5vUT, started at Dinis's "yes start a new design session" (14:41 UTC, in kate-curtis-evans.b's session). It holds this hand-over from now on. The hourly loop (trig_015nGoR9QzbT1Soz5QGzB5wz) stays paused until Dinis renews it. Its first site is Kate Curtis-Evans (docs/reviews/kate-curtis-evans/, rounds 1 to 4). Its commits are signed with its own container key, which still needs to go into SovereignWebsite__Factory team/keys.json.
+
+### Queue at 15:45 UTC (fresh session)
+
+- **Kate Curtis-Evans:** signed off with notes at 4 (round 5). One more pass after Kate adds her own material.
+- **Sarah Cruz:** round 1 sent to sarah-cruz.b. The five designs are skins of one layout; five ideas proposed (Wine List, Shelf, Front and Back, Timeline, Cut Paper). Rated 1.
+- **Emily Cruz:** round 2 at 5925335, rated 3; synthetic users due, then 4.
+- **factory.b:** folded family bar for seed/shared (CSS-only details), waits for Dinis's yes; audit the sites that carry it once live.
