@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark"><meta name="robots" content="noindex">
+<title>The Line, Sovereign Website Hub</title>
+<meta name="description" content="Design 5 of 5 for the Sovereign Website Hub: One request in, a handed-over site out, each site at its station.">
+<style>:root{--bg:#fafafa;--fg:#111;--muted:#4a4a4a;--link:#0040c1;--focus:#e4002b;--line:#d4d4d4;--hover:#efefef;--belt:#111;--hi:#ffd60a;--hi-ink:#111;--done:#0b7a43}
+@media(prefers-color-scheme:dark){:root{--bg:#0b0b0b;--fg:#f2f2f2;--muted:#b8b8b8;--link:#8fb4ff;--focus:#ff6b81;--line:#2e2e2e;--hover:#191919;--belt:#f2f2f2;--hi:#ffd60a;--hi-ink:#111;--done:#4fd18b}}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+img{display:block;max-width:100%;height:auto}
+picture{display:block}
+a{color:var(--link)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.skip{position:absolute;left:-999px;top:0;background:var(--fg);color:var(--bg);padding:.6rem 1rem;z-index:9}
+.skip:focus{left:1rem;top:.5rem}
+.top{display:flex;align-items:center;justify-content:space-between;gap:.6rem;padding:.6rem 1rem;max-width:80rem;margin:0 auto}
+.brand{font-weight:750;color:var(--fg);text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+.menus{display:flex;gap:.5rem;align-items:center}
+.menus details{position:relative}
+.menus summary{list-style:none;cursor:pointer;min-height:44px;display:inline-flex;align-items:center;white-space:nowrap;padding:.4rem .9rem;border:1.5px solid var(--fg);border-radius:999px;font-size:.95rem;font-weight:600;background:var(--bg)}
+.menus summary::-webkit-details-marker{display:none}
+.menus summary::after{content:"\25BE";font-size:.8em;margin-left:.35rem}
+.menus .pop{position:absolute;right:0;top:calc(100% + .4rem);z-index:5;background:var(--bg);color:var(--fg);border:1.5px solid var(--fg);border-radius:12px;padding:.5rem;width:min(20rem,calc(100vw - 2rem));box-shadow:0 12px 30px rgb(0 0 0/.25)}
+.menus .pop a{display:block;padding:.55rem .7rem;min-height:44px;color:var(--fg);text-decoration:none;border-radius:8px}
+.menus .pop a:hover{background:var(--hover)}
+.menus .pop a[aria-current]{font-weight:750;text-decoration:underline}
+.menus .pop small{display:block;color:var(--muted);font-size:.85rem}
+.fam summary{border-color:var(--line)}
+@media(max-width:40rem){.dn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.brand{font-size:.95rem;line-height:1.2}}
+.foot{max-width:80rem;margin:3rem auto 0;padding:1.4rem 1rem 2.4rem;border-top:1px solid var(--line);font-size:.95rem;color:var(--muted)}
+.foot a{color:var(--fg)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+main{max-width:80rem;margin:0 auto;padding:0 1rem}
+.k{font-weight:800;font-size:.875rem;letter-spacing:.16em;text-transform:uppercase;margin:1.6rem 0 0}
+h1{font-size:clamp(2.4rem,8vw,5.4rem);line-height:.95;letter-spacing:-.035em;margin:.3rem 0 .8rem;font-weight:900;max-width:14ch}
+.lede{max-width:40rem;font-size:1.1rem}
+.counts{display:flex;gap:.6rem;flex-wrap:wrap;list-style:none;padding:0;margin:1rem 0 0}
+.counts li{border:2px solid var(--fg);padding:.3rem .7rem;font-weight:700}
+.line{list-style:none;margin:2.4rem 0;padding:0;display:grid;gap:0;counter-reset:st}
+@media(min-width:60rem){.line{grid-template-columns:repeat(5,1fr)}}
+.st{position:relative;padding:1rem 1rem 1.2rem 3.4rem;border-left:4px solid var(--belt);counter-increment:st}
+@media(min-width:60rem){.st{border-left:0;border-top:4px solid var(--belt);padding:2.4rem .8rem 1rem}}
+.st::before{content:counter(st);position:absolute;left:-1.25rem;top:.9rem;width:2.3rem;height:2.3rem;border-radius:50%;background:var(--bg);border:4px solid var(--belt);display:grid;place-items:center;font-weight:900}
+@media(min-width:60rem){.st::before{left:.8rem;top:-1.35rem}}
+.st h2{font-size:1.1rem;margin:0 0 .6rem;line-height:1.2}
+.st.end{border-color:var(--done)}
+.st.end::before{background:var(--done);color:var(--bg);border-color:var(--done)}
+.here{list-style:none;padding:0;margin:0;display:grid;gap:.6rem}
+.card{display:block;color:var(--fg);text-decoration:none;border:2px solid var(--fg);background:var(--bg)}
+.card b{display:block;padding:.45rem .6rem 0}
+.card span{display:block;padding:0 .6rem .5rem;font-size:.9rem;color:var(--muted)}
+.card:hover,.card:focus-visible{background:var(--hi);color:var(--hi-ink)}
+.card:hover span,.card:focus-visible span{color:var(--hi-ink)}
+.card.big{border-width:3px;border-color:var(--done)}
+.card.big b{font-size:1.2rem}
+.empty{font-size:.9rem;color:var(--muted);margin:0}
+.side{border-top:4px solid var(--belt);padding-top:1rem;margin-top:2rem}
+.side h2{font-size:1.4rem;margin:0 0 .4rem}
+.side .row{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,17rem),1fr));gap:1rem;margin-top:1rem}
+.side .card.off{border-style:dashed}
+.side .card.off img{filter:grayscale(1)}
+.card .tag{display:inline-block;background:var(--hi);color:var(--hi-ink);font-weight:800;font-size:.8rem;padding:.05rem .4rem;margin:0 .6rem .5rem}
+</style></head><body>
+<a class="skip" href="#main">Skip to the sites</a>
+<header class="top"><a class="brand" href="index.html">Sovereign Website Hub</a>
+<div class="menus"><details class="choose"><summary>Design 5<span class="dn">: The Line</span></summary><nav class="pop" aria-label="Designs of this page"><a href="1.html">1. The Gallery<small>Each site hung on a wall with a museum label.</small></a><a href="2.html">2. The Register<small>A register of title: who holds each address, and since when.</small></a><a href="3.html">3. Contact Sheet<small>A photographer&#x27;s sheet of frames, the chosen one circled.</small></a><a href="4.html">4. The Street<small>Every site a shopfront, its address over the door.</small></a><a href="5.html" aria-current="page">5. The Line<small>One request in, a handed-over site out, each site at its station.</small></a></nav></details>
+<details class="fam"><summary><span class="sr">Sovereign Website </span>Family</summary><nav class="pop" aria-label="The Sovereign Website family"><a href="https://sovereignwebsite.ai/">Sovereign Website</a><a href="https://sovereignwebsite.org/">Principles</a><a href="https://sovereignwebsite.site/">Hosted</a><a href="https://hub.sovereignweb.site/" aria-current="true">Hub</a><a href="https://agents.sovereignweb.site/">Agents</a><a href="https://vault.sovereignwebsite.site/">Vault</a><a href="https://agenticcells.ai/">AgentiCCells</a><a href="https://riskmandate.ai/">RiskMandate</a><a href="https://newsroom.sgit.ai/">Newsroom</a></nav></details></div></header>
+<main id="main">
+<p class="k">The showroom</p><h1>Websites their owners own.</h1>
+<p class="lede">Built by agent teams, then handed over: the owner keeps the files, the history and the address. Every site here is public and live; open one to see it working.</p>
+<ul class="counts"><li>5 sites working</li><li>3 people's sites</li><li>1 handed over</li></ul>
+<ol class="line" aria-label="How a site is made, with each person's site where it stands"><li class="st"><h2>One request</h2><p class="empty">Every site starts here: one request, from its owner.</p></li><li class="st"><h2>An agent team builds it</h2><p class="empty">A team of agents writes it, checks it and puts it live.</p></li><li class="st"><h2>Five designs to choose from</h2><ul class=here><li><a class="card" href="https://emily-cruz.artist.sovereignweb.site/"><picture class=""><source media="(max-width:40rem)" srcset="shots/emily-cruz-phone.jpg"><img src="shots/emily-cruz.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></picture><b>Emily Cruz</b><span>emily-cruz.artist.sovereignweb.site</span><span style=padding:0><span class="tag">Five designs</span></span></a></li><li><a class="card" href="https://sarah-cruz.designer.sovereignweb.site/"><picture class=""><source media="(max-width:40rem)" srcset="shots/sarah-cruz-phone.jpg"><img src="shots/sarah-cruz.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></picture><b>Sarah Cruz</b><span>sarah-cruz.designer.sovereignweb.site</span><span style=padding:0><span class="tag">Five designs</span></span></a></li></ul></li><li class="st"><h2>The owner chooses one</h2><p class="empty">The owner picks the design they want to keep.</p></li><li class="st end"><h2>Handed over to the owner's GitHub</h2><ul class=here><li><a class="card big" href="https://kate-curtis-evans.founder.sovereignweb.site/"><picture class=""><source media="(max-width:40rem)" srcset="shots/kate-curtis-evans-phone.jpg"><img src="shots/kate-curtis-evans.jpg" width="1280" height="800" alt=""></picture><b>Kate Curtis-Evans</b><span>kate-curtis-evans.founder.sovereignweb.site</span><span style=padding:0><span class="tag">Five designs</span></span></a></li></ul></li></ol>
+<section class="side" aria-labelledby="td"><h2 id="td">Tools and demos</h2><p>Built the same way. <a href="https://pipeline-demo.sovereignweb.site/">See it run: the pipeline demo</a>.</p>
+<div class="row"><a class="card" href="https://pipeline-demo.sovereignweb.site/"><picture class=""><source media="(max-width:40rem)" srcset="shots/pipeline-demo-phone.jpg"><img src="shots/pipeline-demo.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></picture><b>A site from one request</b><span>pipeline-demo.sovereignweb.site</span></a><a class="card" href="https://whois.tool.sovereignweb.site/"><picture class=""><source media="(max-width:40rem)" srcset="shots/whois-phone.jpg"><img src="shots/whois.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></picture><b>Whois: who holds a domain or IP address</b><span>whois.tool.sovereignweb.site</span></a><a class="card off" href="https://google-maps.sovereignwebsite.site/"><picture class=""><source media="(max-width:40rem)" srcset="shots/google-maps-phone.jpg"><img src="shots/google-maps.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></picture><b>Directions, and the cameras on the way</b><span>Not switched on yet: waiting for the owner&#x27;s Maps key.</span></a></div></section>
+</main>
+<footer class="foot"><p>Each entry comes from the hub's <code>sites.json</code> and is added when the site goes live; the screenshots are taken from the live sites. Kate's photo in her screenshot: Matt Hinton Photography. Design 5 of 5, a prototype by design.b.rounds for hub.b. No cookies, no tracking, no scripts.</p></footer>
+</body></html>

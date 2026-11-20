@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark"><meta name="robots" content="noindex">
+<title>The Street, Sovereign Website Hub</title>
+<meta name="description" content="Design 4 of 5 for the Sovereign Website Hub: Every site a shopfront, its address over the door.">
+<style>:root{--bg:#e9eef2;--fg:#15202b;--muted:#46525e;--link:#0b4f8a;--focus:#c2410c;--line:#b9c3cc;--hover:#dbe3ea;--sky:#cfe0ee;--road:#2d333a;--road-ink:#f3f4f6;--awning1:#0f6e4f;--awning2:#ffffff;--brick:#f7f3ec;--sign:#15202b;--sign-ink:#fff}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1218;--fg:#e8edf2;--muted:#aab4be;--link:#8cc8ff;--focus:#ffa76b;--line:#2c3742;--hover:#16202a;--sky:#141d27;--road:#05080b;--road-ink:#e8edf2;--awning1:#1f8a64;--awning2:#0d1218;--brick:#17202a;--sign:#e8edf2;--sign-ink:#0d1218}}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+img{display:block;max-width:100%;height:auto}
+picture{display:block}
+a{color:var(--link)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.skip{position:absolute;left:-999px;top:0;background:var(--fg);color:var(--bg);padding:.6rem 1rem;z-index:9}
+.skip:focus{left:1rem;top:.5rem}
+.top{display:flex;align-items:center;justify-content:space-between;gap:.6rem;padding:.6rem 1rem;max-width:80rem;margin:0 auto}
+.brand{font-weight:750;color:var(--fg);text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+.menus{display:flex;gap:.5rem;align-items:center}
+.menus details{position:relative}
+.menus summary{list-style:none;cursor:pointer;min-height:44px;display:inline-flex;align-items:center;white-space:nowrap;padding:.4rem .9rem;border:1.5px solid var(--fg);border-radius:999px;font-size:.95rem;font-weight:600;background:var(--bg)}
+.menus summary::-webkit-details-marker{display:none}
+.menus summary::after{content:"\25BE";font-size:.8em;margin-left:.35rem}
+.menus .pop{position:absolute;right:0;top:calc(100% + .4rem);z-index:5;background:var(--bg);color:var(--fg);border:1.5px solid var(--fg);border-radius:12px;padding:.5rem;width:min(20rem,calc(100vw - 2rem));box-shadow:0 12px 30px rgb(0 0 0/.25)}
+.menus .pop a{display:block;padding:.55rem .7rem;min-height:44px;color:var(--fg);text-decoration:none;border-radius:8px}
+.menus .pop a:hover{background:var(--hover)}
+.menus .pop a[aria-current]{font-weight:750;text-decoration:underline}
+.menus .pop small{display:block;color:var(--muted);font-size:.85rem}
+.fam summary{border-color:var(--line)}
+@media(max-width:40rem){.dn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.brand{font-size:.95rem;line-height:1.2}}
+.foot{max-width:80rem;margin:3rem auto 0;padding:1.4rem 1rem 2.4rem;border-top:1px solid var(--line);font-size:.95rem;color:var(--muted)}
+.foot a{color:var(--fg)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+main{padding:0}
+.sky{background:linear-gradient(var(--sky),var(--bg));padding:2rem 1rem 1rem}
+.sky>div{max-width:80rem;margin:0 auto}
+.sky .k{font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.875rem;margin:0;color:var(--muted)}
+h1{font-size:clamp(2.4rem,7vw,4.6rem);line-height:1;letter-spacing:-.02em;margin:.4rem 0 .7rem;font-weight:800;max-width:16ch}
+.sky p{max-width:40rem}
+.street{max-width:80rem;margin:0 auto;padding:0 1rem}
+.street h2{font-size:1rem;letter-spacing:.14em;text-transform:uppercase;margin:2rem 0 0;color:var(--muted)}
+.row{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,22rem),1fr));gap:0 1rem;align-items:end}
+.shop{display:block;text-decoration:none;color:var(--fg);margin-top:1.6rem}
+.sign{display:block;background:var(--sign);color:var(--sign-ink);font:700 clamp(.85rem,2.4vw,.95rem)/1.2 ui-monospace,Menlo,Consolas,monospace;padding:.55rem .7rem;text-align:center;overflow-wrap:anywhere;border-radius:4px 4px 0 0}
+.awning{height:22px;background:repeating-linear-gradient(90deg,var(--awning1) 0 24px,var(--awning2) 24px 48px);clip-path:polygon(0 0,100% 0,97% 100%,3% 100%);border-bottom:2px solid var(--awning1)}
+.front{background:var(--brick);border:2px solid var(--line);border-top:0;padding:12px;display:grid;gap:.7rem}
+.window{border:6px solid var(--fg);border-radius:2px;background:#000;position:relative}
+.window::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgb(255 255 255/.22),#0000 35%);pointer-events:none}
+.plate b{display:block;font-size:1.15rem}
+.plate span{color:var(--muted);font-size:.95rem}
+.door{display:inline-flex;align-items:center;min-height:44px;padding:.4rem .9rem;border:2px solid var(--fg);border-radius:999px;font-weight:700;justify-self:start}
+.shop:hover .door,.shop:focus-visible .door{background:var(--fg);color:var(--bg)}
+.board{display:inline-block;background:#0f6e4f;color:#fff;font-weight:800;font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;padding:.15rem .5rem;margin-right:.3rem}
+.board.alt{background:var(--fg);color:var(--bg)}
+.shut .window img{filter:grayscale(1) brightness(.6)}
+.shut .awning{background:repeating-linear-gradient(90deg,#6b7480 0 24px,var(--awning2) 24px 48px);border-color:#6b7480}
+.shut .door{border-style:dashed}
+.kerb{height:10px;background:#9aa3ab;margin-top:0}
+.road{background:var(--road);color:var(--road-ink);padding:1.2rem 1rem;position:relative}
+.road::before{content:"";position:absolute;left:0;right:0;top:50%;height:4px;background:repeating-linear-gradient(90deg,#f4c542 0 40px,#0000 40px 80px);opacity:.9}
+.road ul{list-style:none;margin:0 auto;padding:0;max-width:80rem;display:flex;flex-wrap:wrap;gap:1rem 2.4rem;position:relative}
+.road li{background:var(--road);padding:0 .5rem;font-size:.95rem}
+.road b{font-size:1.6rem;margin-right:.3rem}
+</style></head><body>
+<a class="skip" href="#main">Skip to the sites</a>
+<header class="top"><a class="brand" href="index.html">Sovereign Website Hub</a>
+<div class="menus"><details class="choose"><summary>Design 4<span class="dn">: The Street</span></summary><nav class="pop" aria-label="Designs of this page"><a href="1.html">1. The Gallery<small>Each site hung on a wall with a museum label.</small></a><a href="2.html">2. The Register<small>A register of title: who holds each address, and since when.</small></a><a href="3.html">3. Contact Sheet<small>A photographer&#x27;s sheet of frames, the chosen one circled.</small></a><a href="4.html" aria-current="page">4. The Street<small>Every site a shopfront, its address over the door.</small></a><a href="5.html">5. The Line<small>One request in, a handed-over site out, each site at its station.</small></a></nav></details>
+<details class="fam"><summary><span class="sr">Sovereign Website </span>Family</summary><nav class="pop" aria-label="The Sovereign Website family"><a href="https://sovereignwebsite.ai/">Sovereign Website</a><a href="https://sovereignwebsite.org/">Principles</a><a href="https://sovereignwebsite.site/">Hosted</a><a href="https://hub.sovereignweb.site/" aria-current="true">Hub</a><a href="https://agents.sovereignweb.site/">Agents</a><a href="https://vault.sovereignwebsite.site/">Vault</a><a href="https://agenticcells.ai/">AgentiCCells</a><a href="https://riskmandate.ai/">RiskMandate</a><a href="https://newsroom.sgit.ai/">Newsroom</a></nav></details></div></header>
+<main id="main">
+<section class="sky"><div><p class="k">The showroom</p><h1>Websites their owners own.</h1>
+<p>Built by agent teams, then handed over: the owner keeps the files, the history and the address. Every site here is public and live; open one to see it working.</p></div></section>
+<section class="street" aria-labelledby="p-h"><h2 id="p-h">People's sites</h2><div class="row"><a class="shop" href="https://kate-curtis-evans.founder.sovereignweb.site/"><span class="sign">kate-curtis-evans.<wbr>founder.<wbr>sovereignweb.<wbr>site</span><span class="awning" aria-hidden="true"></span><span class="front"><span class="window"><picture class=""><source media="(max-width:40rem)" srcset="shots/kate-curtis-evans-phone.jpg"><img src="shots/kate-curtis-evans.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></picture></span><span class="plate"><b>Kate Curtis-Evans</b><span>Founder. Kate Curtis-Evans, practising legal transcriber and founder of Audio Genius, legal transcription and workflow built by a transcriber, for transcription professionals.</span></span><span><span class="board">Handed over</span><span class="board alt">Five designs</span></span><span class="door">Walk in &rarr;</span></span></a><a class="shop" href="https://emily-cruz.artist.sovereignweb.site/"><span class="sign">emily-cruz.<wbr>artist.<wbr>sovereignweb.<wbr>site</span><span class="awning" aria-hidden="true"></span><span class="front"><span class="window"><picture class=""><source media="(max-width:40rem)" srcset="shots/emily-cruz-phone.jpg"><img src="shots/emily-cruz.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></picture></span><span class="plate"><b>Emily Cruz</b><span>Artist. Actor-musician and artist. BA (Hons) Actor-Musician, Guildford School of Acting, 2026.</span></span><span><span class="board alt">Five designs</span></span><span class="door">Walk in &rarr;</span></span></a><a class="shop" href="https://sarah-cruz.designer.sovereignweb.site/"><span class="sign">sarah-cruz.<wbr>designer.<wbr>sovereignweb.<wbr>site</span><span class="awning" aria-hidden="true"></span><span class="front"><span class="window"><picture class=""><source media="(max-width:40rem)" srcset="shots/sarah-cruz-phone.jpg"><img src="shots/sarah-cruz.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></picture></span><span class="plate"><b>Sarah Cruz</b><span>Designer. Creative Director and designer: 25+ years of wine, spirits and retail packaging, five designs.</span></span><span><span class="board alt">Five designs</span></span><span class="door">Walk in &rarr;</span></span></a></div></section>
+<div class="kerb" aria-hidden="true"></div>
+<section class="road" aria-label="On this street"><ul><li><b>5</b>sites working</li><li><b>3</b>people's sites</li><li><b>1</b>handed over</li></ul></section>
+<section class="street" aria-labelledby="t-h"><h2 id="t-h">Tools and demos</h2><div class="row"><a class="shop" href="https://pipeline-demo.sovereignweb.site/"><span class="sign">pipeline-demo.<wbr>sovereignweb.<wbr>site</span><span class="awning" aria-hidden="true"></span><span class="front"><span class="window"><picture class=""><source media="(max-width:40rem)" srcset="shots/pipeline-demo-phone.jpg"><img src="shots/pipeline-demo.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></picture></span><span class="plate"><b>A site from one request</b><span>Demo. How the Sovereign Website pipeline turns one request into a site, with this site as the worked example.</span></span><span class="door">Walk in &rarr;</span></span></a><a class="shop" href="https://whois.tool.sovereignweb.site/"><span class="sign">whois.<wbr>tool.<wbr>sovereignweb.<wbr>site</span><span class="awning" aria-hidden="true"></span><span class="front"><span class="window"><picture class=""><source media="(max-width:40rem)" srcset="shots/whois-phone.jpg"><img src="shots/whois.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></picture></span><span class="plate"><b>Whois: who holds a domain or IP address</b><span>Tool. Who holds a domain or an IP address, from the registries&#x27; own RDAP records. No ads, no tracking.</span></span><span class="door">Walk in &rarr;</span></span></a><a class="shop shut" href="https://google-maps.sovereignwebsite.site/"><span class="sign">google-maps.<wbr>sovereignwebsite.<wbr>site</span><span class="awning" aria-hidden="true"></span><span class="front"><span class="window"><picture class=""><source media="(max-width:40rem)" srcset="shots/google-maps-phone.jpg"><img src="shots/google-maps.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></picture></span><span class="plate"><b>Directions, and the cameras on the way</b><span>Demo. Not switched on yet: waiting for the owner&#x27;s Maps key.</span></span><span class="door">Not switched on yet</span></span></a></div></section>
+<div class="kerb" aria-hidden="true"></div>
+</main>
+<footer class="foot"><p>Each entry comes from the hub's <code>sites.json</code> and is added when the site goes live; the screenshots are taken from the live sites. Kate's photo in her screenshot: Matt Hinton Photography. Design 4 of 5, a prototype by design.b.rounds for hub.b. No cookies, no tracking, no scripts.</p></footer>
+</body></html>

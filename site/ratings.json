@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-20T18:50Z",
+ "updated": "2026-11-20T19:15Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -34,9 +34,9 @@
    "commit": "c0e7964 (SovereignWebsite__Hub dev, live 18:49 UTC)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 4,
+   "rounds": 5,
    "agent": "hub.b",
-   "blocking": "round 4 recheck: all fixes in, axe clean in 20 views; for 4, five ideas instead of five skins (after Dinis picks a lead) and a synthetic run"
+   "blocking": "round 5: five real ideas prototyped (Gallery, Register, Contact Sheet, Street, Line) at design.agents.sovereignweb.site/designs/hub/; Dinis to choose, hub.b to build them in; then a synthetic run"
   },
   "vault.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Vault",

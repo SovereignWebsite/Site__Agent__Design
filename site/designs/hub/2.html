@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark"><meta name="robots" content="noindex">
+<title>The Register, Sovereign Website Hub</title>
+<meta name="description" content="Design 2 of 5 for the Sovereign Website Hub: A register of title: who holds each address, and since when.">
+<style>:root{--bg:#f4f0e6;--fg:#1d2a24;--muted:#4b544f;--link:#0d5a3f;--focus:#b3261e;--line:#c9c1ae;--hover:#e9e3d4;--paper:#fbf8f1;--seal:#9e2a1f;--rule:#1d2a24}
+@media(prefers-color-scheme:dark){:root{--bg:#121714;--fg:#e9e5da;--muted:#b4b9b3;--link:#7fd6ae;--focus:#ff8a7a;--line:#39423d;--hover:#1c2420;--paper:#18201c;--seal:#ff8a7a;--rule:#e9e5da}}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+img{display:block;max-width:100%;height:auto}
+picture{display:block}
+a{color:var(--link)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.skip{position:absolute;left:-999px;top:0;background:var(--fg);color:var(--bg);padding:.6rem 1rem;z-index:9}
+.skip:focus{left:1rem;top:.5rem}
+.top{display:flex;align-items:center;justify-content:space-between;gap:.6rem;padding:.6rem 1rem;max-width:80rem;margin:0 auto}
+.brand{font-weight:750;color:var(--fg);text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+.menus{display:flex;gap:.5rem;align-items:center}
+.menus details{position:relative}
+.menus summary{list-style:none;cursor:pointer;min-height:44px;display:inline-flex;align-items:center;white-space:nowrap;padding:.4rem .9rem;border:1.5px solid var(--fg);border-radius:999px;font-size:.95rem;font-weight:600;background:var(--bg)}
+.menus summary::-webkit-details-marker{display:none}
+.menus summary::after{content:"\25BE";font-size:.8em;margin-left:.35rem}
+.menus .pop{position:absolute;right:0;top:calc(100% + .4rem);z-index:5;background:var(--bg);color:var(--fg);border:1.5px solid var(--fg);border-radius:12px;padding:.5rem;width:min(20rem,calc(100vw - 2rem));box-shadow:0 12px 30px rgb(0 0 0/.25)}
+.menus .pop a{display:block;padding:.55rem .7rem;min-height:44px;color:var(--fg);text-decoration:none;border-radius:8px}
+.menus .pop a:hover{background:var(--hover)}
+.menus .pop a[aria-current]{font-weight:750;text-decoration:underline}
+.menus .pop small{display:block;color:var(--muted);font-size:.85rem}
+.fam summary{border-color:var(--line)}
+@media(max-width:40rem){.dn{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.brand{font-size:.95rem;line-height:1.2}}
+.foot{max-width:80rem;margin:3rem auto 0;padding:1.4rem 1rem 2.4rem;border-top:1px solid var(--line);font-size:.95rem;color:var(--muted)}
+.foot a{color:var(--fg)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+main{max-width:60rem;margin:0 auto;padding:0 1rem}
+.cover{border:3px double var(--rule);background:var(--paper);padding:clamp(1.2rem,4vw,2.6rem);margin:1.4rem 0 2rem;text-align:center}
+.cover .k{font-variant:small-caps;letter-spacing:.18em;font-size:1rem;margin:0}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.2rem,6.5vw,3.8rem);line-height:1.06;margin:.5rem 0 .8rem;font-weight:700}
+.cover .s{max-width:36rem;margin:0 auto 1rem}
+.tally{display:inline-grid;grid-auto-flow:column;gap:1.6rem;border-top:1px solid var(--line);padding-top:.8rem;font-size:.95rem;color:var(--muted)}
+.tally b{display:block;font-family:Georgia,serif;font-size:1.8rem;color:var(--fg)}
+h2{font-family:Georgia,serif;font-size:1.5rem;margin:2.4rem 0 .4rem;border-bottom:2px solid var(--rule);padding-bottom:.3rem;display:flex;justify-content:space-between;gap:1rem;align-items:baseline;flex-wrap:wrap}
+h2 small{font-family:system-ui,sans-serif;font-size:.9rem;font-weight:400;color:var(--muted)}
+.title{display:grid;gap:1rem;background:var(--paper);border:1px solid var(--line);border-left:6px solid var(--rule);padding:1.1rem;margin:1rem 0;position:relative}
+@media(min-width:46rem){.title{grid-template-columns:15rem 1fr}}
+.title .no{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.875rem;color:var(--muted)}
+.title h3{font-family:Georgia,serif;font-size:1.35rem;margin:.1rem 0 .5rem}
+.title dl{display:grid;grid-template-columns:max-content 1fr;gap:.25rem .9rem;margin:0 0 .6rem;font-size:.95rem}
+.title dt{color:var(--muted);font-variant:small-caps;letter-spacing:.06em}
+.title dd{margin:0;overflow-wrap:anywhere}
+.title .shot{border:1px solid var(--line)}
+.title p{margin:0 0 .6rem}
+.go{display:inline-flex;align-items:center;min-height:44px;font-weight:650}
+.seal{position:absolute;right:.8rem;top:.8rem;width:5.2rem;height:5.2rem;border:3px solid var(--seal);color:var(--seal);border-radius:50%;display:grid;place-items:center;text-align:center;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;line-height:1.15;transform:rotate(-12deg);background:var(--paper)}
+.has-seal h3{padding-right:5.6rem}
+.pending{border-left-style:dashed}
+.pending .shot{filter:grayscale(1)}
+@media print{.top,.foot{display:none}.title{break-inside:avoid}}
+</style></head><body>
+<a class="skip" href="#main">Skip to the sites</a>
+<header class="top"><a class="brand" href="index.html">Sovereign Website Hub</a>
+<div class="menus"><details class="choose"><summary>Design 2<span class="dn">: The Register</span></summary><nav class="pop" aria-label="Designs of this page"><a href="1.html">1. The Gallery<small>Each site hung on a wall with a museum label.</small></a><a href="2.html" aria-current="page">2. The Register<small>A register of title: who holds each address, and since when.</small></a><a href="3.html">3. Contact Sheet<small>A photographer&#x27;s sheet of frames, the chosen one circled.</small></a><a href="4.html">4. The Street<small>Every site a shopfront, its address over the door.</small></a><a href="5.html">5. The Line<small>One request in, a handed-over site out, each site at its station.</small></a></nav></details>
+<details class="fam"><summary><span class="sr">Sovereign Website </span>Family</summary><nav class="pop" aria-label="The Sovereign Website family"><a href="https://sovereignwebsite.ai/">Sovereign Website</a><a href="https://sovereignwebsite.org/">Principles</a><a href="https://sovereignwebsite.site/">Hosted</a><a href="https://hub.sovereignweb.site/" aria-current="true">Hub</a><a href="https://agents.sovereignweb.site/">Agents</a><a href="https://vault.sovereignwebsite.site/">Vault</a><a href="https://agenticcells.ai/">AgentiCCells</a><a href="https://riskmandate.ai/">RiskMandate</a><a href="https://newsroom.sgit.ai/">Newsroom</a></nav></details></div></header>
+<main id="main">
+<section class="cover"><p class="k">The register of title</p><h1>Websites their owners own.</h1>
+<p class="s">Built by agent teams, then handed over: the owner keeps the files, the history and the address. Every site here is public and live; open one to see it working.</p>
+<div class="tally"><span><b>5</b>sites working</span><span><b>3</b>people's sites</span><span><b>1</b>handed over</span></div></section>
+<h2>Part A: People <small>3 entries</small></h2>
+<article class="title has-seal" aria-labelledby="t-kate-curtis-evans"><span class="seal" aria-hidden="true">Handed<br>over</span><div><img class="shot" src="shots/kate-curtis-evans.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></div><div><span class="no">Entry 01</span><h3 id="t-kate-curtis-evans">Kate Curtis-Evans</h3><dl><dt>Address</dt><dd><a href="https://kate-curtis-evans.founder.sovereignweb.site/">kate-curtis-evans.<wbr>founder.<wbr>sovereignweb.<wbr>site</a></dd><dt>Kind</dt><dd>Founder</dd><dt>Held</dt><dd>20 November 2026, by its owner</dd><dt>Status</dt><dd>Handed over</dd><dt>Files</dt><dd><a href="https://github.com/SovereignWebsite/Site__Founder__Kate-Curtis-Evans">SovereignWebsite/Site__Founder__Kate-Curtis-Evans</a></dd><dt>Designs</dt><dd>Five designs</dd></dl><p>Kate Curtis-Evans, practising legal transcriber and founder of Audio Genius, legal transcription and workflow built by a transcriber, for transcription professionals.</p><a class="go" href="https://kate-curtis-evans.founder.sovereignweb.site/">Visit kate-curtis-evans.<wbr>founder.<wbr>sovereignweb.<wbr>site &rarr;</a></div></article><article class="title" aria-labelledby="t-emily-cruz"><div><img class="shot" src="shots/emily-cruz.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></div><div><span class="no">Entry 02</span><h3 id="t-emily-cruz">Emily Cruz</h3><dl><dt>Address</dt><dd><a href="https://emily-cruz.artist.sovereignweb.site/">emily-cruz.<wbr>artist.<wbr>sovereignweb.<wbr>site</a></dd><dt>Kind</dt><dd>Artist</dd><dt>Held</dt><dd>SovereignWebsite, until handed over</dd><dt>Status</dt><dd>Live</dd><dt>Files</dt><dd><a href="https://github.com/SovereignWebsite/Site__Artist__Emily-Cruz">SovereignWebsite/Site__Artist__Emily-Cruz</a></dd><dt>Designs</dt><dd>Five designs</dd></dl><p>Actor-musician and artist. BA (Hons) Actor-Musician, Guildford School of Acting, 2026.</p><a class="go" href="https://emily-cruz.artist.sovereignweb.site/">Visit emily-cruz.<wbr>artist.<wbr>sovereignweb.<wbr>site &rarr;</a></div></article><article class="title" aria-labelledby="t-sarah-cruz"><div><img class="shot" src="shots/sarah-cruz.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></div><div><span class="no">Entry 03</span><h3 id="t-sarah-cruz">Sarah Cruz</h3><dl><dt>Address</dt><dd><a href="https://sarah-cruz.designer.sovereignweb.site/">sarah-cruz.<wbr>designer.<wbr>sovereignweb.<wbr>site</a></dd><dt>Kind</dt><dd>Designer</dd><dt>Held</dt><dd>SovereignWebsite, until handed over</dd><dt>Status</dt><dd>Live</dd><dt>Files</dt><dd><a href="https://github.com/SovereignWebsite/Site__Designer__Sarah-Cruz">SovereignWebsite/Site__Designer__Sarah-Cruz</a></dd><dt>Designs</dt><dd>Five designs</dd></dl><p>Creative Director and designer: 25+ years of wine, spirits and retail packaging, five designs.</p><a class="go" href="https://sarah-cruz.designer.sovereignweb.site/">Visit sarah-cruz.<wbr>designer.<wbr>sovereignweb.<wbr>site &rarr;</a></div></article>
+<h2>Part B: Tools and demos <small>3 entries</small></h2>
+<article class="title" aria-labelledby="t-pipeline-demo"><div><img class="shot" src="shots/pipeline-demo.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></div><div><span class="no">Entry 04</span><h3 id="t-pipeline-demo">A site from one request</h3><dl><dt>Address</dt><dd><a href="https://pipeline-demo.sovereignweb.site/">pipeline-demo.<wbr>sovereignweb.<wbr>site</a></dd><dt>Kind</dt><dd>Demo</dd><dt>Held</dt><dd>SovereignWebsite, until handed over</dd><dt>Status</dt><dd>Live</dd></dl><p>How the Sovereign Website pipeline turns one request into a site, with this site as the worked example.</p><a class="go" href="https://pipeline-demo.sovereignweb.site/">Visit pipeline-demo.<wbr>sovereignweb.<wbr>site &rarr;</a></div></article><article class="title" aria-labelledby="t-whois"><div><img class="shot" src="shots/whois.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></div><div><span class="no">Entry 05</span><h3 id="t-whois">Whois: who holds a domain or IP address</h3><dl><dt>Address</dt><dd><a href="https://whois.tool.sovereignweb.site/">whois.<wbr>tool.<wbr>sovereignweb.<wbr>site</a></dd><dt>Kind</dt><dd>Tool</dd><dt>Held</dt><dd>SovereignWebsite, until handed over</dd><dt>Status</dt><dd>Live</dd></dl><p>Who holds a domain or an IP address, from the registries&#x27; own RDAP records. No ads, no tracking.</p><a class="go" href="https://whois.tool.sovereignweb.site/">Visit whois.<wbr>tool.<wbr>sovereignweb.<wbr>site &rarr;</a></div></article><article class="title pending" aria-labelledby="t-google-maps"><div><img class="shot" src="shots/google-maps.jpg" width="1280" height="800" alt="" loading="lazy" decoding="async"></div><div><span class="no">Entry 06</span><h3 id="t-google-maps">Directions, and the cameras on the way</h3><dl><dt>Address</dt><dd><a href="https://google-maps.sovereignwebsite.site/">google-maps.<wbr>sovereignwebsite.<wbr>site</a></dd><dt>Kind</dt><dd>Demo</dd><dt>Held</dt><dd>SovereignWebsite, until handed over</dd><dt>Status</dt><dd>Not switched on yet</dd></dl><p>A sovereign website that uses a paid third-party service, Google Maps, on the owner&#x27;s own key and budget.</p><p><b>Not switched on yet: waiting for the owner&#x27;s Maps key.</b></p><a class="go" href="https://google-maps.sovereignwebsite.site/">Visit google-maps.<wbr>sovereignwebsite.<wbr>site &rarr;</a></div></article>
+</main>
+<footer class="foot"><p>Each entry comes from the hub's <code>sites.json</code> and is added when the site goes live; the screenshots are taken from the live sites. Kate's photo in her screenshot: Matt Hinton Photography. Design 2 of 5, a prototype by design.b.rounds for hub.b. No cookies, no tracking, no scripts.</p></footer>
+</body></html>
