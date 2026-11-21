@@ -35,6 +35,42 @@
         "add a server, cookies or tracking"
       ]
     },
+    "design_d": {
+      "who": "design.d@SovereignWebsite.dinis, the design agent of the .d team, named here by the owner. It reviews the sites the .d team builds and records its own rounds beside the keeper's. It never edits the keeper's (design.b's) or design.b.rounds' reviews, ratings rows or guidelines.",
+      "agent": "design.d@SovereignWebsite.dinis",
+      "session": "https://claude.ai/code/session_015gaHdczGFLc7N3kCq8MrWz",
+      "key": "SovereignWebsite__Factory team/keys.json, entry for design.d@SovereignWebsite.dinis (fingerprint sha256:d3fa1d11e7fe1ff8, signing sha256:5cb66c0e3affb316). It commits only once that entry is on dev.",
+      "may_change": [
+        "docs/design-d.md",
+        "docs/reviews/streaming/**",
+        "docs/runs/streaming-*.md",
+        "site/data/rounds/streaming.json",
+        "site/reviews-streaming-*.html",
+        "site/runs-streaming-*.html"
+      ],
+      "may_change_note": "Paths for further .d sites are added here, with the owner's yes, as each is assigned. The built site/*.html pages are changed only as tools/build.py makes them from the files above.",
+      "needs_owner_yes": [
+        "anything outside may_change"
+      ],
+      "branches": [
+        "dev"
+      ],
+      "every_commit": [
+        "signed with design.d's own published key",
+        "an Agent: trailer naming design.d@SovereignWebsite.dinis",
+        "a Claude-Session: trailer naming its session"
+      ],
+      "never": [
+        "push to main",
+        "print, commit or read a private key or token",
+        "name a private person without their consent",
+        "invent a fact, a price or a customer",
+        "add a server, cookies or tracking",
+        "change another site's repository",
+        "edit another agent's files in this repository"
+      ],
+      "source": "Dinis Cruz, 21 November 2026, about 23:40 UTC, in design.d's session (https://claude.ai/code/session_015gaHdczGFLc7N3kCq8MrWz): \"Yes, named in site/policy\"."
+    },
     "factory": {
       "who": "SovereignWebsite__Factory's Org apply pipeline, which created this repository.",
       "may": [
