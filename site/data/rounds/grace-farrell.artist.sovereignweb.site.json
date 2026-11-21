@@ -1,6 +1,6 @@
 {
  "site": "grace-farrell.artist.sovereignweb.site",
- "updated": "2026-11-21T01:20Z",
+ "updated": "2026-11-21T01:40Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "grace.b",
  "rounds": [
@@ -18,11 +18,21 @@
    "round": 2,
    "what": "five first screens; sideways scroll, 320 px reflow, name break; lower half to rebuild; home: Editorial",
    "commit_reviewed": "1611e49",
-   "answered_by": null,
+   "answered_by": "9083492",
    "rating": "2 (3 once items 1 and 2 are fixed)",
    "synthetic_score": 2.8,
    "review": "https://design.agents.sovereignweb.site/reviews-grace-farrell-2026-11-21-round-2.html",
    "run": "https://design.agents.sovereignweb.site/runs-grace-farrell-2026-11-21-r2.html"
+  },
+  {
+   "round": 3,
+   "what": "rated 3; video stills, Libretto, quieter chrome",
+   "commit_reviewed": "9083492",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": 2.8,
+   "review": "https://design.agents.sovereignweb.site/reviews-grace-farrell-2026-11-21-round-3.html",
+   "run": null
   }
  ]
 }
