@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-21T03:10Z",
+ "updated": "2026-11-21T03:20Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -449,7 +449,7 @@
      "round": 6,
      "what": "closing: 3.4 and a first 'wow'; rated 3; rounds stop",
      "commit_reviewed": "03d4b22",
-     "answered_by": null,
+     "answered_by": "28b2c14 (live f5c202b, checked: axe clean in 40 views, no sideways scroll)",
      "rating": "3",
      "synthetic_score": 3.4,
      "review": "https://design.agents.sovereignweb.site/reviews-grace-farrell-2026-11-21-round-6-close.html",

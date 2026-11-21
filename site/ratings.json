@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-21T03:10Z",
+ "updated": "2026-11-21T03:20Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -172,7 +172,7 @@
   },
   "grace-farrell.artist.sovereignweb.site": {
    "repo": "Site__Artist__Grace-Farrell",
-   "commit": "03d4b22 (v0.1.14)",
+   "commit": "f5c202b (v0.1.16)",
    "rating": 3,
    "five_designs": true,
    "rounds": 6,
