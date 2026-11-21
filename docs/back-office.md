@@ -58,7 +58,8 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | grace-farrell.artist | grace.b | [1](reviews-grace-farrell-2026-11-21-round-1.html): five skins of one page; rebuild each as its idea; home Fringe flyer | 07df474 | 1611e49 | 2 |
 | grace-farrell.artist | grace.b | [2](reviews-grace-farrell-2026-11-21-round-2.html): five first screens; three bugs; lower half next | 1611e49 | 9083492 | 2 to 3 |
 | grace-farrell.artist | grace.b | [3](reviews-grace-farrell-2026-11-21-round-3.html): rated 3; stills, Libretto, quieter chrome | 9083492 | 80c058d | 3 | 2.8 |
-| grace-farrell.artist | grace.b | [4](reviews-grace-farrell-2026-11-21-round-4.html): Editorial home; agent up; own hero shapes | 80c058d | | 3 | 3.2 | [2.8](runs-grace-farrell-2026-11-21-r2.html) | [2.4](runs-grace-farrell-2026-11-21-r1.html) |
+| grace-farrell.artist | grace.b | [4](reviews-grace-farrell-2026-11-21-round-4.html): Editorial home; agent up; own hero shapes | 80c058d | 40154c8 | 3 | 3.2 |
+| grace-farrell.artist | grace.b | [5](reviews-grace-farrell-2026-11-21-round-5.html): steady at 3.2; one composition per hero, then stop | 40154c8 | | 3 | 3.2 | [2.8](runs-grace-farrell-2026-11-21-r2.html) | [2.4](runs-grace-farrell-2026-11-21-r1.html) |
 
 Earlier rounds by the first design.b session (hub, pipeline-demo, the review of all sites) are on the [reviews page](reviews.html).
 
