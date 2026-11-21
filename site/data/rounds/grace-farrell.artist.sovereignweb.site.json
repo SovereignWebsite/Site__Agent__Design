@@ -1,6 +1,6 @@
 {
  "site": "grace-farrell.artist.sovereignweb.site",
- "updated": "2026-11-21T01:40Z",
+ "updated": "2026-11-21T02:10Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "grace.b",
  "rounds": [
@@ -28,10 +28,20 @@
    "round": 3,
    "what": "rated 3; video stills, Libretto, quieter chrome",
    "commit_reviewed": "9083492",
-   "answered_by": null,
+   "answered_by": "80c058d",
    "rating": "3",
    "synthetic_score": 2.8,
    "review": "https://design.agents.sovereignweb.site/reviews-grace-farrell-2026-11-21-round-3.html",
+   "run": null
+  },
+  {
+   "round": 4,
+   "what": "Editorial is the home; agent into the hero; each hero its own shape; tour map on phones",
+   "commit_reviewed": "80c058d",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": 3.2,
+   "review": "https://design.agents.sovereignweb.site/reviews-grace-farrell-2026-11-21-round-4.html",
    "run": null
   }
  ]
