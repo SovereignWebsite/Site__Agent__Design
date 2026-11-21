@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-21T00:50Z",
+ "updated": "2026-11-21T01:20Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -172,12 +172,12 @@
   },
   "grace-farrell.artist.sovereignweb.site": {
    "repo": "Site__Artist__Grace-Farrell",
-   "commit": "07df474 (v0.1.1)",
+   "commit": "1611e49 (v0.1.4)",
    "rating": 2,
-   "five_designs": false,
-   "rounds": 1,
+   "five_designs": true,
+   "rounds": 2,
    "agent": "grace.b",
-   "blocking": "round 1: synthetic 2.4; five skins of one layout (2a); first phone screen has no button; lead out of date; kicker orphan; seed look on start, agents, admin"
+   "blocking": "round 2: synthetic 2.8; sideways scroll on home and design 2 (tilted sections); 320 px reflow (header); 'FARREL / L'; lower half shared across designs"
   }
  },
  "kpi": {
