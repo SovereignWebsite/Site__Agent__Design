@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-21T15:00Z",
+ "updated": "2026-11-21T15:05Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -464,7 +464,7 @@
      "round": 1,
      "what": "anonymity check passes; five skins of one page to five ideas; 'looking for' empty; repeated text",
      "commit_reviewed": "53ed671, d745cf5",
-     "answered_by": null,
+     "answered_by": "93ee52a, 09bae0d, bcf8fa2, 55e765a (checked back 15:05 UTC)",
      "rating": "2",
      "synthetic_score": 2.8,
      "review": "https://design.agents.sovereignweb.site/reviews-south-beacon-2026-11-21-round-1.html",

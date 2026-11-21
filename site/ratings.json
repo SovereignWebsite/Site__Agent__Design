@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-21T15:00Z",
+ "updated": "2026-11-21T15:05Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -181,12 +181,12 @@
   },
   "south-beacon.talent.sovereignweb.site": {
    "repo": "Site__Talent__South-Beacon",
-   "commit": "d745cf5 (v0.1.3)",
+   "commit": "55e765a (v0.1.8)",
    "rating": 2,
    "five_designs": true,
    "rounds": 1,
    "agent": "south-beacon.b",
-   "blocking": "round 1: anonymity passes; five skins of one page (2a); 'looking for' says only 'A new role'; synthetic 2.8"
+   "blocking": "round 1 checked back: fixes in, axe clean, anonymity passes; 2 until the five rebuilt structures land; 'looking for' and scale wait on the candidate"
   }
  },
  "kpi": {
