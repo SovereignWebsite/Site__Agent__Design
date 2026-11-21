@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-21T00:20Z",
+ "updated": "2026-11-21T00:50Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -389,6 +389,21 @@
      "synthetic_score": 3.4,
      "review": "https://design.agents.sovereignweb.site/reviews-mistral-2026-11-21-round-3.html",
      "run": "https://design.agents.sovereignweb.site/runs-mistral-2026-11-21-r3.html"
+    }
+   ]
+  },
+  "grace-farrell.artist.sovereignweb.site": {
+   "agent": "grace.b",
+   "rounds": [
+    {
+     "round": 1,
+     "what": "audit, synthetic users; five skins to five rebuilt ideas; home: Fringe flyer",
+     "commit_reviewed": "07df474",
+     "answered_by": null,
+     "rating": "2",
+     "synthetic_score": 2.4,
+     "review": "https://design.agents.sovereignweb.site/reviews-grace-farrell-2026-11-21-round-1.html",
+     "run": "https://design.agents.sovereignweb.site/runs-grace-farrell-2026-11-21-r1.html"
     }
    ]
   }
