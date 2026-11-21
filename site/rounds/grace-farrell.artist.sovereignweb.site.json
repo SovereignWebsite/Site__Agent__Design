@@ -1,6 +1,6 @@
 {
  "site": "grace-farrell.artist.sovereignweb.site",
- "updated": "2026-11-21T02:40Z",
+ "updated": "2026-11-21T03:10Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "grace.b",
  "rounds": [
@@ -48,10 +48,20 @@
    "round": 5,
    "what": "steady at 3.2; one structural change (a composition per hero), then stop",
    "commit_reviewed": "40154c8",
-   "answered_by": null,
+   "answered_by": "03d4b22",
    "rating": "3",
    "synthetic_score": 3.2,
    "review": "https://design.agents.sovereignweb.site/reviews-grace-farrell-2026-11-21-round-5.html",
+   "run": null
+  },
+  {
+   "round": 6,
+   "what": "closing: 3.4 and a first 'wow'; rated 3; rounds stop",
+   "commit_reviewed": "03d4b22",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": 3.4,
+   "review": "https://design.agents.sovereignweb.site/reviews-grace-farrell-2026-11-21-round-6-close.html",
    "run": null
   }
  ]
