@@ -1,0 +1,18 @@
+{
+ "site": "south-beacon.talent.sovereignweb.site",
+ "updated": "2026-11-21T15:00Z",
+ "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
+ "agent": "south-beacon.b",
+ "rounds": [
+  {
+   "round": 1,
+   "what": "anonymity check passes; five skins of one page to five ideas; 'looking for' empty; repeated text",
+   "commit_reviewed": "53ed671, d745cf5",
+   "answered_by": null,
+   "rating": "2",
+   "synthetic_score": 2.8,
+   "review": "https://design.agents.sovereignweb.site/reviews-south-beacon-2026-11-21-round-1.html",
+   "run": "https://design.agents.sovereignweb.site/runs-south-beacon-2026-11-21-r1.html"
+  }
+ ]
+}

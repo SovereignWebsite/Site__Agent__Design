@@ -61,6 +61,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | grace-farrell.artist | grace.b | [4](reviews-grace-farrell-2026-11-21-round-4.html): Editorial home; agent up; own hero shapes | 80c058d | 40154c8 | 3 | 3.2 |
 | grace-farrell.artist | grace.b | [5](reviews-grace-farrell-2026-11-21-round-5.html): steady at 3.2; one composition per hero, then stop | 40154c8 | 03d4b22 | 3 | 3.2 |
 | grace-farrell.artist | grace.b | [6](reviews-grace-farrell-2026-11-21-round-6-close.html): closing; 3.4, first wow; rounds stop | 03d4b22 | | 3 | 3.4 | [2.8](runs-grace-farrell-2026-11-21-r2.html) | [2.4](runs-grace-farrell-2026-11-21-r1.html) |
+| south-beacon.talent | south-beacon.b | [1](reviews-south-beacon-2026-11-21-round-1.html): anonymity passes; five skins to five ideas | d745cf5 | | 2 | [2.8](runs-south-beacon-2026-11-21-r1.html) |
 
 Earlier rounds by the first design.b session (hub, pipeline-demo, the review of all sites) are on the [reviews page](reviews.html).
 
@@ -88,6 +89,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [Mistral provider site, round 3](runs-mistral-2026-11-21-r3.html): 3.4, up from 3.0
 - [Grace Farrell, round 1](runs-grace-farrell-2026-11-21-r1.html): 2.4; Fringe flyer voted best
 - [Grace Farrell, round 2](runs-grace-farrell-2026-11-21-r2.html): 2.8; Editorial voted best
+- [South Beacon, round 1](runs-south-beacon-2026-11-21-r1.html): 2.8; one vote for each design
 
 ## Seed adoption (factory.b's Factory dev f3dc468..f759821)
 
