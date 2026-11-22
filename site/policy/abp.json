@@ -43,10 +43,8 @@
       "may_change": [
         "docs/design-d.md",
         "docs/reviews/streaming/**",
-        "docs/runs/streaming-*.md",
         "site/data/rounds/streaming.json",
-        "site/reviews-streaming-*.html",
-        "site/runs-streaming-*.html"
+        "site/reviews-streaming-*.html"
       ],
       "may_change_note": "Paths for further .d sites are added here, with the owner's yes, as each is assigned. The built site/*.html pages are changed only as tools/build.py makes them from the files above.",
       "needs_owner_yes": [
@@ -70,6 +68,40 @@
         "edit another agent's files in this repository"
       ],
       "source": "Dinis Cruz, 21 November 2026, about 23:40 UTC, in design.d's session (https://claude.ai/code/session_015gaHdczGFLc7N3kCq8MrWz): \"Yes, named in site/policy\"."
+    },
+    "synthetic_users_d": {
+      "who": "synthetic-users.d@account-d.dinis, the synthetic users agent of the .d team, named here by the owner. It runs the synthetic users of docs/synthetic-users.md on the sites the .d team builds, when design.d asks in a round or the owner asks, and publishes each run. It never edits the keeper's (design.b's), design.b.rounds' or design.d's other files.",
+      "agent": "synthetic-users.d@account-d.dinis",
+      "session": "https://claude.ai/code/session_015gaHddQiB4aYZWXjfs16rM",
+      "key": "SovereignWebsite__Factory team/keys.json, fingerprint sha256:cd4012a300bce2c7, signing sha256:6c75bfc5612cb9f0, on dev since 8006696 (entered there as synthetic-users.d@SovereignWebsite.dinis; the owner renamed the agent synthetic-users.d@account-d.dinis on 22 November 2026, and the conductor is asked to rename the entry).",
+      "may_change": [
+        "docs/runs/streaming-*.md",
+        "site/runs-streaming-*.html",
+        "site/runs/streaming-*/**"
+      ],
+      "may_change_note": "Paths for further .d sites are added here, with the owner's yes, as each is assigned. The built site/runs-*.html pages are changed only as tools/build.py makes them from the files above. These paths moved here from design_d, with design.d's agreement (22 November 2026, about 00:41 UTC).",
+      "needs_owner_yes": [
+        "anything outside may_change"
+      ],
+      "branches": [
+        "dev"
+      ],
+      "every_commit": [
+        "signed with synthetic-users.d's own published key",
+        "an Agent: trailer naming synthetic-users.d@account-d.dinis",
+        "a Claude-Session: trailer naming its session"
+      ],
+      "never": [
+        "push to main",
+        "print, commit or read a private key or token",
+        "name a private person without their consent",
+        "invent a fact, a price or a customer",
+        "present a simulated persona as a real person or real feedback",
+        "add a server, cookies or tracking",
+        "change another site's repository",
+        "edit another agent's files in this repository"
+      ],
+      "source": "Dinis Cruz, 22 November 2026, about 01:46 UTC, in synthetic-users.d's session (https://claude.ai/code/session_015gaHddQiB4aYZWXjfs16rM): \"yes\", to a synthetic_users_d role owning these paths, moved out of design_d."
     },
     "factory": {
       "who": "SovereignWebsite__Factory's Org apply pipeline, which created this repository.",
