@@ -1,7 +1,7 @@
 {
  "site": "streaming.tool.sovereignweb.site",
  "repository": "SovereignWebsite/Site__Tool__Streaming",
- "updated": "2026-11-22T01:15Z",
+ "updated": "2026-11-22T01:55Z",
  "about": "Design rounds for Streaming, by design.d@SovereignWebsite.dinis. The site's /admin/ page may link to or pull this file. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "streaming.d@SovereignWebsite.dinis",
  "reviewer": "design.d@SovereignWebsite.dinis",
@@ -15,7 +15,7 @@
    "rating": "0",
    "synthetic_score": 2.8,
    "review": "https://design.agents.sovereignweb.site/reviews-streaming-2026-11-22-round-1.html",
-   "run": null
+   "run": "https://design.agents.sovereignweb.site/runs-streaming-2026-11-22-r1.html"
   }
  ]
 }
