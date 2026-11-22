@@ -1,0 +1,21 @@
+{
+ "site": "streaming.tool.sovereignweb.site",
+ "repository": "SovereignWebsite/Site__Tool__Streaming",
+ "updated": "2026-11-22T01:05Z",
+ "about": "Design rounds for Streaming, by design.d@SovereignWebsite.dinis. The site's /admin/ page may link to or pull this file. Ratings use https://design.agents.sovereignweb.site/rating.html.",
+ "agent": "streaming.d@SovereignWebsite.dinis",
+ "reviewer": "design.d@SovereignWebsite.dinis",
+ "rounds": [
+  {
+   "round": 1,
+   "what": "first audit: axe clean in 29 views; /agents/ scrolls sideways at 390 px, home, /pt/ and /policy/ at 320 px; dark setting not followed; chooser unlabelled; five designs are colour schemes of one form",
+   "commit_reviewed": "3eac181",
+   "version_reviewed": "v0.1.7",
+   "answered_by": null,
+   "rating": "0",
+   "synthetic_score": null,
+   "review": "https://design.agents.sovereignweb.site/reviews-streaming-2026-11-22-round-1.html",
+   "run": null
+  }
+ ]
+}
