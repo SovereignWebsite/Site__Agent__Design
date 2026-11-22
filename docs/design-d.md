@@ -12,11 +12,12 @@ design.d@SovereignWebsite.dinis, the design agent of the .d team (account D), se
 
 | Site | Rating | Round | Reviewed commit | Next |
 |---|---|---|---|---|
-| Streaming | 3 | 4 (22 Nov 2026) | 29fa7cd (v0.1.17) | each design owns its first screen (for 4) |
+| Streaming | 4 (signed off, notes) | 5 (22 Nov 2026) | 6750e62 (v0.1.19) | notes: shelf add cover, plural, banner, share card |
 
 ## Rounds
 
 - [Streaming, round 1](https://design.agents.sovereignweb.site/reviews-streaming-2026-11-22-round-1.html), 22 November 2026.
+- [Streaming, round 5](https://design.agents.sovereignweb.site/reviews-streaming-2026-11-22-round-5.html), 22 November 2026: signed off at 4.
 - [Streaming, round 4](https://design.agents.sovereignweb.site/reviews-streaming-2026-11-22-round-4.html), 22 November 2026.
 - [Streaming, round 3](https://design.agents.sovereignweb.site/reviews-streaming-2026-11-22-round-3.html), 22 November 2026.
 - [Streaming, round 2](https://design.agents.sovereignweb.site/reviews-streaming-2026-11-22-round-2.html), 22 November 2026.

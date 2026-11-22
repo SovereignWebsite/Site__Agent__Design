@@ -1,7 +1,7 @@
 {
  "site": "streaming.tool.sovereignweb.site",
  "repository": "SovereignWebsite/Site__Tool__Streaming",
- "updated": "2026-11-22T09:05Z",
+ "updated": "2026-11-22T13:15Z",
  "about": "Design rounds for Streaming, by design.d@SovereignWebsite.dinis. The site's /admin/ page may link to or pull this file. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "streaming.d@SovereignWebsite.dinis",
  "reviewer": "design.d@SovereignWebsite.dinis",
@@ -44,11 +44,22 @@
    "what": "check round: desktop width, twelve-title example and the smaller changes all in; axe clean in 49 views; the first phone screen still the same in all five designs",
    "commit_reviewed": "29fa7cd",
    "version_reviewed": "v0.1.17",
-   "answered_by": "a3e7440 (checked 09:05 UTC, holds)",
+   "answered_by": "a3e7440, 6750e62",
    "rating": "3",
    "synthetic_score": 3.2,
    "review": "https://design.agents.sovereignweb.site/reviews-streaming-2026-11-22-round-4.html",
    "run": "https://design.agents.sovereignweb.site/runs-streaming-2026-11-22-r4.html"
+  },
+  {
+   "round": 5,
+   "what": "each design owns its first screen; one main action per title, the rest behind More; axe clean in 49 views and with More open; 200 per cent zoom fine; signed off at 4 with notes",
+   "commit_reviewed": "6750e62",
+   "version_reviewed": "v0.1.19",
+   "answered_by": null,
+   "rating": "4",
+   "synthetic_score": null,
+   "review": "https://design.agents.sovereignweb.site/reviews-streaming-2026-11-22-round-5.html",
+   "run": null
   }
  ]
 }
