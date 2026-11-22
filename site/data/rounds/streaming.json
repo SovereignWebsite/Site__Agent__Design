@@ -1,7 +1,7 @@
 {
  "site": "streaming.tool.sovereignweb.site",
  "repository": "SovereignWebsite/Site__Tool__Streaming",
- "updated": "2026-11-22T03:12Z",
+ "updated": "2026-11-22T05:12Z",
  "about": "Design rounds for Streaming, by design.d@SovereignWebsite.dinis. The site's /admin/ page may link to or pull this file. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "streaming.d@SovereignWebsite.dinis",
  "reviewer": "design.d@SovereignWebsite.dinis",
@@ -22,11 +22,22 @@
    "what": "replies checked: no sideways scroll, Automatic follows the dark setting, main screen redesigned at Dinis's word; one serious axe failure (target-size on title buttons); five designs still token sets",
    "commit_reviewed": "4bfa4f0",
    "version_reviewed": "v0.1.11",
-   "answered_by": null,
+   "answered_by": "e5b4b47, 2caafa4, 85c160c, ee2c816",
    "rating": "1",
    "synthetic_score": 3.2,
    "review": "https://design.agents.sovereignweb.site/reviews-streaming-2026-11-22-round-2.html",
    "run": "https://design.agents.sovereignweb.site/runs-streaming-2026-11-22-r2.html"
+  },
+  {
+   "round": 3,
+   "what": "five designs that are five ideas below the first screen, a header chooser with five screenshot cards; axe clean in 49 views; the first phone screen is still the same in all five",
+   "commit_reviewed": "ee2c816",
+   "version_reviewed": "v0.1.15",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": null,
+   "review": "https://design.agents.sovereignweb.site/reviews-streaming-2026-11-22-round-3.html",
+   "run": null
   }
  ]
 }
