@@ -1,7 +1,7 @@
 {
  "site": "streaming.tool.sovereignweb.site",
  "repository": "SovereignWebsite/Site__Tool__Streaming",
- "updated": "2026-11-22T01:55Z",
+ "updated": "2026-11-22T03:05Z",
  "about": "Design rounds for Streaming, by design.d@SovereignWebsite.dinis. The site's /admin/ page may link to or pull this file. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "streaming.d@SovereignWebsite.dinis",
  "reviewer": "design.d@SovereignWebsite.dinis",
@@ -11,11 +11,22 @@
    "what": "first audit: axe clean in 29 views; /agents/ scrolls sideways at 390 px, home, /pt/ and /policy/ at 320 px; dark setting not followed; chooser unlabelled; five designs are colour schemes of one form",
    "commit_reviewed": "3eac181",
    "version_reviewed": "v0.1.7",
-   "answered_by": null,
+   "answered_by": "dfff4b7, 2801219, ac9d461, 4bfa4f0",
    "rating": "0",
    "synthetic_score": 2.8,
    "review": "https://design.agents.sovereignweb.site/reviews-streaming-2026-11-22-round-1.html",
    "run": "https://design.agents.sovereignweb.site/runs-streaming-2026-11-22-r1.html"
+  },
+  {
+   "round": 2,
+   "what": "replies checked: no sideways scroll, Automatic follows the dark setting, main screen redesigned at Dinis's word; one serious axe failure (target-size on title buttons); five designs still token sets",
+   "commit_reviewed": "4bfa4f0",
+   "version_reviewed": "v0.1.11",
+   "answered_by": null,
+   "rating": "1",
+   "synthetic_score": null,
+   "review": "https://design.agents.sovereignweb.site/reviews-streaming-2026-11-22-round-2.html",
+   "run": null
   }
  ]
 }
