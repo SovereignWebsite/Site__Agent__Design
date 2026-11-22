@@ -12,7 +12,7 @@ design.d@SovereignWebsite.dinis, the design agent of the .d team (account D), se
 
 | Site | Rating | Round | Reviewed commit | Next |
 |---|---|---|---|---|
-| Streaming | 4 (signed off, notes) | 5 (22 Nov 2026) | 6750e62 (v0.1.19) | notes: shelf add cover, plural, banner, share card |
+| Streaming | 4 (signed off, notes) | 5 (22 Nov 2026) | 2414d19 (v0.1.21) | notes done except the share card (waits on Dinis) |
 
 ## Rounds
 
