@@ -80,8 +80,16 @@
 <li><strong>Pictures:</strong> each poster is inline SVG drawn in the browser from the title's own words, marked <code>aria-hidden</code>, with the title always shown as real text beside it. Nothing is fetched. The record says whether a picture is generated or the owner's own. That keeps guideline 1.9 (no text in images) in spirit: the words in a poster are decoration, never the only copy.</li>
 <li><strong>Pages, menu, preview, dark:</strong> unchanged and correct. The share card is still the seed's.</li>
 </ul>
-<h2>The synthetic users</h2>
-<p>Requested from synthetic-users.d at 05:10 UTC, with all five designs and the example list. Its run will be added here when it is published.</p>
+<h2>The synthetic users: 3.2</h2>
+<p><a href="runs-streaming-2026-11-22-r3.html">The run</a> (synthetic-users.d, 06166c0), on ee2c816, the example list in all five designs, the empty visit and the chooser, without my findings. Look 3.2 (phone visitor 3, small business owner 3, low-vision reader 4, critic 3, streaming viewer 3), level with round 2.</p>
+<ul>
+<li><strong>Wow:</strong> none of the five. Closest: Index cards (three personas), The queue (one).</li>
+<li><strong>Home design votes:</strong> The queue 2, The shelf 2, The list 1.</li>
+<li><strong>All five agree:</strong> no wow; the plain privacy promise, with the fenced made-up example and the export note, earns trust.</li>
+<li><strong>Four:</strong> it still reads as a form more than films; the critic: all five keep "the same top two thirds of the page" and change only the item area, the accent and sometimes the font. That is change 1, in their words. Ticket stubs puts figures and charts before any title. The chooser's captions are cut off at the bottom of the phone sheet (it may scroll; a still cannot tell).</li>
+<li><strong>Three:</strong> on a phone the titles start at the bottom edge of the first screen; the second-layer controls (Hide, Note and tags, Remove, the outline stars, the queue's Move up and Move down) read as switched off; the numbers do not add up (Seen 2 beside two visible titles to watch; the chooser previews use another sample); The shelf on a desktop leaves two small covers and a wide empty area (change 2).</li>
+<li><strong>Two:</strong> the covers are abstract, not posters; "PrompTugal" and "Sovereign Website" are not explained.</li>
+</ul>
 <h2>Rating</h2>
 <p><strong>3.</strong> Every level-2 and level-3 check passes: axe clean everywhere, no sideways scroll, light and dark designed for each design, one clear main action, five designs that exist, and one chosen (The shelf, as Automatic).</p>
 <p><strong>Not yet 4,</strong> for one reason: on a phone, the first screen is the same in all five designs. Name, Design button, "Your streaming list", the lead line, the Add box, the help line, the three tabs, "Pick something for tonight", search and sort all come in the same order in every design; only the colours and the type change. The idea of each design starts below that. rating.md asks for "each of the five designs is an idea from the owner's world that rebuilds the page", and the briefing for "its structure, centre of gravity, focus and main action". Below the fold that is now true, and it is good: the shelf of covers, the "Up next" card and its running order, the ruled index cards in a serif, the figures and charts of the stubs. The first screen, where a visitor decides, is still one design.</p>
@@ -103,7 +111,14 @@
 <p>The live example is two titles to watch and two seen, which is too few to show a shelf, a running order or a chart. The chooser's own screenshots use more (five, six and one). Use the same set for "Show an example list", all made up and labelled, so a visitor sees what each design is for.</p>
 <h3>4. Smaller</h3>
 <ul>
-<li><strong>The share card</strong> is still the seed's. Make Streaming's own, perhaps from The shelf's covers (no text in the image).</li>
+<li><strong>Second-layer controls read as switched off</strong> (three personas). They pass contrast, but outline-only buttons in a muted colour look disabled. Give Hide, Note and tags and Move up or down a filled <code>--card</code> background with <code>--fg</code> text, and keep the muted style only for what is really unavailable.</li>
+<li><strong>The chooser on a phone:</strong> make sure the sheet scrolls inside itself and the last card's caption and button can be reached (<code>max-height:90dvh;overflow:auto</code> on the dialog), and that the page behind does not show through.</li>
+<li>
+<p><strong>Counts beside the tabs:</strong> "Seen 2" next to two titles to watch reads as a mismatch. Make the selected tab and its count unmistakable, or show "2 to watch" as the list's own heading.</p>
+</li>
+<li>
+<p><strong>The share card</strong> is still the seed's. Make Streaming's own, perhaps from The shelf's covers (no text in the image).</p>
+</li>
 <li><strong>Remove</strong> still sits on the title line in The list and the queue's running order.</li>
 <li><strong>The Index cards screenshot</strong> in the chooser shows "Added 23 November 2026", a day after it was made. A made-up date in the future reads as a bug; use one in the past.</li>
 </ul>
