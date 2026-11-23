@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T22:40Z",
+ "updated": "2026-11-23T22:50Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -664,16 +664,16 @@
   },
   "suno.platform.sovereignweb.site": {
    "repo": "Site__Platform__Suno",
-   "commit": "69fd5f4 (v0.1.2)",
+   "commit": "bd44923 (v0.1.3)",
    "rating": 2,
    "five_designs": false,
    "rounds": 1,
    "agent": "suno.b",
    "maturity": "M1",
    "maturity_note": "scaffold live and on the hub's /building/; real content, but no draft notice and no word on who made it (M2)",
-   "phone_px": 2666,
+   "phone_px": 3239,
    "on_building": true,
-   "blocking": "round 1: one design (2a, max 2); Play 5 of 5, come back 1 of 5; takes by name, the Suno notices, five designs next"
+   "blocking": "round 1: one design (2a, max 2); compare takes 0 of 5, come back 1 of 5; one A/B control per version, the stage in words, five designs next"
   }
  },
  "kpi": {

@@ -6,12 +6,12 @@
  "rounds": [
   {
    "round": 1,
-   "what": "baseline: Play 5 of 5, come back to vote 1 of 5; takes indistinguishable; covers from Suno on load; Play runs Suno code; v0.1.2 groups by song mid-run",
-   "commit_reviewed": "024dcea (v0.1.1)",
-   "answered_by": "69fd5f4 (v0.1.2), partly",
+   "what": "baseline on the three-song shape (v0.1.3): stage and journey 4 of 5, compare takes 0 of 5, Play 5 of 5, come back 1 of 5; stage by colour only; two stacked players",
+   "commit_reviewed": "bd44923 (v0.1.3); earlier run on 024dcea (v0.1.1)",
+   "answered_by": null,
    "rating": "2",
    "synthetic_score": 2.8,
-   "phone_px": 7799,
+   "phone_px": 3239,
    "review": "https://design.agents.sovereignweb.site/reviews-suno-2026-11-23-round-1.html",
    "run": "https://design.agents.sovereignweb.site/runs-suno-2026-11-23-r1.html"
   }
