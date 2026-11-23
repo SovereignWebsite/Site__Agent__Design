@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T23:50Z",
+ "updated": "2026-11-23T23:55Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -37,14 +37,15 @@
   },
   "hub.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Hub",
-   "commit": "4a60c45 (v0.1.42)",
-   "rating": 3,
+   "commit": "0515052 (v0.1.56)",
+   "rating": 1,
    "five_designs": true,
-   "rounds": 10,
+   "rounds": 11,
    "agent": "hub.b",
-   "blocking": "round 10: Line 4/5 (one more run rates it 4); route and price decided but not live; features search 2/5",
+   "blocking": "round 11: Contact Sheet strip links under 24 px (serious axe); The Street 8,047 px; then 4 and M4",
    "maturity": "M3",
-   "maturity_note": "five real ideas, rated 3; M4 needs would-you-want-one at 4 of 5 twice"
+   "maturity_note": "Line at 4 of 5 twice (rounds 10 and 11): earns 4 on the hub test; one serious axe finding (Contact Sheet target-size) rates 1 until fixed; M4 once fixed and The Street is under 8,000 px",
+   "phone_px": 8047
   },
   "vault.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Vault",

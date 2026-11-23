@@ -62,7 +62,7 @@
    "round": 10,
    "what": "would you want one? Line 4/5 (first time), Street 3/5, Register 0/5, Gallery 1/5, Contact Sheet 1/5; features check 2/5; search misses its own example",
    "commit_reviewed": "4a60c45 (v0.1.42)",
-   "answered_by": null,
+   "answered_by": "0515052 (v0.1.56)",
    "rating": "3",
    "synthetic_score": null,
    "yes_counts": {
@@ -75,6 +75,23 @@
    "features_satisfied": "2/5",
    "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-23-round-10.html",
    "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-23-r10.html"
+  },
+  {
+   "round": 11,
+   "what": "would you want one? Line 4/5 (second run), Street 4/5 (first), Register 1/5, Gallery 1/5, Contact Sheet 1/5; one serious axe (target-size, Contact Sheet, phone); Street 8,047 px",
+   "commit_reviewed": "0515052 (v0.1.56)",
+   "answered_by": null,
+   "rating": "1 (4 once the Contact Sheet axe finding is fixed)",
+   "synthetic_score": null,
+   "yes_counts": {
+    "Line": 4,
+    "Register": 1,
+    "Gallery": 1,
+    "Contact Sheet": 1,
+    "Street": 4
+   },
+   "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-23-round-11.html",
+   "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-23-r11.html"
   }
  ]
 }
