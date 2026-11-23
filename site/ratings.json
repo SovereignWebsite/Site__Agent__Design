@@ -120,7 +120,7 @@
   },
   "sgit.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sgit",
-   "commit": "338dc5e (v0.1.31)",
+   "commit": "14264d2 (v0.1.32)",
    "rating": 3,
    "five_designs": true,
    "rounds": 17,
@@ -128,11 +128,11 @@
    "blocking": "round 17: two 4s (3.4); four 4s in two runs in a row rates it 4",
    "maturity": "M3",
    "maturity_note": "rated 3",
-   "phone_px": 7527
+   "phone_px": 7415
   },
   "the-cyber-boardroom.startups.sovereignweb.site": {
    "repo": "Site__Startups__The-Cyber-Boardroom",
-   "commit": "ec6f431 (v0.1.31)",
+   "commit": "9520d5a (v0.1.32)",
    "rating": 3,
    "five_designs": true,
    "rounds": 15,
@@ -140,11 +140,11 @@
    "blocking": "round 15: synthetic 3.4; round 15 items live and measured; round 16 waits for a wow item",
    "maturity": "M3",
    "maturity_note": "rated 3",
-   "phone_px": 6839
+   "phone_px": 6757
   },
   "risk-mandate.startups.sovereignweb.site": {
    "repo": "Site__Startups__Risk-Mandate",
-   "commit": "6480c7f (v0.1.32)",
+   "commit": "fca97f1 (v0.1.33)",
    "rating": 4,
    "five_designs": true,
    "rounds": 17,
@@ -152,11 +152,11 @@
    "blocking": "rated 4 and M4, kept under 'Keeping a 4' (round 17: 3.8, four 4s); M5 is the owner's yes",
    "maturity": "M4",
    "maturity_note": "M4 since 7db7d16 (23 Nov); kept under design.b's 'Keeping a 4' rule (rating.md): no measured check fails; looks 3.6, 3.6, 3.8, 3.6, 3.8",
-   "phone_px": 7964
+   "phone_px": 7920
   },
   "agentic-cells.startups.sovereignweb.site": {
    "repo": "Site__Startups__Agentic-Cells",
-   "commit": "09c5827 (v0.1.31)",
+   "commit": "d672b8c (v0.1.32)",
    "rating": 3,
    "five_designs": true,
    "rounds": 15,
@@ -168,7 +168,7 @@
   },
   "sovereign-website.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sovereign-Website",
-   "commit": "e5778df (v0.1.35)",
+   "commit": "22146ad (v0.1.36)",
    "rating": 3,
    "five_designs": true,
    "rounds": 17,
@@ -176,7 +176,7 @@
    "blocking": "round 17 rerun on e5778df: 3.2; owners on phones need their address and work; status higher",
    "maturity": "M3",
    "maturity_note": "rated 3",
-   "phone_px": 7254
+   "phone_px": 7174
   },
   "chiswick-cheese-market.organisation.sovereignweb.site": {
    "repo": "Site__Organisation__Chiswick-Cheese-Market",
