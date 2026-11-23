@@ -80,6 +80,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | email-cell.agenticcells | cell.email.b | [1](reviews-email-cell-2026-11-21-round-1.html): the mail client made its own; twelve ranked changes with CSS | 3015986 | 5af9425, 5743f32 (one h1 left on phones) | | |
 | hub | hub.b | [6](reviews-hub-2026-11-23-round-6.html): five real ideas live; let each idea be its first screen | 9f78fdd | 3e50d13 | 3 | [3.2](runs-hub-2026-11-23-r6.html) |
 | hub | hub.b | [7](reviews-hub-2026-11-23-round-7.html): ideas open the pages; crop to Kate, not her menu | 3e50d13 | | 3 | [3.2](runs-hub-2026-11-23-r7.html) |
+| hub | hub.b | [8](reviews-hub-2026-11-23-round-8.html): would you want one? Street 3/5; no price, no form | 7bf77ff | | 3 | [yes 1,1,1,3,1](runs-hub-2026-11-23-r8.html) |
 
 Earlier rounds by the first design.b session (hub, pipeline-demo, the review of all sites) are on the [reviews page](reviews.html).
 
@@ -108,6 +109,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [The five startup brochures, round 6](runs-startups-2026-11-23-r6.html): 3.6, 3.6, 3.6, 3.8, 3.2 (3.6)
 - [The hub's five designs](runs-hub-2026-11-23-r6.html): 3.2 for the home page; The Line voted best
 - [The hub's five designs, round 7](runs-hub-2026-11-23-r7.html): 3.2; The Line and The Register voted best
+- [The hub, round 8: would you want one?](runs-hub-2026-11-23-r8.html): yes 1/5, 1/5, 1/5, 3/5 (Street), 1/5
 - [Mistral provider site, round 1](runs-mistral-2026-11-20-r1.html): 3.0, no favourite design
 - [Mistral provider site, round 3](runs-mistral-2026-11-21-r3.html): 3.4, up from 3.0
 - [Grace Farrell, round 1](runs-grace-farrell-2026-11-21-r1.html): 2.4; Fringe flyer voted best

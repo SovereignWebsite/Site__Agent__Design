@@ -1,6 +1,6 @@
 {
  "site": "email-cell.agenticcells.site",
- "updated": "2026-11-23T13:15Z",
+ "updated": "2026-11-23T13:10Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "cell.email.b",
  "rounds": [

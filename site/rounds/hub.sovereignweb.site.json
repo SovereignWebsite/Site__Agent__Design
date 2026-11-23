@@ -1,6 +1,6 @@
 {
  "site": "hub.sovereignweb.site",
- "updated": "2026-11-23T13:15Z",
+ "updated": "2026-11-23T13:10Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "hub.b",
  "rounds": [
@@ -18,11 +18,28 @@
    "round": 7,
    "what": "each idea now opens its page; crop Kate's phone screenshot to her hero; the one sentence under every headline; Want one? dead end (Dinis); phone chooser names",
    "commit_reviewed": "3e50d13 (v0.1.24)",
-   "answered_by": null,
+   "answered_by": "7bf77ff (v0.1.32)",
    "rating": "3",
    "synthetic_score": 3.2,
    "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-23-round-7.html",
    "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-23-r7.html"
+  },
+  {
+   "round": 8,
+   "what": "first 'would you want one?' run (baseline, before the brief's build): Street 3/5, others 1/5; top why-not: no price, no form, nothing to do",
+   "commit_reviewed": "7bf77ff (v0.1.32)",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": null,
+   "yes_counts": {
+    "Register": 1,
+    "Gallery": 1,
+    "Contact Sheet": 1,
+    "Street": 3,
+    "Line": 1
+   },
+   "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-23-round-8.html",
+   "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-23-r8.html"
   }
  ]
 }
