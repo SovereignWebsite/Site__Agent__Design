@@ -58,7 +58,16 @@ Every page of every site carries one shared component, the **wayfinder**. It is 
 6. **Connect**: the site's way to send a message (feedback.b's box once its lane is live; until then /start/#get-one).
 7. **All sites**: the family pop-up, top right. It is the one place for links to other sites (the rule that sites are about their owner still holds), grouped as on the hub.
 
-**Where the links come from.** One registry, sites.json on the hub, gives every site its name, group, parent, order, agent and connect address. It is copied in at build time, never fetched by the visitor's browser, so the CSP stays 'self' and the bar works offline and without JavaScript.
+**Agents as provenance (Dinis, record 2026-11-23__briefings-keepers-messages: "for every find, I should be able to find the agents. You need to think of these as provenance and graphs").** From any page, the Agent step leads to the site's /agents/ page, which shows who made and keeps it as a small graph, every node a link:
+
+- the site's keeper agent, and above it the chain it reports to (the domain's keeper, sites.b, the conductor and the maestro), up to Dinis;
+- the agents that made this page, read from the `Agent:` trailers of the commits that touched it, each with the commit link;
+- the decision records that shaped the site, each linked on decisions.agents.sovereignweb.site;
+- the design rounds and the site's maturity level, linked to design.b.
+
+Every page's footer adds one provenance line: the agent and the commit that last changed it, both linked. The graph is built from the repository and the registry at build time, never typed by hand, so it cannot go stale.
+
+**Where the links come from.** One registry, sites.json on the hub, gives every site its name, group, parent, order, keeper agent (with the chain above it, as a tree from the domain keepers down), and connect address. It is copied in at build time, never fetched by the visitor's browser, so the CSP stays 'self' and the bar works offline and without JavaScript.
 
 **How it must behave.**
 

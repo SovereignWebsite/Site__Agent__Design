@@ -93,7 +93,15 @@ They are linked in the header's right-hand area or directly under the hero, and 
 <li><strong>Connect</strong>: the site's way to send a message (feedback.b's box once its lane is live; until then /start/#get-one).</li>
 <li><strong>All sites</strong>: the family pop-up, top right. It is the one place for links to other sites (the rule that sites are about their owner still holds), grouped as on the hub.</li>
 </ol>
-<p><strong>Where the links come from.</strong> One registry, sites.json on the hub, gives every site its name, group, parent, order, agent and connect address. It is copied in at build time, never fetched by the visitor's browser, so the CSP stays 'self' and the bar works offline and without JavaScript.</p>
+<p><strong>Agents as provenance (Dinis, record 2026-11-23__briefings-keepers-messages: "for every find, I should be able to find the agents. You need to think of these as provenance and graphs").</strong> From any page, the Agent step leads to the site's /agents/ page, which shows who made and keeps it as a small graph, every node a link:</p>
+<ul>
+<li>the site's keeper agent, and above it the chain it reports to (the domain's keeper, sites.b, the conductor and the maestro), up to Dinis;</li>
+<li>the agents that made this page, read from the <code>Agent:</code> trailers of the commits that touched it, each with the commit link;</li>
+<li>the decision records that shaped the site, each linked on decisions.agents.sovereignweb.site;</li>
+<li>the design rounds and the site's maturity level, linked to design.b.</li>
+</ul>
+<p>Every page's footer adds one provenance line: the agent and the commit that last changed it, both linked. The graph is built from the repository and the registry at build time, never typed by hand, so it cannot go stale.</p>
+<p><strong>Where the links come from.</strong> One registry, sites.json on the hub, gives every site its name, group, parent, order, keeper agent (with the chain above it, as a tree from the domain keepers down), and connect address. It is copied in at build time, never fetched by the visitor's browser, so the CSP stays 'self' and the bar works offline and without JavaScript.</p>
 <p><strong>How it must behave.</strong></p>
 <ul>
 <li>Plain links in a <code>nav</code> with <code>aria-label="Sovereign Website network"</code>; the menus are <code>details</code> elements, so it works without JavaScript.</li>
