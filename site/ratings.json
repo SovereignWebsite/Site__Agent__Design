@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T17:15Z",
+ "updated": "2026-11-23T17:25Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -120,58 +120,63 @@
   },
   "sgit.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sgit",
-   "commit": "6b3dcba (v0.1.23)",
+   "commit": "a18f753 (v0.1.24)",
    "rating": 3,
    "five_designs": true,
    "rounds": 11,
    "agent": "startups.b",
    "blocking": "round 11: synthetic 3.6; phone 8,035 px live",
    "maturity": "M3",
-   "maturity_note": "rated 3"
+   "maturity_note": "rated 3",
+   "phone_px": 7907
   },
   "the-cyber-boardroom.startups.sovereignweb.site": {
    "repo": "Site__Startups__The-Cyber-Boardroom",
-   "commit": "fdcba38 (v0.1.23)",
+   "commit": "8683430 (v0.1.24)",
    "rating": 3,
    "five_designs": true,
    "rounds": 11,
    "agent": "startups.b",
    "blocking": "round 11: synthetic 3.4; phone 7,663 px live",
    "maturity": "M3",
-   "maturity_note": "rated 3"
+   "maturity_note": "rated 3",
+   "phone_px": 7569
   },
   "risk-mandate.startups.sovereignweb.site": {
    "repo": "Site__Startups__Risk-Mandate",
-   "commit": "de03859 (v0.1.23)",
+   "commit": "7db7d16 (v0.1.24)",
    "rating": 4,
    "five_designs": true,
    "rounds": 11,
    "agent": "startups.b",
-   "blocking": "round 11: kept at 4; 8,034 px on a phone live, 35 px over M4's line",
-   "maturity": "M3",
-   "maturity_note": "rated 4; 8,034 px on a phone live (23 Nov, de03859), M4 asks under 8,000"
+   "blocking": "M4 reached; M5 is the owner's yes",
+   "maturity": "M4",
+   "maturity_note": "M4 on 7db7d16 (23 Nov): rated 4 (four of five at 4 in rounds 9 and 10), axe clean, 7,938 px on a phone live, no text under 15 px",
+   "phone_px": 7938
   },
   "agentic-cells.startups.sovereignweb.site": {
    "repo": "Site__Startups__Agentic-Cells",
-   "commit": "069e56f (v0.1.23)",
+   "commit": "ca920b1 (v0.1.24)",
    "rating": 3,
    "five_designs": true,
    "rounds": 11,
    "agent": "startups.b",
    "blocking": "round 11: synthetic 3.0; phone 7,252 px live; show the example site on phones, not the commits",
    "maturity": "M3",
-   "maturity_note": "rated 3"
+   "maturity_note": "rated 3",
+   "phone_px": 7156
   },
   "sovereign-website.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sovereign-Website",
-   "commit": "83e124c (v0.1.24)",
+   "commit": "6ad578b (v0.1.25)",
    "rating": 3,
    "five_designs": true,
    "rounds": 11,
    "agent": "startups.b",
    "blocking": "round 11: synthetic 3.0; phone 8,056 px live; put the owners' screenshots back on phones",
    "maturity": "M3",
-   "maturity_note": "rated 3"
+   "maturity_note": "rated 3",
+   "phone_px": 7898
   },
   "chiswick-cheese-market.organisation.sovereignweb.site": {
    "repo": "Site__Organisation__Chiswick-Cheese-Market",
