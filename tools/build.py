@@ -19,6 +19,7 @@ NAV = [
     ("index.html", "Home"),
     ("guidelines.html", "Guidelines"),
     ("rating.html", "Rating"),
+    ("maturity.html", "Maturity"),
     ("ratings.html", "Sites"),
     ("synthetic-users.html", "Synthetic users"),
     ("examples.html", "Examples"),
@@ -137,7 +138,7 @@ def ratings_page():
         )
     body = f"""<p class="mark">Ratings</p>
 <h1>Where each public site stands</h1>
-<p class="lead">Every public SovereignWebsite site, rated 0 to 5 on the <a href="rating.html">design rating</a> after each review round, and placed on the maturity model (M0 to M8, docs/maturity.md). A site is signed off for a customer at 4. Updated {html.escape(data["updated"])}; the data is <a href="ratings.json">ratings.json</a>.</p>
+<p class="lead">Every public SovereignWebsite site, rated 0 to 5 on the <a href="rating.html">design rating</a> after each review round, and placed on the <a href="maturity.html">maturity model</a> (M0 to M8). A site is signed off for a customer at 4. Updated {html.escape(data["updated"])}; the data is <a href="ratings.json">ratings.json</a>.</p>
 <div class="table-wrap" tabindex="0" role="region" aria-label="Ratings"><table class="ratings">
 <thead><tr><th>Site</th><th>Rating</th><th>Maturity</th><th>Five designs</th><th>Rounds</th><th>What blocks the next level</th></tr></thead>
 <tbody>{"".join(rows)}</tbody></table></div>
@@ -147,6 +148,35 @@ def ratings_page():
 <li>Rounds to sign-off: none signed off yet, so no figure. The aim for a new site is level 4 in three rounds or fewer.</li>
 </ul>"""
     (SITE / "ratings.html").write_text(page("ratings.html", "Sites", body, "Design ratings, 0 to 5, of every public SovereignWebsite site."))
+
+
+LEVELS = ["M0 Requested", "M1 Scaffold", "M2 First pass", "M3 Five designs", "M4 Deliverable",
+          "M5 Owner-approved", "M6 Handed over", "M7 Owner-grown", "M8 Professional"]
+
+
+def maturity_page():
+    """docs/maturity.md, then every rated site grouped by level, live from ratings.json."""
+    text = (DOCS / "maturity.md").read_text()
+    data = json.loads((SITE / "ratings.json").read_text())
+    by = {l.split()[0]: [] for l in LEVELS}
+    unplaced = []
+    for name, s in sorted(data["sites"].items()):
+        m = (s.get("maturity") or "").split()[0] if s.get("maturity") else ""
+        (by[m] if m in by else unplaced).append(name)
+    total = len(data["sites"])
+    bars = []
+    for l in LEVELS:
+        k = l.split()[0]
+        n = len(by[k])
+        links = ", ".join(f'<a href="https://{html.escape(x)}/">{html.escape(x)}</a>' for x in by[k]) or '<span class="muted">none yet</span>'
+        bars.append(f'<li><b>{html.escape(l)}</b>: {n} of {total}<br>{links}</li>')
+    live = (f'<h2 id="by-level">Every site, by level</h2><p>Live from <a href="ratings.json">ratings.json</a>, '
+            f'updated {html.escape(data["updated"])}. Each site\'s next step is on <a href="ratings.html">Sites</a>.</p>'
+            f'<ul class="list">{"".join(bars)}</ul>'
+            + (f'<p class="muted">Not yet placed: {len(unplaced)} (private vaults and sites still to be reviewed).</p>' if unplaced else ""))
+    body = '<article class="prose">' + md(text) + live + "</article>"
+    (SITE / "maturity.html").write_text(page("maturity.html", "Site maturity, M0 to M8", body,
+                                             "How far along each site is, from a request to an owner-grown site with professionals, and where every public site stands."))
 
 
 def reviews_page():
@@ -193,6 +223,7 @@ def index_page():
 <li><a href="guidelines.html"><b>Guidelines</b><span>Layout, type, colour and dark mode, spacing, components, accessibility, performance, voice, and what a site must never do.</span></a></li>
 <li><a href="guidelines.html#2a-five-designs-always"><b>Five designs, always</b><span>Every site has five, different in idea and not only in colour; the owner picks one.</span></a></li>
 <li><a href="rating.html"><b>The rating, 0 to 5</b><span>From broken to showcase; signed off at 4.</span></a></li>
+<li><a href="maturity.html"><b>Maturity, M0 to M8</b><span>How far along a site is, from a request to owner-grown, with every site placed.</span></a></li>
 <li><a href="ratings.html"><b>Where each site stands</b><span>Every public site's rating, rounds and what blocks its next level.</span></a></li>
 <li><a href="synthetic-users.html"><b>Synthetic users</b><span>Five simulated visitors who look at each home page and say what they see.</span></a></li>
 <li><a href="reviews.html"><b>Reviews</b><span>Every review, with the commit it looked at.</span></a></li>
@@ -228,6 +259,7 @@ if __name__ == "__main__":
     doc_page("examples.md", "examples.html", "Sites worth learning from, by speciality: what to take and what not to copy.")
     doc_page("back-office.md", "back-office.html", "How design.b's rounds are run: every round, commit, rating change and synthetic-user run.")
     ratings_page()
+    maturity_page()
     reviews_page()
     runs_pages()
     rounds_files()

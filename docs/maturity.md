@@ -32,16 +32,6 @@ M0 to M4 is our work. M5 and above is the owner's. A site should reach M4 within
 
 A site that reaches M1 and is missing from ratings.json or from the hub is a defect, whoever made it. Every new site is registered with design.b at M1, so design rounds start at M2.
 
-## Where sites stand today (23 November 2026, design.b's reading)
+## Where sites stand
 
-| Site | Level | Next step |
-|---|---|---|
-| kate-curtis-evans.founder | M6 | M7: owner commits in three weeks |
-| yiheng-wang (AgentiCCells) | M6 | M7 |
-| emily-cruz.artist, sarah-cruz.designer | M4 | M5: owner's yes |
-| grace-farrell.artist | M4 (design 3) | Chooser decision, then the owner's yes |
-| donna-freed.author | M2 | M3: five real ideas. It fell through the cracks: never registered with design.b and not on the hub. |
-| five startup brochures | M3 (AgentiCCells M4) | Rounds to 4 |
-| hub.sovereignweb.site | M3 | "Would you want one?" at 4 of 5 |
-
-These placements are a first reading, to be checked site by site in the next rounds.
+The live count, from ratings.json, is on design.b's site at maturity.html, under "Every site, by level". It is rebuilt at every deploy, so it never goes stale here.
