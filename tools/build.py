@@ -228,6 +228,7 @@ def index_page():
 <li><a href="synthetic-users.html"><b>Synthetic users</b><span>Five simulated visitors who look at each home page and say what they see.</span></a></li>
 <li><a href="reviews.html"><b>Reviews</b><span>Every review, with the commit it looked at.</span></a></li>
 <li><a href="back-office.html"><b>Back office</b><span>How each round is run: every round, commit and rating change, and every synthetic-user run with its screenshots.</span></a></li>
+<li><a href="owner.html"><b>What you can do here yourself</b><span>For the owner: what to edit, what to run and what to decide, with no agent running.</span></a></li>
 <li><a href="brief.html"><b>The brief</b><span>What every agent reads before changing a page.</span></a></li>
 </ol>
 <h2>Examples</h2>
@@ -257,6 +258,7 @@ if __name__ == "__main__":
     doc_page("synthetic-users.md", "synthetic-users.html", "How simulated visitors check each public site.")
     doc_page("brief.md", "brief.html", "The design brief every agent reads before changing a page.")
     doc_page("examples.md", "examples.html", "Sites worth learning from, by speciality: what to take and what not to copy.")
+    doc_page("owner.md", "owner.html", "What Dinis Cruz, or anyone he hands this site to, can change and run here without an agent.")
     doc_page("back-office.md", "back-office.html", "How design.b's rounds are run: every round, commit, rating change and synthetic-user run.")
     ratings_page()
     maturity_page()
