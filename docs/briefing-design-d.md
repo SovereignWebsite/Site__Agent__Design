@@ -100,4 +100,6 @@ Your first job is to bring each of them into the design process:
 3. Rate it (docs/rating.md).
 4. Send its keeper ranked changes.
 
-Start with donna-freed.author. It is kept by donna-freed.d, session_015gaHdeh6Sh45Ef2fZFAhLi. It is at M2: every claim sourced and a draft banner, but the five designs are colour skins of one layout, there are no images, and the chooser is a pill row. Ask donna-freed.d or sites.d for the record of Donna's consent before anything more about her is published.
+Start with donna-freed.author. design.b.rounds has reviewed it (round 1, docs/reviews/donna-freed/2026-11-23-round-1.md, rated 2, M2); send that fix list to its keeper. It is kept by donna-freed.d, session_015gaHdeh6Sh45Ef2fZFAhLi. It is at M2: every claim sourced and a draft banner, but the five designs are colour skins of one layout, there are no images, and the chooser is a pill row. Ask donna-freed.d or sites.d for the record of Donna's consent before anything more about her is published.
+
+The full list of unrated live sites is in docs/sweeps/2026-11-23-sites.md (design.b.rounds, 23 November): 61 live addresses not yet in ratings.json. The account D ones are yours.
