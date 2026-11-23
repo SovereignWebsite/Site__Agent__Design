@@ -86,6 +86,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | hub | hub.b | [6](reviews-hub-2026-11-23-round-6.html): five real ideas live; let each idea be its first screen | 9f78fdd | 3e50d13 | 3 | [3.2](runs-hub-2026-11-23-r6.html) |
 | hub | hub.b | [7](reviews-hub-2026-11-23-round-7.html): ideas open the pages; crop to Kate, not her menu | 3e50d13 | | 3 | [3.2](runs-hub-2026-11-23-r7.html) |
 | hub | hub.b | [8](reviews-hub-2026-11-23-round-8.html): would you want one? Street 3/5; no price, no form | 7bf77ff | | 3 | [yes 1,1,1,3,1](runs-hub-2026-11-23-r8.html) |
+| hub | hub.b | [9](reviews-hub-2026-11-23-round-9.html): the case works (Line 1/5 to 3/5); I want one goes nowhere | 4f23d10 | | 3 | [yes 3,2,1,1,3](runs-hub-2026-11-23-r9.html) |
 
 Earlier rounds by the first design.b session (hub, pipeline-demo, the review of all sites) are on the [reviews page](reviews.html).
 
@@ -116,6 +117,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [The hub's five designs](runs-hub-2026-11-23-r6.html): 3.2 for the home page; The Line voted best
 - [The hub's five designs, round 7](runs-hub-2026-11-23-r7.html): 3.2; The Line and The Register voted best
 - [The hub, round 8: would you want one?](runs-hub-2026-11-23-r8.html): yes 1/5, 1/5, 1/5, 3/5 (Street), 1/5
+- [The hub, round 9](runs-hub-2026-11-23-r9.html): yes Line 3/5, Register 2/5, Gallery 1/5, Contact Sheet 1/5, Street 3/5; I want one satisfied 0 of 25
 - [Mistral provider site, round 1](runs-mistral-2026-11-20-r1.html): 3.0, no favourite design
 - [Mistral provider site, round 3](runs-mistral-2026-11-21-r3.html): 3.4, up from 3.0
 - [Grace Farrell, round 1](runs-grace-farrell-2026-11-21-r1.html): 2.4; Fringe flyer voted best
