@@ -1,6 +1,6 @@
 # Briefing: design.d
 
-From design.b@SovereignWebsite.dinis, 21 November 2026, for a new design agent, design.d, which Dinis Cruz is starting in another account. It holds only public material. Each private (vault) site's own agent will brief you on that site, if Dinis wants you working on it.
+From design.b@SovereignWebsite.dinis, 21 November 2026 (updated 23 November), for a new design agent, design.d, which Dinis Cruz is starting in another account. It holds only public material. Each private (vault) site's own agent will brief you on that site, if Dinis wants you working on it.
 
 ## 1. Who you are and who instructs you
 
@@ -55,7 +55,7 @@ The pipeline is in the Factory seed:
 - Our own sites: `seed/agent-template`.
 - On every push to dev, the pipeline checks links, HTML, axe, the link preview, em dashes and leaks, then tags `v0.1.N`, puts a version chip on every page and deploys.
 
-## 5. Where the public sites stand (ratings.json, 21 Nov 2026 15:05 UTC)
+## 5. Where the public sites stand (ratings.json, 21 Nov 2026 15:05 UTC, with changes to 23 Nov noted)
 
 | Site | Rating | Rounds | What blocks the next level |
 |---|---|---|---|
@@ -65,8 +65,8 @@ The pipeline is in the Factory seed:
 | grace-farrell.artist | 3 | 6 | Closed. 4 waits on the chooser decision and a sung reel. |
 | chiswick-cheese-market.organisation | 3 | 4 | A public demonstration, not the official site. Lead with design 3, then 5, then 2. |
 | mistral.provider | 3 | 3 | Hackathon site. Independent, not affiliated with Mistral AI. |
-| hub.sovereignwebsite.site (showroom) | 3 | 5 | Five new ideas prototyped at design.agents.sovereignweb.site/designs/hub/. Dinis to pick the lead (design.b recommends 2, Register). |
-| five startup brochures (sgit, the-cyber-boardroom, risk-mandate, agentic-cells, sovereign-website .startups) | 3 | 3 each | The look is stuck near 3. Inline source markers and "Choose a design" in the header are Dinis's calls. |
+| hub.sovereignweb.site (showroom, Dinis's priority) | 3 | 5 | Since 21 Nov: all five designs are live as five real ideas. The Register is home (v0.1.17); Gallery /gallery/, Contact Sheet /contact-sheet/, Street /street/, Line /line/ (v0.1.19 to v0.1.22); design-count fix v0.1.23. Next: a round on the live five. |
+| five startup brochures (sgit, the-cyber-boardroom, risk-mandate, agentic-cells, sovereign-website .startups) | 3 | 3 each | Since 21 Nov: sources moved to one line at the end of each section and the chooser moved to the footer (v0.1.15 and v0.1.16). Round 4 look 3.2 to 3.5; AgentiCCells and Sovereign Website are near 4. Open fixes: misplaced source rows, list id gaps, /designs/ text. |
 | south-beacon.talent | 2 | 1 | An anonymised profile. Anonymity passes. Waits on five rebuilt structures and the candidate's facts. |
 | sovereignwebsite.ai, .org, .site | 2 to 3 | 0 | Not yet reviewed in rounds; the owning agent is not named. |
 | pipeline-demo | 2 | 2 | An audit is due. |
@@ -77,10 +77,8 @@ Also reviewed (AgentiCCells domain, at Dinis's request): email-cell.agenticcells
 
 ## 6. Open decisions with Dinis
 
-1. **The chooser.** Keep "Choose a design" in the header while the owner chooses, then move it to the footer once a home design is picked (design.b's recommendation)? Three of the five personas find it puzzling on Grace's site, as do four of the five startup brochures.
-2. **The startup brochures.** Move source markers from inside sentences to one "Sources: 2, 7, 13" line at the end of each section (recommended)?
-3. **The hub.** Which of the five new designs leads?
-4. **South Beacon.** Is it findable by search engines? (It is noindex now.) The candidate's "looking for" facts and the scale of the achievements are still needed.
+1. **The chooser on Grace's site.** Keep "Choose a design" in the header, or move it to the footer as on the startup brochures? Three of the five personas find it puzzling there. Dinis and Grace to decide.
+2. **South Beacon.** Is it findable by search engines? (It is noindex now.) The candidate's "looking for" facts and the scale of the achievements are still needed.
 
 ## 7. What Dinis has said matters most
 
@@ -90,3 +88,4 @@ Also reviewed (AgentiCCells domain, at Dinis's request): email-cell.agenticcells
 - **The site is about its owner, not about us.** Our links go in one small top-right menu.
 - **The handover is the objective.** Design for the owner to keep adding material, and keep the admin dashboard and back office complete.
 - **Synthetic users run, and their output is published.**
+- **Go-to-market week from 23 November:** at least one site improved and live every hour. Send the conductor one batched message per round with every site and tag that landed.
