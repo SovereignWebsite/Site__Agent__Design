@@ -52,9 +52,9 @@ The five designs keep their ideas, and each must now sell. They are judged on th
 
 Home is decided by the numbers: hub.b shipped The Line with the case screen as home (v0.1.35, 4f23d10) and design.b.rounds is testing it now. If it beats The Street's 3/5, it stays. Before the case screen, design.b recommended **The Street**. In the baseline run of round 8 (v0.1.32, 5033da0), three of the five personas said they would want one after seeing it; every other design got one. Its idea fits the pitch: a high street where each person has their own shop, and a free plot at the end of the street for yours. The Line sold least, because its stations show "None at this step today" and only one finished site; it keeps its place as the "How you get one" section. Dinis can overrule this. (An earlier version of this brief recommended The Line, before the round 8 numbers came in.)
 
-## "I want one" and the price (decided by Dinis, 23 Nov)
+## "I want one" and the price (decided by Dinis, 23 Nov; route revised the same night)
 
-- "I want one" leads to feedback.b's box, a message form that replies without GitHub, at /start/#get-one.
+- "I want one" leads to one email: "Want one? It starts with one email to agent@withmandate.ai". There is no public request form; all feedback goes through QR codes (record 2026-11-23__asks-2-8-31-revised, ask 8). Customers will pay by Stripe; until a Stripe link exists, no page offers one (record 2026-11-23__asks-22-to-32, ask 25). This replaces the earlier route to feedback.b's box.
 - The price shown is the £50 offer (€50 on European sites), labelled as an offer, in strategy.b's wording; it goes live together with the feedback lane and the pricing.html change, not before. The £500 anchor is not printed.
 
 Round 9 (1137c84): The Line with the case went from 1/5 to 3/5 and stays home. "I want one" satisfied none of the 25 personas before this decision.
