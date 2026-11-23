@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T16:40Z",
+ "updated": "2026-11-23T17:15Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -120,56 +120,56 @@
   },
   "sgit.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sgit",
-   "commit": "94bf1eb (v0.1.22)",
+   "commit": "6b3dcba (v0.1.23)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 10,
+   "rounds": 11,
    "agent": "startups.b",
-   "blocking": "round 10: synthetic 3.4; under 8,000 px on a phone next",
+   "blocking": "round 11: synthetic 3.6; phone 8,035 px live",
    "maturity": "M3",
    "maturity_note": "rated 3"
   },
   "the-cyber-boardroom.startups.sovereignweb.site": {
    "repo": "Site__Startups__The-Cyber-Boardroom",
-   "commit": "9958b4b (v0.1.22)",
+   "commit": "fdcba38 (v0.1.23)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 10,
+   "rounds": 11,
    "agent": "startups.b",
-   "blocking": "round 10: synthetic 3.4; under 8,000 px on a phone next",
+   "blocking": "round 11: synthetic 3.4; phone 7,663 px live",
    "maturity": "M3",
    "maturity_note": "rated 3"
   },
   "risk-mandate.startups.sovereignweb.site": {
    "repo": "Site__Startups__Risk-Mandate",
-   "commit": "e918b9b (v0.1.22)",
+   "commit": "de03859 (v0.1.23)",
    "rating": 4,
    "five_designs": true,
-   "rounds": 10,
+   "rounds": 11,
    "agent": "startups.b",
-   "blocking": "round 10: rated 4 (four 4s in rounds 9 and 10); under 8,000 px on a phone for M4",
+   "blocking": "round 11: kept at 4; 8,034 px on a phone live, 35 px over M4's line",
    "maturity": "M3",
-   "maturity_note": "rated 4; phone length 8,496 px, M4 asks under 8,000"
+   "maturity_note": "rated 4; 8,034 px on a phone live (23 Nov, de03859), M4 asks under 8,000"
   },
   "agentic-cells.startups.sovereignweb.site": {
    "repo": "Site__Startups__Agentic-Cells",
-   "commit": "289c682 (v0.1.22)",
+   "commit": "069e56f (v0.1.23)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 10,
+   "rounds": 11,
    "agent": "startups.b",
-   "blocking": "back to 3: fewer than four 4s in rounds 9 and 10",
+   "blocking": "round 11: synthetic 3.0; phone 7,252 px live; show the example site on phones, not the commits",
    "maturity": "M3",
    "maturity_note": "rated 3"
   },
   "sovereign-website.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sovereign-Website",
-   "commit": "a330fb2 (v0.1.23)",
+   "commit": "83e124c (v0.1.24)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 10,
+   "rounds": 11,
    "agent": "startups.b",
-   "blocking": "round 10: synthetic 3.4; under 8,000 px on a phone next",
+   "blocking": "round 11: synthetic 3.0; phone 8,056 px live; put the owners' screenshots back on phones",
    "maturity": "M3",
    "maturity_note": "rated 3"
   },
