@@ -1272,12 +1272,23 @@
      "round": "workflow 2",
      "what": "/workflow/ page: price lands; still 2 of 5; no finished site, cost after handover, insider names",
      "commit_reviewed": "a945a2f (v0.1.6)",
-     "answered_by": null,
+     "answered_by": "b4cdba8 (v0.1.8)",
      "rating": "2 (site, unchanged)",
      "synthetic_score": 3.4,
      "phone_px": 3846,
      "review": "https://design.agents.sovereignweb.site/reviews-pipeline-demo-2026-11-23-workflow-round-2.html",
      "run": "https://design.agents.sovereignweb.site/runs-pipeline-demo-2026-11-23-workflow-r2.html"
+    },
+    {
+     "round": "workflow 3",
+     "what": "/workflow/ page: axe clean; 2 of 5, a different two; proof on the first phone screen and who the partner is next",
+     "commit_reviewed": "b4cdba8 (v0.1.8)",
+     "answered_by": null,
+     "rating": "2 (site, unchanged)",
+     "synthetic_score": 3.2,
+     "phone_px": 4695,
+     "review": "https://design.agents.sovereignweb.site/reviews-pipeline-demo-2026-11-23-workflow-round-3.html",
+     "run": "https://design.agents.sovereignweb.site/runs-pipeline-demo-2026-11-23-workflow-r3.html"
     }
    ]
   }
