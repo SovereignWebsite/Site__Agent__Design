@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T17:20Z",
+ "updated": "2026-11-23T17:30Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -650,17 +650,17 @@
   },
   "car-buyer.tool.sovereignweb.site": {
    "repo": "Site__Tool__Car-Buyer",
-   "commit": "1f238b7 (v0.1.5)",
-   "rating": 2,
-   "five_designs": false,
-   "rounds": 4,
+   "commit": "f9aba32 (v0.1.6)",
+   "rating": 3,
+   "five_designs": true,
+   "rounds": 5,
    "agent": "sites.b",
    "owner": "Dinis Cruz (his own tool; decision 2026-11-23__car-buyer)",
-   "maturity": "M2",
-   "maturity_note": "M2 since 06a6b42 (23 Nov); five designs offered in 1f238b7, but five skins of one layout (round 4, 5 of 5), which M3 does not count",
-   "phone_px": 2787,
+   "maturity": "M3",
+   "maturity_note": "M3 since f9aba32 (23 Nov): five home-page structures, told apart by 4 of 5 synthetic users; the checklist still shares one layout",
+   "phone_px": 4285,
    "on_building": true,
-   "blocking": "round 4: five skins of one page; each design needs its own structure; 5 of 5 would use it"
+   "blocking": "round 5: rated 3, M3; the checklist in each design's structure, and Windscreen card's empty state, next"
   }
  },
  "kpi": {

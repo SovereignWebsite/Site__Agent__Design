@@ -1464,12 +1464,23 @@
      "round": 4,
      "what": "five designs offered (2a passes as measured) but five skins of one page, by 5 of 5; 5 of 5 would use it; Windscreen card loses the Delete warning",
      "commit_reviewed": "1f238b7 (v0.1.5)",
-     "answered_by": null,
+     "answered_by": "f9aba32 (v0.1.6)",
      "rating": "2",
      "synthetic_score": 2.8,
      "phone_px": 2787,
      "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-23-round-4.html",
      "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-23-r4.html"
+    },
+    {
+     "round": 5,
+     "what": "five home-page structures: five ideas by 4 of 5, checklist still five skins; 5 of 5 would use it; rated 3, M3",
+     "commit_reviewed": "f9aba32 (v0.1.6)",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.4,
+     "phone_px": 4285,
+     "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-23-round-5.html",
+     "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-23-r5.html"
     }
    ]
   }
