@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T14:20Z",
+ "updated": "2026-11-23T14:30Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -565,6 +565,17 @@
    "agent": "algarve-evolution.b",
    "rating": null,
    "note": "private vault: registered only, no rating and no public review (design.b, 23 Nov)"
+  },
+  "yiheng-wang.agenticcells.site": {
+   "repo": "AgentiCCells/AgentiCCells__Site__Yiheng-Wang",
+   "commit": "549555d (v0.1.23)",
+   "rating": 1,
+   "five_designs": true,
+   "rounds": 1,
+   "agent": "(keeper to confirm; via design.b)",
+   "maturity": "M6",
+   "maturity_note": "M6 is design.b's reading (handed over); the last 30 commits are all by agents, and M4's evidence (rating 4, axe clean, under 8,000 px) is not met yet",
+   "blocking": "round 1: three serious axe findings (dark-mode contrast on the home page and the Profile, source-link targets); 3 once fixed; lower halves repeat; 11,300 to 20,050 px on a phone; synthetic 3.6"
   }
  },
  "kpi": {

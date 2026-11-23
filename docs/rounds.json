@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-23T13:50Z",
+ "updated": "2026-11-23T14:30Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -826,6 +826,21 @@
      "synthetic_score": 2.4,
      "review": "https://design.agents.sovereignweb.site/reviews-donna-freed-2026-11-23-round-1.html",
      "run": "https://design.agents.sovereignweb.site/runs-donna-freed-2026-11-23-r1.html"
+    }
+   ]
+  },
+  "yiheng-wang.agenticcells.site": {
+   "agent": "(keeper to confirm)",
+   "rounds": [
+    {
+     "round": 1,
+     "what": "five real first screens, one shared lower half; three serious axe findings; long pages",
+     "commit_reviewed": "549555d (v0.1.23)",
+     "answered_by": null,
+     "rating": "1 (3 once the axe findings are fixed)",
+     "synthetic_score": 3.6,
+     "review": "https://design.agents.sovereignweb.site/reviews-yiheng-wang-2026-11-23-round-1.html",
+     "run": "https://design.agents.sovereignweb.site/runs-yiheng-wang-2026-11-23-r1.html"
     }
    ]
   }
