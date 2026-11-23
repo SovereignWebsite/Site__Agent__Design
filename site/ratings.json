@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T23:10Z",
+ "updated": "2026-11-23T23:30Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -664,16 +664,16 @@
   },
   "suno.platform.sovereignweb.site": {
    "repo": "Site__Platform__Suno",
-   "commit": "6761b06 (v0.1.7)",
-   "rating": 2,
+   "commit": "2a12f44 (v0.1.8)",
+   "rating": 1,
    "five_designs": true,
-   "rounds": 2,
+   "rounds": 3,
    "agent": "suno.b",
    "maturity": "M2",
    "maturity_note": "M2 since 6761b06 (23 Nov): draft notice, maker line, sources line; five ideas by 4 of 5; 3 and M3 once the home page fits a phone and has a design chooser",
-   "phone_px": 4859,
+   "phone_px": 4921,
    "on_building": true,
-   "blocking": "round 2: home scrolls sideways (421 px on 390) and has no design chooser; A/B switch only on home; then 3 and M3"
+   "blocking": "round 3: two serious axe findings (ladder scroll not focusable; /designs/ dark contrast) rate 1; once fixed, 3 and M3 (five ideas 5 of 5, chooser, fits 390)"
   }
  },
  "kpi": {

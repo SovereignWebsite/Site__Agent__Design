@@ -19,12 +19,23 @@
    "round": 2,
    "what": "five designs: five ideas by 4 of 5; stage 4/5, compare 2/5, come back 1/5; home scrolls sideways on phones; A/B switch only on home; designs ignore dark mode; M2",
    "commit_reviewed": "6761b06 (v0.1.7)",
-   "answered_by": null,
+   "answered_by": "2a12f44 (v0.1.8)",
    "rating": "2",
    "synthetic_score": 3.0,
    "phone_px": 4859,
    "review": "https://design.agents.sovereignweb.site/reviews-suno-2026-11-23-round-2.html",
    "run": "https://design.agents.sovereignweb.site/runs-suno-2026-11-23-r2.html"
+  },
+  {
+   "round": 3,
+   "what": "round 2 faults fixed (fits 390, chooser, A/B everywhere, dark modes); five ideas 5 of 5; compare 3/5, show a friend 3/5; two new serious axe findings (ladder not focusable, /designs/ dark contrast) rate 1; 3 and M3 once fixed",
+   "commit_reviewed": "2a12f44 (v0.1.8)",
+   "answered_by": null,
+   "rating": "1 (3 once the two axe findings are fixed)",
+   "synthetic_score": 2.8,
+   "phone_px": 4921,
+   "review": "https://design.agents.sovereignweb.site/reviews-suno-2026-11-23-round-3.html",
+   "run": "https://design.agents.sovereignweb.site/runs-suno-2026-11-23-r3.html"
   }
  ]
 }

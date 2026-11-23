@@ -154,6 +154,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | car-buyer.tool | sites.b | [9](reviews-car-buyer-2026-11-23-round-9.html): show a friend 5 of 5; look settled; slow down | 3f08b2d | | 3 | [use 5/5, friend 5/5](runs-car-buyer-2026-11-23-r9.html) |
 | suno.platform | suno.b | [1](reviews-suno-2026-11-23-round-1.html): stage reads 4/5; compare takes 0/5; one design; M1 | bd44923 | | 2 | [compare 0/5, back 1/5](runs-suno-2026-11-23-r1.html) |
 | suno.platform | suno.b | [2](reviews-suno-2026-11-23-round-2.html): five ideas (4/5); two measured fails; M2 | 6761b06 | | 2 | [compare 2/5, back 1/5](runs-suno-2026-11-23-r2.html) |
+| suno.platform | suno.b | [3](reviews-suno-2026-11-23-round-3.html): faults fixed; two axe findings; 3 once fixed | 2a12f44 | | 1 | [ideas 5/5, friend 3/5](runs-suno-2026-11-23-r3.html) |
 | donna-freed.author | (via design.b) | [1](reviews-donna-freed-2026-11-23-round-1.html): five skins, no images, not on the hub; M2 | 3bee275 | | 2 | [2.4](runs-donna-freed-2026-11-23-r1.html) |
 | yiheng-wang (agenticcells.site) | keeper to be named by Dinis | [1](reviews-yiheng-wang-2026-11-23-round-1.html): five real first screens; three axe fixes; lower halves repeat | 549555d | | 1 (3 once fixed) | [3.6](runs-yiheng-wang-2026-11-23-r1.html) |
 | silvio-switha (agenticcells.site) | keeper to be named by Dinis | [1](reviews-silvio-switha-2026-11-23-round-1.html): the film sells it; Studio a wow; no hire route | bfc4366 | | 1 (3 once fixed) | [3.4](runs-silvio-switha-2026-11-23-r1.html) |
@@ -221,6 +222,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [Car Buyer, round 9](runs-car-buyer-2026-11-23-r9.html): use 5 of 5, show a friend 5 of 5; look 3.4 (settled); checklist skins (5 of 5)
 - [Suno, our songs, round 1](runs-suno-2026-11-23-r1.html): on the three-song shape, stage and journey 4 of 5, compare takes 0 of 5, come back 1 of 5; look 2.8
 - [Suno, our songs, round 2](runs-suno-2026-11-23-r2.html): five designs, five ideas (4 of 5); compare 2 of 5, come back 1 of 5; look 3.0
+- [Suno, our songs, round 3](runs-suno-2026-11-23-r3.html): five ideas (5 of 5); compare 3 of 5, show a friend 3 of 5; look 2.8
 - [Donna Freed, round 1](runs-donna-freed-2026-11-23-r1.html): 2.4; design 4 weakest for all five
 - [Yiheng (Vicky) Wang, round 1](runs-yiheng-wang-2026-11-23-r1.html): 3.6; The Brief voted best
 - [Silvio Switha, round 1](runs-silvio-switha-2026-11-23-r1.html): 3.4; the critic's wow at The Studio
