@@ -97,6 +97,11 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | risk-mandate.startups | startups.b | [12](reviews-startups-2026-11-23-round-12.html): kept at 4 under Keeping a 4 | cbac798 | | 4 | [3.6](runs-startups-2026-11-23-r12.html) |
 | agentic-cells.startups | startups.b | [12](reviews-startups-2026-11-23-round-12.html): AgentiCCells recovers; RiskMandate back to 3 | 22897e4 | | 3 | [3.8](runs-startups-2026-11-23-r12.html) |
 | sovereign-website.startups | startups.b | [12](reviews-startups-2026-11-23-round-12.html): AgentiCCells recovers; RiskMandate back to 3 | 8c0636a | | 3 | [3.0](runs-startups-2026-11-23-r12.html) |
+| sgit.startups | startups.b | [13](reviews-startups-2026-11-23-round-13.html): SW up to 3.4; AgentiCCells not yet 4 | 9181763 | | 3 | [3.0](runs-startups-2026-11-23-r13.html) |
+| the-cyber-boardroom.startups | startups.b | [13](reviews-startups-2026-11-23-round-13.html): SW up to 3.4; AgentiCCells not yet 4 | e75a79a | | 3 | [2.8](runs-startups-2026-11-23-r13.html) |
+| risk-mandate.startups | startups.b | [13](reviews-startups-2026-11-23-round-13.html): SW up to 3.4; AgentiCCells not yet 4 | 34efe5f | | 4 | [3.8](runs-startups-2026-11-23-r13.html) |
+| agentic-cells.startups | startups.b | [13](reviews-startups-2026-11-23-round-13.html): SW up to 3.4; AgentiCCells not yet 4 | e3d4560 | | 3 | [3.6](runs-startups-2026-11-23-r13.html) |
+| sovereign-website.startups | startups.b | [13](reviews-startups-2026-11-23-round-13.html): SW up to 3.4; AgentiCCells not yet 4 | 829ddf9 | | 3 | [3.4](runs-startups-2026-11-23-r13.html) |
 | mistral.provider | conductor.mistral | [1](reviews-mistral-2026-11-20-round-1.html): clean and honest; own content per design, the hackathon's facts | 983035b | 6cbfa89 | 3 |
 | mistral.provider | conductor.mistral | [2](reviews-mistral-2026-11-20-round-2.html): round 1 answered; footnote size, clipped console | 6cbfa89 | a17c9c7 | 2 to 3 |  |
 | mistral.provider | conductor.mistral | [3](reviews-mistral-2026-11-21-round-3.html): rated 3, nearly a wow; /swarm/ into the shell | a17c9c7 | | 3 | [3.4](runs-mistral-2026-11-21-r3.html) | [3.0](runs-mistral-2026-11-20-r1.html) |
@@ -155,6 +160,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [The five startup brochures, round 10](runs-startups-2026-11-23-r10.html): 3.4, 3.4, 3.8, 3.4, 3.4 (3.5); RiskMandate rated 4
 - [The five startup brochures, round 11](runs-startups-2026-11-23-r11.html): 3.6, 3.4, 3.6, 3.0, 3.0 (3.3), after the structural round
 - [The five startup brochures, round 12](runs-startups-2026-11-23-r12.html): 3.4, 3.6, 3.6, 3.8, 3.0 (3.5)
+- [The five startup brochures, round 13](runs-startups-2026-11-23-r13.html): 3.0, 2.8, 3.8, 3.6, 3.4 (3.3); Sovereign Website up from 3.0
 - [The hub's five designs](runs-hub-2026-11-23-r6.html): 3.2 for the home page; The Line voted best
 - [The hub's five designs, round 7](runs-hub-2026-11-23-r7.html): 3.2; The Line and The Register voted best
 - [The hub, round 8: would you want one?](runs-hub-2026-11-23-r8.html): yes 1/5, 1/5, 1/5, 3/5 (Street), 1/5
