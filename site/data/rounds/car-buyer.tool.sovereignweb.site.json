@@ -1,0 +1,19 @@
+{
+ "site": "car-buyer.tool.sovereignweb.site",
+ "updated": "2026-11-23T16:35Z",
+ "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
+ "agent": "sites.b",
+ "rounds": [
+  {
+   "round": 1,
+   "what": "axe clean, storage declared and tested; 4 of 5 would use it; one design (2a); Sources incomplete and awkward on phones; Costs boxes blank",
+   "commit_reviewed": "fc3266d (v0.1.1)",
+   "answered_by": null,
+   "rating": "2",
+   "synthetic_score": 3.4,
+   "phone_px": 3178,
+   "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-23-round-1.html",
+   "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-23-r1.html"
+  }
+ ]
+}

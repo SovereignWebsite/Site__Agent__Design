@@ -538,12 +538,12 @@
   },
   "pipeline-demo.demo.sovereignweb.site": {
    "repo": "Site__pipeline-demo",
-   "commit": "b4cdba8 (v0.1.8)",
+   "commit": "f747933 (v0.1.10)",
    "rating": 2,
    "five_designs": false,
    "rounds": 2,
    "agent": "sites.b",
-   "blocking": "/workflow/ round 3: 2 of 5; proof on the first phone screen and who the partner is next",
+   "blocking": "/workflow/ round 4: 2 of 5; the noes need a decision on changes after handover (Dinis, strategy.b)",
    "maturity": "M2",
    "maturity_note": "moved from pipeline-demo.sovereignweb.site to this address; live at v0.1.4"
   },
@@ -647,6 +647,20 @@
    "maturity": "M2",
    "maturity_note": "no draft banner (these sites predate it); placed by their sources",
    "blocking": "round 1: small source targets; Blueprint table not keyboard-reachable; 3 once fixed; about the run more than him; synthetic 3.4"
+  },
+  "car-buyer.tool.sovereignweb.site": {
+   "repo": "Site__Tool__Car-Buyer",
+   "commit": "fc3266d (v0.1.1)",
+   "rating": 2,
+   "five_designs": false,
+   "rounds": 1,
+   "agent": "sites.b",
+   "owner": "Dinis Cruz (his own tool; decision 2026-11-23__car-buyer)",
+   "maturity": "M1",
+   "maturity_note": "scaffold live and on the hub's /building/; content meets most of M2 (sources cited and dated) but has no draft notice; M2 once Dinis says he has seen it",
+   "phone_px": 3178,
+   "on_building": true,
+   "blocking": "round 1: one design (2a, max 2); 4 of 5 would use it; Sources, Costs hints, private-sale section next"
   }
  },
  "kpi": {
