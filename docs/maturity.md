@@ -28,6 +28,14 @@ Each level needs everything below it. A site is placed at the highest level whos
 
 M0 to M4 is our work. M5 and above is the owner's. A site should reach M4 within three design rounds of M2.
 
+## Never block on the owner
+
+Dinis Cruz, 23 November 2026 (record 2026-11-23__asks-2-to-21): "The point of this actually is to leave the websites in a state where I can continue them on the website ... you shouldn't be blocking this."
+
+- A missing fact never holds a site. Place it from what the history shows, and say plainly what is not known.
+- Work that only the owner can do (a yes, a first presentation, a change of their own) is not a task we wait on. Leave the site ready for it, and list it as something the owner can do on their site.
+- "Waiting on Dinis" is not a next step. "Dinis can ..." is.
+
 ## The rule that stops cracks
 
 A site that reaches M1 and is missing from ratings.json or from the hub is a defect, whoever made it. Every new site is registered with design.b at M1, so design rounds start at M2.
