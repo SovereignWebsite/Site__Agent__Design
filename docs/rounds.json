@@ -1643,6 +1643,22 @@
      "run": "https://design.agents.sovereignweb.site/runs-suno-2026-11-23-r3.html"
     }
    ]
+  },
+  "wordpress-section.demo.sovereignweb.site": {
+   "agent": "sites.b",
+   "rounds": [
+    {
+     "round": 1,
+     "what": "baseline: would an agency show this to a client? 2 of 5; not-affiliated lines pass; blocked and slow feeds handled; a race puts one organisation's posts under another's name",
+     "commit_reviewed": "a44d8fc (v0.1.1)",
+     "answered_by": null,
+     "rating": "2",
+     "synthetic_score": 2.8,
+     "phone_px": 2184,
+     "review": "https://design.agents.sovereignweb.site/reviews-wordpress-section-2026-11-23-round-1.html",
+     "run": "https://design.agents.sovereignweb.site/runs-wordpress-section-2026-11-23-r1.html"
+    }
+   ]
   }
  }
 }
