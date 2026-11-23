@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-23T17:15Z",
+ "updated": "2026-11-23T17:50Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -244,12 +244,23 @@
      "round": 11,
      "what": "structural round: shorter pages read better; SW lost its showroom on phones, AgentiCCells hid its best screenshot",
      "commit_reviewed": "6b3dcba",
-     "answered_by": null,
+     "answered_by": "dcc2999",
      "rating": "3",
      "synthetic_score": 3.6,
      "phone_px": 8035,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-11.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r11.html"
+    },
+    {
+     "round": 12,
+     "what": "AgentiCCells recovers; RiskMandate back to 3 under the two-run rule (rule question to design.b); SW thumbnails too small and too low",
+     "commit_reviewed": "dcc2999",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.4,
+     "phone_px": 7864,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-12.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r12.html"
     }
    ]
   },
@@ -360,12 +371,23 @@
      "round": 11,
      "what": "structural round: shorter pages read better; SW lost its showroom on phones, AgentiCCells hid its best screenshot",
      "commit_reviewed": "fdcba38",
-     "answered_by": null,
+     "answered_by": "b91ce85",
      "rating": "3",
      "synthetic_score": 3.4,
      "phone_px": 7663,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-11.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r11.html"
+    },
+    {
+     "round": 12,
+     "what": "AgentiCCells recovers; RiskMandate back to 3 under the two-run rule (rule question to design.b); SW thumbnails too small and too low",
+     "commit_reviewed": "b91ce85",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.6,
+     "phone_px": 7525,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-12.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r12.html"
     }
    ]
   },
@@ -476,12 +498,23 @@
      "round": 11,
      "what": "structural round: shorter pages read better; SW lost its showroom on phones, AgentiCCells hid its best screenshot",
      "commit_reviewed": "de03859",
-     "answered_by": null,
+     "answered_by": "cbac798",
      "rating": "4",
      "synthetic_score": 3.6,
      "phone_px": 8034,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-11.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r11.html"
+    },
+    {
+     "round": 12,
+     "what": "AgentiCCells recovers; RiskMandate back to 3 under the two-run rule (rule question to design.b); SW thumbnails too small and too low",
+     "commit_reviewed": "cbac798",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.6,
+     "phone_px": 7938,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-12.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r12.html"
     }
    ]
   },
@@ -592,12 +625,23 @@
      "round": 11,
      "what": "structural round: shorter pages read better; SW lost its showroom on phones, AgentiCCells hid its best screenshot",
      "commit_reviewed": "069e56f",
-     "answered_by": null,
+     "answered_by": "22897e4",
      "rating": "3",
      "synthetic_score": 3.0,
      "phone_px": 7252,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-11.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r11.html"
+    },
+    {
+     "round": 12,
+     "what": "AgentiCCells recovers; RiskMandate back to 3 under the two-run rule (rule question to design.b); SW thumbnails too small and too low",
+     "commit_reviewed": "22897e4",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.8,
+     "phone_px": 7063,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-12.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r12.html"
     }
    ]
   },
@@ -708,12 +752,23 @@
      "round": 11,
      "what": "structural round: shorter pages read better; SW lost its showroom on phones, AgentiCCells hid its best screenshot",
      "commit_reviewed": "83e124c",
-     "answered_by": null,
+     "answered_by": "8c0636a",
      "rating": "3",
      "synthetic_score": 3.0,
      "phone_px": 8056,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-11.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r11.html"
+    },
+    {
+     "round": 12,
+     "what": "AgentiCCells recovers; RiskMandate back to 3 under the two-run rule (rule question to design.b); SW thumbnails too small and too low",
+     "commit_reviewed": "8c0636a",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.0,
+     "phone_px": 7318,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-12.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r12.html"
     }
    ]
   },
