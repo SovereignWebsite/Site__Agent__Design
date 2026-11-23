@@ -55,7 +55,7 @@ Home is decided by the numbers: hub.b shipped The Line with the case screen as h
 ## "I want one" and the price (decided by Dinis, 23 Nov)
 
 - "I want one" leads to feedback.b's box, a message form that replies without GitHub, at /start/#get-one.
-- The price shown is the £50 / €50 offer, labelled as an offer, in strategy.b's wording. The £500 anchor is not printed.
+- The price shown is the £50 offer (€50 on European sites), labelled as an offer, in strategy.b's wording; it goes live together with the feedback lane and the pricing.html change, not before. The £500 anchor is not printed.
 
 Round 9 (1137c84): The Line with the case went from 1/5 to 3/5 and stays home. "I want one" satisfied none of the 25 personas before this decision.
 
