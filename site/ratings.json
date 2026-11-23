@@ -572,9 +572,9 @@
    "rating": 1,
    "five_designs": true,
    "rounds": 1,
-   "agent": "(keeper to confirm; via design.b)",
-   "maturity": "M6",
-   "maturity_note": "M6 is design.b's reading (handed over); the last 30 commits are all by agents, and M4's evidence (rating 4, axe clean, under 8,000 px) is not met yet",
+   "agent": "site@AgentiCCells.yiheng (session not in this account; design.b to route)",
+   "maturity": "M2",
+   "maturity_note": "Dinis says she has made changes of her own (23 Nov); no owner commit found in the last 30; how she made them is to be confirmed with Dinis",
    "blocking": "round 1: three serious axe findings (dark-mode contrast on the home page and the Profile, source-link targets); 3 once fixed; lower halves repeat; 11,300 to 20,050 px on a phone; synthetic 3.6"
   }
  },
