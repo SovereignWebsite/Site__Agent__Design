@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T17:30Z",
+ "updated": "2026-11-23T17:40Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -120,7 +120,7 @@
   },
   "sgit.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sgit",
-   "commit": "14264d2 (v0.1.32)",
+   "commit": "cc1ec5d (v0.1.34)",
    "rating": 3,
    "five_designs": true,
    "rounds": 17,
@@ -128,11 +128,11 @@
    "blocking": "round 17: two 4s (3.4); four 4s in two runs in a row rates it 4",
    "maturity": "M3",
    "maturity_note": "rated 3",
-   "phone_px": 7415
+   "phone_px": 7445
   },
   "the-cyber-boardroom.startups.sovereignweb.site": {
    "repo": "Site__Startups__The-Cyber-Boardroom",
-   "commit": "9520d5a (v0.1.32)",
+   "commit": "587f131 (v0.1.34)",
    "rating": 3,
    "five_designs": true,
    "rounds": 15,
@@ -140,11 +140,11 @@
    "blocking": "round 15: synthetic 3.4; round 15 items live and measured; round 16 waits for a wow item",
    "maturity": "M3",
    "maturity_note": "rated 3",
-   "phone_px": 6757
+   "phone_px": 6774
   },
   "risk-mandate.startups.sovereignweb.site": {
    "repo": "Site__Startups__Risk-Mandate",
-   "commit": "fca97f1 (v0.1.33)",
+   "commit": "e691151 (v0.1.35)",
    "rating": 4,
    "five_designs": true,
    "rounds": 17,
@@ -152,11 +152,11 @@
    "blocking": "rated 4 and M4, kept under 'Keeping a 4' (round 17: 3.8, four 4s); M5 is the owner's yes",
    "maturity": "M4",
    "maturity_note": "M4 since 7db7d16 (23 Nov); kept under design.b's 'Keeping a 4' rule (rating.md): no measured check fails; looks 3.6, 3.6, 3.8, 3.6, 3.8",
-   "phone_px": 7920
+   "phone_px": 7958
   },
   "agentic-cells.startups.sovereignweb.site": {
    "repo": "Site__Startups__Agentic-Cells",
-   "commit": "d672b8c (v0.1.32)",
+   "commit": "a7eebe0 (v0.1.34)",
    "rating": 3,
    "five_designs": true,
    "rounds": 15,
@@ -168,15 +168,15 @@
   },
   "sovereign-website.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sovereign-Website",
-   "commit": "22146ad (v0.1.36)",
+   "commit": "995fa7e (v0.1.38)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 17,
+   "rounds": 18,
    "agent": "startups.b",
-   "blocking": "round 17 rerun on e5778df: 3.2; owners on phones need their address and work; status higher",
+   "blocking": "round 18: 3.2; the owners' own work helps; Kate's entry waits on Dinis; one dated status line",
    "maturity": "M3",
    "maturity_note": "rated 3",
-   "phone_px": 7174
+   "phone_px": 7651
   },
   "chiswick-cheese-market.organisation.sovereignweb.site": {
    "repo": "Site__Organisation__Chiswick-Cheese-Market",
@@ -650,17 +650,17 @@
   },
   "car-buyer.tool.sovereignweb.site": {
    "repo": "Site__Tool__Car-Buyer",
-   "commit": "f9aba32 (v0.1.6)",
+   "commit": "8cd09aa (v0.1.7)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 5,
+   "rounds": 6,
    "agent": "sites.b",
    "owner": "Dinis Cruz (his own tool; decision 2026-11-23__car-buyer)",
    "maturity": "M3",
    "maturity_note": "M3 since f9aba32 (23 Nov): five home-page structures, told apart by 4 of 5 synthetic users; the checklist still shares one layout",
-   "phone_px": 4285,
+   "phone_px": 5196,
    "on_building": true,
-   "blocking": "round 5: rated 3, M3; the checklist in each design's structure, and Windscreen card's empty state, next"
+   "blocking": "round 6: rated 3, M3; show a friend 4 of 5 (first of two); checklist still skins by 3 of 5; the phone first screen next"
   }
  },
  "kpi": {

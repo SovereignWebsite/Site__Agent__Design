@@ -174,10 +174,21 @@
    "round": "17 (rerun)",
    "what": "on e5778df, the owner item withdrawn: owners lose too much on phones; status too low",
    "commit_reviewed": "e5778df (v0.1.35)",
-   "answered_by": null,
+   "answered_by": "995fa7e (v0.1.38)",
    "rating": "3",
    "synthetic_score": 3.2,
    "phone_px": 7254,
+   "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-17.html",
+   "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r17.html"
+  },
+  {
+   "round": 18,
+   "what": "owners' own work on the phone cards helps; Kate's card the weak spot (entry waits on Dinis); status beside price confusing",
+   "commit_reviewed": "995fa7e (v0.1.38)",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": 3.2,
+   "phone_px": 7651,
    "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-17.html",
    "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r17.html"
   }
