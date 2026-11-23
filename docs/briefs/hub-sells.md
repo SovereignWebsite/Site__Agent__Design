@@ -36,7 +36,7 @@ Nothing else goes above the fold: no counts, no section links, no family menu be
 
 1. **The case**, as above.
 2. **What you get.** Five items, each linked to a live example:
-   - a site about you, with your own address;
+   - a site about you, at its own address (ours until the handover; yours if you bring your own domain);
    - five designs to choose from (Emily);
    - your files on your own GitHub, yours to keep (Kate);
    - changes made by talking to your AI (Kate's /agents/);
