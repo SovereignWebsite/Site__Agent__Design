@@ -242,16 +242,16 @@
    "register_state": "under construction"
   },
   "streaming.tool.sovereignweb.site": {
-   "repo": null,
+   "repo": "Site__Tool__Streaming",
    "commit": "49c4d3c (v0.1.22)",
-   "rating": null,
-   "five_designs": false,
-   "rounds": 0,
-   "agent": "account D (via design.d)",
+   "rating": 4,
+   "five_designs": true,
+   "rounds": 5,
+   "agent": "streaming.d (account D; rounds by design.d)",
    "register_state": "under construction",
-   "maturity": "M1",
-   "maturity_note": "seed live (v0.1.22): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); its own content (776 words, 5 images) but no draft banner or cited sources, so not M2",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity": "M4",
+   "maturity_note": "signed off at 4 by design.d in round 5 (22 Nov, follow-up on v0.1.21); live now at v0.1.22. My quick check missed its chooser because it is not on the home page in the form the check looks for",
+   "blocking": "signed off at 4 by design.d (round 5), notes 1 and 2 open; reviews in docs/reviews/streaming/"
   },
   "aws.platform.sovereignweb.site": {
    "repo": null,
