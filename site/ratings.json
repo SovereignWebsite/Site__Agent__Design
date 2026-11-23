@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T17:10Z",
+ "updated": "2026-11-23T17:20Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -173,7 +173,7 @@
    "five_designs": true,
    "rounds": 17,
    "agent": "startups.b",
-   "blocking": "round 17: the owner item withdrawn (no consent recorded); rerun on e5778df",
+   "blocking": "round 17 rerun on e5778df: 3.2; owners on phones need their address and work; status higher",
    "maturity": "M3",
    "maturity_note": "rated 3",
    "phone_px": 7254
@@ -650,17 +650,17 @@
   },
   "car-buyer.tool.sovereignweb.site": {
    "repo": "Site__Tool__Car-Buyer",
-   "commit": "e835d59 (v0.1.3)",
+   "commit": "1f238b7 (v0.1.5)",
    "rating": 2,
    "five_designs": false,
-   "rounds": 3,
+   "rounds": 4,
    "agent": "sites.b",
    "owner": "Dinis Cruz (his own tool; decision 2026-11-23__car-buyer)",
    "maturity": "M2",
-   "maturity_note": "M2 since 06a6b42 (23 Nov): real content, sources cited and dated, draft notice; M3 needs five designs",
-   "phone_px": 3600,
+   "maturity_note": "M2 since 06a6b42 (23 Nov); five designs offered in 1f238b7, but five skins of one layout (round 4, 5 of 5), which M3 does not count",
+   "phone_px": 2787,
    "on_building": true,
-   "blocking": "round 3: one design (2a, max 2); 3 of 5; text sizes and Plates on phones; five designs next; fetching results is Dinis's call"
+   "blocking": "round 4: five skins of one page; each design needs its own structure; 5 of 5 would use it"
   }
  },
  "kpi": {

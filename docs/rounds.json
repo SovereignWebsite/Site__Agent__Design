@@ -989,6 +989,17 @@
      "phone_px": 7867,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-17.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r17.html"
+    },
+    {
+     "round": "17 (rerun)",
+     "what": "on e5778df, the owner item withdrawn: owners lose too much on phones; status too low",
+     "commit_reviewed": "e5778df (v0.1.35)",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.2,
+     "phone_px": 7254,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-17.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r17.html"
     }
    ]
   },
@@ -1442,12 +1453,23 @@
      "round": 3,
      "what": "plate issue period live and correct against INF104; axe clean; 3 of 5; labels and Plates cells 15.2 px; results-on-page is a product question for Dinis",
      "commit_reviewed": "e835d59 (v0.1.3)",
-     "answered_by": null,
+     "answered_by": "6a9cd6c and 1f238b7 (v0.1.5)",
      "rating": "2",
      "synthetic_score": 3.2,
      "phone_px": 3600,
      "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-23-round-3.html",
      "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-23-r3.html"
+    },
+    {
+     "round": 4,
+     "what": "five designs offered (2a passes as measured) but five skins of one page, by 5 of 5; 5 of 5 would use it; Windscreen card loses the Delete warning",
+     "commit_reviewed": "1f238b7 (v0.1.5)",
+     "answered_by": null,
+     "rating": "2",
+     "synthetic_score": 2.8,
+     "phone_px": 2787,
+     "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-23-round-4.html",
+     "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-23-r4.html"
     }
    ]
   }
