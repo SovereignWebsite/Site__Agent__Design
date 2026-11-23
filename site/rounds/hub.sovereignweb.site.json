@@ -1,6 +1,6 @@
 {
  "site": "hub.sovereignweb.site",
- "updated": "2026-11-23T13:30Z",
+ "updated": "2026-11-23T13:35Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "hub.b",
  "rounds": [
@@ -45,7 +45,7 @@
    "round": 9,
    "what": "would you want one? Line (home, case first screen) 3/5 from 1/5, Street 3/5, Register 2/5, Gallery 1/5, Contact Sheet 1/5; I want one satisfied 0 of 25",
    "commit_reviewed": "4f23d10 (v0.1.35), 5c6bb6a (v0.1.36)",
-   "answered_by": null,
+   "answered_by": "4a60c45 (v0.1.42)",
    "rating": "3",
    "synthetic_score": null,
    "yes_counts": {
@@ -57,6 +57,24 @@
    },
    "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-23-round-9.html",
    "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-23-r9.html"
+  },
+  {
+   "round": 10,
+   "what": "would you want one? Line 4/5 (first time), Street 3/5, Register 0/5, Gallery 1/5, Contact Sheet 1/5; features check 2/5; search misses its own example",
+   "commit_reviewed": "4a60c45 (v0.1.42)",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": null,
+   "yes_counts": {
+    "Line": 4,
+    "Register": 0,
+    "Gallery": 1,
+    "Contact Sheet": 1,
+    "Street": 3
+   },
+   "features_satisfied": "2/5",
+   "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-23-round-10.html",
+   "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-23-r10.html"
   }
  ]
 }
