@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T23:30Z",
+ "updated": "2026-11-23T23:25Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -543,7 +543,7 @@
    "five_designs": false,
    "rounds": 2,
    "agent": "sites.b",
-   "blocking": "/workflow/ round 4: 2 of 5; the noes need a decision on changes after handover (Dinis, strategy.b)",
+   "blocking": "/workflow/: the price for changes is deferred by Dinis (after handover); the page to say so plainly; round 5 then",
    "maturity": "M2",
    "maturity_note": "moved from pipeline-demo.sovereignweb.site to this address; live at v0.1.4"
   },

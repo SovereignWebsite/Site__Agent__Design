@@ -33,3 +33,7 @@ sites.b made items 1 and 3:
 - Kate's site is described in words, at body size.
 
 It added no line on changes after handover, because nothing more is true today than "a price for changes is not set yet". That is right. axe is clean in all four views, with one h1, 5,365 px on a phone and 52.6 KB. No persona run: round 5 waits for the decision on changes after handover, which design.b is routing.
+
+## Correction, 23:25 UTC: the price for changes is deferred, not open
+
+Dinis answered the question this review sent him (ask 29, 23:12 UTC): the price for changes after handover will be worked out after the handover (record 2026-11-23__asks-22-to-32, as relayed by conductor.b and decisions.b). Under his principle of the same evening, it blocks no one. So the page should not read as missing something. It should say plainly: "The price for changes after handover is agreed with you after the handover." Round 5 runs when that is live, and the page is not marked down for it.
