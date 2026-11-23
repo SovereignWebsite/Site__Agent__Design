@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-23T13:40Z",
+ "updated": "2026-11-23T13:30Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -204,11 +204,21 @@
      "round": 7,
      "what": "15 px floor and owners' photos landed; capture dates, AgentiCCells picture, source tap targets, lower halves",
      "commit_reviewed": "2c142b1",
-     "answered_by": null,
+     "answered_by": "287ec41",
      "rating": "3",
      "synthetic_score": 3.4,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-7.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r7.html"
+    },
+    {
+     "round": 8,
+     "what": "plateau at 3.5; one content item per site",
+     "commit_reviewed": "287ec41",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.6,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-8.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r8.html"
     }
    ]
   },
@@ -279,11 +289,21 @@
      "round": 7,
      "what": "15 px floor and owners' photos landed; capture dates, AgentiCCells picture, source tap targets, lower halves",
      "commit_reviewed": "c797db2",
-     "answered_by": null,
+     "answered_by": "315ee42",
      "rating": "3",
      "synthetic_score": 3.4,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-7.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r7.html"
+    },
+    {
+     "round": 8,
+     "what": "plateau at 3.5; one content item per site",
+     "commit_reviewed": "315ee42",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.0,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-8.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r8.html"
     }
    ]
   },
@@ -354,11 +374,21 @@
      "round": 7,
      "what": "15 px floor and owners' photos landed; capture dates, AgentiCCells picture, source tap targets, lower halves",
      "commit_reviewed": "2f5b112",
-     "answered_by": null,
+     "answered_by": "2a1efea",
      "rating": "3",
      "synthetic_score": 3.8,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-7.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r7.html"
+    },
+    {
+     "round": 8,
+     "what": "plateau at 3.5; one content item per site",
+     "commit_reviewed": "2a1efea",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.6,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-8.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r8.html"
     }
    ]
   },
@@ -429,11 +459,21 @@
      "round": 7,
      "what": "15 px floor and owners' photos landed; capture dates, AgentiCCells picture, source tap targets, lower halves",
      "commit_reviewed": "16c5729",
-     "answered_by": null,
+     "answered_by": "fff53eb",
      "rating": "4",
      "synthetic_score": 3.6,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-7.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r7.html"
+    },
+    {
+     "round": 8,
+     "what": "plateau at 3.5; one content item per site",
+     "commit_reviewed": "fff53eb",
+     "answered_by": null,
+     "rating": "4",
+     "synthetic_score": 3.8,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-8.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r8.html"
     }
    ]
   },
@@ -504,11 +544,21 @@
      "round": 7,
      "what": "15 px floor and owners' photos landed; capture dates, AgentiCCells picture, source tap targets, lower halves",
      "commit_reviewed": "9d887ec",
-     "answered_by": null,
+     "answered_by": "4d1390a",
      "rating": "3",
      "synthetic_score": 3.8,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-7.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r7.html"
+    },
+    {
+     "round": 8,
+     "what": "plateau at 3.5; one content item per site",
+     "commit_reviewed": "4d1390a",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.4,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-8.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r8.html"
     }
    ]
   },
