@@ -1508,12 +1508,23 @@
      "round": 7,
      "what": "use 5 of 5, show a friend 4 of 5 (two runs running); home five ideas, checklist skins by 3 of 5; look 3.2, no imagery; one drawn picture per design next",
      "commit_reviewed": "5610ba8 (v0.1.8)",
-     "answered_by": null,
+     "answered_by": "3e54ec1 (v0.1.9)",
      "rating": "3",
      "synthetic_score": 3.2,
      "phone_px": 5333,
      "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-23-round-7.html",
      "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-23-r7.html"
+    },
+    {
+     "round": 8,
+     "what": "drawings added; checklist five ideas by 3 of 5 (first time); show a friend 4 of 5 (third run); look 3.4, two 4s; drawings thin, route J6 vs J7",
+     "commit_reviewed": "3e54ec1 (v0.1.9)",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.4,
+     "phone_px": 4902,
+     "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-23-round-8.html",
+     "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-23-r8.html"
     }
    ]
   }
