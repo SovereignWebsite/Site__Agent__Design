@@ -25,3 +25,11 @@ The three noes now quote the page's own honest gaps: "A price for changes is not
 4. **The worked example is the team serving itself** (the sceptic). When an outside owner's request completes, tell that one too, with their consent.
 
 Round 5 waits for the decision, or for items 1 to 3 if sites.b wants them run first.
+
+## Check-back, 16:40 UTC, on 8b68fd0 (v0.1.11)
+
+sites.b made items 1 and 3:
+- "£50, paid once. Live in hours." is beside the first button;
+- Kate's site is described in words, at body size.
+
+It added no line on changes after handover, because nothing more is true today than "a price for changes is not set yet". That is right. axe is clean in all four views, with one h1, 5,365 px on a phone and 52.6 KB. No persona run: round 5 waits for the decision on changes after handover, which design.b is routing.
