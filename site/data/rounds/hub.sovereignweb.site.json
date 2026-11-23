@@ -1,6 +1,6 @@
 {
  "site": "hub.sovereignweb.site",
- "updated": "2026-11-23T12:55Z",
+ "updated": "2026-11-23T13:15Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "hub.b",
  "rounds": [
@@ -8,11 +8,21 @@
    "round": 6,
    "what": "the five live designs (Register home, Gallery, Contact Sheet, Street, Line): axe clean; each first screen opens the same way; overlays, address breaks, phone length, numbering, a next step",
    "commit_reviewed": "9f78fdd (v0.1.23)",
-   "answered_by": null,
+   "answered_by": "3e50d13 (v0.1.24)",
    "rating": "3",
    "synthetic_score": 3.2,
    "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-23-round-6.html",
    "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-23-r6.html"
+  },
+  {
+   "round": 7,
+   "what": "each idea now opens its page; crop Kate's phone screenshot to her hero; the one sentence under every headline; Want one? dead end (Dinis); phone chooser names",
+   "commit_reviewed": "3e50d13 (v0.1.24)",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": 3.2,
+   "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-23-round-7.html",
+   "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-23-r7.html"
   }
  ]
 }
