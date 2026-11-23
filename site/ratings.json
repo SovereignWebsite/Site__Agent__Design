@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T23:55Z",
+ "updated": "2026-11-23T23:50Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -675,6 +675,19 @@
    "phone_px": 4922,
    "on_building": true,
    "blocking": "rated 3, M3; for 4: four of five at 4 in two runs, show a friend in two runs (3 of 5 in round 3); Vote in every design, A/B above the slot"
+  },
+  "wordpress-section.demo.sovereignweb.site": {
+   "repo": "Site__Demo__WordPress-Section",
+   "commit": "a44d8fc",
+   "rating": null,
+   "five_designs": false,
+   "rounds": 0,
+   "agent": "sites.b",
+   "owner": "our own demo for web agencies (record 2026-11-23__briefings-keepers-messages, ask 26)",
+   "maturity": "M1",
+   "maturity_note": "registered 23 Nov at launch; one design; placement confirmed by baseline round 1",
+   "on_building": true,
+   "blocking": "baseline round 1; five-design brief sent to sites.b"
   }
  },
  "kpi": {
