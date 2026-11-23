@@ -168,7 +168,7 @@
   },
   "sovereign-website.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sovereign-Website",
-   "commit": "995fa7e (v0.1.38)",
+   "commit": "a465693 (v0.1.39)",
    "rating": 3,
    "five_designs": true,
    "rounds": 18,
@@ -176,7 +176,7 @@
    "blocking": "round 18: 3.2; the owners' own work helps; Kate's entry waits on Dinis; one dated status line",
    "maturity": "M3",
    "maturity_note": "rated 3",
-   "phone_px": 7651
+   "phone_px": 7680
   },
   "chiswick-cheese-market.organisation.sovereignweb.site": {
    "repo": "Site__Organisation__Chiswick-Cheese-Market",
