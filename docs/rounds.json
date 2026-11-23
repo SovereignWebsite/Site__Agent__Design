@@ -1651,7 +1651,7 @@
      "round": 1,
      "what": "baseline: would an agency show this to a client? 2 of 5; not-affiliated lines pass; blocked and slow feeds handled; a race puts one organisation's posts under another's name",
      "commit_reviewed": "a44d8fc (v0.1.1)",
-     "answered_by": null,
+     "answered_by": "763784d (v0.1.2): race fixed, verified",
      "rating": "2",
      "synthetic_score": 2.8,
      "phone_px": 2184,

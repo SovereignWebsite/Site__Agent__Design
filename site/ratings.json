@@ -678,7 +678,7 @@
   },
   "wordpress-section.demo.sovereignweb.site": {
    "repo": "Site__Demo__WordPress-Section",
-   "commit": "a44d8fc (v0.1.1)",
+   "commit": "763784d (v0.1.2)",
    "rating": 2,
    "five_designs": false,
    "rounds": 1,
@@ -687,7 +687,7 @@
    "maturity": "M1",
    "maturity_note": "registered 23 Nov at launch; one design; placement confirmed by baseline round 1",
    "on_building": true,
-   "blocking": "round 1: the feed race (wrong name on posts); one design (2a); cards with images; five designs next",
+   "blocking": "race fixed (verified); one design (2a); cards with images; five designs next",
    "phone_px": 2184
   }
  },
