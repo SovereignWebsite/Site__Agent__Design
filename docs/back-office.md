@@ -143,6 +143,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | pipeline-demo.demo /workflow/ | sites.b | [2](reviews-pipeline-demo-2026-11-23-workflow-round-2.html): price lands; show a finished site | a945a2f | | 2 | [yes 2/5](runs-pipeline-demo-2026-11-23-workflow-r2.html) |
 | pipeline-demo.demo /workflow/ | sites.b | [3](reviews-pipeline-demo-2026-11-23-workflow-round-3.html): axe clean; a different two say yes | b4cdba8 | | 2 | [yes 2/5](runs-pipeline-demo-2026-11-23-workflow-r3.html) |
 | pipeline-demo.demo /workflow/ | sites.b | [4](reviews-pipeline-demo-2026-11-23-workflow-round-4.html): honest and complete; the noes need a decision | f747933 | | 2 | [yes 2/5](runs-pipeline-demo-2026-11-23-workflow-r4.html) |
+| pipeline-demo.demo /workflow/ | sites.b | [5](reviews-pipeline-demo-2026-11-23-workflow-round-5.html): 2 of 5 again; the order of the top | dcb06ef | | 2 | [yes 2/5](runs-pipeline-demo-2026-11-23-workflow-r5.html) |
 | car-buyer.tool | sites.b | [1](reviews-car-buyer-2026-11-23-round-1.html): clean and useful; one design; M1 | fc3266d | | 2 | [use 4/5](runs-car-buyer-2026-11-23-r1.html) |
 | car-buyer.tool | sites.b | [2](reviews-car-buyer-2026-11-23-round-2.html): all items in; small grey hints; M2 | 06a6b42 | | 2 | [use 3/5](runs-car-buyer-2026-11-23-r2.html) |
 | car-buyer.tool | sites.b | [3](reviews-car-buyer-2026-11-23-round-3.html): plate age live and correct; text sizes next | e835d59 | | 2 | [use 3/5](runs-car-buyer-2026-11-23-r3.html) |
@@ -213,6 +214,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [The pipeline demo's workflow page, round 2](runs-pipeline-demo-2026-11-23-workflow-r2.html): 2 of 5 again; look 3.4; the price lands
 - [The pipeline demo's workflow page, round 3](runs-pipeline-demo-2026-11-23-workflow-r3.html): 2 of 5, a different two; look 3.2; axe clean
 - [The pipeline demo's workflow page, round 4](runs-pipeline-demo-2026-11-23-workflow-r4.html): 2 of 5; look 3.6; the noes quote "not set yet"
+- [The pipeline demo's workflow page, round 5](runs-pipeline-demo-2026-11-23-workflow-r5.html): 2 of 5; look 3.4
 - [Car Buyer, round 1](runs-car-buyer-2026-11-23-r1.html): would you use this before buying a car? 4 of 5; look 3.4
 - [Car Buyer, round 2](runs-car-buyer-2026-11-23-r2.html): 3 of 5; look 3.6
 - [Car Buyer, round 3](runs-car-buyer-2026-11-23-r3.html): 3 of 5; look 3.2

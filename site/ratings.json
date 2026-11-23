@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T23:40Z",
+ "updated": "2026-11-23T23:45Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -538,12 +538,12 @@
   },
   "pipeline-demo.demo.sovereignweb.site": {
    "repo": "Site__pipeline-demo",
-   "commit": "8b68fd0 (v0.1.11)",
+   "commit": "dcb06ef (v0.1.14)",
    "rating": 2,
    "five_designs": false,
    "rounds": 2,
    "agent": "sites.b",
-   "blocking": "/workflow/: the price for changes is deferred by Dinis (after handover); the page to say so plainly; round 5 then",
+   "blocking": "/workflow/ round 5: 2 of 5 (five rounds); price and button above the screenshot next; then rounds only on real content change",
    "maturity": "M2",
    "maturity_note": "moved from pipeline-demo.sovereignweb.site to this address; live at v0.1.4"
   },

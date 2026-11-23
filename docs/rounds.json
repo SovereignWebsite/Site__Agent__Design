@@ -1426,12 +1426,23 @@
      "round": "workflow 4",
      "what": "/workflow/ page: honest and complete; 2 of 5; the noes quote \"not set yet\": a decision on changes after handover needed",
      "commit_reviewed": "f747933 (v0.1.10)",
-     "answered_by": "8b68fd0 (v0.1.11)",
+     "answered_by": "8b68fd0, dcb06ef (v0.1.14)",
      "rating": "2 (site, unchanged)",
      "synthetic_score": 3.6,
      "phone_px": 5225,
      "review": "https://design.agents.sovereignweb.site/reviews-pipeline-demo-2026-11-23-workflow-round-4.html",
      "run": "https://design.agents.sovereignweb.site/runs-pipeline-demo-2026-11-23-workflow-r4.html"
+    },
+    {
+     "round": "workflow 5",
+     "what": "/workflow/: 2 of 5 for the fifth time; look 3.4; price and button below an unreadable screenshot; two times for one request; next round only after a real content change",
+     "commit_reviewed": "dcb06ef (v0.1.14)",
+     "answered_by": null,
+     "rating": "2 (site, unchanged)",
+     "synthetic_score": 3.4,
+     "phone_px": 5338,
+     "review": "https://design.agents.sovereignweb.site/reviews-pipeline-demo-2026-11-23-workflow-round-5.html",
+     "run": "https://design.agents.sovereignweb.site/runs-pipeline-demo-2026-11-23-workflow-r5.html"
     }
    ]
   },
