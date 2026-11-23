@@ -1261,12 +1261,23 @@
      "round": "workflow 1",
      "what": "/workflow/ page: would you want one? 2 of 5; no price or time, builder words, the story ends at \"next\"",
      "commit_reviewed": "461a834 (v0.1.5)",
-     "answered_by": null,
+     "answered_by": "a945a2f (v0.1.6)",
      "rating": "2 (site, unchanged)",
      "synthetic_score": 3.6,
      "phone_px": 3962,
      "review": "https://design.agents.sovereignweb.site/reviews-pipeline-demo-2026-11-23-workflow-round-1.html",
      "run": "https://design.agents.sovereignweb.site/runs-pipeline-demo-2026-11-23-workflow-r1.html"
+    },
+    {
+     "round": "workflow 2",
+     "what": "/workflow/ page: price lands; still 2 of 5; no finished site, cost after handover, insider names",
+     "commit_reviewed": "a945a2f (v0.1.6)",
+     "answered_by": null,
+     "rating": "2 (site, unchanged)",
+     "synthetic_score": 3.4,
+     "phone_px": 3846,
+     "review": "https://design.agents.sovereignweb.site/reviews-pipeline-demo-2026-11-23-workflow-round-2.html",
+     "run": "https://design.agents.sovereignweb.site/runs-pipeline-demo-2026-11-23-workflow-r2.html"
     }
    ]
   }
