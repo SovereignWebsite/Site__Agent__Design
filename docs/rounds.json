@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-23T15:00Z",
+ "updated": "2026-11-23T15:10Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -214,11 +214,21 @@
      "round": 8,
      "what": "plateau at 3.5; one content item per site",
      "commit_reviewed": "287ec41",
-     "answered_by": null,
+     "answered_by": "0289323",
      "rating": "3",
      "synthetic_score": 3.6,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-8.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r8.html"
+    },
+    {
+     "round": 9,
+     "what": "one content item per site: TCB conversation band works; RM prices in order; sgit rail not to scale; SW key ring reads as a tree",
+     "commit_reviewed": "0289323",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.6,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-9.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r9.html"
     }
    ]
   },
@@ -299,11 +309,21 @@
      "round": 8,
      "what": "plateau at 3.5; one content item per site",
      "commit_reviewed": "315ee42",
-     "answered_by": null,
+     "answered_by": "9502b93",
      "rating": "3",
      "synthetic_score": 3.0,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-8.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r8.html"
+    },
+    {
+     "round": 9,
+     "what": "one content item per site: TCB conversation band works; RM prices in order; sgit rail not to scale; SW key ring reads as a tree",
+     "commit_reviewed": "9502b93",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.6,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-9.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r9.html"
     }
    ]
   },
@@ -384,11 +404,21 @@
      "round": 8,
      "what": "plateau at 3.5; one content item per site",
      "commit_reviewed": "2a1efea",
-     "answered_by": null,
+     "answered_by": "df604f0",
      "rating": "3",
      "synthetic_score": 3.6,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-8.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r8.html"
+    },
+    {
+     "round": 9,
+     "what": "one content item per site: TCB conversation band works; RM prices in order; sgit rail not to scale; SW key ring reads as a tree",
+     "commit_reviewed": "df604f0",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 4.0,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-9.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r9.html"
     }
    ]
   },
@@ -469,11 +499,21 @@
      "round": 8,
      "what": "plateau at 3.5; one content item per site",
      "commit_reviewed": "fff53eb",
-     "answered_by": null,
+     "answered_by": "cd40be4",
      "rating": "4",
      "synthetic_score": 3.8,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-8.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r8.html"
+    },
+    {
+     "round": 9,
+     "what": "one content item per site: TCB conversation band works; RM prices in order; sgit rail not to scale; SW key ring reads as a tree",
+     "commit_reviewed": "cd40be4",
+     "answered_by": null,
+     "rating": "4",
+     "synthetic_score": 3.6,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-9.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r9.html"
     }
    ]
   },
@@ -554,11 +594,21 @@
      "round": 8,
      "what": "plateau at 3.5; one content item per site",
      "commit_reviewed": "4d1390a",
-     "answered_by": null,
+     "answered_by": "00a3a1a",
      "rating": "3",
      "synthetic_score": 3.4,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-8.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r8.html"
+    },
+    {
+     "round": 9,
+     "what": "one content item per site: TCB conversation band works; RM prices in order; sgit rail not to scale; SW key ring reads as a tree",
+     "commit_reviewed": "00a3a1a",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.2,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-9.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r9.html"
     }
    ]
   },
