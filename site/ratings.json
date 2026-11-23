@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T16:45Z",
+ "updated": "2026-11-23T16:55Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -120,19 +120,19 @@
   },
   "sgit.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sgit",
-   "commit": "fb68f3e (v0.1.29)",
+   "commit": "adbd93e (v0.1.30)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 15,
+   "rounds": 16,
    "agent": "startups.b",
-   "blocking": "round 15: three 4s (3.6); round 15 items live and measured; round 16 waits for a wow item",
+   "blocking": "round 16: four 4s (3.8); four 4s in round 17 rates it 4; the wow item needs a phone version",
    "maturity": "M3",
    "maturity_note": "rated 3",
-   "phone_px": 7602
+   "phone_px": 7529
   },
   "the-cyber-boardroom.startups.sovereignweb.site": {
    "repo": "Site__Startups__The-Cyber-Boardroom",
-   "commit": "80a8d20 (v0.1.29)",
+   "commit": "49a3702 (v0.1.30)",
    "rating": 3,
    "five_designs": true,
    "rounds": 15,
@@ -140,23 +140,23 @@
    "blocking": "round 15: synthetic 3.4; round 15 items live and measured; round 16 waits for a wow item",
    "maturity": "M3",
    "maturity_note": "rated 3",
-   "phone_px": 7114
+   "phone_px": 7001
   },
   "risk-mandate.startups.sovereignweb.site": {
    "repo": "Site__Startups__Risk-Mandate",
-   "commit": "06d5392 (v0.1.30)",
+   "commit": "c0a2dfb (v0.1.31)",
    "rating": 4,
    "five_designs": true,
-   "rounds": 15,
+   "rounds": 16,
    "agent": "startups.b",
-   "blocking": "rated 4 and M4, kept under 'Keeping a 4' (round 15: 3.8, four 4s); M5 is the owner's yes",
+   "blocking": "rated 4 and M4, kept under 'Keeping a 4' (round 16: 3.6); M5 is the owner's yes",
    "maturity": "M4",
    "maturity_note": "M4 since 7db7d16 (23 Nov); kept under design.b's 'Keeping a 4' rule (rating.md): no measured check fails; looks 3.6, 3.6, 3.8, 3.6, 3.8",
-   "phone_px": 7618
+   "phone_px": 7916
   },
   "agentic-cells.startups.sovereignweb.site": {
    "repo": "Site__Startups__Agentic-Cells",
-   "commit": "df69cce (v0.1.29)",
+   "commit": "e318b4a (v0.1.30)",
    "rating": 3,
    "five_designs": true,
    "rounds": 15,
@@ -164,11 +164,11 @@
    "blocking": "round 15: three 4s (3.6); round 15 items live and measured; round 16 waits for a wow item",
    "maturity": "M3",
    "maturity_note": "rated 3",
-   "phone_px": 6629
+   "phone_px": 6556
   },
   "sovereign-website.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sovereign-Website",
-   "commit": "00e8c26 (v0.1.32)",
+   "commit": "2cabb40 (v0.1.33)",
    "rating": 3,
    "five_designs": true,
    "rounds": 15,
@@ -176,7 +176,7 @@
    "blocking": "round 15: synthetic 3.4; round 15 items live and measured; round 16 waits for a wow item",
    "maturity": "M3",
    "maturity_note": "rated 3",
-   "phone_px": 7660
+   "phone_px": 7580
   },
   "chiswick-cheese-market.organisation.sovereignweb.site": {
    "repo": "Site__Organisation__Chiswick-Cheese-Market",
