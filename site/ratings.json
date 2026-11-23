@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T18:00Z",
+ "updated": "2026-11-23T18:10Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -650,17 +650,17 @@
   },
   "car-buyer.tool.sovereignweb.site": {
    "repo": "Site__Tool__Car-Buyer",
-   "commit": "3e54ec1 (v0.1.9)",
+   "commit": "3f08b2d (v0.1.10)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 8,
+   "rounds": 9,
    "agent": "sites.b",
    "owner": "Dinis Cruz (his own tool; decision 2026-11-23__car-buyer)",
    "maturity": "M3",
    "maturity_note": "M3 since f9aba32 (23 Nov): five home-page structures, told apart by 4 of 5 synthetic users; the checklist still shares one layout",
-   "phone_px": 4902,
+   "phone_px": 4929,
    "on_building": true,
-   "blocking": "round 8: rated 3, M3; two 4s of five (needs four in two runs); checklist five ideas by 3 of 5; bolder, exact drawings next"
+   "blocking": "round 9: rated 3, M3; show a friend 5 of 5; look settled at 3.4 (rounds 6 to 9); fixes listed; next round after a change that could move the look"
   }
  },
  "kpi": {
