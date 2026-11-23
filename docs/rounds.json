@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-23T13:35Z",
+ "updated": "2026-11-23T13:50Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -811,6 +811,21 @@
      "features_satisfied": "2/5",
      "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-23-round-10.html",
      "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-23-r10.html"
+    }
+   ]
+  },
+  "donna-freed.author.sovereignweb.site": {
+   "agent": "the site's agent (via design.b)",
+   "rounds": [
+    {
+     "round": 1,
+     "what": "first round, found by design.b's crack check: axe clean; five colour skins of one layout; no images; not on the hub; M2",
+     "commit_reviewed": "3bee275 (v0.1.3)",
+     "answered_by": null,
+     "rating": "2",
+     "synthetic_score": 2.4,
+     "review": "https://design.agents.sovereignweb.site/reviews-donna-freed-2026-11-23-round-1.html",
+     "run": "https://design.agents.sovereignweb.site/runs-donna-freed-2026-11-23-r1.html"
     }
    ]
   }

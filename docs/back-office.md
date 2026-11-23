@@ -93,6 +93,9 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | hub | hub.b | [8](reviews-hub-2026-11-23-round-8.html): would you want one? Street 3/5; no price, no form | 7bf77ff | | 3 | [yes 1,1,1,3,1](runs-hub-2026-11-23-r8.html) |
 | hub | hub.b | [9](reviews-hub-2026-11-23-round-9.html): the case works (Line 1/5 to 3/5); I want one goes nowhere | 4f23d10 | | 3 | [yes 3,2,1,1,3](runs-hub-2026-11-23-r9.html) |
 | hub | hub.b | [10](reviews-hub-2026-11-23-round-10.html): Line 4/5 first time; features search misses its own example | 4a60c45 | | 3 | [yes 4,0,1,1,3](runs-hub-2026-11-23-r10.html) |
+| donna-freed.author | (via design.b) | [1](reviews-donna-freed-2026-11-23-round-1.html): five skins, no images, not on the hub; M2 | 3bee275 | | 2 | [2.4](runs-donna-freed-2026-11-23-r1.html) |
+
+The crack sweep of 23 November 2026, every live site against ratings.json, is in docs/sweeps/2026-11-23-sites.md.
 
 Earlier rounds by the first design.b session (hub, pipeline-demo, the review of all sites) are on the [reviews page](reviews.html).
 
@@ -126,6 +129,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [The hub, round 8: would you want one?](runs-hub-2026-11-23-r8.html): yes 1/5, 1/5, 1/5, 3/5 (Street), 1/5
 - [The hub, round 9](runs-hub-2026-11-23-r9.html): yes Line 3/5, Register 2/5, Gallery 1/5, Contact Sheet 1/5, Street 3/5; I want one satisfied 0 of 25
 - [The hub, round 10](runs-hub-2026-11-23-r10.html): yes Line 4/5, Register 0/5, Gallery 1/5, Contact Sheet 1/5, Street 3/5; /features/ satisfied 2 of 5
+- [Donna Freed, round 1](runs-donna-freed-2026-11-23-r1.html): 2.4; design 4 weakest for all five
 - [Mistral provider site, round 1](runs-mistral-2026-11-20-r1.html): 3.0, no favourite design
 - [Mistral provider site, round 3](runs-mistral-2026-11-21-r3.html): 3.4, up from 3.0
 - [Grace Farrell, round 1](runs-grace-farrell-2026-11-21-r1.html): 2.4; Fringe flyer voted best

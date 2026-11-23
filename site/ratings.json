@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T13:35Z",
+ "updated": "2026-11-23T13:50Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -9,7 +9,9 @@
    "five_designs": true,
    "rounds": 0,
    "agent": "not yet named",
-   "blocking": "phone header 247 px; offer aside landmark"
+   "blocking": "phone header 247 px; offer aside landmark",
+   "maturity": "n/a",
+   "maturity_note": "not on the Factory pipeline: no version.json, no seed pages"
   },
   "sovereignwebsite.org": {
    "repo": "SovereignWebsite__Org",
@@ -18,7 +20,9 @@
    "five_designs": false,
    "rounds": 0,
    "agent": "not yet named",
-   "blocking": "old look, code block cut off on phone, no five designs"
+   "blocking": "old look, code block cut off on phone, no five designs",
+   "maturity": "n/a",
+   "maturity_note": "not on the Factory pipeline"
   },
   "sovereignwebsite.site": {
    "repo": "SovereignWebsite__Site",
@@ -27,7 +31,9 @@
    "five_designs": false,
    "rounds": 0,
    "agent": "not yet named",
-   "blocking": "old look, no favicon, no five designs"
+   "blocking": "old look, no favicon, no five designs",
+   "maturity": "n/a",
+   "maturity_note": "not on the Factory pipeline"
   },
   "hub.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Hub",
@@ -36,7 +42,9 @@
    "five_designs": true,
    "rounds": 10,
    "agent": "hub.b",
-   "blocking": "round 10: Line 4/5 (one more run rates it 4); route and price decided but not live; features search 2/5"
+   "blocking": "round 10: Line 4/5 (one more run rates it 4); route and price decided but not live; features search 2/5",
+   "maturity": "M3",
+   "maturity_note": "five real ideas, rated 3; M4 needs would-you-want-one at 4 of 5 twice"
   },
   "vault.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Vault",
@@ -45,7 +53,9 @@
    "five_designs": false,
    "rounds": 0,
    "agent": "hub.b",
-   "blocking": "key field border 1.25:1; no skip link"
+   "blocking": "key field border 1.25:1; no skip link",
+   "maturity": "M1",
+   "maturity_note": "live on the pipeline; rated 1"
   },
   "google-maps.sovereignwebsite.site": {
    "repo": "Site__google-maps",
@@ -54,7 +64,9 @@
    "five_designs": false,
    "rounds": 0,
    "agent": "sites.b",
-   "blocking": "form field borders 1.25:1; button looks broken while off"
+   "blocking": "form field borders 1.25:1; button looks broken while off",
+   "maturity": "M1",
+   "maturity_note": "live demo, not switched on; rated 1"
   },
   "pipeline-demo.sovereignweb.site": {
    "repo": "Site__pipeline-demo",
@@ -63,7 +75,9 @@
    "five_designs": false,
    "rounds": 2,
    "agent": "sites.b",
-   "blocking": "round 2 in (07fa97d, five designs); audit in the 14:07 run"
+   "blocking": "round 2 in (07fa97d, five designs); audit in the 14:07 run",
+   "maturity": "M2",
+   "maturity_note": "now served at pipeline-demo.demo.sovereignweb.site (v0.1.4); this address has no version.json"
   },
   "emily-cruz.artist.sovereignweb.site": {
    "repo": "Site__Artist__Emily-Cruz",
@@ -74,7 +88,9 @@
    "agent": "emily.b",
    "blocking": "signed off with notes (round 3, active at baf38d9): small credit text on dark red, soft video stills; one more pass after Emily adds material",
    "synthetic_score": 4.0,
-   "signed_off": true
+   "signed_off": true,
+   "maturity": "M4",
+   "maturity_note": "signed off at 4"
   },
   "whois.tool.sovereignweb.site": {
    "repo": "Site__Tool__Whois",
@@ -83,7 +99,9 @@
    "five_designs": null,
    "rounds": 0,
    "agent": "sites.b",
-   "blocking": "not yet reviewed; due in the 15:07 run (a4e004c ready)"
+   "blocking": "not yet reviewed; due in the 15:07 run (a4e004c ready)",
+   "maturity": "M1",
+   "maturity_note": "not yet reviewed"
   },
   "sarah-cruz.designer.sovereignweb.site": {
    "repo": "Site__Designer__Sarah-Cruz",
@@ -94,7 +112,9 @@
    "agent": "sarah-cruz.b",
    "blocking": "signed off with notes (round 2, 92ab2bf): more room for the strongest pack photography; photographer credits when Sarah supplies them; one more pass after she adds material",
    "synthetic_score": 4.0,
-   "signed_off": true
+   "signed_off": true,
+   "maturity": "M4",
+   "maturity_note": "signed off at 4"
   },
   "kate-curtis-evans.founder.sovereignweb.site": {
    "repo": "Site__Founder__Kate-Curtis-Evans",
@@ -105,7 +125,9 @@
    "agent": "kate-curtis-evans.b",
    "blocking": "signed off with notes (round 8, active at c7bffb9): only the desk photo; long phone page; one more pass after Kate adds material",
    "synthetic_score": 4.0,
-   "signed_off": true
+   "signed_off": true,
+   "maturity": "M6",
+   "maturity_note": "design.b's reading (owner commit); not re-checked by design.b.rounds"
   },
   "sgit.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sgit",
@@ -114,7 +136,9 @@
    "five_designs": true,
    "rounds": 8,
    "agent": "startups.b",
-   "blocking": "round 8: synthetic 3.6; plateau, one content item next"
+   "blocking": "round 8: synthetic 3.6; plateau, one content item next",
+   "maturity": "M3",
+   "maturity_note": "rated 3"
   },
   "the-cyber-boardroom.startups.sovereignweb.site": {
    "repo": "Site__Startups__The-Cyber-Boardroom",
@@ -123,7 +147,9 @@
    "five_designs": true,
    "rounds": 8,
    "agent": "startups.b",
-   "blocking": "round 8: synthetic 3.0; plateau, one content item next"
+   "blocking": "round 8: synthetic 3.0; plateau, one content item next",
+   "maturity": "M3",
+   "maturity_note": "rated 3"
   },
   "risk-mandate.startups.sovereignweb.site": {
    "repo": "Site__Startups__Risk-Mandate",
@@ -132,7 +158,9 @@
    "five_designs": true,
    "rounds": 8,
    "agent": "startups.b",
-   "blocking": "round 8: synthetic 3.6; plateau, one content item next"
+   "blocking": "round 8: synthetic 3.6; plateau, one content item next",
+   "maturity": "M3",
+   "maturity_note": "rated 3; four of five at 4 in rounds 5 and 7, not two in a row"
   },
   "agentic-cells.startups.sovereignweb.site": {
    "repo": "Site__Startups__Agentic-Cells",
@@ -141,7 +169,9 @@
    "five_designs": true,
    "rounds": 8,
    "agent": "startups.b",
-   "blocking": "round 8: kept at 4 (four 4s again)"
+   "blocking": "round 8: kept at 4 (four 4s again)",
+   "maturity": "M4",
+   "maturity_note": "rated 4 (four of five at 4, rounds 5, 6, 8); phone length not yet checked against 8,000 px"
   },
   "sovereign-website.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sovereign-Website",
@@ -150,7 +180,9 @@
    "five_designs": true,
    "rounds": 8,
    "agent": "startups.b",
-   "blocking": "round 8: synthetic 3.4; plateau, one content item next"
+   "blocking": "round 8: synthetic 3.4; plateau, one content item next",
+   "maturity": "M3",
+   "maturity_note": "rated 3"
   },
   "chiswick-cheese-market.organisation.sovereignweb.site": {
    "repo": "Site__Organisation__Chiswick-Cheese-Market",
@@ -159,7 +191,9 @@
    "five_designs": true,
    "rounds": 4,
    "agent": "chiswick-cheese-market.b",
-   "blocking": "ready for Monday: banner pause works, door fixed, Cave fuller; open on design 3, then 5, then 2; 4 needs a look score of 4"
+   "blocking": "ready for Monday: banner pause works, door fixed, Cave fuller; open on design 3, then 5, then 2; 4 needs a look score of 4",
+   "maturity": "M3",
+   "maturity_note": "rated 3; not on the hub"
   },
   "mistral.provider.sovereignweb.site": {
    "repo": "Site__Provider__Mistral",
@@ -168,7 +202,9 @@
    "five_designs": true,
    "rounds": 3,
    "agent": "conductor.mistral",
-   "blocking": "round 3: synthetic 3.4; /swarm/ outside the shell and 19 identical link texts; scroll hint on code; design 2 footnote wrap"
+   "blocking": "round 3: synthetic 3.4; /swarm/ outside the shell and 19 identical link texts; scroll hint on code; design 2 footnote wrap",
+   "maturity": "M3",
+   "maturity_note": "rated 3"
   },
   "grace-farrell.artist.sovereignweb.site": {
    "repo": "Site__Artist__Grace-Farrell",
@@ -177,7 +213,9 @@
    "five_designs": true,
    "rounds": 6,
    "agent": "grace.b",
-   "blocking": "closed at round 6: synthetic 3.4, first 'wow'; 4 waits on the chooser decision (Dinis and Grace) and a sung reel"
+   "blocking": "closed at round 6: synthetic 3.4, first 'wow'; 4 waits on the chooser decision (Dinis and Grace) and a sung reel",
+   "maturity": "M3",
+   "maturity_note": "rated 3; design.b reads M4, but the model asks for rating 4 at M4, which waits on the chooser decision"
   },
   "south-beacon.talent.sovereignweb.site": {
    "repo": "Site__Talent__South-Beacon",
@@ -186,7 +224,20 @@
    "five_designs": true,
    "rounds": 1,
    "agent": "south-beacon.b",
-   "blocking": "round 1 checked back: fixes in, axe clean, anonymity passes; 2 until the five rebuilt structures land; 'looking for' and scale wait on the candidate"
+   "blocking": "round 1 checked back: fixes in, axe clean, anonymity passes; 2 until the five rebuilt structures land; 'looking for' and scale wait on the candidate",
+   "maturity": "M2",
+   "maturity_note": "rated 2, five skins; not on the hub (anonymised: may stay off it)"
+  },
+  "donna-freed.author.sovereignweb.site": {
+   "repo": "Site__Author__Donna-Freed",
+   "commit": "3bee275 (v0.1.3)",
+   "rating": 2,
+   "five_designs": false,
+   "rounds": 1,
+   "agent": "the site's agent (via design.b)",
+   "blocking": "round 1: five colour skins of one layout, no images, not on the hub; synthetic 2.4",
+   "maturity": "M2",
+   "maturity_note": "rated 2; not on the hub (an M1 defect)"
   }
  },
  "kpi": {
@@ -218,5 +269,6 @@
    "cost_usd_start": null,
    "cost_usd_end": null
   }
- ]
+ ],
+ "maturity_model": "docs/maturity.md (M0 to M8), placed by design.b.rounds on 23 November 2026"
 }
