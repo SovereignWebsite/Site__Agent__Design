@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T22:50Z",
+ "updated": "2026-11-23T23:10Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -664,16 +664,16 @@
   },
   "suno.platform.sovereignweb.site": {
    "repo": "Site__Platform__Suno",
-   "commit": "bd44923 (v0.1.3)",
+   "commit": "6761b06 (v0.1.7)",
    "rating": 2,
-   "five_designs": false,
-   "rounds": 1,
+   "five_designs": true,
+   "rounds": 2,
    "agent": "suno.b",
-   "maturity": "M1",
-   "maturity_note": "scaffold live and on the hub's /building/; real content, but no draft notice and no word on who made it (M2)",
-   "phone_px": 3239,
+   "maturity": "M2",
+   "maturity_note": "M2 since 6761b06 (23 Nov): draft notice, maker line, sources line; five ideas by 4 of 5; 3 and M3 once the home page fits a phone and has a design chooser",
+   "phone_px": 4859,
    "on_building": true,
-   "blocking": "round 1: one design (2a, max 2); compare takes 0 of 5, come back 1 of 5; one A/B control per version, the stage in words, five designs next"
+   "blocking": "round 2: home scrolls sideways (421 px on 390) and has no design chooser; A/B switch only on home; then 3 and M3"
   }
  },
  "kpi": {

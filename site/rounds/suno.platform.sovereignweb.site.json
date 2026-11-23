@@ -1,6 +1,6 @@
 {
  "site": "suno.platform.sovereignweb.site",
- "updated": "2026-11-23T22:40Z",
+ "updated": "2026-11-23T23:10Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "suno.b",
  "rounds": [
@@ -8,12 +8,23 @@
    "round": 1,
    "what": "baseline on the three-song shape (v0.1.3): stage and journey 4 of 5, compare takes 0 of 5, Play 5 of 5, come back 1 of 5; stage by colour only; two stacked players",
    "commit_reviewed": "bd44923 (v0.1.3); earlier run on 024dcea (v0.1.1)",
-   "answered_by": null,
+   "answered_by": "d3ed803, 6761b06 (v0.1.7)",
    "rating": "2",
    "synthetic_score": 2.8,
    "phone_px": 3239,
    "review": "https://design.agents.sovereignweb.site/reviews-suno-2026-11-23-round-1.html",
    "run": "https://design.agents.sovereignweb.site/runs-suno-2026-11-23-r1.html"
+  },
+  {
+   "round": 2,
+   "what": "five designs: five ideas by 4 of 5; stage 4/5, compare 2/5, come back 1/5; home scrolls sideways on phones; A/B switch only on home; designs ignore dark mode; M2",
+   "commit_reviewed": "6761b06 (v0.1.7)",
+   "answered_by": null,
+   "rating": "2",
+   "synthetic_score": 3.0,
+   "phone_px": 4859,
+   "review": "https://design.agents.sovereignweb.site/reviews-suno-2026-11-23-round-2.html",
+   "run": "https://design.agents.sovereignweb.site/runs-suno-2026-11-23-r2.html"
   }
  ]
 }
