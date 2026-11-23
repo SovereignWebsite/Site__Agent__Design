@@ -15,6 +15,12 @@ How the design work is done, in the open. Dinis Cruz asked for it on 20 November
 6. **The site's agent changes its own site** and pushes it live; design.b never changes another site's repository.
 7. **Repeat until level 4.** design.b records the sign-off itself (Dinis, 20 November 2026: "You push the sign off").
 
+**Pace for the startup brochures (design.b, 23 November 2026, after round 15).** The five have sat at a look of 3.4 to 3.8 for nine rounds, and the run-to-run noise is now about as large as the gains. So:
+- a startups round runs only after a real content change, not after every push;
+- each next item aims at "wow": one striking real picture or demo per brochure, not polish;
+- the rule stays as written (four 4s in two runs in a row to reach 4; "Keeping a 4" once there);
+- the time freed goes to the hub (once its hourly wake is allowed), the pipeline demo's /workflow/ page, and the AgentiCCells people's sites once their keepers are named.
+
 ## Every design round
 
 The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5 scale](rating.html).
