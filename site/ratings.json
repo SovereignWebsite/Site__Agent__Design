@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T16:55Z",
+ "updated": "2026-11-23T17:00Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -650,17 +650,17 @@
   },
   "car-buyer.tool.sovereignweb.site": {
    "repo": "Site__Tool__Car-Buyer",
-   "commit": "06a6b42 (v0.1.2)",
+   "commit": "e835d59 (v0.1.3)",
    "rating": 2,
    "five_designs": false,
-   "rounds": 2,
+   "rounds": 3,
    "agent": "sites.b",
    "owner": "Dinis Cruz (his own tool; decision 2026-11-23__car-buyer)",
    "maturity": "M2",
    "maturity_note": "M2 since 06a6b42 (23 Nov): real content, sources cited and dated, draft notice; M3 needs five designs",
-   "phone_px": 3436,
+   "phone_px": 3600,
    "on_building": true,
-   "blocking": "round 2: one design (2a, max 2); 3 of 5 would use it; small grey hints, MIB placement, five designs next"
+   "blocking": "round 3: one design (2a, max 2); 3 of 5; text sizes and Plates on phones; five designs next; fetching results is Dinis's call"
   }
  },
  "kpi": {
