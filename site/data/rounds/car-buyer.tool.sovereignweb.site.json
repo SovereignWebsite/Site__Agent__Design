@@ -63,12 +63,23 @@
    "round": 6,
    "what": "use 5 of 5, show a friend 4 of 5; home five ideas (5 of 5), checklist five skins (3 of 5); tick colour and first screen next",
    "commit_reviewed": "8cd09aa (v0.1.7)",
-   "answered_by": null,
+   "answered_by": "5610ba8 (v0.1.8)",
    "rating": "3",
    "synthetic_score": 3.4,
    "phone_px": 5196,
    "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-23-round-6.html",
    "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-23-r6.html"
+  },
+  {
+   "round": 7,
+   "what": "use 5 of 5, show a friend 4 of 5 (two runs running); home five ideas, checklist skins by 3 of 5; look 3.2, no imagery; one drawn picture per design next",
+   "commit_reviewed": "5610ba8 (v0.1.8)",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": 3.2,
+   "phone_px": 5333,
+   "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-23-round-7.html",
+   "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-23-r7.html"
   }
  ]
 }

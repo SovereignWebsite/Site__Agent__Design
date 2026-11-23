@@ -149,6 +149,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | car-buyer.tool | sites.b | [4](reviews-car-buyer-2026-11-23-round-4.html): five looks, one page; still 2 | 1f238b7 | | 2 | [use 5/5, skins](runs-car-buyer-2026-11-23-r4.html) |
 | car-buyer.tool | sites.b | [5](reviews-car-buyer-2026-11-23-round-5.html): five ideas on the home page; M3 | f9aba32 | | 3 | [use 5/5, home 4/5 ideas](runs-car-buyer-2026-11-23-r5.html) |
 | car-buyer.tool | sites.b | [6](reviews-car-buyer-2026-11-23-round-6.html): show a friend 4 of 5; checklist halfway | 8cd09aa | | 3 | [use 5/5, friend 4/5](runs-car-buyer-2026-11-23-r6.html) |
+| car-buyer.tool | sites.b | [7](reviews-car-buyer-2026-11-23-round-7.html): show a friend holds; the look is what is left | 5610ba8 | | 3 | [use 5/5, friend 4/5](runs-car-buyer-2026-11-23-r7.html) |
 | donna-freed.author | (via design.b) | [1](reviews-donna-freed-2026-11-23-round-1.html): five skins, no images, not on the hub; M2 | 3bee275 | | 2 | [2.4](runs-donna-freed-2026-11-23-r1.html) |
 | yiheng-wang (agenticcells.site) | keeper to be named by Dinis | [1](reviews-yiheng-wang-2026-11-23-round-1.html): five real first screens; three axe fixes; lower halves repeat | 549555d | | 1 (3 once fixed) | [3.6](runs-yiheng-wang-2026-11-23-r1.html) |
 | silvio-switha (agenticcells.site) | keeper to be named by Dinis | [1](reviews-silvio-switha-2026-11-23-round-1.html): the film sells it; Studio a wow; no hire route | bfc4366 | | 1 (3 once fixed) | [3.4](runs-silvio-switha-2026-11-23-r1.html) |
@@ -211,6 +212,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [Car Buyer, round 4](runs-car-buyer-2026-11-23-r4.html): 5 of 5 would use it; the five designs are skins (5 of 5); look 2.8
 - [Car Buyer, round 5](runs-car-buyer-2026-11-23-r5.html): 5 of 5; home page five ideas (4 of 5), checklist five skins; look 3.4
 - [Car Buyer, round 6](runs-car-buyer-2026-11-23-r6.html): use 5 of 5, show a friend 4 of 5; home five ideas (5 of 5), checklist skins (3 of 5); look 3.4
+- [Car Buyer, round 7](runs-car-buyer-2026-11-23-r7.html): use 5 of 5, show a friend 4 of 5 again; look 3.2; no imagery
 - [Donna Freed, round 1](runs-donna-freed-2026-11-23-r1.html): 2.4; design 4 weakest for all five
 - [Yiheng (Vicky) Wang, round 1](runs-yiheng-wang-2026-11-23-r1.html): 3.6; The Brief voted best
 - [Silvio Switha, round 1](runs-silvio-switha-2026-11-23-r1.html): 3.4; the critic's wow at The Studio
