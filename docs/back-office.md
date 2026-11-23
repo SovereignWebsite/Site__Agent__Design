@@ -102,6 +102,10 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | yiheng-wang (agenticcells.site) | keeper to be named by Dinis | [1](reviews-yiheng-wang-2026-11-23-round-1.html): five real first screens; three axe fixes; lower halves repeat | 549555d | | 1 (3 once fixed) | [3.6](runs-yiheng-wang-2026-11-23-r1.html) |
 | silvio-switha (agenticcells.site) | keeper to be named by Dinis | [1](reviews-silvio-switha-2026-11-23-round-1.html): the film sells it; Studio a wow; no hire route | bfc4366 | | 1 (3 once fixed) | [3.4](runs-silvio-switha-2026-11-23-r1.html) |
 | gabriel-dacruz (agenticcells.site) | keeper to be named by Dinis | [1](reviews-gabriel-dacruz-2026-11-23-round-1.html): six strong first screens; no way to commission him | ddf6875 | | 1 (3 once fixed) | [3.2](runs-gabriel-dacruz-2026-11-23-r1.html) |
+| marc-noah (agenticcells.site) | keeper to be named by Dinis | [1](reviews-agenticcells-people-2026-11-23-round-1.html) | 25bb737 | | 3 | [3.4](runs-people-2026-11-23-r1.html) |
+| indi-gupte (agenticcells.site) | keeper to be named by Dinis | [1](reviews-agenticcells-people-2026-11-23-round-1.html) | 02a3172 | | 1 (3 once fixed) | [3.6](runs-people-2026-11-23-r1.html) |
+| jose-bota (agenticcells.site) | keeper to be named by Dinis | [1](reviews-agenticcells-people-2026-11-23-round-1.html) | 55213d6 | | 2 | [2.8](runs-people-2026-11-23-r1.html) |
+| mondweep-chakravorty (agenticcells.site) | keeper to be named by Dinis | [1](reviews-agenticcells-people-2026-11-23-round-1.html) | 1e71f30 | | 1 (3 once fixed) | [3.4](runs-people-2026-11-23-r1.html) |
 
 The crack sweep of 23 November 2026, every live site against ratings.json, is in docs/sweeps/2026-11-23-sites.md.
 
@@ -142,6 +146,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [Yiheng (Vicky) Wang, round 1](runs-yiheng-wang-2026-11-23-r1.html): 3.6; The Brief voted best
 - [Silvio Switha, round 1](runs-silvio-switha-2026-11-23-r1.html): 3.4; the critic's wow at The Studio
 - [Gabriel DaCruz, round 1](runs-gabriel-dacruz-2026-11-23-r1.html): 3.2; The Sleeve voted best (the home page was mis-captured; rechecked by hand)
+- [Four AgentiCCells people, round 1](runs-people-2026-11-23-r1.html): Marc Noah 3.4, Indi Gupte 3.6, José Bota 2.8, Mondweep Chakravorty 3.4
 - [Mistral provider site, round 1](runs-mistral-2026-11-20-r1.html): 3.0, no favourite design
 - [Mistral provider site, round 3](runs-mistral-2026-11-21-r3.html): 3.4, up from 3.0
 - [Grace Farrell, round 1](runs-grace-farrell-2026-11-21-r1.html): 2.4; Fringe flyer voted best

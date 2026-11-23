@@ -1,0 +1,18 @@
+{
+ "site": "marc-noah.agenticcells.site",
+ "updated": "2026-11-23T16:05Z",
+ "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
+ "agent": "keeper to be named by Dinis",
+ "rounds": [
+  {
+   "round": 1,
+   "what": "six ideas, axe clean; counts disagree (25 places since 2023 against a list from Oct 2022); shared body; empty frames",
+   "commit_reviewed": "25bb737 (v0.1.34)",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": 3.4,
+   "review": "https://design.agents.sovereignweb.site/reviews-agenticcells-people-2026-11-23-round-1.html",
+   "run": "https://design.agents.sovereignweb.site/runs-people-2026-11-23-r1.html"
+  }
+ ]
+}

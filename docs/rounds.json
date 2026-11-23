@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-23T15:35Z",
+ "updated": "2026-11-23T16:05Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -921,6 +921,66 @@
      "synthetic_score": 3.2,
      "review": "https://design.agents.sovereignweb.site/reviews-gabriel-dacruz-2026-11-23-round-1.html",
      "run": "https://design.agents.sovereignweb.site/runs-gabriel-dacruz-2026-11-23-r1.html"
+    }
+   ]
+  },
+  "marc-noah.agenticcells.site": {
+   "agent": "keeper to be named by Dinis",
+   "rounds": [
+    {
+     "round": 1,
+     "what": "six ideas, axe clean; counts disagree (25 places since 2023 against a list from Oct 2022); shared body; empty frames",
+     "commit_reviewed": "25bb737 (v0.1.34)",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.4,
+     "review": "https://design.agents.sovereignweb.site/reviews-agenticcells-people-2026-11-23-round-1.html",
+     "run": "https://design.agents.sovereignweb.site/runs-people-2026-11-23-r1.html"
+    }
+   ]
+  },
+  "indi-gupte.agenticcells.site": {
+   "agent": "keeper to be named by Dinis",
+   "rounds": [
+    {
+     "round": 1,
+     "what": "Designs button has no name on phones; Front Page menu 1.17:1; 3 once fixed; his own part hard to see",
+     "commit_reviewed": "02a3172 (v0.1.17)",
+     "answered_by": null,
+     "rating": "1 (3 once fixed)",
+     "synthetic_score": 3.6,
+     "review": "https://design.agents.sovereignweb.site/reviews-agenticcells-people-2026-11-23-round-1.html",
+     "run": "https://design.agents.sovereignweb.site/runs-people-2026-11-23-r1.html"
+    }
+   ]
+  },
+  "jose-bota.agenticcells.site": {
+   "agent": "keeper to be named by Dinis",
+   "rounds": [
+    {
+     "round": 1,
+     "what": "one design, no chooser (2a); lower half low contrast; few sources",
+     "commit_reviewed": "55213d6 (v0.1.24)",
+     "answered_by": null,
+     "rating": "2",
+     "synthetic_score": 2.8,
+     "review": "https://design.agents.sovereignweb.site/reviews-agenticcells-people-2026-11-23-round-1.html",
+     "run": "https://design.agents.sovereignweb.site/runs-people-2026-11-23-r1.html"
+    }
+   ]
+  },
+  "mondweep-chakravorty.agenticcells.site": {
+   "agent": "keeper to be named by Dinis",
+   "rounds": [
+    {
+     "round": 1,
+     "what": "small source targets; Blueprint table not keyboard-reachable; 3 once fixed; about the run more than him",
+     "commit_reviewed": "1e71f30 (v0.1.19)",
+     "answered_by": null,
+     "rating": "1 (3 once fixed)",
+     "synthetic_score": 3.4,
+     "review": "https://design.agents.sovereignweb.site/reviews-agenticcells-people-2026-11-23-round-1.html",
+     "run": "https://design.agents.sovereignweb.site/runs-people-2026-11-23-r1.html"
     }
    ]
   }

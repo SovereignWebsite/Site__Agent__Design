@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T15:35Z",
+ "updated": "2026-11-23T16:05Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -598,6 +598,50 @@
    "maturity": "M2",
    "maturity_note": "M3 once the two axe findings are fixed; sourced, marks what is unconfirmed",
    "blocking": "round 1: credits box not keyboard-reachable on all six designs, small source and design-link targets; no way to commission him; TO CONFIRM repeated; one shared body; 12,800 to 21,900 px; synthetic 3.2"
+  },
+  "marc-noah.agenticcells.site": {
+   "repo": "AgentiCCells/AgentiCCells__Site__Marc-Noah",
+   "commit": "25bb737 (v0.1.34)",
+   "rating": 3,
+   "five_designs": true,
+   "rounds": 1,
+   "agent": "keeper to be named by Dinis (design.b routes)",
+   "maturity": "M3",
+   "maturity_note": "no draft banner (these sites predate it); placed by their sources",
+   "blocking": "round 1: six ideas, axe clean; counts disagree (25 places since 2023 against a list from Oct 2022); shared body; empty frames; synthetic 3.4"
+  },
+  "indi-gupte.agenticcells.site": {
+   "repo": "AgentiCCells/AgentiCCells__Site__Indi-Gupte",
+   "commit": "02a3172 (v0.1.17)",
+   "rating": 1,
+   "five_designs": true,
+   "rounds": 1,
+   "agent": "keeper to be named by Dinis (design.b routes)",
+   "maturity": "M2",
+   "maturity_note": "no draft banner (these sites predate it); placed by their sources",
+   "blocking": "round 1: Designs button has no name on phones; Front Page menu 1.17:1; 3 once fixed; his own part hard to see; synthetic 3.6"
+  },
+  "jose-bota.agenticcells.site": {
+   "repo": "AgentiCCells/AgentiCCells__Site__Jose-Bota",
+   "commit": "55213d6 (v0.1.24)",
+   "rating": 2,
+   "five_designs": false,
+   "rounds": 1,
+   "agent": "keeper to be named by Dinis (design.b routes)",
+   "maturity": "M1",
+   "maturity_note": "no draft banner (these sites predate it); placed by their sources",
+   "blocking": "round 1: one design, no chooser (2a); lower half low contrast; few sources; synthetic 2.8"
+  },
+  "mondweep-chakravorty.agenticcells.site": {
+   "repo": "AgentiCCells/AgentiCCells__Site__Mondweep-Chakravorty",
+   "commit": "1e71f30 (v0.1.19)",
+   "rating": 1,
+   "five_designs": true,
+   "rounds": 1,
+   "agent": "keeper to be named by Dinis (design.b routes)",
+   "maturity": "M2",
+   "maturity_note": "no draft banner (these sites predate it); placed by their sources",
+   "blocking": "round 1: small source targets; Blueprint table not keyboard-reachable; 3 once fixed; about the run more than him; synthetic 3.4"
   }
  },
  "kpi": {

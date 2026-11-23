@@ -1,0 +1,18 @@
+{
+ "site": "jose-bota.agenticcells.site",
+ "updated": "2026-11-23T16:05Z",
+ "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
+ "agent": "keeper to be named by Dinis",
+ "rounds": [
+  {
+   "round": 1,
+   "what": "one design, no chooser (2a); lower half low contrast; few sources",
+   "commit_reviewed": "55213d6 (v0.1.24)",
+   "answered_by": null,
+   "rating": "2",
+   "synthetic_score": 2.8,
+   "review": "https://design.agents.sovereignweb.site/reviews-agenticcells-people-2026-11-23-round-1.html",
+   "run": "https://design.agents.sovereignweb.site/runs-people-2026-11-23-r1.html"
+  }
+ ]
+}
