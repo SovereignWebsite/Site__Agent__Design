@@ -155,6 +155,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | suno.platform | suno.b | [1](reviews-suno-2026-11-23-round-1.html): stage reads 4/5; compare takes 0/5; one design; M1 | bd44923 | | 2 | [compare 0/5, back 1/5](runs-suno-2026-11-23-r1.html) |
 | suno.platform | suno.b | [2](reviews-suno-2026-11-23-round-2.html): five ideas (4/5); two measured fails; M2 | 6761b06 | | 2 | [compare 2/5, back 1/5](runs-suno-2026-11-23-r2.html) |
 | suno.platform | suno.b | [3](reviews-suno-2026-11-23-round-3.html): faults fixed; two axe findings; 3 once fixed | 2a12f44 | | 1 | [ideas 5/5, friend 3/5](runs-suno-2026-11-23-r3.html) |
+| suno.platform | suno.b | [3, check-back](reviews-suno-2026-11-23-round-3.html): axe clean on aa1c8fc; rated 3, M3 | aa1c8fc | | 3 | |
 | donna-freed.author | (via design.b) | [1](reviews-donna-freed-2026-11-23-round-1.html): five skins, no images, not on the hub; M2 | 3bee275 | | 2 | [2.4](runs-donna-freed-2026-11-23-r1.html) |
 | yiheng-wang (agenticcells.site) | keeper to be named by Dinis | [1](reviews-yiheng-wang-2026-11-23-round-1.html): five real first screens; three axe fixes; lower halves repeat | 549555d | | 1 (3 once fixed) | [3.6](runs-yiheng-wang-2026-11-23-r1.html) |
 | silvio-switha (agenticcells.site) | keeper to be named by Dinis | [1](reviews-silvio-switha-2026-11-23-round-1.html): the film sells it; Studio a wow; no hire route | bfc4366 | | 1 (3 once fixed) | [3.4](runs-silvio-switha-2026-11-23-r1.html) |
