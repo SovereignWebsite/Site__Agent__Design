@@ -107,12 +107,23 @@
    "round": 10,
    "what": "Road atlas as a full map: look 3.6, three 4s (from two); show a friend 5 of 5 (two runs); checklist five ideas 3 of 5; the map fails on a phone (5 px labels)",
    "commit_reviewed": "dc21ac3 (v0.1.14)",
-   "answered_by": null,
+   "answered_by": "0f95793 (v0.1.15)",
    "rating": "3",
    "synthetic_score": 3.6,
    "phone_px": 5035,
    "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-23-round-10.html",
    "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-23-r10.html"
+  },
+  {
+   "round": 11,
+   "what": "upright map on phones works (5 of 5); on desktop both maps show (upright 2,155 px tall); look 3.6, three 4s again; show a friend 5 of 5 (third run)",
+   "commit_reviewed": "0f95793 (v0.1.15)",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": 3.6,
+   "phone_px": 5142,
+   "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-23-round-11.html",
+   "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-23-r11.html"
   }
  ]
 }

@@ -155,6 +155,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | car-buyer.tool | sites.b | [8](reviews-car-buyer-2026-11-23-round-8.html): checklist five ideas; drawings bolder next | 3e54ec1 | | 3 | [use 5/5, friend 4/5](runs-car-buyer-2026-11-23-r8.html) |
 | car-buyer.tool | sites.b | [9](reviews-car-buyer-2026-11-23-round-9.html): show a friend 5 of 5; look settled; slow down | 3f08b2d | | 3 | [use 5/5, friend 5/5](runs-car-buyer-2026-11-23-r9.html) |
 | car-buyer.tool | sites.b | [10](reviews-car-buyer-2026-11-23-round-10.html): the map, best on desktop; three 4s | dc21ac3 | | 3 | [use 5/5, friend 5/5](runs-car-buyer-2026-11-23-r10.html) |
+| car-buyer.tool | sites.b | [11](reviews-car-buyer-2026-11-23-round-11.html): phone map works; both maps on desktop | 0f95793 | | 3 | [use 5/5, friend 5/5](runs-car-buyer-2026-11-23-r11.html) |
 | suno.platform | suno.b | [1](reviews-suno-2026-11-23-round-1.html): stage reads 4/5; compare takes 0/5; one design; M1 | bd44923 | | 2 | [compare 0/5, back 1/5](runs-suno-2026-11-23-r1.html) |
 | suno.platform | suno.b | [2](reviews-suno-2026-11-23-round-2.html): five ideas (4/5); two measured fails; M2 | 6761b06 | | 2 | [compare 2/5, back 1/5](runs-suno-2026-11-23-r2.html) |
 | suno.platform | suno.b | [3](reviews-suno-2026-11-23-round-3.html): faults fixed; two axe findings; 3 once fixed | 2a12f44 | | 1 | [ideas 5/5, friend 3/5](runs-suno-2026-11-23-r3.html) |
@@ -227,6 +228,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [Car Buyer, round 8](runs-car-buyer-2026-11-23-r8.html): use 5 of 5, show a friend 4 of 5; checklist five ideas (3 of 5); look 3.4
 - [Car Buyer, round 9](runs-car-buyer-2026-11-23-r9.html): use 5 of 5, show a friend 5 of 5; look 3.4 (settled); checklist skins (5 of 5)
 - [Car Buyer, round 10](runs-car-buyer-2026-11-23-r10.html): Road atlas as a map; look 3.6, three 4s; show a friend 5 of 5
+- [Car Buyer, round 11](runs-car-buyer-2026-11-23-r11.html): the map on a phone; look 3.6, three 4s; both maps on desktop
 - [Suno, our songs, round 1](runs-suno-2026-11-23-r1.html): on the three-song shape, stage and journey 4 of 5, compare takes 0 of 5, come back 1 of 5; look 2.8
 - [Suno, our songs, round 2](runs-suno-2026-11-23-r2.html): five designs, five ideas (4 of 5); compare 2 of 5, come back 1 of 5; look 3.0
 - [Suno, our songs, round 3](runs-suno-2026-11-23-r3.html): five ideas (5 of 5); compare 3 of 5, show a friend 3 of 5; look 2.8

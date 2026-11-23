@@ -651,17 +651,17 @@
   },
   "car-buyer.tool.sovereignweb.site": {
    "repo": "Site__Tool__Car-Buyer",
-   "commit": "dc21ac3 (v0.1.14)",
+   "commit": "0f95793 (v0.1.15)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 10,
+   "rounds": 11,
    "agent": "sites.b",
    "owner": "Dinis Cruz (his own tool; decision 2026-11-23__car-buyer)",
    "maturity": "M3",
    "maturity_note": "M3 since f9aba32 (23 Nov): five home-page structures, told apart by 4 of 5 synthetic users; the checklist still shares one layout",
    "phone_px": 5035,
    "on_building": true,
-   "blocking": "round 10: rated 3, M3; look 3.6 with three 4s; show a friend 5 of 5 twice; a portrait map on phones is the likely fourth 4"
+   "blocking": "round 11: rated 3, M3; three 4s twice; the upright map shows on desktop too (bug), the likely fourth 4 once fixed"
   },
   "suno.platform.sovereignweb.site": {
    "repo": "Site__Platform__Suno",
