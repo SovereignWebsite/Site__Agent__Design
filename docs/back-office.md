@@ -99,8 +99,8 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | hub | hub.b | [9](reviews-hub-2026-11-23-round-9.html): the case works (Line 1/5 to 3/5); I want one goes nowhere | 4f23d10 | | 3 | [yes 3,2,1,1,3](runs-hub-2026-11-23-r9.html) |
 | hub | hub.b | [10](reviews-hub-2026-11-23-round-10.html): Line 4/5 first time; features search misses its own example | 4a60c45 | | 3 | [yes 4,0,1,1,3](runs-hub-2026-11-23-r10.html) |
 | donna-freed.author | (via design.b) | [1](reviews-donna-freed-2026-11-23-round-1.html): five skins, no images, not on the hub; M2 | 3bee275 | | 2 | [2.4](runs-donna-freed-2026-11-23-r1.html) |
-| yiheng-wang (agenticcells.site) | (keeper to confirm) | [1](reviews-yiheng-wang-2026-11-23-round-1.html): five real first screens; three axe fixes; lower halves repeat | 549555d | | 1 (3 once fixed) | [3.6](runs-yiheng-wang-2026-11-23-r1.html) |
-| silvio-switha (agenticcells.site) | cells@AgentiCCells.dinis | [1](reviews-silvio-switha-2026-11-23-round-1.html): the film sells it; Studio a wow; no hire route | bfc4366 | | 1 (3 once fixed) | [3.4](runs-silvio-switha-2026-11-23-r1.html) |
+| yiheng-wang (agenticcells.site) | keeper to be named by Dinis | [1](reviews-yiheng-wang-2026-11-23-round-1.html): five real first screens; three axe fixes; lower halves repeat | 549555d | | 1 (3 once fixed) | [3.6](runs-yiheng-wang-2026-11-23-r1.html) |
+| silvio-switha (agenticcells.site) | keeper to be named by Dinis | [1](reviews-silvio-switha-2026-11-23-round-1.html): the film sells it; Studio a wow; no hire route | bfc4366 | | 1 (3 once fixed) | [3.4](runs-silvio-switha-2026-11-23-r1.html) |
 
 The crack sweep of 23 November 2026, every live site against ratings.json, is in docs/sweeps/2026-11-23-sites.md.
 

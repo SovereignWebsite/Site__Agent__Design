@@ -572,7 +572,7 @@
    "rating": 1,
    "five_designs": true,
    "rounds": 1,
-   "agent": "site@AgentiCCells.yiheng (session not in this account; design.b to route)",
+   "agent": "keeper to be named by Dinis (design.b routes)",
    "maturity": "M2",
    "maturity_note": "Dinis says she has made changes of her own (23 Nov); no owner commit found in the last 30; how she made them is to be confirmed with Dinis",
    "blocking": "round 1: three serious axe findings (dark-mode contrast on the home page and the Profile, source-link targets); 3 once fixed; lower halves repeat; 11,300 to 20,050 px on a phone; synthetic 3.6"
@@ -583,7 +583,7 @@
    "rating": 1,
    "five_designs": true,
    "rounds": 1,
-   "agent": "cells@AgentiCCells.dinis (from commit trailers; design.b to route)",
+   "agent": "keeper to be named by Dinis (design.b routes)",
    "maturity": "M2",
    "maturity_note": "M3 once the inner-page contrast is fixed (rating 3); sourced, with his unconfirmed items marked",
    "blocking": "round 1: inner-page accent 4.4:1 and a 3.92:1 button (fix: #945708); no hire route ('Contact details to follow'); one shared body below the fold; 13,200 to 17,800 px on a phone; synthetic 3.4, the critic's 'wow' at The Studio"
