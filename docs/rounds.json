@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-23T12:40Z",
+ "updated": "2026-11-23T13:05Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -584,6 +584,21 @@
      "synthetic_score": null,
      "review": "https://design.agents.sovereignweb.site/reviews-email-cell-2026-11-21-round-1.html",
      "run": null
+    }
+   ]
+  },
+  "hub.sovereignweb.site": {
+   "agent": "hub.b",
+   "rounds": [
+    {
+     "round": 6,
+     "what": "the five live designs (Register home, Gallery, Contact Sheet, Street, Line): axe clean; each first screen opens the same way; overlays, address breaks, phone length, numbering, a next step",
+     "commit_reviewed": "9f78fdd (v0.1.23)",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.2,
+     "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-23-round-6.html",
+     "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-23-r6.html"
     }
    ]
   }

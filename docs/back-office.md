@@ -73,6 +73,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | grace-farrell.artist | grace.b | [6](reviews-grace-farrell-2026-11-21-round-6-close.html): closing; 3.4, first wow; rounds stop | 03d4b22 | | 3 | 3.4 | [2.8](runs-grace-farrell-2026-11-21-r2.html) | [2.4](runs-grace-farrell-2026-11-21-r1.html) |
 | south-beacon.talent | south-beacon.b | [1](reviews-south-beacon-2026-11-21-round-1.html): anonymity passes; five skins to five ideas | d745cf5 | 93ee52a to 55e765a | 2 | [2.8](runs-south-beacon-2026-11-21-r1.html) |
 | email-cell.agenticcells | cell.email.b | [1](reviews-email-cell-2026-11-21-round-1.html): the mail client made its own; twelve ranked changes with CSS | 3015986 | 5af9425, 5743f32 (one h1 left on phones) | | |
+| hub | hub.b | [6](reviews-hub-2026-11-23-round-6.html): five real ideas live; let each idea be its first screen | 9f78fdd | | 3 | [3.2](runs-hub-2026-11-23-r6.html) |
 
 Earlier rounds by the first design.b session (hub, pipeline-demo, the review of all sites) are on the [reviews page](reviews.html).
 
@@ -98,6 +99,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [The five startup brochures, round 3](runs-startups-2026-11-20-r3.html): 3.2, 3.0, 3.4, 3.4, 2.8 (two agents first shared a crop folder; both redid their crops)
 - [The five startup brochures, round 4](runs-startups-2026-11-23-r4.html): 3.4, 3.0, 3.6, 3.8, 3.8 (3.5, up from 3.2)
 - [The five startup brochures, round 5](runs-startups-2026-11-23-r5.html): 3.4, 3.0, 3.8, 4.0, 3.8 (3.6); AgentiCCells all five at 4
+- [The hub's five designs](runs-hub-2026-11-23-r6.html): 3.2 for the home page; The Line voted best
 - [Mistral provider site, round 1](runs-mistral-2026-11-20-r1.html): 3.0, no favourite design
 - [Mistral provider site, round 3](runs-mistral-2026-11-21-r3.html): 3.4, up from 3.0
 - [Grace Farrell, round 1](runs-grace-farrell-2026-11-21-r1.html): 2.4; Fringe flyer voted best
