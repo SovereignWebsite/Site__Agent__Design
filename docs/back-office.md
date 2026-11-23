@@ -95,6 +95,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | hub | hub.b | [10](reviews-hub-2026-11-23-round-10.html): Line 4/5 first time; features search misses its own example | 4a60c45 | | 3 | [yes 4,0,1,1,3](runs-hub-2026-11-23-r10.html) |
 | donna-freed.author | (via design.b) | [1](reviews-donna-freed-2026-11-23-round-1.html): five skins, no images, not on the hub; M2 | 3bee275 | | 2 | [2.4](runs-donna-freed-2026-11-23-r1.html) |
 | yiheng-wang (agenticcells.site) | (keeper to confirm) | [1](reviews-yiheng-wang-2026-11-23-round-1.html): five real first screens; three axe fixes; lower halves repeat | 549555d | | 1 (3 once fixed) | [3.6](runs-yiheng-wang-2026-11-23-r1.html) |
+| silvio-switha (agenticcells.site) | cells@AgentiCCells.dinis | [1](reviews-silvio-switha-2026-11-23-round-1.html): the film sells it; Studio a wow; no hire route | bfc4366 | | 1 (3 once fixed) | [3.4](runs-silvio-switha-2026-11-23-r1.html) |
 
 The crack sweep of 23 November 2026, every live site against ratings.json, is in docs/sweeps/2026-11-23-sites.md.
 
@@ -132,6 +133,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [The hub, round 10](runs-hub-2026-11-23-r10.html): yes Line 4/5, Register 0/5, Gallery 1/5, Contact Sheet 1/5, Street 3/5; /features/ satisfied 2 of 5
 - [Donna Freed, round 1](runs-donna-freed-2026-11-23-r1.html): 2.4; design 4 weakest for all five
 - [Yiheng (Vicky) Wang, round 1](runs-yiheng-wang-2026-11-23-r1.html): 3.6; The Brief voted best
+- [Silvio Switha, round 1](runs-silvio-switha-2026-11-23-r1.html): 3.4; the critic's wow at The Studio
 - [Mistral provider site, round 1](runs-mistral-2026-11-20-r1.html): 3.0, no favourite design
 - [Mistral provider site, round 3](runs-mistral-2026-11-21-r3.html): 3.4, up from 3.0
 - [Grace Farrell, round 1](runs-grace-farrell-2026-11-21-r1.html): 2.4; Fringe flyer voted best
