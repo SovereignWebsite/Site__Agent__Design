@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T13:05Z",
+ "updated": "2026-11-23T12:55Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -109,48 +109,48 @@
   },
   "sgit.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sgit",
-   "commit": "32ff347 (v0.1.16)",
+   "commit": "9077ae3 (v0.1.17)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 5,
+   "rounds": 6,
    "agent": "startups.b",
-   "blocking": "round 5: synthetic 3.4; dark-mode card text, phone screenshot crops, Key dates source row"
+   "blocking": "round 6: synthetic 3.6; small text on phones, uncited sources, lower half"
   },
   "the-cyber-boardroom.startups.sovereignweb.site": {
    "repo": "Site__Startups__The-Cyber-Boardroom",
-   "commit": "e784efb (v0.1.16)",
+   "commit": "b67aaf4 (v0.1.17)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 5,
+   "rounds": 6,
    "agent": "startups.b",
-   "blocking": "round 5: synthetic 3.0; dark-mode card text, phone screenshot crops, Key dates source row"
+   "blocking": "round 6: synthetic 3.6; small text on phones, uncited sources, lower half"
   },
   "risk-mandate.startups.sovereignweb.site": {
    "repo": "Site__Startups__Risk-Mandate",
-   "commit": "a1dac7f (v0.1.16)",
+   "commit": "a5ef57c (v0.1.17)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 5,
+   "rounds": 6,
    "agent": "startups.b",
-   "blocking": "round 5: synthetic 3.8; dark-mode card text, phone screenshot crops, Key dates source row"
+   "blocking": "round 6: synthetic 3.6; small text on phones, uncited sources, lower half"
   },
   "agentic-cells.startups.sovereignweb.site": {
    "repo": "Site__Startups__Agentic-Cells",
-   "commit": "a34b176 (v0.1.16)",
+   "commit": "53ace90 (v0.1.17)",
    "rating": 4,
    "five_designs": true,
-   "rounds": 5,
+   "rounds": 6,
    "agent": "startups.b",
-   "blocking": "round 5: rated 4, all five personas at 4"
+   "blocking": "round 6: kept at 4 (synthetic 3.8, four of five at 4)"
   },
   "sovereign-website.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sovereign-Website",
-   "commit": "3678e8d (v0.1.17)",
+   "commit": "037d571 (v0.1.18)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 5,
+   "rounds": 6,
    "agent": "startups.b",
-   "blocking": "round 5: synthetic 3.8; dark-mode card text, phone screenshot crops, Key dates source row"
+   "blocking": "round 6: synthetic 3.2; small text on phones, uncited sources, lower half"
   },
   "chiswick-cheese-market.organisation.sovereignweb.site": {
    "repo": "Site__Organisation__Chiswick-Cheese-Market",
