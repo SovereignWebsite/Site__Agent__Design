@@ -1530,7 +1530,7 @@
      "round": 9,
      "what": "show a friend 5 of 5 (first time); look 3.4 again (plateau, rounds 6 to 9); checklist skins 5 of 5 (noise); fixes listed, next round only after a change that could move the look",
      "commit_reviewed": "3f08b2d (v0.1.10)",
-     "answered_by": null,
+     "answered_by": "6b0a208 (v0.1.11)",
      "rating": "3",
      "synthetic_score": 3.4,
      "phone_px": 4929,
