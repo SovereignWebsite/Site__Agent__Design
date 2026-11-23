@@ -152,7 +152,7 @@
    "round": 15,
    "what": "three 4s, not rated 4: the agent strip needs a visible cue",
    "commit_reviewed": "96238c1",
-   "answered_by": null,
+   "answered_by": "df69cce",
    "rating": "3",
    "synthetic_score": 3.6,
    "phone_px": 6567,
