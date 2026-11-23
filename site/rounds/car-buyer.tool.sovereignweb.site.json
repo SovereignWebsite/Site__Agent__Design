@@ -118,12 +118,23 @@
    "round": 11,
    "what": "upright map on phones works (5 of 5); on desktop both maps show (upright 2,155 px tall); look 3.6, three 4s again; show a friend 5 of 5 (third run)",
    "commit_reviewed": "0f95793 (v0.1.15)",
-   "answered_by": null,
+   "answered_by": "d7796b3 (v0.1.16)",
    "rating": "3",
    "synthetic_score": 3.6,
    "phone_px": 5142,
    "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-23-round-11.html",
    "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-23-r11.html"
+  },
+  {
+   "round": 12,
+   "what": "one map per width (verified); look 3.4, two 4s; use and show a friend 4 of 5 (the critic: the draft notice); plateau, next round only on a real change",
+   "commit_reviewed": "d7796b3 (v0.1.16)",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": 3.4,
+   "phone_px": 5142,
+   "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-24-round-12.html",
+   "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-24-r12.html"
   }
  ]
 }
