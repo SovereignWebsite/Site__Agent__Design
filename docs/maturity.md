@@ -7,7 +7,7 @@ Each level needs everything below it. A site is placed at the highest level whos
 | Level | Name | What it means | Evidence |
 |---|---|---|---|
 | M0 | Requested | Someone asked for a site. | A request in IaC requests/, with the owner named and their consent recorded. |
-| M1 | Scaffold | The Factory seed is live. | The address answers 200. The pipeline tags v0.1.N and shows the version chip. /start/, /agents/, /llms.txt and /admin/ answer 200. A 1200x630 share card. Registered in the design back office (ratings.json) and listed on the hub. |
+| M1 | Scaffold | The Factory seed is live. | The address answers 200. The pipeline tags v0.1.N and shows the version chip. /start/, /agents/, /llms.txt and /admin/ answer 200. A 1200x630 share card. Registered in the design back office (ratings.json) and listed on the hub: on its /building/ page until the site reaches M4, then in the showroom (sites.b's rule: the showroom only after a full design). |
 | M2 | First pass | Real content about the owner, from public sources, each source cited, and a draft notice saying the owner has not seen it. | Every claim has a source link and a read date. No invented facts. There is a draft banner. |
 | M3 | Five designs | Five real ideas from the owner's world, each rebuilding the page, chosen from a visual chooser. Five colour skins of one layout do not count. | Design rating 3 or more. Contact sheet of the five in the back office. The synthetic users can tell the five apart. |
 | M4 | Deliverable | Ready to show the owner: the level of Emily Cruz, Sarah Cruz and Grace Farrell. It has real imagery, "Wow, not bland", and holds up on a phone. | Design rating 4 (signed off). Synthetic users would show it to a friend in two runs in a row. axe clean. Under 8,000 px on a phone. |
