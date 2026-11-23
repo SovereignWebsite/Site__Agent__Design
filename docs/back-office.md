@@ -57,6 +57,11 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | risk-mandate.startups | startups.b | [4](reviews-startups-2026-11-23-round-4.html): both decisions helped; place the source rows | 0539796 | | 3 | [3.6](runs-startups-2026-11-23-r4.html) |
 | agentic-cells.startups | startups.b | [4](reviews-startups-2026-11-23-round-4.html): both decisions helped; place the source rows | 2224f63 | | 3 | [3.8](runs-startups-2026-11-23-r4.html) |
 | sovereign-website.startups | startups.b | [4](reviews-startups-2026-11-23-round-4.html): both decisions helped; place the source rows | 3d1207f | | 3 | [3.8](runs-startups-2026-11-23-r4.html) |
+| sgit.startups | startups.b | [5](reviews-startups-2026-11-23-round-5.html): dark mode, phone crops, Key dates row | 32ff347 | | 3 | [3.4](runs-startups-2026-11-23-r5.html) |
+| the-cyber-boardroom.startups | startups.b | [5](reviews-startups-2026-11-23-round-5.html): dark mode, phone crops, Key dates row | e784efb | | 3 | [3.0](runs-startups-2026-11-23-r5.html) |
+| risk-mandate.startups | startups.b | [5](reviews-startups-2026-11-23-round-5.html): dark mode, phone crops, Key dates row | a1dac7f | | 3 | [3.8](runs-startups-2026-11-23-r5.html) |
+| agentic-cells.startups | startups.b | [5](reviews-startups-2026-11-23-round-5.html): rated 4 | a34b176 | | 4 | [4.0](runs-startups-2026-11-23-r5.html) |
+| sovereign-website.startups | startups.b | [5](reviews-startups-2026-11-23-round-5.html): dark mode, phone crops, Key dates row | 3678e8d | | 3 | [3.8](runs-startups-2026-11-23-r5.html) |
 | mistral.provider | conductor.mistral | [1](reviews-mistral-2026-11-20-round-1.html): clean and honest; own content per design, the hackathon's facts | 983035b | 6cbfa89 | 3 |
 | mistral.provider | conductor.mistral | [2](reviews-mistral-2026-11-20-round-2.html): round 1 answered; footnote size, clipped console | 6cbfa89 | a17c9c7 | 2 to 3 |  |
 | mistral.provider | conductor.mistral | [3](reviews-mistral-2026-11-21-round-3.html): rated 3, nearly a wow; /swarm/ into the shell | a17c9c7 | | 3 | [3.4](runs-mistral-2026-11-21-r3.html) | [3.0](runs-mistral-2026-11-20-r1.html) |
@@ -92,6 +97,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [Chiswick Cheese Market demonstration, pass 3](runs-chiswick-cheese-market-2026-11-20-r3.html): 3.0; the Poster Wall voted best, the organiser's "wow"
 - [The five startup brochures, round 3](runs-startups-2026-11-20-r3.html): 3.2, 3.0, 3.4, 3.4, 2.8 (two agents first shared a crop folder; both redid their crops)
 - [The five startup brochures, round 4](runs-startups-2026-11-23-r4.html): 3.4, 3.0, 3.6, 3.8, 3.8 (3.5, up from 3.2)
+- [The five startup brochures, round 5](runs-startups-2026-11-23-r5.html): 3.4, 3.0, 3.8, 4.0, 3.8 (3.6); AgentiCCells all five at 4
 - [Mistral provider site, round 1](runs-mistral-2026-11-20-r1.html): 3.0, no favourite design
 - [Mistral provider site, round 3](runs-mistral-2026-11-21-r3.html): 3.4, up from 3.0
 - [Grace Farrell, round 1](runs-grace-farrell-2026-11-21-r1.html): 2.4; Fringe flyer voted best
