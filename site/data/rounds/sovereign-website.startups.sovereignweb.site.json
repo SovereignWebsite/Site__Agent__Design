@@ -1,6 +1,6 @@
 {
  "site": "sovereign-website.startups.sovereignweb.site",
- "updated": "2026-11-23T16:55Z",
+ "updated": "2026-11-23T17:10Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "startups.b",
  "rounds": [
@@ -158,6 +158,17 @@
    "phone_px": 7644,
    "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-15.html",
    "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r15.html"
+  },
+  {
+   "round": 17,
+   "what": "\"Kate changes her own site\" is the strongest proof (three personas) but too small; three 4s",
+   "commit_reviewed": "d3f03c7",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": 3.6,
+   "phone_px": 7867,
+   "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-17.html",
+   "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r17.html"
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-23T16:55Z",
+ "updated": "2026-11-23T17:10Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -299,12 +299,23 @@
      "round": 16,
      "what": "four 4s: the animated band and the live-app hero land on desktop; phones get neither, and the caption still describes the motion",
      "commit_reviewed": "adbd93e",
-     "answered_by": null,
+     "answered_by": "338dc5e",
      "rating": "3",
      "synthetic_score": 3.8,
      "phone_px": 7529,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-16.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r16.html"
+    },
+    {
+     "round": 17,
+     "what": "phone hero is the live vault app: credible but hard to read and place on a phone; two 4s",
+     "commit_reviewed": "338dc5e",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.4,
+     "phone_px": 7527,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-17.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r17.html"
     }
    ]
   },
@@ -630,12 +641,23 @@
      "round": 16,
      "what": "\"One of the sixteen, the real thing\" helps on desktop; unreadable on phones, caption shortened",
      "commit_reviewed": "c0a2dfb",
-     "answered_by": null,
+     "answered_by": "6480c7f",
      "rating": "4 (kept)",
      "synthetic_score": 3.6,
      "phone_px": 7916,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-16.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r16.html"
+    },
+    {
+     "round": 17,
+     "what": "four 4s: the policy counts on phones help; the bare pills need one plain caption",
+     "commit_reviewed": "6480c7f",
+     "answered_by": null,
+     "rating": "4 (kept)",
+     "synthetic_score": 3.8,
+     "phone_px": 7964,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-17.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r17.html"
     }
    ]
   },
@@ -956,6 +978,17 @@
      "phone_px": 7644,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-15.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r15.html"
+    },
+    {
+     "round": 17,
+     "what": "\"Kate changes her own site\" is the strongest proof (three personas) but too small; three 4s",
+     "commit_reviewed": "d3f03c7",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.6,
+     "phone_px": 7867,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-17.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r17.html"
     }
    ]
   },

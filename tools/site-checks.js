@@ -53,7 +53,12 @@ const OG = ['og:title', 'og:description', 'og:type', 'og:url', 'og:image', 'og:i
     r.designs = await page.evaluate(() => {
       const isChooser = el => /choose a design/i.test((el.querySelector('summary, button, h2')?.textContent || '')) || /^designs?( of this page)?$|^choose a design/i.test(el.getAttribute('aria-label') || '');
       const box = [...document.querySelectorAll('details')].find(isChooser) || [...document.querySelectorAll('nav, [role=menu]')].find(isChooser);
-      if (!box) return { chooser: false, count: 0 };
+      if (!box) {
+        // A labelled <select> also counts (Car Buyer, 23 Nov 2026): its label says "Choose a design" and each option is a design.
+        const sel = [...document.querySelectorAll('select')].find(s => { const l = s.id && document.querySelector(`label[for="${s.id}"]`); return /choose a design/i.test((l && l.textContent) || s.getAttribute('aria-label') || ''); });
+        if (sel) return { chooser: true, count: new Set([...sel.options].map(o => o.value)).size, kind: 'select' };
+        return { chooser: false, count: 0 };
+      }
       const hrefs = new Set([...box.querySelectorAll('a[href]')].map(a => a.getAttribute('href')).filter(h => !/designs\/(index\.html)?$/.test(h)));
       return { chooser: true, count: hrefs.size };
     });
