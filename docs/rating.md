@@ -35,3 +35,12 @@ A round is one set of changes design.b sends to a site's agent, and the site's n
 ## Lesson, 20 November 2026
 
 Kate Curtis-Evans was rated 4 at round 5 on every measured check, and Dinis Cruz found it bland ("it feels like websites created 10 years ago"). The measured checks show a site is correct, not that it is good. Level 4 now also needs the wow check above, judged against the reference sites, not against the checklist.
+
+## Keeping a 4 (23 November 2026)
+
+The synthetic users' scores vary by up to about 0.5 between runs with nothing changed, so a site near the line would cross it back and forth with no change to the site.
+
+- **Reaching 4** needs four of the five personas to give 4 in two runs in a row, as before.
+- **Keeping 4:** once signed off at 4, a site keeps it unless a measured check fails (axe, share card, five designs, seed pages, phone height, text size) or two runs in a row fall below a look of 3.4.
+
+The same rule holds for M4 on the maturity model.
