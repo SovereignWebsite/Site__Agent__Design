@@ -48,8 +48,10 @@ const OG = ['og:title', 'og:description', 'og:type', 'og:url', 'og:image', 'og:i
 
     // 2a: five designs, reached from a visible chooser: the chooser (a details, nav or menu that says "Choose a design"
     // or is labelled as the designs) must link to five distinct designs, the current one included.
+    // Since 23 Nov 2026 the startup brochures carry it in the footer as <nav aria-label="Designs"> (design.b's decision),
+    // so a nav labelled "Designs" counts too.
     r.designs = await page.evaluate(() => {
-      const isChooser = el => /choose a design/i.test((el.querySelector('summary, button, h2')?.textContent || '')) || /^designs? of this page|^choose a design/i.test(el.getAttribute('aria-label') || '');
+      const isChooser = el => /choose a design/i.test((el.querySelector('summary, button, h2')?.textContent || '')) || /^designs?( of this page)?$|^choose a design/i.test(el.getAttribute('aria-label') || '');
       const box = [...document.querySelectorAll('details')].find(isChooser) || [...document.querySelectorAll('nav, [role=menu]')].find(isChooser);
       if (!box) return { chooser: false, count: 0 };
       const hrefs = new Set([...box.querySelectorAll('a[href]')].map(a => a.getAttribute('href')).filter(h => !/designs\/(index\.html)?$/.test(h)));
