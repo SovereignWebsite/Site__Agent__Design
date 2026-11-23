@@ -1,6 +1,6 @@
 {
  "site": "agentic-cells.startups.sovereignweb.site",
- "updated": "2026-11-23T16:05Z",
+ "updated": "2026-11-23T16:40Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "startups.b",
  "rounds": [
@@ -88,11 +88,21 @@
    "round": 9,
    "what": "one content item per site: TCB conversation band works; RM prices in order; sgit rail not to scale; SW key ring reads as a tree",
    "commit_reviewed": "cd40be4",
-   "answered_by": null,
+   "answered_by": "289c682",
    "rating": "4",
    "synthetic_score": 3.6,
    "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-9.html",
    "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r9.html"
+  },
+  {
+   "round": 10,
+   "what": "RiskMandate rated 4, AgentiCCells back to 3; plateau; one structural round proposed (every page under 8,000 px)",
+   "commit_reviewed": "289c682",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": 3.4,
+   "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-10.html",
+   "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r10.html"
   }
  ]
 }
