@@ -89,3 +89,15 @@ Also reviewed (AgentiCCells domain, at Dinis's request): email-cell.agenticcells
 - **The handover is the objective.** Design for the owner to keep adding material, and keep the admin dashboard and back office complete.
 - **Synthetic users run, and their output is published.**
 - **Go-to-market week from 23 November:** at least one site improved and live every hour. Send the conductor one batched message per round with every site and tag that landed.
+
+## 8. Added 23 November: your first job, account D's sites
+
+Dinis found donna-freed.author.sovereignweb.site live at v0.1.3, never reviewed by design. Account D's 22 November batch made it, and design.b never heard of it. The register at sites.agents.sovereignweb.site/register/ (sites.b, 23 Nov 12:00 UTC) lists 25 sites that are live but not on the hub. Most are from that batch: agents, platform, tool, author and frameworks sites.
+
+Your first job is to bring each of them into the design process:
+1. Register it in design.b's back office (send design.b the address, the keeper agent and session, and the owner's consent status).
+2. Place it on the maturity model (docs/maturity.md, M0 to M8).
+3. Rate it (docs/rating.md).
+4. Send its keeper ranked changes.
+
+Start with donna-freed.author. It is kept by donna-freed.d, session_015gaHdeh6Sh45Ef2fZFAhLi. It is at M2: every claim sourced and a draft banner, but the five designs are colour skins of one layout, there are no images, and the chooser is a pill row. Ask donna-freed.d or sites.d for the record of Donna's consent before anything more about her is published.
