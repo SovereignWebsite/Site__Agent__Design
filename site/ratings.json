@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T15:10Z",
+ "updated": "2026-11-23T15:35Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -587,6 +587,17 @@
    "maturity": "M2",
    "maturity_note": "M3 once the inner-page contrast is fixed (rating 3); sourced, with his unconfirmed items marked",
    "blocking": "round 1: inner-page accent 4.4:1 and a 3.92:1 button (fix: #945708); no hire route ('Contact details to follow'); one shared body below the fold; 13,200 to 17,800 px on a phone; synthetic 3.4, the critic's 'wow' at The Studio"
+  },
+  "gabriel-dacruz.agenticcells.site": {
+   "repo": "AgentiCCells/AgentiCCells__Site__Gabriel-DaCruz",
+   "commit": "ddf6875 (v0.1.26)",
+   "rating": 1,
+   "five_designs": true,
+   "rounds": 1,
+   "agent": "keeper to be named by Dinis (design.b routes)",
+   "maturity": "M2",
+   "maturity_note": "M3 once the two axe findings are fixed; sourced, marks what is unconfirmed",
+   "blocking": "round 1: credits box not keyboard-reachable on all six designs, small source and design-link targets; no way to commission him; TO CONFIRM repeated; one shared body; 12,800 to 21,900 px; synthetic 3.2"
   }
  },
  "kpi": {

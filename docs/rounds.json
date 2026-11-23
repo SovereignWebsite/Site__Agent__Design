@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-23T15:10Z",
+ "updated": "2026-11-23T15:35Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -906,6 +906,21 @@
      "synthetic_score": 3.4,
      "review": "https://design.agents.sovereignweb.site/reviews-silvio-switha-2026-11-23-round-1.html",
      "run": "https://design.agents.sovereignweb.site/runs-silvio-switha-2026-11-23-r1.html"
+    }
+   ]
+  },
+  "gabriel-dacruz.agenticcells.site": {
+   "agent": "keeper to be named by Dinis",
+   "rounds": [
+    {
+     "round": 1,
+     "what": "six strong first screens, one shared body, no way to commission him; two serious axe findings",
+     "commit_reviewed": "ddf6875 (v0.1.26)",
+     "answered_by": null,
+     "rating": "1 (3 once fixed)",
+     "synthetic_score": 3.2,
+     "review": "https://design.agents.sovereignweb.site/reviews-gabriel-dacruz-2026-11-23-round-1.html",
+     "run": "https://design.agents.sovereignweb.site/runs-gabriel-dacruz-2026-11-23-r1.html"
     }
    ]
   }
