@@ -161,9 +161,9 @@
   },
   {
    "round": 17,
-   "what": "\"Kate changes her own site\" is the strongest proof (three personas) but too small; three 4s",
+   "what": "scored on d3f03c7 with an owner item later withdrawn (no consent recorded); score void; rerun on e5778df",
    "commit_reviewed": "d3f03c7",
-   "answered_by": null,
+   "answered_by": "e5778df (v0.1.35), item withdrawn",
    "rating": "3",
    "synthetic_score": 3.6,
    "phone_px": 7867,
