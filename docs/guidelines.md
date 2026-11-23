@@ -42,6 +42,33 @@ Every site has five designs (Dinis Cruz, 20 November 2026: "a key requirement is
 
 Concept first, then craft: before any CSS, write for each design one sentence saying what it is a metaphor for, and which of the owner's own facts it will draw (a timeline, a cast list, a map, a set of tickets). Nothing drawn may be invented. Each of the five meets every rule in this document, light and dark, before it is shown. A site without five designs is rated no higher than 2 (rating.md, level 3 needs them).
 
+## 2b. Navigation: one browsing experience (Dinis Cruz, 23 November 2026)
+
+Dinis, record 2026-11-23__navigation-and-review, "super critical": "every website almost, I should be able to navigate easily across every website, find the home, go up, go down, find the agent, connect with, etc. And have that browsing experience."
+
+Every page of every site carries one shared component, the **wayfinder**. It is family layer: sites.b builds it once in the Factory seed with hub.b, and every site copies it unchanged. design.b owns its design and this rule.
+
+**What it holds, left to right, in one slim bar at the top of the page:**
+
+1. **Where you are**: a breadcrumb from the network to this page, for example Sovereign Website › People › Emily Cruz › Paintings. Each step is a link, so the step before the current one is **up**.
+2. **Home**: this site's own home page.
+3. **Below here**: a short menu of this page's children (the pages one level down), when there are any. Every site also lists all its pages at /sitemap/, linked from the footer.
+4. **Next and previous**: the neighbouring sites in the same group (the next person, the next startup), so a reviewer can walk the whole group without going back to the hub.
+5. **Agent**: the site's /agents/ page, which names the agent that keeps it and its session or contact.
+6. **Connect**: the site's way to send a message (feedback.b's box once its lane is live; until then /start/#get-one).
+7. **All sites**: the family pop-up, top right. It is the one place for links to other sites (the rule that sites are about their owner still holds), grouped as on the hub.
+
+**Where the links come from.** One registry, sites.json on the hub, gives every site its name, group, parent, order, agent and connect address. It is copied in at build time, never fetched by the visitor's browser, so the CSP stays 'self' and the bar works offline and without JavaScript.
+
+**How it must behave.**
+
+- Plain links in a `nav` with `aria-label="Sovereign Website network"`; the menus are `details` elements, so it works without JavaScript.
+- Every target is at least 44 px; visible focus; it reads in this order with a screen reader; `aria-current="page"` on the current step.
+- At most 48 px high on a phone, and it never covers the owner's first screen: on a phone the breadcrumb shortens to "‹ up" plus the site's name.
+- It takes its colours from the site's own tokens, so it suits all five designs and both colour schemes, and passes axe in each.
+
+**How it is checked.** The site's pipeline checks, on every page, that the wayfinder is present, that it links to home, up, the agent and connect, and that every one of those links answers 200. design.b.rounds adds one question for the synthetic users: "From here, can you find the home, go up, find who looks after this site and send them a message?" Once the component ships in the seed, a site without it is rated no higher than 3.
+
 ## 3. Layout
 
 - Mobile first: write the 360 px layout first, then add columns with `min-width` media queries. Test at 320, 390, 768, 1366 and 1920 px.

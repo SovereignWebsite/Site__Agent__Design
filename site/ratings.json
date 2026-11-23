@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T23:25Z",
+ "updated": "2026-11-23T23:35Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -149,9 +149,9 @@
    "five_designs": true,
    "rounds": 17,
    "agent": "startups.b",
-   "blocking": "M6 is the handover: the repository and address held by the owner, and a change of their own",
-   "maturity": "M5",
-   "maturity_note": "M5 since 23 Nov: Dinis approved the brochure as it stands at 7db7d16 (record 2026-11-23__asks-2-to-21, ask 14). Kept at rating 4 under 'Keeping a 4'.",
+   "blocking": "Dinis can look at the brochure (his yes is M5)",
+   "maturity": "M4",
+   "maturity_note": "M4 since 7db7d16 (23 Nov), kept under 'Keeping a 4'. Record 2026-11-23__navigation-and-review makes ask 14 a review item, not an approval: Dinis can look at the brochure and give his yes or a round of edits; that yes is M5.",
    "phone_px": 7958
   },
   "agentic-cells.startups.sovereignweb.site": {
@@ -578,8 +578,8 @@
    "five_designs": true,
    "rounds": 1,
    "agent": "keeper to be named by Dinis (design.b routes)",
-   "maturity": "M2",
-   "maturity_note": "Placed from the history (record 2026-11-23__asks-2-to-21, ask 15). Known: all 60 commits in AgentiCCells__Site__Yiheng-Wang (16 to 20 Nov) are by agents (48 by site@AgentiCCells.yiheng, 9 by cells@AgentiCCells.dinis, the seed and the copy); the repository is in the AgentiCCells organisation, not hers; the site was copied on 16 Nov from AgentiCCells__Site__Vicky-Wang, which design.b cannot read. Not known: whether she directed site@AgentiCCells.yiheng herself, or made changes in the earlier repository. Five designs exist, but the design rating is 1, so M3 is not met. M6 needs a commit by her own key or account and the repository in her hands.",
+   "maturity": "M6",
+   "maturity_note": "M6, roughly achieved, on Dinis's word (record 2026-11-23__navigation-and-review, ask 15: 'The site owner made their own changes'). Not shown in the repository: all 60 commits in AgentiCCells__Site__Yiheng-Wang are by agents and it sits in the AgentiCCells organisation; her changes were made another way (her own AI, or the earlier AgentiCCells__Site__Vicky-Wang repository, which design.b cannot read). Design rating 1: the round 1 fixes still apply.",
    "blocking": "round 1: three serious axe findings (dark-mode contrast on the home page and the Profile, source-link targets); 3 once fixed; lower halves repeat; 11,300 to 20,050 px on a phone; synthetic 3.6"
   },
   "silvio-switha.agenticcells.site": {
