@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T23:45Z",
+ "updated": "2026-11-23T23:50Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -144,7 +144,7 @@
   },
   "risk-mandate.startups.sovereignweb.site": {
    "repo": "Site__Startups__Risk-Mandate",
-   "commit": "e691151 (v0.1.35)",
+   "commit": "f8e6372 (v0.1.37)",
    "rating": 4,
    "five_designs": true,
    "rounds": 17,
@@ -168,7 +168,7 @@
   },
   "sovereign-website.startups.sovereignweb.site": {
    "repo": "Site__Startups__Sovereign-Website",
-   "commit": "a465693 (v0.1.39)",
+   "commit": "da9d5d0 (v0.1.41)",
    "rating": 3,
    "five_designs": true,
    "rounds": 18,
@@ -176,7 +176,7 @@
    "blocking": "round 18: 3.2; the owners' own work helps; Kate's entry waits on Dinis; one dated status line",
    "maturity": "M3",
    "maturity_note": "rated 3",
-   "phone_px": 7680
+   "phone_px": 7223
   },
   "chiswick-cheese-market.organisation.sovereignweb.site": {
    "repo": "Site__Organisation__Chiswick-Cheese-Market",
