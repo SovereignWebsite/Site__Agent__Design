@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T14:00Z",
+ "updated": "2026-11-23T14:10Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -67,17 +67,6 @@
    "blocking": "form field borders 1.25:1; button looks broken while off",
    "maturity": "M1",
    "maturity_note": "live demo, not switched on; rated 1"
-  },
-  "pipeline-demo.sovereignweb.site": {
-   "repo": "Site__pipeline-demo",
-   "commit": "ba8bc1c",
-   "rating": 2,
-   "five_designs": false,
-   "rounds": 2,
-   "agent": "sites.b",
-   "blocking": "round 2 in (07fa97d, five designs); audit in the 14:07 run",
-   "maturity": "M2",
-   "maturity_note": "now served at pipeline-demo.demo.sovereignweb.site (v0.1.4); this address has no version.json"
   },
   "emily-cruz.artist.sovereignweb.site": {
    "repo": "Site__Artist__Emily-Cruz",
@@ -516,6 +505,41 @@
    "maturity": "M1",
    "maturity_note": "seed live (v0.1.3): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); its own content (569 words, 0 images) but no draft banner or cited sources, so not M2",
    "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+  },
+  "pipeline-demo.demo.sovereignweb.site": {
+   "repo": "Site__pipeline-demo",
+   "commit": "ba8bc1c",
+   "rating": 2,
+   "five_designs": false,
+   "rounds": 2,
+   "agent": "sites.b",
+   "blocking": "round 2 in (07fa97d, five designs); audit in the 14:07 run",
+   "maturity": "M2",
+   "maturity_note": "moved from pipeline-demo.sovereignweb.site to this address; live at v0.1.4"
+  },
+  "33n-ventures.invest.sovereignweb.site": {
+   "kind": "private vault",
+   "agent": "33n.b",
+   "rating": null,
+   "note": "private vault: registered only, no rating and no public review (design.b, 23 Nov)"
+  },
+  "sotavento.invest.sovereignweb.site": {
+   "kind": "private vault",
+   "agent": "sotavento.b",
+   "rating": null,
+   "note": "private vault: registered only, no rating and no public review (design.b, 23 Nov)"
+  },
+  "perspace.company.sovereignweb.site": {
+   "kind": "private vault",
+   "agent": "perspace.b",
+   "rating": null,
+   "note": "private vault: registered only, no rating and no public review (design.b, 23 Nov)"
+  },
+  "algarve-evolution.organisation.sovereignweb.site": {
+   "kind": "private vault",
+   "agent": "algarve-evolution.b",
+   "rating": null,
+   "note": "private vault: registered only, no rating and no public review (design.b, 23 Nov)"
   }
  },
  "kpi": {
