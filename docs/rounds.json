@@ -1530,12 +1530,23 @@
      "round": 9,
      "what": "show a friend 5 of 5 (first time); look 3.4 again (plateau, rounds 6 to 9); checklist skins 5 of 5 (noise); fixes listed, next round only after a change that could move the look",
      "commit_reviewed": "3f08b2d (v0.1.10)",
-     "answered_by": "6b0a208 (v0.1.11)",
+     "answered_by": "d10298e, dc21ac3 (v0.1.14)",
      "rating": "3",
      "synthetic_score": 3.4,
      "phone_px": 4929,
      "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-23-round-9.html",
      "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-23-r9.html"
+    },
+    {
+     "round": 10,
+     "what": "Road atlas as a full map: look 3.6, three 4s (from two); show a friend 5 of 5 (two runs); checklist five ideas 3 of 5; the map fails on a phone (5 px labels)",
+     "commit_reviewed": "dc21ac3 (v0.1.14)",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.6,
+     "phone_px": 5035,
+     "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-23-round-10.html",
+     "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-23-r10.html"
     }
    ]
   },
