@@ -130,15 +130,16 @@ def ratings_page():
         rows.append(
             f'<tr><td data-label="Site"><a href="https://{html.escape(name)}/">{html.escape(name)}</a></td>'
             f'<td data-label="Rating">{meter} <b>{r if r is not None else ""}</b></td>'
-            f'<td data-label="Five designs">{"yes" if s["five_designs"] else ("no" if s["five_designs"] is False else "not checked")}</td>'
-            f'<td data-label="Rounds">{s["rounds"]}</td>'
-            f'<td data-label="What blocks the next level">{html.escape(s["blocking"])}</td></tr>'
+            f'<td data-label="Maturity">{html.escape(s.get("maturity") or ("private vault" if s.get("kind") == "private vault" else ""))}</td>'
+            f'<td data-label="Five designs">{"yes" if s.get("five_designs") else ("no" if s.get("five_designs") is False else "not checked")}</td>'
+            f'<td data-label="Rounds">{s.get("rounds", "")}</td>'
+            f'<td data-label="What blocks the next level">{html.escape(s.get("blocking") or s.get("note") or "")}</td></tr>'
         )
     body = f"""<p class="mark">Ratings</p>
 <h1>Where each public site stands</h1>
-<p class="lead">Every public SovereignWebsite site, rated 0 to 5 on the <a href="rating.html">design rating</a> after each review round. A site is signed off for a customer at 4. Updated {html.escape(data["updated"])}; the data is <a href="ratings.json">ratings.json</a>.</p>
+<p class="lead">Every public SovereignWebsite site, rated 0 to 5 on the <a href="rating.html">design rating</a> after each review round, and placed on the maturity model (M0 to M8, docs/maturity.md). A site is signed off for a customer at 4. Updated {html.escape(data["updated"])}; the data is <a href="ratings.json">ratings.json</a>.</p>
 <div class="table-wrap" tabindex="0" role="region" aria-label="Ratings"><table class="ratings">
-<thead><tr><th>Site</th><th>Rating</th><th>Five designs</th><th>Rounds</th><th>What blocks the next level</th></tr></thead>
+<thead><tr><th>Site</th><th>Rating</th><th>Maturity</th><th>Five designs</th><th>Rounds</th><th>What blocks the next level</th></tr></thead>
 <tbody>{"".join(rows)}</tbody></table></div>
 <h2>Key performance indicators</h2>
 <ul>
