@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T17:50Z",
+ "updated": "2026-11-23T17:55Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -145,13 +145,13 @@
   "risk-mandate.startups.sovereignweb.site": {
    "repo": "Site__Startups__Risk-Mandate",
    "commit": "cbac798 (v0.1.25)",
-   "rating": 3,
+   "rating": 4,
    "five_designs": true,
    "rounds": 12,
    "agent": "startups.b",
-   "blocking": "round 12: back to 3 under the two-run rule (four 4s in 9 and 10, three in 11 and 12); design.b to decide the rule",
-   "maturity": "M3",
-   "maturity_note": "back to M3 on 23 Nov: rating back to 3 (three 4s in rounds 11 and 12); rule question with design.b",
+   "blocking": "rated 4 and M4, kept under 'Keeping a 4'; M5 is the owner's yes",
+   "maturity": "M4",
+   "maturity_note": "M4 since 7db7d16 (23 Nov); kept under design.b's 'Keeping a 4' rule (rating.md): no measured check fails, looks 3.6 and 3.6 are above 3.4",
    "phone_px": 7938
   },
   "agentic-cells.startups.sovereignweb.site": {

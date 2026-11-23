@@ -94,7 +94,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | sovereign-website.startups | startups.b | [11](reviews-startups-2026-11-23-round-11.html): shorter pages; put back what sold them | 83e124c | | 3 | [3.0](runs-startups-2026-11-23-r11.html) |
 | sgit.startups | startups.b | [12](reviews-startups-2026-11-23-round-12.html): AgentiCCells recovers; RiskMandate back to 3 | dcc2999 | | 3 | [3.4](runs-startups-2026-11-23-r12.html) |
 | the-cyber-boardroom.startups | startups.b | [12](reviews-startups-2026-11-23-round-12.html): AgentiCCells recovers; RiskMandate back to 3 | b91ce85 | | 3 | [3.6](runs-startups-2026-11-23-r12.html) |
-| risk-mandate.startups | startups.b | [12](reviews-startups-2026-11-23-round-12.html): AgentiCCells recovers; RiskMandate back to 3 | cbac798 | | 3 | [3.6](runs-startups-2026-11-23-r12.html) |
+| risk-mandate.startups | startups.b | [12](reviews-startups-2026-11-23-round-12.html): kept at 4 under Keeping a 4 | cbac798 | | 4 | [3.6](runs-startups-2026-11-23-r12.html) |
 | agentic-cells.startups | startups.b | [12](reviews-startups-2026-11-23-round-12.html): AgentiCCells recovers; RiskMandate back to 3 | 22897e4 | | 3 | [3.8](runs-startups-2026-11-23-r12.html) |
 | sovereign-website.startups | startups.b | [12](reviews-startups-2026-11-23-round-12.html): AgentiCCells recovers; RiskMandate back to 3 | 8c0636a | | 3 | [3.0](runs-startups-2026-11-23-r12.html) |
 | mistral.provider | conductor.mistral | [1](reviews-mistral-2026-11-20-round-1.html): clean and honest; own content per design, the hackathon's facts | 983035b | 6cbfa89 | 3 |
