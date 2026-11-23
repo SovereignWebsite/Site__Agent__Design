@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T14:10Z",
+ "updated": "2026-11-23T14:20Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -215,8 +215,9 @@
    "agent": "south-beacon.b",
    "blocking": "round 1 checked back: fixes in, axe clean, anonymity passes; 2 until the five rebuilt structures land; 'looking for' and scale wait on the candidate",
    "maturity": "M2",
-   "maturity_note": "rated 2, five skins; not on the hub (anonymised: may stay off it)",
-   "register_state": "under construction"
+   "maturity_note": "rated 2, five skins; on the hub's /building/ page; off the showroom deliberately (noindex pending Dinis)",
+   "register_state": "under construction",
+   "on_building": true
   },
   "donna-freed.author.sovereignweb.site": {
    "repo": "Site__Author__Donna-Freed",
@@ -227,8 +228,9 @@
    "agent": "the site's agent (via design.b)",
    "blocking": "round 1: five colour skins of one layout, no images, not on the hub; synthetic 2.4",
    "maturity": "M2",
-   "maturity_note": "rated 2; not on the hub (an M1 defect)",
-   "register_state": "under construction"
+   "maturity_note": "rated 2, five skins of one layout; on the hub's /building/ page, which counts as M1's listing (design.b, 23 Nov)",
+   "register_state": "under construction",
+   "on_building": true
   },
   "streaming.tool.sovereignweb.site": {
    "repo": "Site__Tool__Streaming",
@@ -240,7 +242,8 @@
    "register_state": "under construction",
    "maturity": "M4",
    "maturity_note": "signed off at 4 by design.d in round 5 (22 Nov, follow-up on v0.1.21); live now at v0.1.22. My quick check missed its chooser because it is not on the home page in the form the check looks for",
-   "blocking": "signed off at 4 by design.d (round 5), notes 1 and 2 open; reviews in docs/reviews/streaming/"
+   "blocking": "signed off at 4 by design.d (round 5), notes 1 and 2 open; reviews in docs/reviews/streaming/",
+   "on_building": true
   },
   "aws.platform.sovereignweb.site": {
    "repo": null,
@@ -251,8 +254,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.59): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); its own content (662 words, 0 images) but no draft banner or cited sources, so not M2",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.59): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; its own content (662 words, 0 images) but no draft banner or cited sources, so not M2",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "cartographer.agents.sovereignweb.site": {
    "repo": null,
@@ -263,8 +267,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); the seed's own placeholder text",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; the seed's own placeholder text",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "counsel.agents.sovereignweb.site": {
    "repo": null,
@@ -275,8 +280,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); the seed's own placeholder text",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; the seed's own placeholder text",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "decisions.agents.sovereignweb.site": {
    "repo": null,
@@ -287,8 +293,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); the seed's own placeholder text",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; the seed's own placeholder text",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "dns.tool.sovereignweb.site": {
    "repo": null,
@@ -299,8 +306,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.3): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); its own content (480 words, 0 images) but no draft banner or cited sources, so not M2",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.3): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; its own content (480 words, 0 images) but no draft banner or cited sources, so not M2",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "github.platform.sovereignweb.site": {
    "repo": null,
@@ -311,8 +319,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.4): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); its own content (517 words, 0 images) but no draft banner or cited sources, so not M2",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.4): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; its own content (517 words, 0 images) but no draft banner or cited sources, so not M2",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "helm.agents.sovereignweb.site": {
    "repo": null,
@@ -323,8 +332,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); the seed's own placeholder text",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; the seed's own placeholder text",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "holacracy.agents.sovereignweb.site": {
    "repo": null,
@@ -336,7 +346,8 @@
    "register_state": "under construction",
    "maturity": "M0",
    "maturity_note": "seed live (v0.1.1) but start/ answers 404, so M1's evidence is not met",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "instagram.platform.sovereignweb.site": {
    "repo": null,
@@ -347,8 +358,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.41): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); its own content (1670 words, 7 images) but no draft banner or cited sources, so not M2",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.41): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; its own content (1670 words, 7 images) but no draft banner or cited sources, so not M2",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "landscape.agents.sovereignweb.site": {
    "repo": null,
@@ -359,8 +371,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); the seed's own placeholder text",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; the seed's own placeholder text",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "maestro.agents.sovereignweb.site": {
    "repo": null,
@@ -371,8 +384,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); the seed's own placeholder text",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; the seed's own placeholder text",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "odoo.platform.sovereignweb.site": {
    "repo": null,
@@ -383,8 +397,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.0): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); the seed's own placeholder text",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.0): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; the seed's own placeholder text",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "openrouter.platform.sovereignweb.site": {
    "repo": null,
@@ -395,8 +410,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.0): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); the seed's own placeholder text",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.0): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; the seed's own placeholder text",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "owasp.platform.sovereignweb.site": {
    "repo": null,
@@ -407,8 +423,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.0): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); the seed's own placeholder text",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.0): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; the seed's own placeholder text",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "sherpa.agents.sovereignweb.site": {
    "repo": null,
@@ -419,8 +436,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); the seed's own placeholder text",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; the seed's own placeholder text",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "slides.agents.sovereignweb.site": {
    "repo": null,
@@ -431,8 +449,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.0): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); the seed's own placeholder text",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.0): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; the seed's own placeholder text",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "strategy.agents.sovereignweb.site": {
    "repo": null,
@@ -443,8 +462,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); the seed's own placeholder text",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.1): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; the seed's own placeholder text",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "studio.agents.sovereignweb.site": {
    "repo": null,
@@ -455,8 +475,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.9): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); the seed's own placeholder text",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.9): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; the seed's own placeholder text",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "wardley-maps.frameworks.sovereignweb.site": {
    "repo": null,
@@ -467,8 +488,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.0): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); the seed's own placeholder text",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.0): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; the seed's own placeholder text",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "wikipedia.platform.sovereignweb.site": {
    "repo": null,
@@ -479,8 +501,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.0): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); the seed's own placeholder text",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.0): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; the seed's own placeholder text",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "wordpress.tool.sovereignweb.site": {
    "repo": null,
@@ -491,8 +514,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.2): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); its own content (469 words, 0 images) but no draft banner or cited sources, so not M2",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.2): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; its own content (469 words, 0 images) but no draft banner or cited sources, so not M2",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "youtube.platform.sovereignweb.site": {
    "repo": null,
@@ -503,8 +527,9 @@
    "agent": "account D (via design.d)",
    "register_state": "under construction",
    "maturity": "M1",
-   "maturity_note": "seed live (v0.1.3): start, agents, llms.txt, admin and a share card answer; not on the hub (sites.b's rule: hub after a full design); its own content (569 words, 0 images) but no draft banner or cited sources, so not M2",
-   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet"
+   "maturity_note": "seed live (v0.1.3): start, agents, llms.txt, admin and a share card answer; on the hub's /building/ page; its own content (569 words, 0 images) but no draft banner or cited sources, so not M2",
+   "blocking": "recorded from sites.b's register and a live check, 23 Nov; no design round yet",
+   "on_building": true
   },
   "pipeline-demo.demo.sovereignweb.site": {
    "repo": "Site__pipeline-demo",
