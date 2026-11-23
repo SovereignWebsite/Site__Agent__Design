@@ -1,6 +1,6 @@
 {
  "site": "sovereign-website.startups.sovereignweb.site",
- "updated": "2026-11-23T19:30Z",
+ "updated": "2026-11-23T16:35Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "startups.b",
  "rounds": [
@@ -141,12 +141,23 @@
    "round": 14,
    "what": "3.4 to 3.0: captures show menu bars, not faces and names; the owners' quote lines lost on phones",
    "commit_reviewed": "bcbd02a",
-   "answered_by": null,
+   "answered_by": "9426755",
    "rating": "3",
    "synthetic_score": 3.0,
    "phone_px": 7027,
    "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-14.html",
    "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r14.html"
+  },
+  {
+   "round": 15,
+   "what": "3.0 to 3.4: face crops help but are uneven",
+   "commit_reviewed": "9426755",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": 3.4,
+   "phone_px": 7644,
+   "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-15.html",
+   "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r15.html"
   }
  ]
 }

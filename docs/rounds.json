@@ -1,6 +1,6 @@
 {
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
- "updated": "2026-11-23T19:30Z",
+ "updated": "2026-11-23T16:35Z",
  "sites": {
   "kate-curtis-evans.founder.sovereignweb.site": {
    "agent": "kate-curtis-evans.b",
@@ -277,12 +277,23 @@
      "round": 14,
      "what": "four 4s (first of two): the cut hero works; the framed capture shows prose, not the product",
      "commit_reviewed": "879dcaf",
-     "answered_by": null,
+     "answered_by": "289f156",
      "rating": "3",
      "synthetic_score": 3.8,
      "phone_px": 7698,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-14.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r14.html"
+    },
+    {
+     "round": 15,
+     "what": "three 4s, not rated 4: the phone crop of the hero capture stops before the vault working",
+     "commit_reviewed": "289f156",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.6,
+     "phone_px": 7698,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-15.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r15.html"
     }
    ]
   },
@@ -426,12 +437,23 @@
      "round": 14,
      "what": "conversation hero works (four personas); it ends on a question with no answer",
      "commit_reviewed": "e0eebe4",
-     "answered_by": null,
+     "answered_by": "1cb5f23",
      "rating": "3",
      "synthetic_score": 3.4,
      "phone_px": 7537,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-14.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r14.html"
+    },
+    {
+     "round": 15,
+     "what": "Athena capture adds little on phones; cost, who runs it and status unanswered",
+     "commit_reviewed": "1cb5f23",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.4,
+     "phone_px": 7513,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-15.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r15.html"
     }
    ]
   },
@@ -575,12 +597,23 @@
      "round": 14,
      "what": "three 4s; only the delta hatched helps; numbers band too long",
      "commit_reviewed": "c054959",
-     "answered_by": null,
+     "answered_by": "0b0caa1",
      "rating": "4 (kept)",
      "synthetic_score": 3.6,
      "phone_px": 7798,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-14.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r14.html"
+    },
+    {
+     "round": 15,
+     "what": "four 4s; numbers band clean-up half done",
+     "commit_reviewed": "0b0caa1",
+     "answered_by": null,
+     "rating": "4 (kept)",
+     "synthetic_score": 3.8,
+     "phone_px": 7700,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-15.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r15.html"
     }
    ]
   },
@@ -724,12 +757,23 @@
      "round": 14,
      "what": "four 4s (first of two): \"A website like this\" on the first screen helps; one-to-a-row cards add length",
      "commit_reviewed": "2d06ebf",
-     "answered_by": null,
+     "answered_by": "96238c1",
      "rating": "3",
      "synthetic_score": 3.8,
      "phone_px": 7068,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-14.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r14.html"
+    },
+    {
+     "round": 15,
+     "what": "three 4s, not rated 4: the agent strip needs a visible cue",
+     "commit_reviewed": "96238c1",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.6,
+     "phone_px": 6567,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-15.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r15.html"
     }
    ]
   },
@@ -873,12 +917,23 @@
      "round": 14,
      "what": "3.4 to 3.0: captures show menu bars, not faces and names; the owners' quote lines lost on phones",
      "commit_reviewed": "bcbd02a",
-     "answered_by": null,
+     "answered_by": "9426755",
      "rating": "3",
      "synthetic_score": 3.0,
      "phone_px": 7027,
      "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-14.html",
      "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r14.html"
+    },
+    {
+     "round": 15,
+     "what": "3.0 to 3.4: face crops help but are uneven",
+     "commit_reviewed": "9426755",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.4,
+     "phone_px": 7644,
+     "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-15.html",
+     "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r15.html"
     }
    ]
   },

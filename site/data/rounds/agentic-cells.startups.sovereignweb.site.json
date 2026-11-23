@@ -1,6 +1,6 @@
 {
  "site": "agentic-cells.startups.sovereignweb.site",
- "updated": "2026-11-23T19:30Z",
+ "updated": "2026-11-23T16:35Z",
  "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
  "agent": "startups.b",
  "rounds": [
@@ -141,12 +141,23 @@
    "round": 14,
    "what": "four 4s (first of two): \"A website like this\" on the first screen helps; one-to-a-row cards add length",
    "commit_reviewed": "2d06ebf",
-   "answered_by": null,
+   "answered_by": "96238c1",
    "rating": "3",
    "synthetic_score": 3.8,
    "phone_px": 7068,
    "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-14.html",
    "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r14.html"
+  },
+  {
+   "round": 15,
+   "what": "three 4s, not rated 4: the agent strip needs a visible cue",
+   "commit_reviewed": "96238c1",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": 3.6,
+   "phone_px": 6567,
+   "review": "https://design.agents.sovereignweb.site/reviews-startups-2026-11-23-round-15.html",
+   "run": "https://design.agents.sovereignweb.site/runs-startups-2026-11-23-r15.html"
   }
  ]
 }
