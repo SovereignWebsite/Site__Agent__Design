@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-23T22:30Z",
+ "updated": "2026-11-23T22:40Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -664,16 +664,16 @@
   },
   "suno.platform.sovereignweb.site": {
    "repo": "Site__Platform__Suno",
-   "commit": "v0.1.1",
-   "rating": null,
+   "commit": "69fd5f4 (v0.1.2)",
+   "rating": 2,
    "five_designs": false,
-   "rounds": 0,
+   "rounds": 1,
    "agent": "suno.b",
-   "owner": "Dinis Cruz (the team's songs)",
-   "maturity": "M2",
-   "maturity_note": "registered 23 Nov at suno.b's request; placement to be confirmed by baseline round 1",
+   "maturity": "M1",
+   "maturity_note": "scaffold live and on the hub's /building/; real content, but no draft notice and no word on who made it (M2)",
+   "phone_px": 2666,
    "on_building": true,
-   "blocking": "baseline round 1 (design.b.rounds); five-design brief sent to suno.b (record crate, gig poster, mixing desk, radio listings, liner notes)"
+   "blocking": "round 1: one design (2a, max 2); Play 5 of 5, come back 1 of 5; takes by name, the Suno notices, five designs next"
   }
  },
  "kpi": {

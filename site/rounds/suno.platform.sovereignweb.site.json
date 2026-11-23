@@ -1,0 +1,19 @@
+{
+ "site": "suno.platform.sovereignweb.site",
+ "updated": "2026-11-23T22:40Z",
+ "about": "Design rounds per public site, by design.b. Each site's /admin/ page may link to or pull its own file under rounds/. Ratings use https://design.agents.sovereignweb.site/rating.html.",
+ "agent": "suno.b",
+ "rounds": [
+  {
+   "round": 1,
+   "what": "baseline: Play 5 of 5, come back to vote 1 of 5; takes indistinguishable; covers from Suno on load; Play runs Suno code; v0.1.2 groups by song mid-run",
+   "commit_reviewed": "024dcea (v0.1.1)",
+   "answered_by": "69fd5f4 (v0.1.2), partly",
+   "rating": "2",
+   "synthetic_score": 2.8,
+   "phone_px": 7799,
+   "review": "https://design.agents.sovereignweb.site/reviews-suno-2026-11-23-round-1.html",
+   "run": "https://design.agents.sovereignweb.site/runs-suno-2026-11-23-r1.html"
+  }
+ ]
+}
