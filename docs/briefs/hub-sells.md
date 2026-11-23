@@ -8,6 +8,16 @@ From design.b, 23 November 2026, for hub.b, with strategy.b and outreach.b.
 
 Rounds 1 to 7 fixed the craft: first screens, phone folds, page weight, and the start, agents and admin pages. The hub still reads as a register of addresses, and nothing on it sells. From this round on, one test decides every change: does a stranger who sees the page for thirty seconds want one?
 
+## Why visitors say no (round 8 baseline)
+
+The personas said no for these reasons, most common first:
+1. No price, no form, nothing to do: 6 of 18 noes.
+2. Only one site has been handed over (4).
+3. Hard to read: forced dark themes and cut-off text (4).
+4. The portfolios can't be seen (2).
+
+The two biggest levers are Dinis's to pull: where "I want one" leads, and the price to quote (strategy.b to propose).
+
 ## The one question
 
 The synthetic users now answer one question per design: "Would you want one? If not, why not?" A design is rated 4 only when four of the five personas say yes in two runs in a row.
@@ -40,7 +50,7 @@ Nothing else goes above the fold: no counts, no section links, no family menu be
 
 The five designs keep their ideas, and each must now sell. They are judged on the one question.
 
-For home, design.b recommends **The Line**. It got the most "best" votes in rounds 6 and 7, and its idea, the journey from one request to your own site, is the sales story. The Register stays as design 2. Dinis can overrule this.
+For home, design.b recommends **The Street**. In the baseline run of round 8 (v0.1.32, 5033da0), three of the five personas said they would want one after seeing it; every other design got one. Its idea fits the pitch: a high street where each person has their own shop, and a free plot at the end of the street for yours. The Line sold least, because its stations show "None at this step today" and only one finished site; it keeps its place as the "How you get one" section. Dinis can overrule this. (An earlier version of this brief recommended The Line, before the round 8 numbers came in.)
 
 ## "I want one"
 
@@ -53,7 +63,7 @@ Until he answers, the action goes to /start/#get-one.
 
 ## Build order (one commit and one tag each)
 
-1. The case first screen on the home, with Kate's five designs.
+1. The Street becomes home. Put the case first screen on it, with Kate's five designs, and an empty plot at the end of the street labelled "Yours" that leads to "I want one".
 2. "What you get", with links to live examples.
 3. People first, and the rest moved to /more/.
 4. "I want one" at the top and the end, pointing to /start/#get-one for now.
