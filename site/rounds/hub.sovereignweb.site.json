@@ -80,7 +80,7 @@
    "round": 11,
    "what": "would you want one? Line 4/5 (second run), Street 4/5 (first), Register 1/5, Gallery 1/5, Contact Sheet 1/5; one serious axe (target-size, Contact Sheet, phone); Street 8,047 px",
    "commit_reviewed": "0515052 (v0.1.56)",
-   "answered_by": null,
+   "answered_by": "1eee6ac (v0.1.57)",
    "rating": "1 (4 once the Contact Sheet axe finding is fixed)",
    "synthetic_score": null,
    "yes_counts": {
@@ -92,6 +92,23 @@
    },
    "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-23-round-11.html",
    "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-23-r11.html"
+  },
+  {
+   "round": 12,
+   "what": "Line 4/5 (third run) with axe clean and every design under 8,000 px: rated 4, M4; the buy route is one email; Street 3/5, others 1/5",
+   "commit_reviewed": "1eee6ac (v0.1.57)",
+   "answered_by": null,
+   "rating": "4",
+   "synthetic_score": null,
+   "yes_counts": {
+    "Line": 4,
+    "Register": 1,
+    "Gallery": 1,
+    "Contact Sheet": 1,
+    "Street": 3
+   },
+   "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-23-round-12.html",
+   "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-23-r12.html"
   }
  ]
 }
