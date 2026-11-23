@@ -538,12 +538,12 @@
   },
   "pipeline-demo.demo.sovereignweb.site": {
    "repo": "Site__pipeline-demo",
-   "commit": "ba8bc1c",
+   "commit": "461a834 (v0.1.5)",
    "rating": 2,
    "five_designs": false,
    "rounds": 2,
    "agent": "sites.b",
-   "blocking": "round 2 in (07fa97d, five designs); audit in the 14:07 run",
+   "blocking": "/workflow/ round 1: 2 of 5 would want one; price, time and a finished example next",
    "maturity": "M2",
    "maturity_note": "moved from pipeline-demo.sovereignweb.site to this address; live at v0.1.4"
   },
