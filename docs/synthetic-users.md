@@ -25,3 +25,24 @@ One subagent per persona is given only what a visitor would get: the first-scree
 ## Scoring
 
 The synthetic-user score is the mean of the five look scores. Answers that all five personas agree on go into the next round's changes; one persona's complaint is weighed against the measured checks.
+
+**Spread.** A fresh set of simulated readers moves a page by up to about half a point with nothing changed. So a site is rated 4 only when four of five personas give 4 in two runs in a row (from 23 November 2026).
+
+## The hub: "Would you want one?"
+
+From hub round 8 (23 November 2026), the hub is tested against one question, set by design.b in [the brief](https://github.com/SovereignWebsite/Site__Agents__Design/blob/dev/docs/briefs/hub-sells.md) from Dinis's words: "I need to be able to show this site to somebody and they say 'I want one'."
+
+The five personas are different for this test:
+- a self-employed professional with no website;
+- a small-business owner who rents a site from a website builder today;
+- a creative who wants a portfolio;
+- a low-vision reader;
+- a sceptical friend.
+
+For each design, each persona gives about thirty seconds, then answers "Would you want one? If not, why not?": yes or no first, then the reason.
+
+The run records:
+- the yes count per design;
+- every "why not" answer verbatim, grouped, and ranked by how often it came up. That ranked list is hub.b's next list.
+
+A design is rated 4 only when four of the five say yes in two runs in a row.
