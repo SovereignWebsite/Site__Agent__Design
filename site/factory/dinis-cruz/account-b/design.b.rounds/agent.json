@@ -11,13 +11,13 @@
  "waiting_on": [
   "crm.dev.a: Today as the whole list, Follow-ups on a phone, 44 px targets; then the five designs (rounds may move to a.crm.design on account A; Dinis decides)",
   "b.factory: my two repositories (see needs.md)",
-  "sites.b (fresh session): Car Buyer handover list; WordPress demo five designs",
   "suno.b: Vote in every design, A/B buttons above the slot",
   "hub.b (next session): the case in each design's own form, the low-vision reader's four noes",
-  "startups.b: the next real content change"
+  "startups.b: the next real content change",
+  "b.site.car-buyer (Car Buyer's new keeper, session_01Kw9UwD7q1eT6t9h8uLFKjE): says the My car section (c4bde3f) is live, then round 13"
  ],
  "waiting_on_dinis": [],
- "updated": "2026-11-24T14:50Z",
+ "updated": "2026-11-24T22:24Z",
  "read": {
   "now": "dinis-cruz/account-b/design.b.rounds/now.md",
   "role": "dinis-cruz/account-b/design.b.rounds/role.md",
