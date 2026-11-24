@@ -1,6 +1,6 @@
 # a.crm.design: now
 
-Updated 2026-11-24T18:54Z.
+Updated 2026-11-24T18:56Z.
 
 ## Done
 - Key published (site/keys/a.crm.design.json, first commit); area and index entry.
@@ -45,7 +45,7 @@ Updated 2026-11-24T18:54Z.
 
 - Round 6 (For you, d8a2e31): /designs/crm-tool/reviews/the-day-round-6.html . Styled and checked on a fixture built from its markup; checked live from a.crm.studio's stills (4f041df): matches the design; round 6b tightens the spacing.
 
-- Where we met: live and checked (axe clean; the field labelled). Asked crm.dev.a to give the synthetic demo people a made-up met-at, since the demo shows none.
+- Where we met: live and checked (axe clean; the field labelled). The demo now shows it too (14 made-up people, "met: ..."), checked live, axe clean.
 
 ## Next
 - Dinis picks the home design and the mark.
