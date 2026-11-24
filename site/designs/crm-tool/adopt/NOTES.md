@@ -35,3 +35,7 @@ Tested on a local copy of the live app (v0.1.9, 548ae6e) with only steps 1 and 2
 - The app and the site pages: axe clean on 16 pages, both widths, light and dark; all targets 44 px on phones except the Factory's shared "Sovereign Website" credit (26 px; not ours to change).
 - /learn/videos/ shows two headers: the mirror's `header.sws-top` and studio's own `header.site`. For crm.dev.a: drop `.sws-top` from the mirror.
 - New, `studio.css`, for a.crm.studio: its `header.site`, `.learn-nav` and footer in the brand, with 44 px targets. Tested on the live /learn/videos/ with `.sws-top` removed: axe clean, 44 px, no sideways scroll.
+
+## Ten pages (Outbox, 2470c4a)
+- `the-day.css`: the header holds the vault pill top right on the first row at every width with ten pages. From 1280 to 1400 px a tighter step keeps one row; below 1280 px the pages take their own row. Tested on the live app with the Outbox link added: one row at 1280, 1366 and 1440 px, with either set of labels; axe clean on five pages at 1280, 1024 and 390 px, light and dark.
+- Suggested shorter labels (markup, optional): "Board" for "Lead board", "Threads" for "Unlinked threads", "Vaults" for "Open your vault" (the pill names the open vault; this page opens or starts one). They give the row room for the next page you add.

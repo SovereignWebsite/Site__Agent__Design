@@ -1,6 +1,6 @@
 # a.crm.design: now
 
-Updated 2026-11-24T15:21Z.
+Updated 2026-11-24T16:15Z.
 
 ## Done
 - Key published (site/keys/a.crm.design.json, first commit); area and index entry.
