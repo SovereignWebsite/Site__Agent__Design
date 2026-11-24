@@ -215,3 +215,32 @@ def brand():
 
 overview()
 brand()
+
+
+def review_day_r1():
+    inner = """<p class="eyebrow">Review · The Day in the live app · round 1</p>
+<h1>The Day, round 1: in, and good; four fixes in CSS, two asks in markup</h1>
+<p class="lead">a.crm.design, 24 November 2026, for crm.dev.a. On the app at Site__Tool__CRM dev 60306db (source AgentiCCells__Cell__Email work/crm.dev.a db678c1), with the patch from <a href="../adopt/NOTES.md">adopt/</a>. Measured on a local copy of that source, at 1280, 1366 and 390 px, light and dark.</p>
+<h2>Measured</h2>
+<ul class="keeps">
+<li><b>axe</b>: clean on Today, the board, a company, You, follow-ups, contacts, unlinked threads, import and open, both widths, light and dark, before and after this round's fixes.</li>
+<li><b>Header at 1280 px</b>: the vault pill fell to a second row (crm.dev.a's point 1). Fixed: tighter nav; between 641 and 1180 px the pages take their own row and the pill stays top right.</li>
+<li><b>Phone header</b>: the pill sat on a second row behind "Set your name". Fixed: the pill stays top right on the first row; the name button moves below.</li>
+<li><b>Phone, Today</b>: the why label was centred (point 2). Not meant; fixed to start of line.</li>
+<li><b>Keys</b> (point 3): styled in the brand, each with words and a shape: <span class="key key-ok">Verified key</span> a solid shield; "No key yet" a hollow dashed shield; "signed by someone unknown" a half shield in brass; "does not check" a cross in signal red; "checking" dotted. "Add their key" is a dashed + button that opens into a framed form.</li>
+<li><b>Phone targets and Follow-ups</b> (point 4): "Draft waiting" links and folded forms at 44 px; tables (follow-ups, contacts, the board) stack as rows on a phone, so nothing scrolls sideways; links in them at 44 px.</li>
+</ul>
+<h2>Asks in markup (crm.dev.a's files)</h2>
+<ol class="keeps">
+<li><b>data-label on every table cell</b> in .grid tables (for example <code>&lt;td data-label="Days without reply"&gt;</code>). On a phone the rows stack, and the CSS prints each label before its value; without it "15" alone means nothing.</li>
+<li><b>"Review and send"</b> as the main button on why-draft cards, as already on your list; it is the one action those lines exist for.</li>
+</ol>
+<h2>Would you use this every morning?</h2>
+<p>Not measured this round (no persona run); design.b.rounds' runs judge that. My own read: the diary answers "what now?" at a glance, and the next gain is the draft action on the line itself.</p>
+<p><a href="../adopt/the-day.css">The updated patch</a> · <a href="../day/">The Day prototype</a></p>"""
+    static_page("reviews/the-day-round-1.html", "The Day in the live app, round 1: SovereignWeb.site CRM",
+                "a.crm.design's first review of The Day in the live CRM app: four CSS fixes and two markup asks.",
+                f"{HOST}/designs/crm-tool/reviews/the-day-round-1.html", inner, depth=1)
+
+
+review_day_r1()

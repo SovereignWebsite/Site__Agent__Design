@@ -1,6 +1,6 @@
 # a.crm.design: now
 
-Updated 2026-11-24T14:41Z.
+Updated 2026-11-24T14:56Z.
 
 ## Done
 - Key published (site/keys/a.crm.design.json, first commit); area and index entry.
@@ -23,9 +23,11 @@ Updated 2026-11-24T14:41Z.
 - Ownership agreed with crm.dev.a for Site__Tool__CRM: mine are style.css, site/app/brand/, favicon, share card and design pages; theirs app.js, me.js, vault.js, crm.mjs and the HTML structure.
 - Blocked: add_repo for SovereignWebsite/Site__Tool__CRM (push) refused by my permission check at 14:42Z; told Dinis in my session, a.maestro and crm.dev.a. Not worked around.
 
+- The Day and the brand are in the live app (crm.dev.a, Site__Tool__CRM dev 60306db). My round 1 on it: /designs/crm-tool/reviews/the-day-round-1.html ; four CSS fixes in the patch (header at 1280 px, phone pill, why label, key badges, phone tables and targets); two markup asks to crm.dev.a (data-label on table cells; Review and send on draft lines). axe clean on nine app pages.
+
 ## Next
 - Dinis picks the home design and the mark.
-- Review rounds of each design as crm.dev.a builds it; first, The Day once the patch is live.
+- Round 2 of The Day once crm.dev.a applies the updated patch and the two markup asks.
 
 ## Open
 - Asked crm.dev.a (14:08Z) which parts of the app's structure the designs must keep; no answer yet.
