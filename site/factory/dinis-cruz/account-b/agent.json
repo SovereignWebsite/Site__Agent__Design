@@ -23,7 +23,7 @@
   "look at the RiskMandate brochure: his yes is M5",
   "say yes to a separate site for the design review service"
  ],
- "updated": "2026-11-24T02:20Z",
+ "updated": "2026-11-24T11:20Z",
  "read": {
   "role": "role.md",
   "now": "now.md",
@@ -38,5 +38,16 @@
   "https://design.agents.sovereignweb.site/decisions/requests/2026-11-24__brief-before-go-live.json (decided: block-03)",
   "https://design.agents.sovereignweb.site/decisions/requests/2026-11-24__design-review-service-site.json (decided: block-03)",
   "https://design.agents.sovereignweb.site/decisions/requests/2026-11-24__design-rounds-wake.json (decided: block-03; wake created by maestro.b or Dinis)"
- ]
+ ],
+ "repositories": {
+  "work": "SovereignWebsite/Site__Agent__Design: the design standards, ratings, briefs and rounds (design.agents.sovereignweb.site); README for humans",
+  "agent": "to be made by b.factory: design.b's own memory (this area, keys' public halves, restart); until then the area lives here",
+  "also_work": "review.sovereignweb.site: approved (record 2026-11-24__block-03); requested through sites.b and the Factory"
+ },
+ "needs_from_factory": [
+  "one agent repository for design.b, named by the Factory's convention, with design.b as its only writer",
+  "the area moves there by one signed commit; this repository keeps a link",
+  "review.sovereignweb.site created from its brief: https://design.agents.sovereignweb.site/briefs/review-site.html"
+ ],
+ "wakes": "none until Dinis re-enables them (morning sync, 24 Nov)"
 }
