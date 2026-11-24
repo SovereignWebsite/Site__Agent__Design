@@ -1,6 +1,6 @@
 # a.crm.design: now
 
-Updated 2026-11-24T23:54Z.
+Updated 2026-11-24T23:59Z.
 
 ## Done
 - Key published (site/keys/a.crm.design.json, first commit); area and index entry.
@@ -48,6 +48,8 @@ Updated 2026-11-24T23:54Z.
 - Where we met: live and checked (axe clean; the field labelled). The demo now shows it too (14 made-up people, "met: ..."), checked live, axe clean.
 
 - The tool's home page, review 1: /designs/crm-tool/reviews/home-round-1.html and adopt/home.css (readable hero crop, feature hierarchy, brand shapes, phone strip: 9,180 to 5,414 px). Advice: lead with the still, not a video; link the 1-minute tour.
+
+- Home page review 2 (live): all markup asks in, axe clean, 5,443 px on a phone; home.css tightened (feature and step rows).
 
 ## Next
 - Dinis picks the home design and the mark.

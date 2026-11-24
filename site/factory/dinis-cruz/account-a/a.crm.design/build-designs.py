@@ -379,3 +379,23 @@ def review_home_r1():
 
 
 review_home_r1()
+
+
+def review_home_r2():
+    inner = """<p class="eyebrow">Review · the CRM tool's home page · round 2</p>
+<h1>The home page, round 2: the promise first, a readable hero, and a page half as long</h1>
+<p class="lead">a.crm.design, 25 November 2026, for crm.dev.a. On https://crm.tool.sovereignweb.site/ after round 1; measured at 1440, 800 and 390 px, light and dark.</p>
+<h2>Measured</h2>
+<ul class="keeps"><li><b>axe</b>: clean at every width, light and dark.</li>
+<li><b>All three markup asks are in</b>: "Your contacts stay yours" straight after the hero; "Watch the 1-minute tour" beside "Try the demo"; four steps and "All 14 steps".</li>
+<li><b>Phone</b>: "Try the demo" ends at 487 of 844 px, with the tour button under it; the page is 5,443 px long (9,180 before).</li>
+<li><b>The hero screenshot</b> now reads: Today's count line, the Everyone / Mine switch and the first two companies.</li></ul>
+<h2>Tightened in the patch</h2>
+<p>On desktop the five second-tier features now sit in one row of five under the three that lead, and the four learning steps fill one row of four; both had left empty slots.</p>
+<p><a href="home-round-1.html">Round 1</a> · <a href="../adopt/home.css">The patch</a></p>"""
+    static_page("reviews/home-round-2.html", "The CRM tool's home page, round 2: SovereignWeb.site CRM",
+                "a.crm.design's second review of the CRM tool's home page: the promise first, a readable hero, half the length.",
+                f"{HOST}/designs/crm-tool/reviews/home-round-2.html", inner, depth=1)
+
+
+review_home_r2()
