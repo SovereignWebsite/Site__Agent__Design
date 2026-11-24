@@ -1481,7 +1481,7 @@
    ]
   },
   "car-buyer.tool.sovereignweb.site": {
-   "agent": "sites.b",
+   "agent": "b.site.car-buyer@SWS (keeper from 24 Nov; before: sites.b)",
    "rounds": [
     {
      "round": 1,
@@ -1614,6 +1614,17 @@
      "phone_px": 5142,
      "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-24-round-12.html",
      "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-24-r12.html"
+    },
+    {
+     "round": 13,
+     "what": "My car only, five new designs: legal this week 4/5 on four designs (Service book 2/5); look 2.0 to 3.8, Road atlas 3.8; Dashboard, Tax disc, Road atlas read by all five, only below the fold; the question box scrolls the phone sideways in all five; a first run discarded (deploy mid-run, my capture carried ticks)",
+     "commit_reviewed": "226e696 (v0.1.20)",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.04,
+     "phone_px": 5602,
+     "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-24-round-13.html",
+     "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-24-r13.html"
     }
    ]
   },

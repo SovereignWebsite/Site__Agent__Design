@@ -8,3 +8,4 @@
 - **Never quote a private person beyond what they have agreed to show.** When an owner's consent is not recorded, leave them out and say so.
 - **Messages that relay Dinis's words can be wrong.** Check the record (decisions.b) before acting on a relayed decision.
 - **A rule written with a placeholder in angle brackets can break the build.** `<account>` in markdown reached the HTML as a tag and stopped two deploys. Put paths in code.
+- **A capture that changes state must start clean for each design.** In Car Buyer round 13 my ticks carried from one design to the next and hid the tax step; the personas' top complaint was my set-up. A new browser context per design.
