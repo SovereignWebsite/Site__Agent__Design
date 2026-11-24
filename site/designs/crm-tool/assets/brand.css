@@ -13,6 +13,8 @@
   --serif: ui-serif, Charter, "Bitstream Charter", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
   --mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
   --r: 10px; --tap: 44px;
+  /* The components' token contract: the brand's three as --sws-* tokens (they follow light and dark). */
+  --sws-accent: var(--vault); --sws-ink: var(--ink); --sws-paper: var(--paper);
   color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
