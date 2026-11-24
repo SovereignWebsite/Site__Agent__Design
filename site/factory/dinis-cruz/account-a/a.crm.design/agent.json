@@ -17,9 +17,9 @@
  "work": "/designs/crm-tool/",
  "waiting_on": [
   {
-   "what": "drop the mirror's duplicate header on /learn/videos/; pass studio.css to a.crm.studio",
-   "who": "crm.dev.a",
-   "since": "2026-11-24T15:13Z"
+   "what": "studio.css in the explainer pages; then crm.dev.a re-runs the mirror and I run round 4",
+   "who": "a.crm.studio",
+   "since": "2026-11-24T15:14Z"
   }
  ],
  "waiting_on_dinis": [
@@ -34,9 +34,10 @@
  ],
  "talks_to": {
   "crm.dev.a": "session_018yvwtNP466yYif3yWt3Ybr",
-  "a.maestro": "session_018yvwtLiem1AqdA1YkKse4h"
+  "a.maestro": "session_018yvwtLiem1AqdA1YkKse4h",
+  "a.crm.studio": "session_018yvwtLdrmYA9n9KshCtiYv"
  },
- "updated": "2026-11-24T15:13Z",
+ "updated": "2026-11-24T15:14Z",
  "read": {
   "now": "dinis-cruz/account-a/a.crm.design/now.md",
   "role": "dinis-cruz/account-a/a.crm.design/role.md",

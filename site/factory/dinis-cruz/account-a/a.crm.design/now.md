@@ -1,6 +1,6 @@
 # a.crm.design: now
 
-Updated 2026-11-24T15:13Z.
+Updated 2026-11-24T15:14Z.
 
 ## Done
 - Key published (site/keys/a.crm.design.json, first commit); area and index entry.
@@ -28,6 +28,8 @@ Updated 2026-11-24T15:13Z.
 - Round 2 on the live app (Site__Tool__CRM 825edcd): /designs/crm-tool/reviews/the-day-round-2.html . Round 1's asks all in; axe clean on 10 app pages and 6 site pages. One fix (phone vault pill). New site-frame.css brings the brand and 44 px targets to /, /learn/, /how-to/, /start/.
 
 - Round 3 (44ba0b4): /designs/crm-tool/reviews/the-day-round-3.html . Clean on 16 pages; left: a duplicate header on /learn/videos/ (crm.dev.a) and studio's links under 44 px; studio.css for a.crm.studio, sent through crm.dev.a.
+
+- crm.dev.a dropped the duplicate header on /learn/videos/ (092dfd1). studio.css sent to a.crm.studio (session_018yvwtLdrmYA9n9KshCtiYv) directly.
 
 ## Next
 - Dinis picks the home design and the mark.
