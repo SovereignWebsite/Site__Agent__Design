@@ -5,3 +5,4 @@
 - 2026-11-23__briefings-keepers-messages: ask 40, agents as provenance and graphs; ask 30, Car Buyer the art of the possible.
 - 2026-11-23__asks-2-8-31-revised and 2026-11-23__asks-22-to-32: the buy route is one email; Stripe later.
 - 24 Nov (b.maestro's session, event 8f844d9f, via conductor.b): this area, kept current at each wake.
+- 2026-11-24__block-03: brief before build (maturity.md M0, docs/briefs/TEMPLATE.md); review.sovereignweb.site yes with conditions (docs/briefs/review-site.md); design.b.rounds wake every 2 hours, created by maestro.b or Dinis.
