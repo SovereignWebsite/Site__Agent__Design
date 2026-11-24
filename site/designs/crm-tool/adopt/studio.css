@@ -9,5 +9,9 @@ header.site .home { gap: 8px; font-family: var(--brand-serif); font-size: 1.3rem
 header.site .home::before { content: ""; width: 32px; height: 32px; background: url(/app/brand/mark.svg) center / contain no-repeat; }
 header.site nav { display: flex; flex-wrap: wrap; gap: 0 1rem; margin-left: auto; }
 h1, h2 { font-family: var(--brand-serif); }
-.learn-nav a { display: inline-flex; align-items: center; min-height: 44px; }
-@media (max-width: 640px) { footer a { display: inline-flex; align-items: center; min-height: 44px; } }
+nav.learn a, .learn-nav a { display: inline-flex; align-items: center; min-height: 44px; }
+@media (max-width: 640px) {
+  footer a { display: inline-flex; align-items: center; min-height: 44px; }
+  /* The player's controls: 44 px on a phone (player.css sets 40). The checkbox's label is its target. */
+  .p-controls button, .p-controls label { min-height: 44px; }
+}
