@@ -3,7 +3,7 @@
    a.crm.design, 24 Nov 2026. */
 (function () {
   'use strict';
-  const { D, esc, days, fmt, longDate, plural, company, person, stageName, sourceName, status, badges, byUrgency, dayList, say } = window.CRM;
+  const { keyTag, D, esc, days, fmt, longDate, plural, company, person, stageName, sourceName, status, badges, byUrgency, dayList, say } = window.CRM;
   const lastAt = (c) => c.activity.reduce((m, a) => (a.at > m ? a.at : m), '0');
   const needsYou = (c) => c.stage !== 'parked' && (days(c.due) >= 0 || c.draft || c.repliedOn);
   const when = (at) => { const n = days(at); return n === 0 ? 'Today' : n === 1 ? 'Yesterday' : fmt(at); };
@@ -40,9 +40,9 @@
       <section class="pane-read" aria-labelledby="t-h">
         <p class="back"><a href="#/inbox">‹ Inbox</a></p>
         <header class="t-head"><h1 id="t-h" tabindex="-1">${esc(c.name)}</h1>
-          <p class="t-meta">${esc(stageName(c.stage))} · ${esc(person(c.owner))} · ${c.people.map((p) => esc(p.name)).join(', ')} · <span class="note">${esc(c.domain)}</span></p>
+          <p class="t-meta">${esc(stageName(c.stage))} · ${esc(person(c.owner))} · ${c.people.map((p) => `${esc(p.name)} ${keyTag(p, c)}`).join(' ')} · <span class="note">${esc(c.domain)}</span></p>
           <p class="t-meta">${badges(c)}</p>
-          <p class="t-next"><b>Next:</b> ${esc(c.next)}, due <time datetime="${c.due}">${fmt(c.due, true)}</time> <a class="btn${c.draft ? ' warn' : ''} jump" href="#/company/${c.id}/${c.draft ? 'draft' : 'log'}">${c.draft ? 'Review and send' : 'Log an action'} ↓</a></p></header>
+          <p class="t-next"><span><b>Next:</b> ${esc(c.next)}, due <time datetime="${c.due}">${fmt(c.due, true)}</time></span> <a class="btn${c.draft ? ' warn' : ''} jump" href="#/company/${c.id}/${c.draft ? 'draft' : 'log'}">${c.draft ? 'Review and send' : 'Log an action'} ↓</a></p></header>
         <ol class="msgs">
           <li class="sys">${esc(sourceName(c.source))}${c.metBy ? `, met by ${esc(person(c.metBy))}` : ''}${intro ? `, introduced through <a href="#/company/${intro.id}">${esc(intro.name)}</a>` : ''}</li>
           ${msgs.map((a) => `<li class="msg ${a.dir === 'in' ? 'in' : 'out'}${a.kind !== 'Email' ? ' logged' : ''}${a.fresh ? ' fresh' : ''}"><p class="m-meta"><b>${a.dir === 'in' ? esc(c.people[0].name) : esc(person(a.by))}</b> · ${esc(a.kind)} · <time datetime="${a.at}">${fmt(a.at, true)}</time></p><p>${esc(a.text)}</p></li>`).join('')}
@@ -91,7 +91,7 @@
     const all = D.companies.flatMap((c) => c.people.map((p) => ({ ...p, c }))).sort((a, b) => a.name.localeCompare(b.name));
     const groups = {}; all.forEach((p) => { (groups[p.name[0]] = groups[p.name[0]] || []).push(p); });
     return { title: 'Contacts', html: `<div class="single"><div class="list-head"><h1 tabindex="-1">Contacts</h1><p class="note">An address book: ${plural(all.length, 'person')}.</p></div>
-      ${Object.keys(groups).sort().map((k) => `<h2 class="letter">${k}</h2><ul class="abook">${groups[k].map((p) => `<li><a href="#/company/${p.c.id}"><b>${esc(p.name)}</b> <span>${esc(p.role)}, ${esc(p.c.name)}</span></a><span class="mail">${esc(p.email)}</span></li>`).join('')}</ul>`).join('')}</div>` };
+      ${Object.keys(groups).sort().map((k) => `<h2 class="letter">${k}</h2><ul class="abook">${groups[k].map((p) => `<li><a href="#/company/${p.c.id}"><b>${esc(p.name)}</b> <span>${esc(p.role)}, ${esc(p.c.name)}</span></a><span class="mail">${keyTag(p, p.c)} ${esc(p.email)}</span></li>`).join('')}</ul>`).join('')}</div>` };
   }
   function more() {
     return { title: 'More', html: `<div class="single"><div class="list-head"><h1 tabindex="-1">More</h1></div><ul class="more"><li><a href="#/follow-ups">Follow-ups<span>every next step by date</span></a></li><li><a href="#/import">Import<span>contacts from a spreadsheet</span></a></li><li><a href="#/vault">Vaults<span>open, start, or hand one to your phone</span></a></li><li><a href="#/requests">Requests<span>ask the CRM's keeper</span></a></li><li><a href="#/you">You<span>your name and this browser's key</span></a></li></ul></div>` };

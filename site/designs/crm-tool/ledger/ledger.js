@@ -3,7 +3,7 @@
    shared; prints cleanly. a.crm.design, 24 Nov 2026. */
 (function () {
   'use strict';
-  const { D, $, $$, esc, days, fmt, longDate, plural, company, person, stageName, sourceName, status, badges, actionButton, logForm, draftBox, say } = window.CRM;
+  const { keyTag, D, $, $$, esc, days, fmt, longDate, plural, company, person, stageName, sourceName, status, badges, actionButton, logForm, draftBox, say } = window.CRM;
   const short = (id) => person(id).replace(/\s*\(demo\)/, '');
   const last = (c) => c.activity.reduce((m, a) => (a.at > m ? a.at : m), '0');
   const COLS = [
@@ -55,15 +55,15 @@
         <tr><th scope="row">Next step</th><td>${esc(c.next)}</td></tr><tr><th scope="row">Due</th><td class="num">${c.due} (${fmt(c.due, true)})</td></tr>
         <tr><th scope="row">From</th><td>${esc(sourceName(c.source))}${intro ? `, through <a href="#/company/${intro.id}">${esc(intro.name)}</a>` : ''}</td></tr><tr><th scope="row">Met by</th><td>${esc(person(c.metBy))}</td></tr>
         <tr><th scope="row">Domain</th><td><code>${esc(c.domain)}</code></td></tr>
-        ${c.people.map((p, n) => `<tr><th scope="row">${n ? '' : 'People'}</th><td>${esc(p.name)}, ${esc(p.role)}, <a href="mailto:${esc(p.email)}">${esc(p.email)}</a></td></tr>`).join('')}</tbody></table>
+        ${c.people.map((p, n) => `<tr><th scope="row">${n ? '' : 'People'}</th><td>${esc(p.name)}, ${esc(p.role)} ${keyTag(p, c)} <a href="mailto:${esc(p.email)}">${esc(p.email)}</a></td></tr>`).join('')}</tbody></table>
         <section class="rec-act" aria-labelledby="la-h">${c.draft ? `<div id="draft">${draftBox(c)}</div>` : ''}<div id="log"><h2 id="la-h">Log an action <kbd aria-hidden="true">l</kbd></h2>${logForm(c, { rows: 2 })}</div></section></div>
       <table class="acts-t"><caption>Activity, newest first</caption><thead><tr><th scope="col">Date</th><th scope="col">Kind</th><th scope="col">Way</th><th scope="col">By</th><th scope="col">What</th></tr></thead>
         <tbody>${c.activity.map((a) => `<tr class="${a.fresh ? 'fresh' : ''}"><td class="num"><time datetime="${a.at}">${a.at}</time></td><td>${esc(a.kind)}</td><td>${a.dir === 'in' ? 'In' : 'Out'}</td><td>${esc(short(a.by))}</td><td>${esc(a.text)}</td></tr>`).join('')}</tbody></table></div>` };
   }
   function contacts() {
     const all = D.companies.flatMap((c) => c.people.map((p) => ({ ...p, c }))).sort((a, b) => a.name.localeCompare(b.name));
-    return { title: 'Contacts', html: `<div class="l-head"><h1 tabindex="-1">Contacts</h1><p class="note">${plural(all.length, 'person')}.</p></div><div class="tbl-wrap"><table class="ledger"><caption class="vh">Contacts</caption><thead><tr><th scope="col">Name</th><th scope="col">Role</th><th scope="col">Company</th><th scope="col">Email</th><th scope="col">Last contact</th></tr></thead>
-      <tbody>${all.map((p) => `<tr><th scope="row" data-label="Name">${esc(p.name)}</th><td data-label="Role">${esc(p.role)}</td><td data-label="Company"><a href="#/company/${p.c.id}">${esc(p.c.name)}</a></td><td data-label="Email"><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></td><td data-label="Last contact" class="num">${last(p.c)}</td></tr>`).join('')}</tbody></table></div>` };
+    return { title: 'Contacts', html: `<div class="l-head"><h1 tabindex="-1">Contacts</h1><p class="note">${plural(all.length, 'person')}.</p></div><div class="tbl-wrap"><table class="ledger"><caption class="vh">Contacts</caption><thead><tr><th scope="col">Name</th><th scope="col">Role</th><th scope="col">Company</th><th scope="col">Email</th><th scope="col">Key</th><th scope="col">Last contact</th></tr></thead>
+      <tbody>${all.map((p) => `<tr><th scope="row" data-label="Name">${esc(p.name)}</th><td data-label="Role">${esc(p.role)}</td><td data-label="Company"><a href="#/company/${p.c.id}">${esc(p.c.name)}</a></td><td data-label="Email"><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></td><td data-label="Key">${keyTag(p, p.c)}</td><td data-label="Last contact" class="num">${last(p.c)}</td></tr>`).join('')}</tbody></table></div>` };
   }
   function more() {
     return { title: 'More', html: `<div class="l-head"><h1 tabindex="-1">More</h1></div><table class="ledger more-t"><caption class="vh">More pages</caption><tbody><tr><th scope="row"><a href="#/import">Import</a></th><td>contacts from a CSV</td></tr><tr><th scope="row"><a href="#/vault">Vaults</a></th><td>open, start, hand to a phone by QR</td></tr><tr><th scope="row"><a href="#/requests">Requests</a></th><td>ask the CRM's keeper</td></tr><tr><th scope="row"><a href="#/you">You</a></th><td>your name and this browser's key</td></tr></tbody></table>` };

@@ -24,8 +24,8 @@ DESIGNS = [
     ("ledger", 5, "The Ledger", "The dense, keyboard-first table: sortable, j and k to move, filters in the address, prints cleanly.",
      [("ledger", "Ledger"), ("today", "Today"), ("follow-ups", "Follow-ups"), ("contacts", "Contacts"), ("more", "More")]),
 ]
-VAULTS = [("demo", "Demo", "synthetic, read only"), ("personal", "Personal", "your own contacts"),
-          ("riskmandate", "RiskMandate", "shared with the team"), ("summit", "Summit CRM", "the summit follow-up")]
+VAULTS = [("demo", "Demo", "Synthetic"), ("personal", "Personal", "Just you"), ("pair", "You and Alex", "Shared by two"),
+          ("riskmandate", "RiskMandate", "Team of 5"), ("summit", "Summit CRM", "Project, 3 people")]
 
 
 def head(title, desc, url, css, depth):
@@ -74,8 +74,8 @@ def switcher(depth, vault_href):
         f'<li><a href="{vault_href}{v}"{cur if v == "demo" else ""}><span>{n}</span><span class="tag">{t}</span></a></li>'
         for v, n, t in VAULTS)
     return f"""<div class="vault-switch">
-<button type="button" id="vault-btn" aria-expanded="false" aria-controls="vault-pop"><svg class="lock" viewBox="0 0 14 16" aria-hidden="true"><path d="M3 7V5a4 4 0 0 1 8 0v2"/><rect x="1" y="7" width="12" height="9" rx="2"/></svg><span>Vault: <b>Demo</b></span><span aria-hidden="true">▾</span></button>
-<div class="pop" id="vault-pop" hidden><p>Open vault: <b>Demo</b>. Switch to:</p><ul>{items}</ul><hr><ul><li><a href="{vault_href}demo/qr"><span>Hand a vault to your phone (QR)</span></a></li><li><a href="{vault_href}"><span>Open or start a vault</span></a></li></ul></div>
+<button type="button" id="vault-btn" aria-expanded="false" aria-controls="vault-pop"><svg class="lock" viewBox="0 0 14 16" aria-hidden="true"><path d="M3 7V5a4 4 0 0 1 8 0v2"/><rect x="1" y="7" width="12" height="9" rx="2"/></svg><span class="vb-text"><span>Vault: <b>Demo</b></span><small>Synthetic, one of 5</small></span><span aria-hidden="true">▾</span></button>
+<div class="pop" id="vault-pop" hidden><p>Open vault: <b>Demo</b>. Many small CRMs, one vault each. Switch to:</p><ul>{items}</ul><hr><ul><li><a href="{vault_href}demo/qr"><span>Hand a vault to your phone (QR)</span></a></li><li><a href="{vault_href}demo/send"><span>Send a company to another vault</span></a></li><li><a href="{vault_href}"><span>Open or start a vault</span></a></li></ul></div>
 </div>"""
 
 

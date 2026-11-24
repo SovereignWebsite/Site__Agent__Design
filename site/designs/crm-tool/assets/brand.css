@@ -120,3 +120,18 @@ main [id] { scroll-margin-top: 120px; }
 .facts dt { color: var(--muted); }
 .facts dd { margin: 0; }
 .foot .sws-version { opacity: 1; color: var(--ink); min-height: 32px; display: flex; align-items: center; }
+
+/* A contact's key: verified is a solid shield; not yet is dashed, and is the way to add it. */
+.key { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 700; padding: 1px 8px 1px 6px; border-radius: 6px; white-space: nowrap; vertical-align: middle; }
+.key::before { content: ""; width: 9px; height: 11px; flex: none; background: currentColor; clip-path: polygon(50% 0, 100% 18%, 100% 58%, 50% 100%, 0 58%, 0 18%); }
+.key-ok { color: var(--vault); background: var(--vault-soft); border: 1.5px solid var(--vault); }
+a.key-add { color: var(--muted); border: 1.5px dashed var(--muted); text-decoration: none; min-height: 24px; }
+a.key-add::before { background: none; clip-path: none; content: "+"; width: auto; height: auto; font-size: 13px; }
+a.key-add:hover { color: var(--vault); border-color: var(--vault); }
+.vkind { display: inline-block; font-size: 12px; font-weight: 700; padding: 0 7px; border-radius: 999px; background: var(--sunk); border: 1px solid var(--line); color: var(--ink); }
+.handover { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; max-width: 980px; }
+.handover .panel { margin: 0; max-width: none; }
+.drop { display: grid; place-items: center; min-height: 160px; border: 2px dashed var(--vault); border-radius: var(--r); background: var(--vault-soft); font-weight: 700; color: var(--ink); margin-bottom: 10px; }
+@media (max-width: 700px) { .handover { grid-template-columns: 1fr; } a.key-add { min-height: 44px; } }
+.vb-text { display: grid; line-height: 1.15; text-align: left; }
+.vb-text small { font-size: 11px; color: var(--muted); font-weight: 600; }

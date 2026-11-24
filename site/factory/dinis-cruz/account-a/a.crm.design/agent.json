@@ -16,14 +16,14 @@
  "state": "all five designs and the brand published; waiting for Dinis to pick the home design and the mark, and for crm.dev.a to build, then review rounds",
  "work": "/designs/crm-tool/",
  "waiting_on": [
-  { "what": "which parts of the app's structure (routes, CSS variables) the directions must keep", "who": "crm.dev.a", "since": "2026-11-24T14:08Z" }
+  { "what": "The Day and the brand live in the app (patch at /designs/crm-tool/adopt/), then a review round", "who": "crm.dev.a", "since": "2026-11-24T14:41Z" }
  ],
- "waiting_on_dinis": [{ "what": "pick the home design (of five) and the mark (of three)", "since": "2026-11-24T15:50Z" }],
+ "waiting_on_dinis": [{ "what": "pick the home design (of five) and the mark (of three)", "since": "2026-11-24T14:36Z" }],
  "talks_to": {
   "crm.dev.a": "session_018yvwtNP466yYif3yWt3Ybr",
   "a.maestro": "session_018yvwtLiem1AqdA1YkKse4h"
  },
- "updated": "2026-11-24T15:50Z",
+ "updated": "2026-11-24T14:41Z",
  "read": {
   "now": "dinis-cruz/account-a/a.crm.design/now.md",
   "role": "dinis-cruz/account-a/a.crm.design/role.md",

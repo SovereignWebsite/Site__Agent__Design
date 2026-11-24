@@ -2,7 +2,7 @@
    a.crm.design, 24 Nov 2026. */
 (function () {
   'use strict';
-  const { D, esc, days, fmt, longDate, plural, company, person, stageName, sourceName, badges, byUrgency, dayList, actionButton, logForm, draftBox } = window.CRM;
+  const { keyTag, D, esc, days, fmt, longDate, plural, company, person, stageName, sourceName, badges, byUrgency, dayList, actionButton, logForm, draftBox } = window.CRM;
 
   // One diary line: when, who, what, its one action.
   function line(c, opts) {
@@ -69,7 +69,7 @@
         <section class="diary activity" aria-labelledby="h-act"><h2 id="h-act">Activity</h2>
           ${Object.keys(by).sort().reverse().map((d) => `<h3 class="day-h"><time datetime="${d}">${fmt(d, true)}</time></h3><ul class="log">${by[d].map((a) => `<li class="${a.fresh ? 'fresh' : ''}"><span class="kind">${esc(a.kind)}${a.dir === 'in' ? ', they wrote' : ''}</span> ${esc(a.text)} <span class="who">${esc(person(a.by))}</span></li>`).join('')}</ul>`).join('')}</section>
         <section class="side" aria-labelledby="h-ppl"><h2 id="h-ppl">People</h2>
-          <ul class="people">${c.people.map((p) => `<li><b>${esc(p.name)}</b><br>${esc(p.role)}<br><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></li>`).join('')}</ul>
+          <ul class="people">${c.people.map((p) => `<li><b>${esc(p.name)}</b> ${keyTag(p, c)}<br>${esc(p.role)}<br><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></li>`).join('')}</ul>
           <h2>Where from</h2><p>${esc(sourceName(c.source))}${c.metBy ? `, met by ${esc(person(c.metBy))}` : ''}${intro ? `, introduced through <a href="#/company/${intro.id}">${esc(intro.name)}</a>` : ''}.</p>
           <p class="note">${esc(c.domain)}</p></section>
       </div>` };
@@ -78,7 +78,7 @@
   function contacts() {
     const all = D.companies.flatMap((c) => c.people.map((p) => ({ ...p, c }))).sort((a, b) => a.name.localeCompare(b.name));
     return { title: 'Contacts', html: `<div class="page-head"><p class="eyebrow">Everyone you follow up</p><h1 tabindex="-1">Contacts</h1><p class="tally">${plural(all.length, 'person')} at ${plural(D.companies.length, 'company')}.</p></div>
-      <ul class="cards">${all.map((p) => { const last = p.c.activity[0]; return `<li><h2><a href="#/company/${p.c.id}">${esc(p.name)}</a></h2><p>${esc(p.role)}, ${esc(p.c.name)}</p><p class="note">Last contact <time datetime="${last.at}">${fmt(last.at, true)}</time> · <a href="mailto:${esc(p.email)}">${esc(p.email)}</a></p></li>`; }).join('')}</ul>` };
+      <ul class="cards">${all.map((p) => { const last = p.c.activity[0]; return `<li><h2><a href="#/company/${p.c.id}">${esc(p.name)}</a></h2><p>${keyTag(p, p.c)}</p><p>${esc(p.role)}, ${esc(p.c.name)}</p><p class="note">Last contact <time datetime="${last.at}">${fmt(last.at, true)}</time> · <a href="mailto:${esc(p.email)}">${esc(p.email)}</a></p></li>`; }).join('')}</ul>` };
   }
 
   function more() {

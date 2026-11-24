@@ -32,6 +32,10 @@
     if (c.noReplySince) { const n = days(c.noReplySince); out.push({ k: 'noreply', cls: 'st-noreply', text: n === 0 ? 'Sent today, no reply yet' : `No reply for ${plural(n, 'day')}` }); }
     return out;
   }
+  // A contact's key: verified (a shield, in words) or not yet (dashed, with the way to add it).
+  const keyTag = (p, c) => (p.key === 'verified'
+    ? `<span class="key key-ok">Verified key</span>`
+    : `<a class="key key-add" href="#/you/${c ? c.id : 'x'}/take" aria-label="Add ${esc(p.name)}'s key">Add their key</a>`);
   const badges = (c) => status(c).map((s) => `<span class="st ${s.cls}">${esc(s.text)}</span>`).join(' ');
   const urgency = (c) => (c.stage === 'parked' ? 1e4 : 0) - Math.max(0, days(c.due)) * 10 + days(D.today, c.due) * 5 - (c.draft ? 8 : 0) - (c.repliedOn ? 6 : 0);
   const byUrgency = (list) => [...list].sort((a, b) => urgency(a) - urgency(b));
@@ -82,12 +86,17 @@
     return { title: 'Open or start a vault', html: `<h1 tabindex="-1">Open or start a vault</h1>
       <p class="lead">Your CRM lives in a vault that only you hold the key to. Its key is used in this browser and never sent to this site.</p>
       <section class="panel" aria-labelledby="v-open"><h2 id="v-open">Your vaults</h2>
-        <ul class="vault-list">${D.vaults.map((v) => `<li${v.id === 'demo' ? ' class="on"' : ''}><span><b>${esc(v.name)}</b> <span class="note">${esc(v.note)}</span></span>${v.id === 'demo' ? '<span class="st st-today">Open now</span>' : `<a class="btn quiet" href="#/vault/${v.id}">Open</a>`}</li>`).join('')}</ul>
+        <p>Keep many small CRMs: one just for you, one shared by two, one for a team, one for a project. Each is its own vault with its own key.</p>
+        <ul class="vault-list">${D.vaults.map((v) => `<li${v.id === 'demo' ? ' class="on"' : ''}><span><b>${esc(v.name)}</b> <span class="vkind">${esc(v.kind)}</span> <span class="note">${esc(v.note)}</span></span>${v.id === 'demo' ? '<span class="st st-today">Open now</span>' : `<a class="btn quiet" href="#/vault/${v.id}">Open</a>`}</li>`).join('')}</ul>
         ${pick && pick.id !== 'demo' ? `<form class="form" data-fake="vault" aria-label="Open ${esc(pick.name)}"><h3>Open ${esc(pick.name)}</h3><label>Its vault key<input name="key" type="password" autocomplete="off" spellcheck="false"></label><p><button class="btn" type="submit">Open ${esc(pick.name)}</button> <span class="note">Prototype: no vault opens here.</span></p></form>` : ''}
       </section>
       <section class="panel" aria-labelledby="v-new"><h2 id="v-new">Start a new vault</h2>
         <p>Makes an empty, encrypted CRM vault with your access token, marked as yours. You see its key once: keep it safe.</p>
         <form class="form" data-fake="new" aria-label="Start a new vault"><label>Name it<input name="name" placeholder="For example: Summit CRM"></label><p><button class="btn" type="submit">Start the vault</button></p></form>
+      </section>
+      <section class="panel" id="send" aria-labelledby="v-send"><h2 id="v-send">Send to another vault</h2>
+        <p>Copy a company, its people and their keys from this vault into another one you hold. It is sealed in this browser for that vault's key; the vault service only carries it.</p>
+        <form class="form" data-fake="send" aria-label="Send a company to another vault"><div class="row"><label>Company<select name="co">${D.companies.map((c) => `<option>${esc(c.name)}</option>`).join('')}</select></label><label>To<select name="to">${D.vaults.filter((v) => v.id !== 'demo').map((v) => `<option>${esc(v.name)} (${esc(v.kind.toLowerCase())})</option>`).join('')}</select></label></div><p><button class="btn" type="submit">Seal and send</button></p></form>
       </section>
       <section class="panel" id="qr" aria-labelledby="v-qr"><h2 id="v-qr">Hand a vault to your phone</h2>
         <ol class="steps"><li>On this computer, choose the vault and show its QR code.</li><li>On your phone, open this CRM, then You, then "Scan a vault".</li><li>The key goes across by the camera only: no message, no email.</li></ol>
@@ -109,14 +118,23 @@ Example Ltd,example.com,Sam Example,sam@example.com,summit</textarea></label><p>
       <form class="form panel" data-fake="request" aria-label="Send a request"><label>Kind<select name="kind"><option>A feature</option><option>A question</option><option>Something is wrong</option><option>A workflow</option><option>An idea</option></select></label><label>What you would like<textarea name="text" rows="4"></textarea></label><p><button class="btn" type="submit">Sign, seal and send</button></p></form>
       <h2>Answers</h2><ul class="answers">${D.requests.map((r) => `<li><p class="note"><time datetime="${r.at}">${fmt(r.at, true)}</time> · ${esc(r.kind)}</p><p>${esc(r.text)}</p><p><b>Keeper:</b> ${esc(r.answer)}</p></li>`).join('')}</ul>` };
   }
-  function youPage() {
+  function youPage(arg) {
     const mine = D.companies.filter((c) => c.owner === 'you');
+    const forCo = arg && D.companies.find((c) => c.id === arg);
+    const missing = D.companies.flatMap((c) => c.people.filter((p) => p.key !== 'verified').map((p) => ({ p, c })));
     return { title: 'You', html: `<h1 tabindex="-1">You</h1>
-      <p class="lead">In the demo you are "You". In your own vault, your name goes on every action you log.</p>
-      <section class="panel" aria-labelledby="y-me"><h2 id="y-me">This browser</h2>
-        <dl class="facts"><dt>Your name</dt><dd>You (demo)</dd><dt>This browser's key</dt><dd><code>sha256:demo-0000</code> (made up)</dd><dt>Locked with</dt><dd>No passkey in the demo</dd><dt>Companies you own</dt><dd>${mine.length}</dd></dl>
-      </section>
-      <section class="panel" aria-labelledby="y-v"><h2 id="y-v">Vaults on this browser</h2><p>${D.vaults.length - 1} kept here, plus the demo. <a href="#/vault">Open or start a vault</a>, or <a href="#/vault/demo/qr">scan one from another device</a>.</p>
+      <p class="lead">Keys go across in person, by QR: show yours on the left, drop theirs on the right. A contact with a key you have checked shows <span class="key key-ok">Verified key</span>.</p>
+      <div class="handover">
+        <section class="panel give" aria-labelledby="y-give"><h2 id="y-give">Give: your key</h2><p>Let them scan this, or send them the picture.</p>
+          <div class="qr-box" role="img" aria-label="Where your key's QR code appears">Your key's QR code appears here. The demo has no key.</div>
+          <p class="note">This browser's key: <code>sha256:demo-0000</code> (made up). Its private half never leaves this browser.</p></section>
+        <section class="panel take" id="take" aria-labelledby="y-take"><h2 id="y-take">Take: their key${forCo ? `, for ${esc(forCo.name)}` : ''}</h2><p>Drop or paste the QR code they show you, or choose the picture.</p>
+          <div class="drop" tabindex="0" role="button" aria-label="Drop or paste their QR code">Drop their QR code here</div>
+          <form class="form" data-fake="take" aria-label="Choose their QR picture"><label>Or choose the picture<input type="file" accept="image/*" name="qr"></label><p><button class="btn" type="submit">Check and add their key</button></p></form>
+          <p class="note">Still without a key: ${missing.slice(0, 4).map((m) => esc(m.p.name)).join(', ')} and ${missing.length - 4} more.</p></section>
+      </div>
+      <section class="panel" aria-labelledby="y-v"><h2 id="y-v">Your vaults</h2><ul class="vault-list">${D.vaults.map((v) => `<li><span><b>${esc(v.name)}</b> <span class="vkind">${esc(v.kind)}</span></span>${v.id === 'demo' ? '<span class="st st-today">Open now</span>' : `<a class="btn quiet" href="#/vault/${v.id}">Open</a>`}</li>`).join('')}</ul>
+        <p>You own ${mine.length} companies in the demo. <a href="#/vault/demo/send">Send one to another vault</a>.</p>
         <p><button class="btn quiet" type="button" data-fake-btn="logout">Log out of this browser</button> <span class="note">removes the keys kept here; the vaults are not touched.</span></p></section>` };
   }
 
@@ -177,5 +195,5 @@ Example Ltd,example.com,Sam Example,sam@example.com,summit</textarea></label><p>
     switcher(); render(false);
   }
 
-  window.CRM = { refresh: (m) => render(true, m), D, $, $$, esc, days, fmt, longDate, plural, company, person, stageName, sourceName, status, badges, byUrgency, dayList, actionButton, logForm, draftBox, say, start };
+  window.CRM = { refresh: (m) => render(true, m), keyTag, D, $, $$, esc, days, fmt, longDate, plural, company, person, stageName, sourceName, status, badges, byUrgency, dayList, actionButton, logForm, draftBox, say, start };
 })();

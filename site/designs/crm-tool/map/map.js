@@ -4,7 +4,7 @@
    on every node, so nothing depends on the drawing. a.crm.design, 24 Nov 2026. */
 (function () {
   'use strict';
-  const { D, $, $$, esc, days, fmt, longDate, plural, company, person, stageName, sourceName, status, badges, byUrgency, dayList, actionButton, logForm, draftBox } = window.CRM;
+  const { keyTag, D, $, $$, esc, days, fmt, longDate, plural, company, person, stageName, sourceName, status, badges, byUrgency, dayList, actionButton, logForm, draftBox } = window.CRM;
   const TEAM = D.team.filter((t) => t.id !== 'agent');
   const short = (id) => person(id).replace(/\s*\(demo\)/, '');
 
@@ -12,7 +12,7 @@
     const st = status(c)[0]; const intro = c.introducedBy ? company(c.introducedBy) : null;
     return `<li class="node${c.stage === 'parked' ? ' parked' : ''}" id="n-${c.id}" data-met="${c.metBy}" data-intro="${c.introducedBy || ''}">
       <a href="#/company/${c.id}"><b>${esc(c.name)}</b><span class="how">Met by ${esc(short(c.metBy))}${intro ? `, through ${esc(intro.name)}` : ''}</span>
-      <span class="ppl">${c.people.map((p) => esc(p.name)).join(', ')}</span>${st ? `<span class="st ${st.cls}">${esc(st.text)}</span>` : ''}</a></li>`;
+      <span class="ppl">${c.people.map((p) => `${esc(p.name)}${p.key === 'verified' ? ' (verified key)' : ''}`).join(', ')}</span>${st ? `<span class="st ${st.cls}">${esc(st.text)}</span>` : ''}</a></li>`;
   }
   function map() {
     const regions = D.sources.map((s) => ({ ...s, items: D.companies.filter((c) => c.source === s.id) }));
@@ -67,7 +67,7 @@
       <div class="co-cols"><section class="act-box" aria-labelledby="nx-h"><h2 id="nx-h">Next: ${esc(c.next)}</h2><p class="note">Due ${fmt(c.due, true)}</p>
         ${c.draft ? `<div id="draft">${draftBox(c)}</div>` : ''}<div id="log"><h3>Log an action</h3>${logForm(c, { rows: 2 })}</div></section>
         <section aria-labelledby="ac-h"><h2 id="ac-h">Activity</h2><ol class="acts">${c.activity.map((a) => `<li class="${a.fresh ? 'fresh' : ''}"><p class="note"><time datetime="${a.at}">${fmt(a.at, true)}</time> · ${esc(a.kind)}${a.dir === 'in' ? ' · they wrote' : ''} · ${esc(person(a.by))}</p><p>${esc(a.text)}</p></li>`).join('')}</ol>
-          <h2>People</h2><ul class="ppl-list">${c.people.map((p) => `<li><b>${esc(p.name)}</b>, ${esc(p.role)}<br><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></li>`).join('')}</ul></section></div></div>` };
+          <h2>People</h2><ul class="ppl-list">${c.people.map((p) => `<li><b>${esc(p.name)}</b>, ${esc(p.role)} ${keyTag(p, c)}<br><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></li>`).join('')}</ul></section></div></div>` };
   }
 
   const rowList = (l) => `<ol class="rows">${l.map((c) => `<li><div><a href="#/company/${c.id}"><b>${esc(c.name)}</b></a><p>${esc(c.next)} · <span class="note">met by ${esc(short(c.metBy))}${c.introducedBy ? `, through ${esc(company(c.introducedBy).name)}` : ''}</span></p><p>${badges(c)}</p></div>${actionButton(c)}</li>`).join('') || '<li>Nothing here.</li>'}</ol>`;
@@ -83,7 +83,7 @@
     return { title: 'Lead board', html: `<div class="co"><h1 tabindex="-1">Lead board</h1>${D.stages.map((s) => { const l = byUrgency(D.companies.filter((c) => c.stage === s.id)); return `<h2>${esc(s.name)} <span class="n">${l.length}</span></h2>${rowList(l)}`; }).join('')}</div>` };
   }
   function contacts() {
-    return { title: 'Contacts', html: `<div class="co"><h1 tabindex="-1">Contacts</h1><p class="note">Grouped by who on the team met them.</p>${TEAM.map((t) => { const cs = D.companies.filter((c) => c.metBy === t.id); return `<h2>Met by ${esc(person(t.id))}</h2><ul class="ppl-list cols">${cs.flatMap((c) => c.people.map((p) => `<li><a href="#/company/${c.id}"><b>${esc(p.name)}</b></a>, ${esc(p.role)}<br>${esc(c.name)} · <span class="note">${esc(p.email)}</span></li>`)).join('')}</ul>`; }).join('')}</div>` };
+    return { title: 'Contacts', html: `<div class="co"><h1 tabindex="-1">Contacts</h1><p class="note">Grouped by who on the team met them.</p>${TEAM.map((t) => { const cs = D.companies.filter((c) => c.metBy === t.id); return `<h2>Met by ${esc(person(t.id))}</h2><ul class="ppl-list cols">${cs.flatMap((c) => c.people.map((p) => `<li><a href="#/company/${c.id}"><b>${esc(p.name)}</b></a>, ${esc(p.role)} ${keyTag(p, c)}<br>${esc(c.name)} · <span class="note">${esc(p.email)}</span></li>`)).join('')}</ul>`; }).join('')}</div>` };
   }
   function more() {
     return { title: 'More', html: `<div class="co"><h1 tabindex="-1">More</h1><ul class="rows more"><li><a href="#/follow-ups"><b>Follow-ups</b></a></li><li><a href="#/import"><b>Import contacts</b></a></li><li><a href="#/vault"><b>Open or start a vault</b></a></li><li><a href="#/requests"><b>Requests</b></a></li><li><a href="#/you"><b>You</b></a></li></ul></div>` };

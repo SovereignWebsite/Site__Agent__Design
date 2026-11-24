@@ -3,8 +3,8 @@
    a.crm.design, 24 Nov 2026. */
 (function () {
   'use strict';
-  const { D, $, $$, esc, days, fmt, longDate, plural, company, person, stageName, sourceName, status, badges, byUrgency, dayList, actionButton, logForm, draftBox, say } = window.CRM;
-  const LIVE = ['new', 'talking', 'proposal', 'customer'];
+  const { keyTag, D, $, $$, esc, days, fmt, longDate, plural, company, person, stageName, sourceName, status, badges, byUrgency, dayList, actionButton, logForm, draftBox, say } = window.CRM;
+  const LIVE = ['new', 'contacted', 'talking', 'proposal', 'won'];
   const initials = (id) => (id === 'you' ? 'You' : person(id).replace(/\s*\(demo\)/, '').split(/\s+/).map((w) => w[0]).join('').slice(0, 2));
 
   function card(c, opts) {
@@ -61,7 +61,7 @@
             <p class="stage-line">${esc(stageName(c.stage))} · owned by ${esc(person(c.owner))}</p>
             <p class="next"><b>Next:</b> ${esc(c.next)}</p><p class="due">Due ${fmt(c.due, true)}</p><p class="tags">${badges(c)}</p>
             <dl class="mini"><dt>Where from</dt><dd>${esc(sourceName(c.source))}${intro ? `, through <a href="#/company/${intro.id}">${esc(intro.name)}</a>` : ''}</dd><dt>Met by</dt><dd>${esc(person(c.metBy))}</dd><dt>Domain</dt><dd>${esc(c.domain)}</dd></dl>
-            <h2 class="sm">People</h2><ul class="ppl">${c.people.map((p) => `<li><b>${esc(p.name)}</b>, ${esc(p.role)}<br><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></li>`).join('')}</ul>
+            <h2 class="sm">People</h2><ul class="ppl">${c.people.map((p) => `<li><b>${esc(p.name)}</b>, ${esc(p.role)} ${keyTag(p, c)}<br><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></li>`).join('')}</ul>
           </div></section>
         <section class="face back" aria-labelledby="b-h"><p class="face-label">Turned over</p><h2 id="b-h" class="vh">The back of the card</h2>
           ${c.draft ? `<div id="draft">${draftBox(c)}</div>` : ''}
@@ -73,7 +73,7 @@
   function contacts() {
     const all = D.companies.flatMap((c) => c.people.map((p) => ({ ...p, c }))).sort((a, b) => a.name.localeCompare(b.name));
     return { title: 'Contacts', html: `<div class="head"><h1 tabindex="-1">Contacts</h1><p class="sum">${plural(all.length, 'person')}, as a stack of business cards.</p></div>
-      <ul class="bizcards">${all.map((p) => `<li><h2><a href="#/company/${p.c.id}">${esc(p.name)}</a></h2><p>${esc(p.role)}</p><p class="co">${esc(p.c.name)} <span class="stage">${esc(stageName(p.c.stage))}</span></p><p><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></p></li>`).join('')}</ul>` };
+      <ul class="bizcards">${all.map((p) => `<li><h2><a href="#/company/${p.c.id}">${esc(p.name)}</a></h2><p>${esc(p.role)} ${keyTag(p, p.c)}</p><p class="co">${esc(p.c.name)} <span class="stage">${esc(stageName(p.c.stage))}</span></p><p><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></p></li>`).join('')}</ul>` };
   }
 
   function more() {
