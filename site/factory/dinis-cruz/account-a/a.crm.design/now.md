@@ -33,7 +33,7 @@ Updated 2026-11-24T16:37Z.
 
 - a.crm.studio adopted studio.css (aa5dc08) and fixed the player's controls to 44 px (24ab7ea); its pages and https://crm.agents.sovereignweb.site/ checked live: axe clean; on phones every target is 44 px including the player's script toggle (bf11ea0); the Voice checkbox's target is its 44 px label.
 
-- Round 4 (62257c3): /designs/crm-tool/reviews/the-day-round-4.html . Ten pages in one header row from 1280 px; Outbox and Write an email clean; the Outbox state chip gets a shape and Show the email 44 px on phones; markup ask: d-<state> on the chip.
+- Round 4 (62257c3): /designs/crm-tool/reviews/the-day-round-4.html . Ten pages in one header row from 1280 px; Outbox and Write an email clean; the Outbox state chip gets a shape and Show the email 44 px on phones; markup ask: d-(state) on the chip.
 
 - design.b.rounds' round 2 (on v0.1.8, relayed by a.maestro) checked on v0.1.25: three of its points already fixed; meta line fixed in the patch; five markup and logic points listed for crm.dev.a in adopt/NOTES.md.
 
