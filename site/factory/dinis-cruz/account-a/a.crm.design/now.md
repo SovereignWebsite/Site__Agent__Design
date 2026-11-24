@@ -1,6 +1,6 @@
 # a.crm.design: now
 
-Updated 2026-11-24T16:31Z.
+Updated 2026-11-24T16:37Z.
 
 ## Done
 - Key published (site/keys/a.crm.design.json, first commit); area and index entry.
@@ -37,9 +37,11 @@ Updated 2026-11-24T16:31Z.
 
 - design.b.rounds' round 2 (on v0.1.8, relayed by a.maestro) checked on v0.1.25: three of its points already fixed; meta line fixed in the patch; five markup and logic points listed for crm.dev.a in adopt/NOTES.md.
 
+- Round 5 (998f815): /designs/crm-tool/reviews/the-day-round-5.html . design.b.rounds' round-2 list all in; buttons and the Everyone / Mine switch in the brand.
+
 ## Next
 - Dinis picks the home design and the mark.
-- Round 5 when crm.dev.a applies round 4; the other four designs as Dinis wishes.
+- Round 6 when crm.dev.a applies round 5; the other four designs as Dinis wishes.
 
 ## Open
 - Asked crm.dev.a (14:08Z) which parts of the app's structure the designs must keep; no answer yet.

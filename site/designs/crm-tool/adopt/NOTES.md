@@ -54,3 +54,8 @@ Tested on a local copy of the live app (v0.1.9, 548ae6e) with only steps 1 and 2
   3. A count line and a Mine / Everyone switch at the top of Today ("8 to do today: 2 overdue, 2 drafts").
   4. The person on each card, and where we met.
   5. Requests: the full menu, the Menu button on phones and the vault pill.
+
+## Round 5 (live at 998f815)
+- design.b.rounds' round-2 list is in: every draft on Today (7, as on the board), each status said once, the count line and Everyone / Mine, the person on each card, the full menu on Requests.
+- `the-day.css`: "Log an action" beside "Review and send" is quiet; "Review and send" is brass (the draft colour); Everyone / Mine is a switch; the count line is the page's headline. axe clean on five pages at 1280, 1024 and 390 px, light and dark.
+- Open, yours: "Where we met" on the person record (noted by you).

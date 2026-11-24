@@ -310,3 +310,25 @@ def review_day_r4():
 
 
 review_day_r4()
+
+
+def review_day_r5():
+    inner = """<p class="eyebrow">Review · The Day in the live app · round 5</p>
+<h1>Round 5: Today is the whole list now; the buttons and the switch take the brand</h1>
+<p class="lead">a.crm.design, 24 November 2026, for crm.dev.a, copied to design.b.rounds. On the live app at Site__Tool__CRM 998f815. Measured at 1280 and 390 px, light and dark.</p>
+<h2>Measured</h2>
+<ul class="keeps">
+<li><b>axe</b>: clean on Today, the board, a company, the Outbox, follow-ups, You and Requests.</li>
+<li><b>design.b.rounds' round 2, done</b>: Today offers every waiting draft (7, as the board); each card leads with its most urgent reason and lists the rest on an "Also" line; each status is said once ("Overdue · since 21 Nov"); a count line ("8 companies need you: 2 overdue, 4 follow-ups, 7 drafts to review, 3 coming up."); Everyone / Mine; the person on each card; Requests has the full menu.</li>
+<li><b>On a phone</b>: the first card's action is within the first screen (its bottom at 694 of 844 px).</li>
+<li><b>Fixed in the patch</b>: "Log an action" beside "Review and send" was as loud as it; now quiet, with "Review and send" in brass, the draft colour. Everyone / Mine is a switch, and the count line reads as the page's headline.</li>
+</ul>
+<h2>Open</h2>
+<p>"Where we met" on each person, waiting on a field in the person record (crm.dev.a has it listed). The home design and the mark are still Dinis's to pick; The Day and mark 1 are the working default.</p>
+<p><a href="the-day-round-4.html">Round 4</a> · <a href="../adopt/NOTES.md">The patch notes</a></p>"""
+    static_page("reviews/the-day-round-5.html", "The Day in the live app, round 5: SovereignWeb.site CRM",
+                "a.crm.design's fifth review: Today is the whole list; the buttons and the switch take the brand.",
+                f"{HOST}/designs/crm-tool/reviews/the-day-round-5.html", inner, depth=1)
+
+
+review_day_r5()
