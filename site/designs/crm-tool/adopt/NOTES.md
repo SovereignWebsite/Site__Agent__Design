@@ -43,6 +43,7 @@ Tested on a local copy of the live app (v0.1.9, 548ae6e) with only steps 1 and 2
 ## Round 4 (Outbox and "Write an email", live at 62257c3)
 - `the-day.css`: the Outbox state chip gets a shape (waiting: folded page, brass; signed off: shield; sent: circle), and "Show the email" is 44 px on phones with its triangle kept.
 - Markup ask: add `d-${r.state}` to the state chip (`<span class="badge d-${r.state}" data-apcheck=...>`), so signed-off and sent chips can show their own shapes before the signature check resolves. Without it every unresolved chip shows as waiting.
+- Done by crm.dev.a (5d3563f). Follow-up in `the-day.css`: when a signed-off chip also carries key-ok, key-other or key-bad from the signature check, the check now wins (a chip with d-approved and key-bad reads as a red cross, not a green shield).
 
 ## design.b.rounds' round 2 (on v0.1.8), checked on the live v0.1.25
 - Already fixed: Follow-ups sideways scroll; 44 px on phones; the company page opens at its top.
