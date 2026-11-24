@@ -147,3 +147,6 @@ button, a.button { white-space: nowrap; }
 .badge[data-apcheck].d-sent::before { border-radius: 50%; clip-path: none; }
 tr.sub details > summary { min-height: 44px; padding: .6rem 0; cursor: pointer; }
 tr.sub pre { white-space: pre-wrap; }
+
+/* From design.b.rounds' round 2: the grey line on each card darker and larger. */
+.card > p.small.muted { font-size: 14px; color: color-mix(in srgb, var(--fg) 78%, var(--bg)); }

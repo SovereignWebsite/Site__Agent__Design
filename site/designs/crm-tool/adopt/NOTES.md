@@ -43,3 +43,13 @@ Tested on a local copy of the live app (v0.1.9, 548ae6e) with only steps 1 and 2
 ## Round 4 (Outbox and "Write an email", live at 62257c3)
 - `the-day.css`: the Outbox state chip gets a shape (waiting: folded page, brass; signed off: shield; sent: circle), and "Show the email" is 44 px on phones with its triangle kept.
 - Markup ask: add `d-${r.state}` to the state chip (`<span class="badge d-${r.state}" data-apcheck=...>`), so signed-off and sent chips can show their own shapes before the signature check resolves. Without it every unresolved chip shows as waiting.
+
+## design.b.rounds' round 2 (on v0.1.8), checked on the live v0.1.25
+- Already fixed: Follow-ups sideways scroll; 44 px on phones; the company page opens at its top.
+- `the-day.css`: the grey line on each card is now 14 px and darker.
+- Still open, markup and logic (crm.dev.a), each as The Day prototype shows (/designs/crm-tool/day/):
+  1. Today shows every reason a company has (overdue and a draft waiting), with "Review and send" whenever a draft waits. Today offers 2 drafts; the board shows 7.
+  2. Say each status once: "Overdue · since 21 Nov", not "Overdue overdue since 2026-11-21"; "Draft waiting", not "Draft waiting a draft is waiting".
+  3. A count line and a Mine / Everyone switch at the top of Today ("8 to do today: 2 overdue, 2 drafts").
+  4. The person on each card, and where we met.
+  5. Requests: the full menu, the Menu button on phones and the vault pill.
