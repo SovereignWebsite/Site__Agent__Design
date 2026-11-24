@@ -1,0 +1,98 @@
+/* Design 3 of 5, The Thread: a mail client. A list pane and a reading pane; messages as bubbles, logged
+   actions as quieter cards; the reply box pinned under the thread. a.crm.design, 24 Nov 2026. */
+.d-thread { --pane: var(--raise); --sel: var(--vault-soft); }
+.d-thread h1, .d-thread h2 { font-family: var(--sans); }
+.d-thread .main-nav { display: flex; gap: 2px; }
+.d-thread .main-nav a { display: inline-flex; align-items: center; min-height: var(--tap); padding: 6px 12px; color: var(--ink); text-decoration: none; font-weight: 600; border-radius: 8px; }
+.d-thread .main-nav a[aria-current] { background: var(--sel); color: var(--vault); box-shadow: inset 3px 0 0 var(--vault); }
+.d-thread main { outline: none; }
+.d-thread main > .done { margin: 10px 16px; }
+.split { display: grid; grid-template-columns: minmax(300px, 400px) minmax(0, 1fr); min-height: calc(100vh - 110px); border-bottom: 1px solid var(--line); }
+.pane-list { border-right: 1px solid var(--line); background: var(--pane); }
+.list-head { padding: 14px 16px 8px; border-bottom: 1px solid var(--line); }
+.list-head h1, .h-like { margin: 0 0 2px; font-size: 24px; font-weight: 800; outline: none; }
+.list-head .note { margin: 0 0 8px; }
+.filters { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 2px; }
+.filters a { display: inline-flex; align-items: center; min-height: 36px; padding: 2px 12px; border: 1.5px solid var(--line); border-radius: 999px; color: var(--ink); text-decoration: none; font-size: 14px; font-weight: 600; }
+.filters a[aria-current] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.convs ol { list-style: none; margin: 0; padding: 0; }
+.conv a { display: grid; gap: 2px; padding: 12px 16px 12px 20px; border-bottom: 1px solid var(--line); color: var(--ink); text-decoration: none; position: relative; }
+.conv a:hover { background: var(--sunk); }
+.conv.needs a::before { content: ""; position: absolute; left: 7px; top: 18px; width: 8px; height: 8px; border-radius: 50%; background: var(--vault); }
+.conv.needs .from b::after { content: " · needs you"; font-weight: 600; font-size: 12px; color: var(--vault); }
+.conv.open a { background: var(--sel); box-shadow: inset 4px 0 0 var(--vault); }
+.from { display: flex; justify-content: space-between; gap: 8px; }
+.from time { font-size: 13px; color: var(--muted); white-space: nowrap; }
+.subj { font-weight: 600; font-size: 15px; }
+.snip { color: var(--muted); font-size: 14px; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+.pre { font-weight: 700; color: var(--brass); }
+.snip .pre { color: var(--sky); }
+.flag { margin-top: 4px; }
+.none { padding: 16px; color: var(--muted); }
+
+.pane-read { padding: 0 24px 24px; display: flex; flex-direction: column; min-width: 0; }
+.empty-read { align-items: center; justify-content: center; color: var(--muted); text-align: center; }
+.back { display: none; }
+.t-head { background: var(--paper); padding: 14px 0 10px; border-bottom: 1px solid var(--line); }
+.t-head h1 { margin: 0; font-size: 26px; font-weight: 800; outline: none; }
+.t-meta { margin: 4px 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 14px; color: var(--muted); }
+.t-next { margin: 4px 0 0; display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; }
+.jump { min-height: 38px; padding: 4px 12px; font-size: 14px; }
+.msgs { list-style: none; margin: 0; padding: 16px 0; display: grid; gap: 12px; }
+.msgs .sys { justify-self: center; font-size: 13px; color: var(--muted); padding: 4px 12px; border: 1px dashed var(--line); border-radius: 999px; text-align: center; }
+.msg { max-width: min(640px, 88%); padding: 10px 14px; border-radius: 14px; }
+.msg p { margin: 0; }
+.m-meta { font-size: 13px; color: var(--muted); margin-bottom: 2px !important; }
+.msg.in { justify-self: start; background: var(--sky-soft); border: 1px solid color-mix(in srgb, var(--sky) 35%, transparent); border-bottom-left-radius: 4px; }
+.msg.out { justify-self: end; background: var(--vault-soft); border: 1px solid color-mix(in srgb, var(--vault) 35%, transparent); border-bottom-right-radius: 4px; }
+.msg.logged { background: var(--raise); border: 1.5px dashed var(--line); border-radius: 8px; }
+.msg.fresh { outline: 2px solid var(--vault); }
+.reply { margin-top: auto; padding: 14px 16px; background: var(--raise); border: 2px solid var(--vault); border-radius: 12px; box-shadow: 0 -8px 24px rgb(0 0 0 / .08); }
+.reply h2 { margin: 0; font-size: 17px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.reply .note { margin: 0; }
+.nextstep summary { cursor: pointer; min-height: 36px; display: flex; align-items: center; font-size: 14px; color: var(--muted); }
+.send-row { margin: 0; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+
+.single { max-width: 860px; margin: 0 auto; padding: 0 0 24px; }
+.single .list-head { border-bottom: 0; }
+.single .convs { border-top: 1px solid var(--line); background: var(--pane); }
+.grp { font-size: 15px; text-transform: uppercase; letter-spacing: .06em; margin: 18px 16px 6px; display: flex; gap: 8px; align-items: center; }
+.n { display: inline-grid; place-items: center; min-width: 1.7em; height: 1.7em; padding: 0 6px; font: 700 13px var(--sans); border-radius: 999px; background: var(--ink); color: var(--paper); text-transform: none; letter-spacing: 0; }
+.folder { border-top: 1px solid var(--line); }
+.folder summary { cursor: pointer; display: flex; gap: 8px; align-items: center; min-height: 52px; padding: 0 16px; font-weight: 800; font-size: 17px; background: var(--sunk); }
+.fu { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); }
+.fu li { display: grid; grid-template-columns: 8rem 1fr; gap: 4px 12px; align-items: center; padding: 10px 16px; border-bottom: 1px solid var(--line); }
+.fu li .st { grid-column: 2; justify-self: start; }
+.fu time b { color: var(--signal); }
+.fu a { color: var(--ink); text-decoration: none; min-height: 32px; display: block; padding-top: 4px; }
+.fu a b { margin-right: 6px; }
+.letter { margin: 16px 16px 0; font-size: 14px; color: var(--muted); }
+.abook { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); }
+.abook li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; padding: 0 16px; border-bottom: 1px solid var(--line); align-items: center; }
+.abook a { display: grid; min-height: 52px; align-content: center; color: var(--ink); text-decoration: none; }
+.abook a span { color: var(--muted); font-size: 14px; }
+.abook .mail { font-family: var(--mono); font-size: 13px; color: var(--muted); }
+.more { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); }
+.more a { display: grid; min-height: 60px; align-content: center; padding: 6px 16px; border-bottom: 1px solid var(--line); color: var(--ink); text-decoration: none; font-weight: 700; font-size: 17px; }
+.more a span { font-weight: 400; font-size: 14px; color: var(--muted); }
+.d-thread main > h1, .d-thread main > p, .d-thread main > ol, .d-thread main > h2, .d-thread main > form, .d-thread main > section, .d-thread main > ul { margin-left: max(16px, calc((100% - 860px) / 2)); margin-right: max(16px, calc((100% - 860px) / 2)); }
+
+/* Phone: the list, or the thread, never both. */
+@media (max-width: 760px) {
+  .brand .wm small { display: none; }
+  .vault-switch > button { padding: 6px 10px; font-size: 14px; }
+  .d-thread .main-nav { position: fixed; z-index: 30; left: 0; right: 0; bottom: 0; justify-content: space-around; padding: 4px 4px calc(4px + env(safe-area-inset-bottom)); background: var(--raise); border-top: 1px solid var(--line); }
+  .d-thread .main-nav a { flex: 1; justify-content: center; font-size: 13px; padding: 6px 2px; min-height: 48px; box-shadow: none; }
+  .split { grid-template-columns: 1fr; min-height: 0; }
+  .split.reading .pane-list, .split .empty-read { display: none; }
+  .pane-read { padding: 0 16px 16px; }
+  .back { display: block; margin: 4px 0 0; }
+  .back a { display: inline-flex; align-items: center; min-height: var(--tap); font-weight: 600; }
+  .msg { max-width: 94%; }
+  .reply { position: static; padding: 12px; }
+  .send-row .btn { flex: 1; }
+  .filters a, .nextstep summary, .fu a { min-height: var(--tap); }
+  .fu li { grid-template-columns: 1fr; }
+  .fu li .st { grid-column: 1; }
+}
+@media print { .demo-band { position: static; } .main-nav, .vault-switch, .pane-list, .reply { display: none; } .split { display: block; } }
