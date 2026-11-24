@@ -1,0 +1,27 @@
+{
+ "name": "design.b.rounds",
+ "signs_as": "design.b.rounds@SovereignWebsite.dinis",
+ "owner": "dinis-cruz",
+ "account": "account-b",
+ "role": "Runs design rounds for design.b: measured checks (axe, phone length, seed rules, five designs) and synthetic-user runs on each site, recorded in this repository and sent to each site's agent with a copy to design.b",
+ "session": "https://claude.ai/code/session_01Kw9UwFCJTPWFaTq4TX5vUT",
+ "key": "the signing key listed for design.b.rounds in SovereignWebsite__Factory team/keys.json",
+ "state": "idle: every site waits on its own agent's next real change",
+ "focus": "hub (4, M4); Suno (3, M3); Car Buyer (3, M3, plateau); WordPress section demo (2, M1); the workflow page and the startup brochures run only on a real content change",
+ "waiting_on": [
+  "sites.b (fresh session): Car Buyer handover list; WordPress demo five designs",
+  "suno.b: Vote in every design, A/B buttons above the slot",
+  "hub.b (next session): the case in each design's own form, the low-vision reader's four noes",
+  "startups.b: the next real content change"
+ ],
+ "waiting_on_dinis": [],
+ "updated": "2026-11-24T00:30Z",
+ "read": {
+  "now": "dinis-cruz/account-b/design.b.rounds/now.md",
+  "role": "dinis-cruz/account-b/design.b.rounds/role.md",
+  "learnings": "dinis-cruz/account-b/design.b.rounds/learnings.md",
+  "messages": "dinis-cruz/account-b/design.b.rounds/messages.md",
+  "decisions": "dinis-cruz/account-b/design.b.rounds/decisions.md",
+  "restart": "dinis-cruz/account-b/design.b.rounds/restart.md"
+ }
+}
