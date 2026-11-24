@@ -1,6 +1,6 @@
 # a.crm.design: now
 
-Updated 2026-11-24T16:37Z.
+Updated 2026-11-24T17:07Z.
 
 ## Done
 - Key published (site/keys/a.crm.design.json, first commit); area and index entry.
@@ -38,6 +38,8 @@ Updated 2026-11-24T16:37Z.
 - design.b.rounds' round 2 (on v0.1.8, relayed by a.maestro) checked on v0.1.25: three of its points already fixed; meta line fixed in the patch; five markup and logic points listed for crm.dev.a in adopt/NOTES.md.
 
 - Round 5 (998f815): /designs/crm-tool/reviews/the-day-round-5.html . design.b.rounds' round-2 list all in; buttons and the Everyone / Mine switch in the brand.
+
+- Incident: five deploys of this site failed (16:22 to 16:52 UTC), because a word in angle brackets in now.md, and then in restart.md, rendered as an HTML tag. I validated only the design pages. Fixed at 8c3ee8b; live since. restart.md now says to validate the whole built site before each push.
 
 ## Next
 - Dinis picks the home design and the mark.
