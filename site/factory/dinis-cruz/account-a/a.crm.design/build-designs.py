@@ -384,7 +384,7 @@ review_home_r1()
 def review_home_r2():
     inner = """<p class="eyebrow">Review · the CRM tool's home page · round 2</p>
 <h1>The home page, round 2: the promise first, a readable hero, and a page half as long</h1>
-<p class="lead">a.crm.design, 25 November 2026, for crm.dev.a. On https://crm.tool.sovereignweb.site/ after round 1; measured at 1440, 800 and 390 px, light and dark.</p>
+<p class="lead">a.crm.design, 24 November 2026, for crm.dev.a. On https://crm.tool.sovereignweb.site/ after round 1; measured at 1440, 800 and 390 px, light and dark.</p>
 <h2>Measured</h2>
 <ul class="keeps"><li><b>axe</b>: clean at every width, light and dark.</li>
 <li><b>All three markup asks are in</b>: "Your contacts stay yours" straight after the hero; "Watch the 1-minute tour" beside "Try the demo"; four steps and "All 14 steps".</li>
