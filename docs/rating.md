@@ -18,7 +18,7 @@ Run live with `tools/site-checks.js` (added to the rating checks 20 November 202
 - **Share card (guidelines 1.14):** every og: and twitter: tag, and og:image answering 200 at exactly 1200 x 630. A missing card holds a site at 2.
 - **Five designs (guidelines 2a):** a visible "Choose a design" control on the home page that offers five distinct designs, the current one included. Fewer than five holds a site at 2; level 3 needs all five.
 - **Seed pages and menu (1.12, 1.13):** start, agents, llms.txt and admin answer 200 and are linked; on customer sites our links are only in the top-right menu.
-- **Agent area current (agent sites, 24 November 2026):** on a site that belongs to an agent, the agent's area at /factory/dinis-cruz/<account>/ answers 200, its agent.json has who, session, role, state, focus, waiting_on and updated, and "updated" is no older than the agent's last commit on the site. A stale or missing area holds an agent site at 2 (Dinis, 24 Nov: "if that's not up to date, that's the problem").
+- **Agent area current (agent sites, 24 November 2026):** on a site that belongs to an agent, the agent's area at `/factory/dinis-cruz/<account>/` answers 200, its agent.json has who, session, role, state, focus, waiting_on and updated, and "updated" is no older than the agent's last commit on the site. A stale or missing area holds an agent site at 2 (Dinis, 24 Nov: "if that's not up to date, that's the problem").
 - **Version chip (seed pipeline):** a version chip on every page, linking to the run that built it, and a pushed tag for the release.
 
 ## Rounds
