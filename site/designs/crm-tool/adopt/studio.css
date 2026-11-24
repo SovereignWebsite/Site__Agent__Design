@@ -1,0 +1,13 @@
+/* The SovereignWeb.site CRM brand for a.crm.studio's explainer pages (header.site, nav.learn-nav, footer), mirrored at
+   /learn/videos/. For a.crm.studio: link after player.css, or paste at its end. Class names unchanged.
+   a.crm.design, 24 Nov 2026. */
+:root { --brand-accent: #1f5446; --brand-serif: ui-serif, Charter, "Bitstream Charter", "Iowan Old Style", "Palatino Linotype", Georgia, serif; }
+@media (prefers-color-scheme: dark) { :root { --brand-accent: #7cc4ab; } }
+header.site { display: flex; flex-wrap: wrap; align-items: center; gap: .25rem 1rem; }
+header.site a { display: inline-flex; align-items: center; min-height: 44px; }
+header.site .home { gap: 8px; font-family: var(--brand-serif); font-size: 1.3rem; font-weight: 700; text-decoration: none; }
+header.site .home::before { content: ""; width: 32px; height: 32px; background: url(/app/brand/mark.svg) center / contain no-repeat; }
+header.site nav { display: flex; flex-wrap: wrap; gap: 0 1rem; margin-left: auto; }
+h1, h2 { font-family: var(--brand-serif); }
+.learn-nav a { display: inline-flex; align-items: center; min-height: 44px; }
+@media (max-width: 640px) { footer a { display: inline-flex; align-items: center; min-height: 44px; } }

@@ -30,3 +30,8 @@ Tested on a local copy of the live app (v0.1.9, 548ae6e) with only steps 1 and 2
 ## Round 2 (live app at Site__Tool__CRM 825edcd)
 - `the-day.css`: one fix. On a phone the vault pill now reaches the right edge (an existing `#me + .mode` rule outranked mine).
 - New, `site-frame.css`: the brand for the site's own pages (/, /learn/, /learn/overview/, /learn/videos/, /how-to/, /start/) on their existing frame: the mark before "CRM", serif headings, the learning path as ruled steps, 44 px targets on phones. Copy it to `site/app/brand/site-frame.css` and link it after each page's inline `<style>`. It also covers a.crm.studio's `.sws-top` header on /learn/videos/. Tested by injecting it into the live pages: axe clean, light and dark, 1366 and 390 px, no sideways scroll, 44 px targets on phones (except the shared family credit, which is the Factory's).
+
+## Round 3 (live at Site__Tool__CRM 44ba0b4)
+- The app and the site pages: axe clean on 16 pages, both widths, light and dark; all targets 44 px on phones except the Factory's shared "Sovereign Website" credit (26 px; not ours to change).
+- /learn/videos/ shows two headers: the mirror's `header.sws-top` and studio's own `header.site`. For crm.dev.a: drop `.sws-top` from the mirror.
+- New, `studio.css`, for a.crm.studio: its `header.site`, `.learn-nav` and footer in the brand, with 44 px targets. Tested on the live /learn/videos/ with `.sws-top` removed: axe clean, 44 px, no sideways scroll.

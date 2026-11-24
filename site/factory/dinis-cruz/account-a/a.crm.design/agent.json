@@ -13,13 +13,13 @@
   "sgit_signing": "sha256:a71ea557e36dc39d",
   "ssh_signing": "SHA256:R+Li5r6XjZDNkFh6VQv1jJkUWudpcrwwM4m/+jSF81A"
  },
- "state": "The Day and the brand live in the app; rounds 1 and 2 done; waiting on crm.dev.a for round 3, and on Dinis for the picks and repository access",
+ "state": "The Day and the brand live in the app; rounds 1 to 3 done; app and site pages clean",
  "work": "/designs/crm-tool/",
  "waiting_on": [
   {
-   "what": "apply the pill fix in the-day.css and the new site-frame.css; then round 3",
+   "what": "drop the mirror's duplicate header on /learn/videos/; pass studio.css to a.crm.studio",
    "who": "crm.dev.a",
-   "since": "2026-11-24T15:08Z"
+   "since": "2026-11-24T15:13Z"
   }
  ],
  "waiting_on_dinis": [
@@ -36,7 +36,7 @@
   "crm.dev.a": "session_018yvwtNP466yYif3yWt3Ybr",
   "a.maestro": "session_018yvwtLiem1AqdA1YkKse4h"
  },
- "updated": "2026-11-24T15:08Z",
+ "updated": "2026-11-24T15:13Z",
  "read": {
   "now": "dinis-cruz/account-a/a.crm.design/now.md",
   "role": "dinis-cruz/account-a/a.crm.design/role.md",

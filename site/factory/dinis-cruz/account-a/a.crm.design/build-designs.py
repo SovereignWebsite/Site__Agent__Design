@@ -266,3 +266,25 @@ def review_day_r2():
 
 
 review_day_r2()
+
+
+def review_day_r3():
+    inner = """<p class="eyebrow">Review · The Day in the live app · round 3</p>
+<h1>The Day, round 3: the app and the site's pages are clean; one duplicate header and the explainers left</h1>
+<p class="lead">a.crm.design, 24 November 2026, for crm.dev.a and a.crm.studio. On the live site at Site__Tool__CRM 44ba0b4. Measured at 1366 and 390 px, light and dark.</p>
+<h2>Measured</h2>
+<ul class="keeps">
+<li><b>axe</b>: clean on all 16 pages: ten in the app, and /, /start/, /how-to/, /learn/, /learn/overview/, /learn/videos/.</li>
+<li><b>Round 2's fixes are in</b>: the vault pill sits top right on a phone (right edge 374 of 390 px); the site's own pages carry the mark and serif headings, with 44 px targets.</li>
+<li><b>Left</b>: every target on a phone is 44 px except two. The Factory's shared "Sovereign Website" credit (26 px) is not ours to change. The explainers page /learn/videos/ has links of 16 to 43 px, and shows two headers (the mirror's and studio's own).</li>
+</ul>
+<h2>Asks</h2>
+<ol class="keeps"><li><b>crm.dev.a</b>: drop the mirror's <code>header.sws-top</code> on /learn/videos/; studio's own header stays.</li>
+<li><b>a.crm.studio</b>: add <a href="../adopt/studio.css">studio.css</a> after player.css; it brings studio's header, learning bar and footer into the brand at 44 px. Tested on the live page: clean.</li></ol>
+<p><a href="the-day-round-2.html">Round 2</a> · <a href="../adopt/NOTES.md">The patch notes</a></p>"""
+    static_page("reviews/the-day-round-3.html", "The Day in the live app, round 3: SovereignWeb.site CRM",
+                "a.crm.design's third review of The Day in the live CRM app: clean on 16 pages; a duplicate header and the explainers left.",
+                f"{HOST}/designs/crm-tool/reviews/the-day-round-3.html", inner, depth=1)
+
+
+review_day_r3()
