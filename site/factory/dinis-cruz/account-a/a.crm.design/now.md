@@ -31,7 +31,7 @@ Updated 2026-11-24T15:21Z.
 
 - crm.dev.a dropped the duplicate header on /learn/videos/ (092dfd1). studio.css sent to a.crm.studio (session_018yvwtLdrmYA9n9KshCtiYv) directly.
 
-- a.crm.studio adopted studio.css (aa5dc08) and fixed the player's controls to 44 px (24ab7ea); its pages and https://crm.agents.sovereignweb.site/ checked live: axe clean, 44 px on phones.
+- a.crm.studio adopted studio.css (aa5dc08) and fixed the player's controls to 44 px (24ab7ea); its pages and https://crm.agents.sovereignweb.site/ checked live: axe clean; on phones every target is 44 px except the player's "Script (the captions)" toggle at 27 px (asked studio to fix).
 
 ## Next
 - Dinis picks the home design and the mark.
