@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self' https://dev.send.sgraph.ai; base-uri 'none'; form-action 'none'">
+<meta name="robots" content="noindex">
+<title>The Day: CRM design 1 of 5 (prototype)</title>
+<meta name="description" content="Design 1 of 5 for the SovereignWeb.site CRM: A desk diary: the first screen is today, each line with its one action.">
+<meta property="og:title" content="The Day: CRM design 1 of 5 (prototype)">
+<meta property="og:description" content="Design 1 of 5 for the SovereignWeb.site CRM: A desk diary: the first screen is today, each line with its one action.">
+<meta property="og:url" content="https://design.agents.sovereignweb.site/designs/crm-tool/day/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SovereignWeb.site CRM designs">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image" content="https://design.agents.sovereignweb.site/designs/crm-tool/assets/share-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="SovereignWeb.site CRM: your contacts, kept in your own vault.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Day: CRM design 1 of 5 (prototype)">
+<meta name="twitter:description" content="Design 1 of 5 for the SovereignWeb.site CRM: A desk diary: the first screen is today, each line with its one action.">
+<meta name="twitter:image" content="https://design.agents.sovereignweb.site/designs/crm-tool/assets/share-card.jpg">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/brand.css">
+<link rel="stylesheet" href="day.css">
+</head>
+<body class="d-day">
+<a class="skip" href="#main">Skip to content</a>
+<div class="demo-band" role="note" aria-label="Demo mode"><strong>Synthetic demo</strong> <span class="long">Every company, person and email here is made up. Nothing is written anywhere.</span><span class="short">All made up; nothing is written.</span> <span class="proto">Prototype of design 1 of 5, The Day · <a href="../index.html">all five designs</a></span></div>
+<header class="top"><a class="brand" href="#/today"><img src="../assets/mark.svg" alt="" width="32" height="32"><span class="wm"><small>SovereignWeb.site</small><b>CRM</b></span></a>
+<nav class="main-nav" aria-label="Pages"><a href="#/today" data-nav="today">Today</a><a href="#/follow-ups" data-nav="follow-ups">Follow-ups</a><a href="#/board" data-nav="board">Lead board</a><a href="#/contacts" data-nav="contacts">Contacts</a><a href="#/more" data-nav="more">More</a></nav>
+<div class="vault-switch">
+<button type="button" id="vault-btn" aria-expanded="false" aria-controls="vault-pop"><svg class="lock" viewBox="0 0 14 16" aria-hidden="true"><path d="M3 7V5a4 4 0 0 1 8 0v2"/><rect x="1" y="7" width="12" height="9" rx="2"/></svg><span>Vault: <b>Demo</b></span><span aria-hidden="true">▾</span></button>
+<div class="pop" id="vault-pop" hidden><p>Open vault: <b>Demo</b>. Switch to:</p><ul><li><a href="#/vault/demo" aria-current="true"><span>Demo</span><span class="tag">synthetic, read only</span></a></li><li><a href="#/vault/personal"><span>Personal</span><span class="tag">your own contacts</span></a></li><li><a href="#/vault/riskmandate"><span>RiskMandate</span><span class="tag">shared with the team</span></a></li><li><a href="#/vault/summit"><span>Summit CRM</span><span class="tag">the summit follow-up</span></a></li></ul><hr><ul><li><a href="#/vault/demo/qr"><span>Hand a vault to your phone (QR)</span></a></li><li><a href="#/vault/"><span>Open or start a vault</span></a></li></ul></div>
+</div>
+</header>
+<main id="main" tabindex="-1"><h1>The Day</h1><p>This prototype draws its pages with a script from this site. If you see this line, scripts are off.</p></main>
+<p id="live" class="vh" aria-live="polite"></p>
+<footer class="foot"><p>A design prototype by a.crm.design@SovereignWebsite.dinis for the CRM tool at <a href="https://crm.tool.sovereignweb.site/app/">crm.tool.sovereignweb.site/app/</a>, kept by crm.dev.a. Static: it talks to no one, and every change you make stays in this tab.</p></footer>
+<script src="../assets/data.js"></script>
+<script src="../assets/shell.js"></script>
+<script src="day.js"></script>
+</body>
+</html>

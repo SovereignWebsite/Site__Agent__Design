@@ -1,0 +1,112 @@
+/* Design 1 of 5, The Day: a desk diary. Ruled lines, a margin rule, the date as the headline. a.crm.design, 24 Nov 2026. */
+.d-day { --rule: color-mix(in srgb, var(--vault) 22%, transparent); }
+.d-day .top { flex-wrap: wrap; }
+.d-day .main-nav { display: flex; gap: 4px; order: 2; }
+.d-day .main-nav a { display: inline-flex; align-items: center; min-height: var(--tap); padding: 6px 12px; border-radius: 8px; color: var(--ink); text-decoration: none; font-weight: 600; }
+.d-day .main-nav a[aria-current] { background: var(--vault-soft); box-shadow: inset 0 -3px 0 var(--vault); }
+.d-day .vault-switch { order: 3; }
+.d-day main { max-width: 1180px; margin: 0 auto; padding: 8px 20px 40px; outline: none; }
+
+.page-head { padding: 20px 0 12px; border-bottom: 3px double var(--ink); margin-bottom: 8px; }
+.eyebrow { margin: 0; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--vault); }
+.page-head h1 { margin: 2px 0 6px; font-size: clamp(28px, 5vw, 44px); outline: none; }
+.tally { margin: 4px 0; font-size: 17px; }
+.scope { display: inline-flex; margin: 8px 0 0; border: 2px solid var(--vault); border-radius: 999px; overflow: hidden; }
+.scope a { display: inline-flex; align-items: center; min-height: 40px; padding: 4px 16px; text-decoration: none; color: var(--vault); font-weight: 600; }
+.scope a[aria-current] { background: var(--vault); color: var(--vault-ink); }
+.count { display: inline-grid; place-items: center; min-width: 1.8em; height: 1.8em; padding: 0 6px; margin-left: 6px; font: 700 14px var(--sans); border-radius: 999px; background: var(--ink); color: var(--paper); vertical-align: middle; }
+.crumb { margin: 12px 0 0; font-size: 14px; }
+.crumb a { display: inline-block; min-height: 32px; padding-top: 4px; }
+
+/* The diary: ruled entries with a margin. */
+.diary { margin: 20px 0; }
+.diary > h2 { font-size: 22px; margin: 0 0 4px; padding-bottom: 6px; border-bottom: 1px solid var(--ink); }
+.entries { list-style: none; margin: 0; padding: 0; }
+.entry { display: grid; grid-template-columns: 7.5rem 1fr auto; gap: 4px 16px; align-items: center; padding: 12px 0 12px 0; border-bottom: 1px solid var(--rule); position: relative; }
+.entry .when { margin: 0; padding-right: 12px; border-right: 2px solid var(--rule); align-self: stretch; display: flex; align-items: center; font-size: 15px; color: var(--muted); }
+.entry .when b { color: var(--ink); margin-right: 4px; }
+.entry.late .when { color: var(--signal); border-right-color: var(--signal); }
+.entry.late .when b { color: var(--signal); }
+.entry h3 { margin: 0; font-size: 19px; }
+.entry h3 a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.entry .next { margin: 2px 0 6px; }
+.entry .meta { margin: 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.entry .who { font-size: 13px; color: var(--muted); }
+.entries.small .entry { padding: 8px 0; }
+.entries.small h3 { font-size: 17px; }
+.empty { padding: 12px 0; color: var(--muted); font-style: italic; }
+.day-h { margin: 14px 0 0; font: 700 13px var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.later { display: grid; grid-template-columns: 2fr 1fr; gap: 32px; }
+.waiting .entry { grid-template-columns: 1fr auto; }
+
+.stage-tally { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 0; }
+.stage-tally a { display: inline-flex; gap: 8px; align-items: center; min-height: var(--tap); padding: 4px 14px; border: 1.5px solid var(--line); border-radius: 8px; color: var(--ink); text-decoration: none; }
+.stage-tally b { font-size: 18px; }
+
+/* A company: the next step in a box, the activity as diary days, people to the side. */
+.company .meta { display: flex; flex-wrap: wrap; gap: 6px; }
+.co-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) 15rem; gap: 28px; align-items: start; margin-top: 16px; }
+.next-box { padding: 16px 18px; border: 2px solid var(--vault); border-radius: var(--r); background: var(--raise); }
+.next-box h2 { margin: 0; font-size: 21px; }
+.next-box h3 { font-size: 18px; margin: 16px 0 8px; }
+.next-box .due { margin: 4px 0 8px; color: var(--muted); }
+.draft-box { padding: 12px 14px; margin: 12px 0; background: var(--brass-soft); border-radius: 8px; border: 1.5px solid var(--brass); }
+.draft-box h3 { margin: 0 0 4px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.activity .log { list-style: none; margin: 4px 0 0; padding: 0 0 0 14px; border-left: 2px solid var(--rule); }
+.activity .log li { padding: 6px 0; }
+.activity .log li.fresh { background: var(--vault-soft); padding: 6px 8px; border-radius: 6px; }
+.activity .kind { font-weight: 700; }
+.activity .who { color: var(--muted); font-size: 13px; }
+.side h2 { font-size: 18px; margin: 0 0 6px; }
+.side h2 + p, .people { margin-bottom: 20px; }
+.people { list-style: none; padding: 0; margin-top: 0; }
+.people li { padding: 8px 0; border-bottom: 1px solid var(--rule); }
+.people a { display: inline-block; min-height: 32px; padding-top: 4px; }
+
+/* Shared pages in The Day's dress. */
+.lead { font-size: 18px; max-width: 62ch; }
+.panel { margin: 20px 0; padding: 16px 18px; border: 1.5px solid var(--line); border-radius: var(--r); background: var(--raise); max-width: 760px; }
+.panel h2 { margin-top: 0; font-size: 21px; }
+.vault-list { list-style: none; padding: 0; margin: 0; }
+.vault-list li { display: flex; justify-content: space-between; gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--rule); flex-wrap: wrap; }
+.steps li { margin: 6px 0; }
+.answers { list-style: none; padding: 0; max-width: 760px; }
+.answers li { border-bottom: 1px solid var(--rule); padding: 8px 0; }
+.answers p { margin: 4px 0; }
+.facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px 18px; }
+.facts dt { color: var(--muted); }
+.facts dd { margin: 0; }
+.cards { list-style: none; padding: 0; display: grid; gap: 0 28px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.cards li { padding: 12px 0; border-bottom: 1px solid var(--rule); }
+.cards h2 { font-size: 18px; margin: 0; }
+.cards p { margin: 2px 0; }
+.cards a { display: inline-block; min-height: 28px; }
+.more-list { list-style: none; padding: 0; max-width: 560px; }
+.more-list a { display: grid; min-height: 56px; padding: 10px 4px; border-bottom: 1px solid var(--rule); font: 700 19px var(--serif); color: var(--ink); text-decoration: none; }
+.more-list a span { font: 400 14px var(--sans); color: var(--muted); }
+
+@media (max-width: 1000px) {
+  .co-grid { grid-template-columns: 1fr; }
+  .later { grid-template-columns: 1fr; gap: 0; }
+}
+/* Phone: diary entries stack, the action button full width, the pages in a bar at the bottom. */
+@media (max-width: 700px) {
+  .d-day main { padding: 4px 16px 24px; }
+  .d-day .top { padding: 6px 12px; }
+  .brand .wm small { display: none; }
+  .vault-switch > button { padding: 6px 10px; font-size: 14px; }
+  .d-day .main-nav { position: fixed; z-index: 30; left: 0; right: 0; bottom: 0; justify-content: space-around; gap: 0; padding: 4px 4px calc(4px + env(safe-area-inset-bottom)); background: var(--raise); border-top: 1px solid var(--line); }
+  .d-day .main-nav a { flex: 1; justify-content: center; padding: 6px 2px; font-size: 13px; text-align: center; min-height: 48px; }
+  .page-head { padding-top: 12px; }
+  .entry { grid-template-columns: 1fr; gap: 6px; padding: 14px 0; }
+  .entry .when { border-right: 0; padding: 0; font-size: 14px; }
+  .entry.late .when::before { content: ""; width: 10px; height: 10px; margin-right: 6px; background: var(--signal); clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+  .entry .act .btn { width: 100%; }
+  .waiting .entry { grid-template-columns: 1fr; }
+  .crumb a, .people a, .cards a { min-height: var(--tap); padding-top: 10px; }
+  .foot { padding-bottom: 96px; }
+}
+@media print {
+  .demo-band { position: static; }
+  .main-nav, .vault-switch, .act, .scope { display: none; }
+}

@@ -1,0 +1,32 @@
+/* The overview and brand pages of the CRM designs. a.crm.design, 24 Nov 2026. */
+.showcase .main-nav { display: flex; gap: 4px; margin-left: auto; }
+.showcase .main-nav a { display: inline-flex; align-items: center; min-height: var(--tap); padding: 6px 12px; color: var(--ink); font-weight: 600; text-decoration: none; border-radius: 8px; }
+.showcase .main-nav a:hover { background: var(--sunk); }
+.showcase main { max-width: 1080px; margin: 0 auto; padding: 24px 20px 48px; outline: none; }
+.showcase h1 { font-size: clamp(30px, 5vw, 46px); margin: 4px 0 12px; }
+.showcase h2 { font-size: 24px; margin: 36px 0 10px; }
+.eyebrow { margin: 0; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--vault); }
+.lead { font-size: 19px; max-width: 64ch; }
+.designs { list-style: none; padding: 0; display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
+.dcard { position: relative; padding: 18px; border: 1.5px solid var(--line); border-radius: var(--r); background: var(--raise); }
+.dcard.live { border: 2px solid var(--vault); }
+.dcard .num { margin: 0; font: 700 40px var(--serif); color: var(--muted); }
+.dcard h2 { margin: 0 0 6px; font-size: 22px; }
+.dcard h2 a { color: var(--ink); }
+.dcard h2 a::after { content: ""; position: absolute; inset: 0; }
+.dcard p { margin: 4px 0; }
+.keeps li { margin: 8px 0; line-height: 1.9; }
+.marks { display: flex; flex-wrap: wrap; gap: 28px; align-items: end; }
+.marks figure { margin: 0; padding: 20px; background: var(--raise); border: 1px solid var(--line); border-radius: var(--r); }
+.marks img { max-width: 100%; height: auto; }
+.marks figcaption { font-size: 14px; color: var(--muted); margin-top: 10px; max-width: 32ch; }
+.swatches { list-style: none; padding: 0; display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
+.swatches li { display: grid; gap: 2px; padding: 12px; border: 1px solid var(--line); border-radius: var(--r); background: var(--raise); }
+.chip { height: 56px; border-radius: 8px; border: 1px solid var(--line); margin-bottom: 6px; }
+.sw-vault { background: var(--vault); } .sw-paper { background: var(--paper); } .sw-ink { background: var(--ink); }
+.sw-signal { background: var(--signal); } .sw-brass { background: var(--brass); } .sw-sky { background: var(--sky); }
+.sw-slate { background: var(--slate); } .sw-band { background: var(--band); }
+.facts { display: grid; grid-template-columns: max-content 1fr; gap: 8px 20px; }
+.facts dt { color: var(--muted); } .facts dd { margin: 0; } .serif { font-family: var(--serif); font-size: 18px; }
+img.card { width: 100%; max-width: 720px; height: auto; border: 1px solid var(--line); border-radius: var(--r); }
+@media (max-width: 700px) { .showcase main { padding: 16px; } .facts { grid-template-columns: 1fr; } .facts dd { margin-bottom: 8px; } .brand .wm small { display: none; } }
