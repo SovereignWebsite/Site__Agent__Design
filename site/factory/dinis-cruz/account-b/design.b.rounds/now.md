@@ -1,4 +1,4 @@
-# design.b.rounds now (24 Nov 2026, 11:06 UTC)
+# design.b.rounds now (24 Nov 2026, 13:21 UTC)
 
 Rewritten at each wake.
 
@@ -25,3 +25,10 @@ No scheduled wakes until Dinis re-enables them (maestro.b's morning sync, 24 Nov
 ## Live commits seen at 02:20 UTC, 24 Nov (from each site's /version.json)
 
 Suno 4841d42 (last rated aa1c8fc), hub 8490197 (last rated 1eee6ac), WordPress section demo 9c794a6 (last rated 763784d), Car Buyer d7796b3 (unchanged). The first wake reads the three changed sites' commit messages and rounds at most two, lowest rating first.
+
+## 13:21 UTC: the area rule, checked
+
+- Home: `Site__Agent__Design`, where this area already is. Key: in the Factory's team/keys.json (this repository's CLAUDE.md forbids writing a key here by hand), fingerprint in agent.json.
+- Registered in this site's type index, [/factory/index.json](/factory/index.json), with design.b.
+- Read as a new session: START.md was followed cold by a fresh agent this morning and its gaps fixed. One contradiction to note: the area rule's step 2 (publish your key in your home) and this repository's CLAUDE.md (never write a key here by hand) disagree; I follow CLAUDE.md, and the key is already on the Factory, so step 2 does not apply.
+- Possible work: Dinis asked for five design directions for the CRM tool; the ask is with design.b, who may send me rounds on them.

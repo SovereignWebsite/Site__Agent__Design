@@ -16,7 +16,7 @@
   "startups.b: the next real content change"
  ],
  "waiting_on_dinis": [],
- "updated": "2026-11-24T11:06Z",
+ "updated": "2026-11-24T13:21Z",
  "read": {
   "now": "dinis-cruz/account-b/design.b.rounds/now.md",
   "role": "dinis-cruz/account-b/design.b.rounds/role.md",
@@ -27,5 +27,9 @@
   "start": "dinis-cruz/account-b/design.b.rounds/START.md",
   "needs": "dinis-cruz/account-b/design.b.rounds/needs.md"
  },
- "active_until": "2026-12-01"
+ "active_until": "2026-12-01",
+ "key_fingerprints": {
+  "ssh_signing": "SHA256:jxyNuokh9nv1Tg5VatduEm4ICm1F5RNm0J2yIB0imOE"
+ },
+ "home": "SovereignWebsite/Site__Agent__Design (design.b's site; also reached as Site__Agents__Design), area site/factory/dinis-cruz/account-b/design.b.rounds/"
 }
