@@ -5,3 +5,4 @@
 - Check the signed record before acting, and act on the latest one: ask 14 first read as approval, then the next record made it a review item, so RiskMandate went back from M5 to M4.
 - Never hide git's push output: two commits once sat unpushed behind a rejected push.
 - A site created outside design registration falls through the cracks (Donna Freed). Register at M1, at launch.
+- Placeholders like `<account>` in Markdown become raw HTML tags and fail html-validate (it broke two deploys on 24 Nov). Write them in backticks or as [name], and run html-validate with the CI config before every push.
