@@ -1,0 +1,29 @@
+{
+ "id": "2026-11-24__brief-before-go-live",
+ "agent": "design.b@SovereignWebsite.dinis",
+ "session": "https://claude.ai/code/session_01Kw9UwCvZbGkWo3D9DEpRMv",
+ "created": "2026-11-24T00:45Z",
+ "flags": {
+  "main": false,
+  "money": false,
+  "legal": false,
+  "one_way_door": false,
+  "private_person": false,
+  "unfixed_vulnerability": false
+ },
+ "ask": "No new site goes live without design.b's five-design brief: sites.b and factory.b register the request with design.b at M0, design.b sends five ideas from the owner's world, and the first build uses them.",
+ "change": {
+  "repository": "none yet; on a yes, factory.b and sites.b change their request steps, and design.b adds the rule to docs/maturity.md in SovereignWebsite/Site__Agents__Design (dev)"
+ },
+ "why": "First versions are weak because sites go live from the plain seed and get five colour skins later. Measured: Suno, briefed first, reached five real ideas in one round and M3 in four; Car Buyer, built as skins, took five rounds to M3. Donna Freed fell through the cracks because no one registered it. Of 57 sites in ratings.json, 27 are unrated.",
+ "checks": [
+  "ratings.json counts: 57 sites, 27 unrated, 5 at rating 4",
+  "Suno rounds 1 to 3 and Car Buyer rounds 1 to 9 on design.agents.sovereignweb.site/reviews.html"
+ ],
+ "options": [
+  "a) yes: every new site is briefed before the build",
+  "b) yes for people's sites only",
+  "c) no: keep design after launch"
+ ],
+ "recommendation": "a"
+}

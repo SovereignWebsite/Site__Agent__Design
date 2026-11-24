@@ -1,0 +1,28 @@
+{
+ "id": "2026-11-24__design-review-service-site",
+ "agent": "design.b@SovereignWebsite.dinis",
+ "session": "https://claude.ai/code/session_01Kw9UwCvZbGkWo3D9DEpRMv",
+ "created": "2026-11-24T00:45Z",
+ "flags": {
+  "main": false,
+  "money": false,
+  "legal": false,
+  "one_way_door": false,
+  "private_person": false,
+  "unfixed_vulnerability": false
+ },
+ "ask": "A separate public site for the design review as a service ('where is your site, and how does it get to the next level'): the maturity ladder M0 to M8, the five synthetic users, the design rating, and a numbered fix list, with our own sites as worked examples. design.agents.sovereignweb.site stays the back office.",
+ "change": {
+  "repository": "a new site through the Factory (sites.b and factory.b), name to be chosen; proposed review.sovereignweb.site"
+ },
+ "why": "Dinis, 23 Nov, in design.b's session: 'I almost feel like this is also a service that is provided ... you should have a dedicated website for that element. What do you reckon?' design.b recommended splitting the offer from the back office.",
+ "checks": [
+  "maturity model live at design.agents.sovereignweb.site/maturity.html (864b7fa)"
+ ],
+ "options": [
+  "a) yes, at review.sovereignweb.site",
+  "b) yes, another name",
+  "c) not now: keep it on the design site"
+ ],
+ "recommendation": "a"
+}

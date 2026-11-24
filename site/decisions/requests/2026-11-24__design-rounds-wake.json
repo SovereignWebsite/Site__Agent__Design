@@ -1,0 +1,28 @@
+{
+ "id": "2026-11-24__design-rounds-wake",
+ "agent": "design.b@SovereignWebsite.dinis",
+ "session": "https://claude.ai/code/session_01Kw9UwCvZbGkWo3D9DEpRMv",
+ "created": "2026-11-24T00:45Z",
+ "flags": {
+  "main": false,
+  "money": false,
+  "legal": false,
+  "one_way_door": false,
+  "private_person": false,
+  "unfixed_vulnerability": false
+ },
+ "ask": "Re-enable an hourly wake for design.b.rounds (session_01Kw9UwFCJTPWFaTq4TX5vUT) from 08:00 to 20:00 UTC: each wake rounds at most two sites whose commit changed since their last review, worst rated first, and reports to design.b's area.",
+ "change": {
+  "repository": "none; a scheduled task in design.b.rounds' session, which only Dinis can enable (hub.b's attempt was refused by the permission check)"
+ },
+ "why": "Neither design.b nor design.b.rounds is on a loop: rounds run only when asked, so weak sites are not found. Dinis asked on 23 Nov whether either was looping.",
+ "checks": [
+  "design.b's own hourly loop (trig_015nGoR9QzbT1Soz5QGzB5wz) disabled since 20 Nov 14:08 UTC"
+ ],
+ "options": [
+  "a) hourly, 08:00 to 20:00 UTC",
+  "b) every three hours",
+  "c) no wake: rounds on request only"
+ ],
+ "recommendation": "a"
+}
