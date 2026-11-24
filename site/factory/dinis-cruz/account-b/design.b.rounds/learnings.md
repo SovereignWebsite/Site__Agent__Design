@@ -7,3 +7,4 @@
 - **My own tools have edges.** The audit counts hidden h1s; the site check first knew only "Designs" as a chooser label. Check before reporting a fault.
 - **Never quote a private person beyond what they have agreed to show.** When an owner's consent is not recorded, leave them out and say so.
 - **Messages that relay Dinis's words can be wrong.** Check the record (decisions.b) before acting on a relayed decision.
+- **A rule written with a placeholder in angle brackets can break the build.** `<account>` in markdown reached the HTML as a tag and stopped two deploys. Put paths in code.
