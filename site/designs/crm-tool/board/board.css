@@ -1,0 +1,104 @@
+/* Design 2 of 5, The Board: a pipeline wall of cards. Sans headings, a cork-grey wall, cards with a lift;
+   overdue cards carry a folded corner. a.crm.design, 24 Nov 2026. */
+.d-board { --wall: #e9e6dd; --card: #ffffff; --fold: #c9c3b4; }
+@media (prefers-color-scheme: dark) { .d-board { --wall: #0b0d0c; --card: #1d2220; --fold: #3b4440; } }
+.d-board h1, .d-board h2, .d-board h3 { font-family: var(--sans); letter-spacing: -.01em; }
+.d-board .main-nav { display: flex; gap: 2px; }
+.d-board .main-nav a { display: inline-flex; align-items: center; min-height: var(--tap); padding: 6px 12px; color: var(--ink); text-decoration: none; font-weight: 600; border-radius: 999px; }
+.d-board .main-nav a[aria-current] { background: var(--ink); color: var(--paper); }
+.d-board main { padding: 0 0 32px; outline: none; }
+.d-board .head, .d-board .crumb { max-width: none; padding: 16px 20px 4px; margin: 0; }
+.d-board .head h1 { font-size: clamp(26px, 4vw, 34px); margin: 0 0 4px; font-weight: 800; outline: none; }
+.d-board .sum { margin: 0 0 8px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.d-board main > .done { margin: 12px 20px 0; }
+.n { display: inline-grid; place-items: center; min-width: 1.7em; height: 1.7em; padding: 0 6px; font: 700 13px var(--sans); border-radius: 999px; background: var(--paper); color: var(--ink); border: 1px solid var(--line); }
+
+/* The wall */
+.tabs { display: none; }
+.wall { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(260px, 1fr); gap: 14px; padding: 12px 20px 16px; background: var(--wall); overflow-x: auto; min-height: 60vh; border-block: 1px solid var(--line); }
+.col { display: flex; flex-direction: column; min-width: 0; }
+.col h2 { display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; margin: 4px 2px 10px; }
+.col-note { font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--muted); }
+.cards { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; align-content: start; }
+.none { color: var(--muted); font-style: italic; padding: 8px 2px; }
+
+/* A card. Overdue: a folded top-right corner, a triangle in its tag, and "Was due" in bold. */
+.card { position: relative; background: var(--card); border-radius: 10px; padding: 12px 14px; box-shadow: 0 1px 0 var(--line), 0 2px 6px rgb(0 0 0 / .08); border: 1px solid var(--line); }
+.card.late { clip-path: polygon(0 0, calc(100% - 26px) 0, 100% 26px, 100% 100%, 0 100%); border-color: var(--signal); }
+.card.late::after { content: ""; position: absolute; top: 0; right: 0; width: 26px; height: 26px; background: linear-gradient(225deg, transparent 50%, var(--fold) 50%); border-bottom-left-radius: 4px; }
+.card-top { display: flex; gap: 10px; align-items: flex-start; }
+.owner { flex: none; display: inline-grid; place-items: center; min-width: 32px; height: 32px; padding: 0 6px; border-radius: 999px; background: var(--vault); color: var(--vault-ink); font: 700 12px var(--sans); }
+.card h3 { margin: 4px 26px 0 0; font-size: 17px; font-weight: 750; line-height: 1.25; }
+.card h3 a { color: var(--ink); text-decoration: none; }
+.card h3 a:hover { text-decoration: underline; }
+.card .next { margin: 8px 0 2px; }
+.card .due { margin: 0 0 6px; font-size: 14px; color: var(--muted); }
+.card.late .due b { color: var(--signal); }
+.card .tags { margin: 0; display: flex; flex-wrap: wrap; gap: 5px; }
+.card-act { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.card-act .btn { min-height: 38px; padding: 4px 12px; font-size: 14px; }
+.parked { margin: 14px 20px; }
+.parked summary { cursor: pointer; display: inline-flex; gap: 8px; align-items: center; min-height: var(--tap); font-weight: 700; }
+.parked .cards { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); margin-top: 8px; }
+
+/* The card turned over */
+.crumb { font-size: 14px; }
+.crumb a { display: inline-block; min-height: 32px; padding-top: 4px; }
+.turned { display: grid; grid-template-columns: minmax(280px, 380px) minmax(0, 1fr); gap: 20px; padding: 12px 20px; background: var(--wall); border-block: 1px solid var(--line); }
+.face-label { margin: 0 0 6px; font: 700 12px var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.card.big { padding: 18px; }
+.card.big h1 { margin: 2px 26px 0 0; font-size: 26px; font-weight: 800; outline: none; }
+.stage-line { margin: 8px 0; color: var(--muted); font-size: 14px; }
+.mini { display: grid; grid-template-columns: max-content 1fr; gap: 4px 12px; font-size: 14px; margin: 14px 0; }
+.mini dt { color: var(--muted); } .mini dd { margin: 0; }
+.sm { font-size: 15px; margin: 12px 0 4px; }
+.ppl { list-style: none; padding: 0; margin: 0; font-size: 14px; }
+.ppl li { padding: 6px 0; border-top: 1px solid var(--line); }
+.ppl a { display: inline-block; min-height: 28px; }
+.back { background: var(--card); border-radius: 10px; padding: 16px 18px; border: 1px solid var(--line); box-shadow: 0 2px 6px rgb(0 0 0 / .08); }
+.back h2 { font-size: 18px; margin: 14px 0 8px; }
+.back .log-box h2 { margin-top: 0; }
+.draft-box { padding: 12px 14px; margin: 0 0 16px; background: var(--brass-soft); border-radius: 8px; border: 1.5px solid var(--brass); }
+.draft-box h3 { margin: 0 0 4px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 17px; }
+.acts { list-style: none; padding: 0; margin: 0; }
+.acts li { padding: 8px 0 8px 12px; border-left: 3px solid var(--line); margin-bottom: 4px; }
+.acts li.in { border-left-color: var(--sky); }
+.acts li.fresh { background: var(--vault-soft); }
+.acts p { margin: 0; }
+.a-meta { font-size: 13px; color: var(--muted); }
+@media (prefers-reduced-motion: no-preference) { .turned .back { animation: flip .45s ease-out; transform-origin: left center; } @keyframes flip { from { transform: perspective(900px) rotateY(-60deg); } to { transform: none; } } }
+
+/* Contacts: business cards; More: tiles */
+.bizcards, .tiles { list-style: none; margin: 0; padding: 12px 20px 20px; display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); background: var(--wall); border-block: 1px solid var(--line); }
+.bizcards li { background: var(--card); border-radius: 6px; padding: 14px 16px; border: 1px solid var(--line); border-top: 5px solid var(--vault); }
+.bizcards h2 { margin: 0; font-size: 18px; }
+.bizcards p { margin: 2px 0; font-size: 14px; }
+.bizcards .co { font-weight: 600; display: flex; justify-content: space-between; gap: 6px; }
+.bizcards a { display: inline-block; min-height: 28px; }
+.tiles a { display: grid; gap: 4px; min-height: 96px; padding: 16px; border-radius: 10px; background: var(--card); border: 1px solid var(--line); color: var(--ink); text-decoration: none; }
+.tiles b { font-size: 19px; } .tiles span { color: var(--muted); font-size: 14px; }
+.d-board .lead, .d-board .panel, .d-board .steps, .d-board .answers, .d-board main > h1, .d-board main > h2, .d-board main > p, .d-board main > ol, .d-board main > form { margin-left: 20px; margin-right: 20px; }
+.d-board main > h1 { margin-top: 16px; }
+
+@media (max-width: 800px) { .turned { grid-template-columns: 1fr; } }
+/* Phone: the columns become tabs with counts; one column at a time. */
+@media (max-width: 700px) {
+  .brand .wm small { display: none; }
+  .vault-switch > button { padding: 6px 10px; font-size: 14px; }
+  .d-board .main-nav { position: fixed; z-index: 30; left: 0; right: 0; bottom: 0; justify-content: space-around; padding: 4px 4px calc(4px + env(safe-area-inset-bottom)); background: var(--raise); border-top: 1px solid var(--line); }
+  .d-board .main-nav a { flex: 1; justify-content: center; font-size: 13px; padding: 6px 2px; min-height: 48px; border-radius: 10px; }
+  .d-board .head, .d-board .crumb { padding: 12px 16px 4px; }
+  .tabs { display: flex; gap: 6px; overflow-x: auto; padding: 8px 16px; position: sticky; top: var(--band-h, 64px); z-index: 20; background: var(--paper); border-top: 1px solid var(--line); scrollbar-width: none; }
+  .tabs [role=tab] { flex: none; display: inline-flex; gap: 6px; align-items: center; min-height: var(--tap); padding: 6px 14px; font: inherit; font-weight: 700; color: var(--ink); background: var(--raise); border: 1.5px solid var(--line); border-radius: 999px; cursor: pointer; }
+  .tabs [role=tab][aria-selected=true] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .tabs [role=tab][aria-selected=true] .n { background: var(--paper); color: var(--ink); }
+  .wall { display: block; padding: 12px 16px; min-height: 0; }
+  .col { display: none; } .col.shown { display: flex; }
+  .col h2 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .card-act .btn { min-height: var(--tap); flex: 1; }
+  .turned { padding: 12px 16px; }
+  .crumb a, .ppl a, .bizcards a { min-height: var(--tap); padding-top: 10px; }
+  .bizcards, .tiles { padding: 12px 16px; }
+  .d-board .lead, .d-board .panel, .d-board .steps, .d-board .answers, .d-board main > h1, .d-board main > h2, .d-board main > p, .d-board main > ol, .d-board main > form { margin-left: 16px; margin-right: 16px; }
+}
+@media print { .demo-band { position: static; } .main-nav, .vault-switch, .card-act, .tabs { display: none; } .wall { overflow: visible; grid-auto-flow: row; grid-template-columns: repeat(4, 1fr); } }

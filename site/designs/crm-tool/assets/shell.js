@@ -15,7 +15,8 @@
   const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   const longDate = (s) => `${LONG[((day(s) % 7) + 7) % 7]} ${+s.slice(8, 10)} ${MONTHS[+s.slice(5, 7) - 1]} ${s.slice(0, 4)}`;
   const fmt = (s, withDay) => { const d = day(s); const t = `${+s.slice(8, 10)} ${MON[+s.slice(5, 7) - 1]}`; return withDay ? `${DOW[((d % 7) + 7) % 7]} ${t}` : t; };
-  const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
+  const PL = { company: 'companies', person: 'people', reply: 'replies' };
+  const plural = (n, w) => `${n} ${n === 1 ? w : (PL[w] || w + 's')}`;
   const company = (id) => D.companies.find((c) => c.id === id);
   const person = (id) => (D.team.find((t) => t.id === id) || { name: id }).name;
   const stageName = (id) => (D.stages.find((s) => s.id === id) || { name: id }).name;
@@ -28,7 +29,7 @@
     if (late === 0) out.push({ k: 'today', cls: 'st-today', text: 'Due today' });
     if (c.draft) out.push({ k: 'draft', cls: 'st-draft', text: 'Draft waiting' });
     if (c.repliedOn) { const n = days(c.repliedOn); out.push({ k: 'replied', cls: 'st-replied', text: n === 0 ? 'They replied today' : n === 1 ? 'They replied yesterday' : `They replied ${n} days ago` }); }
-    if (c.noReplySince) out.push({ k: 'noreply', cls: 'st-noreply', text: `No reply for ${plural(days(c.noReplySince), 'day')}` });
+    if (c.noReplySince) { const n = days(c.noReplySince); out.push({ k: 'noreply', cls: 'st-noreply', text: n === 0 ? 'Sent today, no reply yet' : `No reply for ${plural(n, 'day')}` }); }
     return out;
   }
   const badges = (c) => status(c).map((s) => `<span class="st ${s.cls}">${esc(s.text)}</span>`).join(' ');
@@ -137,7 +138,7 @@ Example Ltd,example.com,Sam Example,sam@example.com,summit</textarea></label><p>
   });
   document.addEventListener('click', (ev) => {
     const t = ev.target.closest('[data-send],[data-discard],[data-fake-btn]'); if (!t) return;
-    if (t.dataset.send) { const c = company(t.dataset.send); const body = $(`[data-body="${c.id}"]`); c.activity.unshift({ at: D.today, kind: 'Email', dir: 'out', by: 'you', text: `Sent "${c.draft.subject}"${body && body.value !== c.draft.body ? ' (edited)' : ''}.`, fresh: true }); delete c.draft; say(`Sent to ${c.name} (demo).`); render(true, `Sent to ${c.name}. In the demo nothing leaves this tab.`); }
+    if (t.dataset.send) { const c = company(t.dataset.send); const body = $(`[data-body="${c.id}"]`); c.activity.unshift({ at: D.today, kind: 'Email', dir: 'out', by: 'you', text: `Sent "${c.draft.subject}"${body && body.value !== c.draft.body ? ' (edited)' : ''}.`, fresh: true }); const subj = c.draft.subject; delete c.draft; const d3 = new Date(Date.UTC(+D.today.slice(0, 4), +D.today.slice(5, 7) - 1, +D.today.slice(8, 10) + 3)).toISOString().slice(0, 10); c.next = `Hear back about "${subj}"`; c.due = d3; c.noReplySince = D.today; say(`Sent to ${c.name} (demo).`); render(true, `Sent to ${c.name}. In the demo nothing leaves this tab.`); }
     if (t.dataset.discard) { say('Kept the draft for later.'); location.hash = `#/company/${t.dataset.discard}`; }
     if (t.dataset.fakeBtn) say('Prototype: this does nothing yet.');
   });
@@ -171,8 +172,10 @@ Example Ltd,example.com,Sam Example,sam@example.com,summit</textarea></label><p>
       const target = sub && document.getElementById(sub); if (target) { target.scrollIntoView(); const f = target.querySelector('textarea,input,select'); if (f) f.focus(); }
     };
     window.addEventListener('hashchange', () => render(false));
+    const band = $('.demo-band'); const bh = () => { if (band) document.documentElement.style.setProperty('--band-h', band.offsetHeight + 'px'); };
+    bh(); window.addEventListener('resize', bh);
     switcher(); render(false);
   }
 
-  window.CRM = { D, $, $$, esc, days, fmt, longDate, plural, company, person, stageName, sourceName, status, badges, byUrgency, dayList, actionButton, logForm, draftBox, say, start };
+  window.CRM = { refresh: (m) => render(true, m), D, $, $$, esc, days, fmt, longDate, plural, company, person, stageName, sourceName, status, badges, byUrgency, dayList, actionButton, logForm, draftBox, say, start };
 })();

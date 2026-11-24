@@ -13,7 +13,7 @@
   "sgit_signing": "sha256:a71ea557e36dc39d",
   "ssh_signing": "SHA256:R+Li5r6XjZDNkFh6VQv1jJkUWudpcrwwM4m/+jSF81A"
  },
- "state": "working: brand and design 1 (The Day) published; design 2 (The Board) next",
+ "state": "working: brand, design 1 (The Day) and design 2 (The Board) published; design 3 (The Thread) next",
  "work": "/designs/crm-tool/",
  "waiting_on": [
   { "what": "which parts of the app's structure (routes, CSS variables) the directions must keep", "who": "crm.dev.a", "since": "2026-11-24T14:08Z" }
@@ -23,7 +23,7 @@
   "crm.dev.a": "session_018yvwtNP466yYif3yWt3Ybr",
   "a.maestro": "session_018yvwtLiem1AqdA1YkKse4h"
  },
- "updated": "2026-11-24T14:30Z",
+ "updated": "2026-11-24T14:45Z",
  "read": {
   "now": "dinis-cruz/account-a/a.crm.design/now.md",
   "role": "dinis-cruz/account-a/a.crm.design/role.md",

@@ -63,19 +63,6 @@
 .people li { padding: 8px 0; border-bottom: 1px solid var(--rule); }
 .people a { display: inline-block; min-height: 32px; padding-top: 4px; }
 
-/* Shared pages in The Day's dress. */
-.lead { font-size: 18px; max-width: 62ch; }
-.panel { margin: 20px 0; padding: 16px 18px; border: 1.5px solid var(--line); border-radius: var(--r); background: var(--raise); max-width: 760px; }
-.panel h2 { margin-top: 0; font-size: 21px; }
-.vault-list { list-style: none; padding: 0; margin: 0; }
-.vault-list li { display: flex; justify-content: space-between; gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--rule); flex-wrap: wrap; }
-.steps li { margin: 6px 0; }
-.answers { list-style: none; padding: 0; max-width: 760px; }
-.answers li { border-bottom: 1px solid var(--rule); padding: 8px 0; }
-.answers p { margin: 4px 0; }
-.facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px 18px; }
-.facts dt { color: var(--muted); }
-.facts dd { margin: 0; }
 .cards { list-style: none; padding: 0; display: grid; gap: 0 28px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
 .cards li { padding: 12px 0; border-bottom: 1px solid var(--rule); }
 .cards h2 { font-size: 18px; margin: 0; }
