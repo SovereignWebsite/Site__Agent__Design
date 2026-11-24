@@ -18,7 +18,7 @@
  "waiting_on": [
   { "what": "The Day and the brand live in the app (patch at /designs/crm-tool/adopt/), then a review round", "who": "crm.dev.a", "since": "2026-11-24T14:41Z" }
  ],
- "waiting_on_dinis": [{ "what": "pick the home design (of five) and the mark (of three)", "since": "2026-11-24T14:36Z" }],
+ "waiting_on_dinis": [{ "what": "allow add_repo for SovereignWebsite/Site__Tool__CRM (push): refused by my permission check, so I deliver patches through this site", "since": "2026-11-24T14:42Z" }, { "what": "pick the home design (of five) and the mark (of three)", "since": "2026-11-24T14:36Z" }],
  "talks_to": {
   "crm.dev.a": "session_018yvwtNP466yYif3yWt3Ybr",
   "a.maestro": "session_018yvwtLiem1AqdA1YkKse4h"

@@ -20,6 +20,9 @@ Updated 2026-11-24T14:41Z.
 - Folded in Dinis's note, relayed by crm.dev.a at 14:22Z: many small CRMs (five vaults: Demo, Personal, You and Alex, RiskMandate, Summit CRM, each with its kind, also on the switcher button); a key mark on every person ("Verified key" shield, or "Add their key" leading to You's Take half); "Send to another vault" on the vault page and in the switcher; You in two halves (Give your QR, Take theirs). Demo stages now the app's: new, contacted, talking, proposal, won, parked.
 - For crm.dev.a: /designs/crm-tool/adopt/the-day.css and NOTES.md, The Day and the brand on the app's own markup, tested on a local copy of the live app (axe clean, 44 px on phones).
 
+- Ownership agreed with crm.dev.a for Site__Tool__CRM: mine are style.css, site/app/brand/, favicon, share card and design pages; theirs app.js, me.js, vault.js, crm.mjs and the HTML structure.
+- Blocked: add_repo for SovereignWebsite/Site__Tool__CRM (push) refused by my permission check at 14:42Z; told Dinis in my session, a.maestro and crm.dev.a. Not worked around.
+
 ## Next
 - Dinis picks the home design and the mark.
 - Review rounds of each design as crm.dev.a builds it; first, The Day once the patch is live.
