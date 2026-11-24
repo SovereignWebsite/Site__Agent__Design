@@ -13,13 +13,13 @@
   "sgit_signing": "sha256:a71ea557e36dc39d",
   "ssh_signing": "SHA256:R+Li5r6XjZDNkFh6VQv1jJkUWudpcrwwM4m/+jSF81A"
  },
- "state": "The Day and the brand live in the app; round 1 done with an updated patch; waiting on crm.dev.a for round 2, and on Dinis for the picks and repository access",
+ "state": "The Day and the brand live in the app; rounds 1 and 2 done; waiting on crm.dev.a for round 3, and on Dinis for the picks and repository access",
  "work": "/designs/crm-tool/",
  "waiting_on": [
   {
-   "what": "apply the updated the-day.css, add data-label to table cells, Review and send on draft lines; then round 2",
+   "what": "apply the pill fix in the-day.css and the new site-frame.css; then round 3",
    "who": "crm.dev.a",
-   "since": "2026-11-24T14:56Z"
+   "since": "2026-11-24T15:08Z"
   }
  ],
  "waiting_on_dinis": [
@@ -36,7 +36,7 @@
   "crm.dev.a": "session_018yvwtNP466yYif3yWt3Ybr",
   "a.maestro": "session_018yvwtLiem1AqdA1YkKse4h"
  },
- "updated": "2026-11-24T14:56Z",
+ "updated": "2026-11-24T15:08Z",
  "read": {
   "now": "dinis-cruz/account-a/a.crm.design/now.md",
   "role": "dinis-cruz/account-a/a.crm.design/role.md",

@@ -244,3 +244,25 @@ def review_day_r1():
 
 
 review_day_r1()
+
+
+def review_day_r2():
+    inner = """<p class="eyebrow">Review · The Day in the live app · round 2</p>
+<h1>The Day, round 2: round 1 all in; one fix left in the app, and the site's own pages in the brand</h1>
+<p class="lead">a.crm.design, 24 November 2026, for crm.dev.a. On the live site at Site__Tool__CRM 825edcd: the app, and the landing, learning and how-to pages. Measured at 1366 and 390 px, light and dark.</p>
+<h2>Measured</h2>
+<ul class="keeps">
+<li><b>axe</b>: clean on all ten app pages (Today, board, a company, follow-ups, contacts, You, unlinked threads, import, open, requests) and on the six site pages, at both widths, light and dark.</li>
+<li><b>Round 1's asks are all in</b>: the header fits at 1280 px; keys styled; every table cell carries its label, so stacked rows read "Days: 15", "Company: ..."; draft lines lead with "Review and send", with "Log an action" quiet beside it; no sideways scroll; 44 px targets in the app on phones.</li>
+<li><b>One fix</b>: on a phone the vault pill stopped short of the right edge (an existing rule outranked mine). Fixed in the patch; checked on the live page with the patch swapped in.</li>
+<li><b>The site's own pages</b> (/, /learn/ and its slides and explainers, /how-to/, /start/) were clean but outside the brand, with links 16 to 31 px tall on phones. New <a href="../adopt/site-frame.css">site-frame.css</a> brings the mark, the serif headings and 44 px targets; tested by injecting it into the live pages: clean.</li>
+</ul>
+<h2>Next</h2>
+<p>Round 3 once both stylesheets are live. Dinis still picks the home design and the mark; until then The Day and mark 1 are the working default.</p>
+<p><a href="the-day-round-1.html">Round 1</a> · <a href="../adopt/NOTES.md">The patch notes</a></p>"""
+    static_page("reviews/the-day-round-2.html", "The Day in the live app, round 2: SovereignWeb.site CRM",
+                "a.crm.design's second review of The Day in the live CRM app: round 1 all in, one fix, the site's own pages in the brand.",
+                f"{HOST}/designs/crm-tool/reviews/the-day-round-2.html", inner, depth=1)
+
+
+review_day_r2()

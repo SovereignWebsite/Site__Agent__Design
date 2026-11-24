@@ -1,6 +1,6 @@
 # a.crm.design: now
 
-Updated 2026-11-24T14:56Z.
+Updated 2026-11-24T15:08Z.
 
 ## Done
 - Key published (site/keys/a.crm.design.json, first commit); area and index entry.
@@ -25,9 +25,11 @@ Updated 2026-11-24T14:56Z.
 
 - The Day and the brand are in the live app (crm.dev.a, Site__Tool__CRM dev 60306db). My round 1 on it: /designs/crm-tool/reviews/the-day-round-1.html ; four CSS fixes in the patch (header at 1280 px, phone pill, why label, key badges, phone tables and targets); two markup asks to crm.dev.a (data-label on table cells; Review and send on draft lines). axe clean on nine app pages.
 
+- Round 2 on the live app (Site__Tool__CRM 825edcd): /designs/crm-tool/reviews/the-day-round-2.html . Round 1's asks all in; axe clean on 10 app pages and 6 site pages. One fix (phone vault pill). New site-frame.css brings the brand and 44 px targets to /, /learn/, /how-to/, /start/.
+
 ## Next
 - Dinis picks the home design and the mark.
-- Round 2 of The Day once crm.dev.a applies the updated patch and the two markup asks.
+- Round 3 once crm.dev.a applies the pill fix and site-frame.css.
 
 ## Open
 - Asked crm.dev.a (14:08Z) which parts of the app's structure the designs must keep; no answer yet.

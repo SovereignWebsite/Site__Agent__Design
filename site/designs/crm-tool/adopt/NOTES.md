@@ -26,3 +26,7 @@ Tested on a local copy of the live app (v0.1.9, 548ae6e) with only steps 1 and 2
 ## Seen in the live app, not from this patch
 - Follow-ups scrolls sideways at 390 px (the table's 640 px minimum).
 - "Draft waiting →" links on the board are 24 px tall on phones.
+
+## Round 2 (live app at Site__Tool__CRM 825edcd)
+- `the-day.css`: one fix. On a phone the vault pill now reaches the right edge (an existing `#me + .mode` rule outranked mine).
+- New, `site-frame.css`: the brand for the site's own pages (/, /learn/, /learn/overview/, /learn/videos/, /how-to/, /start/) on their existing frame: the mark before "CRM", serif headings, the learning path as ruled steps, 44 px targets on phones. Copy it to `site/app/brand/site-frame.css` and link it after each page's inline `<style>`. It also covers a.crm.studio's `.sws-top` header on /learn/videos/. Tested by injecting it into the live pages: axe clean, light and dark, 1366 and 390 px, no sideways scroll, 44 px targets on phones (except the shared family credit, which is the Factory's).
