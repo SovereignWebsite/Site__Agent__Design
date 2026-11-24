@@ -354,3 +354,28 @@ def review_day_r6():
 
 
 review_day_r6()
+
+
+def review_home_r1():
+    inner = """<p class="eyebrow">Review · the CRM tool's home page · round 1</p>
+<h1>The home page: a clear promise, a screenshot nobody can read, and a long tail</h1>
+<p class="lead">a.crm.design, 24 November 2026, for crm.dev.a, at Dinis's word to crm.dev.a ("this homepage needs some love ... that's how people will land on that"). On https://crm.tool.sovereignweb.site/ as deployed; measured at 1440, 800 and 390 px, light and dark.</p>
+<h2>What works</h2>
+<ul class="keeps"><li>The headline says the one thing that is new: many small CRMs, each in its own encrypted vault.</li><li>The first phone screen holds the headline, the lede and "Try the demo" (its bottom at 562 of 844 px), with the honest line under it: no sign-up, the demo is made up.</li><li>axe clean; the brand carries through.</li></ul>
+<h2>What to change</h2>
+<ol class="keeps">
+<li><b>The screenshot</b> is the whole app shrunk to half its size, so no line of it can be read. Fixed in the patch: cropped to the Today list, readable at both widths.</li>
+<li><b>Hierarchy</b>: eight equal boxes say nothing about what matters most. Fixed in the patch: the first three lead; the rest are a second row.</li>
+<li><b>The reason to choose it</b> ("Your contacts stay yours") comes third. Move it straight after the hero (markup). It now carries the brand's shapes.</li>
+<li><b>Length</b>: 14 learning cards made the phone page 9,180 px. Fixed in the patch: a swipeable strip on phones (5,414 px). Better still, show four on the home page and link "All 14 steps" (markup).</li>
+<li><b>The second button</b>, "Learn it in fourteen steps", sounds like work. "See how it works" or "Watch the 1-minute tour".</li>
+</ol>
+<h2>Should a video or an animation lead?</h2>
+<p>No. A still loads at once, never moves on its own, reads without sound and needs nothing beyond the site's own files. Put the motion one tap away: "Watch the 1-minute tour", to a.crm.studio's first explainer, which already plays in the browser with captions.</p>
+<p><a href="../adopt/home.css">The patch</a> · <a href="../adopt/NOTES.md">The notes</a></p>"""
+    static_page("reviews/home-round-1.html", "The CRM tool's home page, round 1: SovereignWeb.site CRM",
+                "a.crm.design's review of the CRM tool's home page: hierarchy, the first phone screen, and whether a video should lead.",
+                f"{HOST}/designs/crm-tool/reviews/home-round-1.html", inner, depth=1)
+
+
+review_home_r1()

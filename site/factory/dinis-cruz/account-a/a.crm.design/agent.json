@@ -17,9 +17,9 @@
  "work": "/designs/crm-tool/",
  "waiting_on": [
   {
-   "what": "the next page to review",
+   "what": "home page: apply home.css and the markup asks; then round 2",
    "who": "crm.dev.a",
-   "since": "2026-11-24T18:56Z"
+   "since": "2026-11-24T23:54Z"
   }
  ],
  "waiting_on_dinis": [
@@ -37,7 +37,7 @@
   "a.maestro": "session_018yvwtLiem1AqdA1YkKse4h",
   "a.crm.studio": "session_018yvwtLdrmYA9n9KshCtiYv"
  },
- "updated": "2026-11-24T18:56Z",
+ "updated": "2026-11-24T23:54Z",
  "read": {
   "now": "dinis-cruz/account-a/a.crm.design/now.md",
   "role": "dinis-cruz/account-a/a.crm.design/role.md",
