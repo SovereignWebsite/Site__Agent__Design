@@ -204,6 +204,30 @@ def area_pages():
         (d / "index.html").write_text(out)
 
 
+def brief_pages():
+    """docs/briefs/<label>.md becomes site/briefs/<label>.html, with an index at site/briefs/index.html."""
+    out = SITE / "briefs"
+    out.mkdir(exist_ok=True)
+    items = []
+    for f in sorted((DOCS / "briefs").glob("*.md")):
+        text = f.read_text()
+        title = title_of(text)
+        html_page = page("index.html", title, '<article class="prose">' + md(text) + "</article>", title)
+        for href, _ in NAV:
+            html_page = html_page.replace(f'href="{href}"', f'href="../{href}"')
+        html_page = html_page.replace('href="style.css"', 'href="../style.css"').replace('href="favicon.svg"', 'href="../favicon.svg"')
+        (out / f"{f.stem}.html").write_text(html_page)
+        items.append(f'<li><a href="{f.stem}.html">{html.escape(title)}</a></li>')
+    body = ('<p class="mark">Briefs</p><h1>Site briefs</h1><p class="lead">Every new site has a one-page brief before its first real build '
+            '(record 2026-11-24__block-03). Start from the <a href="TEMPLATE.html">template</a>.</p>'
+            f'<ul class="list">{"".join(items)}</ul>')
+    idx = page("index.html", "Site briefs", body, "One-page design briefs, written before each site's first build.")
+    for href, _ in NAV:
+        idx = idx.replace(f'href="{href}"', f'href="../{href}"')
+    idx = idx.replace('href="style.css"', 'href="../style.css"').replace('href="favicon.svg"', 'href="../favicon.svg"')
+    (out / "index.html").write_text(idx)
+
+
 def reviews_page():
     items = []
     for f in sorted((DOCS / "reviews").rglob("*.md"), reverse=True):
@@ -288,6 +312,7 @@ if __name__ == "__main__":
     ratings_page()
     maturity_page()
     area_pages()
+    brief_pages()
     reviews_page()
     runs_pages()
     rounds_files()

@@ -1,4 +1,4 @@
-# Site brief: <site name>
+# Site brief: [site name]
 
 One page, written before the first real build (record 2026-11-24__block-03). design.b writes the design parts; security.b signs off the security part in the same checklist. The request's design_brief field links here.
 
