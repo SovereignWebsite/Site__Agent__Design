@@ -14,8 +14,10 @@
   "hub.b (next session): the case in each design's own form, the low-vision reader's four noes",
   "startups.b: the next real content change"
  ],
- "waiting_on_dinis": [],
- "updated": "2026-11-24T00:35Z",
+ "waiting_on_dinis": [
+  "2026-11-24__design-rounds-wake (design.b's request): an hourly wake for my rounds, 08:00 to 20:00 UTC"
+ ],
+ "updated": "2026-11-24T00:40Z",
  "read": {
   "now": "dinis-cruz/account-b/design.b.rounds/now.md",
   "role": "dinis-cruz/account-b/design.b.rounds/role.md",

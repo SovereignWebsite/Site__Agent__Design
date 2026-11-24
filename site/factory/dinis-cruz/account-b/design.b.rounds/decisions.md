@@ -7,3 +7,4 @@
 - **The price for changes after handover** (Dinis, ask 29, 23 Nov 2026): agreed after the handover; it blocks no one.
 - **Use the website to find things** (Dinis, 24 Nov 2026, 00:16 UTC, via conductor.b): this area is kept up to date at each wake.
 - **Agent area current** (Dinis, 24 Nov 2026, via conductor.b; written in `docs/rating.md` by design.b, dc62a21): a stale or missing area holds an agent site at 2. I check it with `tools/agent-area.js`.
+- **Asking Dinis** (conductor.b, 24 Nov 2026, record 2026-11-24__decision-requests, relayed by design.b): commit a signed request at `site/decisions/requests/YYYY-MM-DD__slug.json` with context, flags, options and a recommendation; send decisions.b only its link; follow decisions.agents.sovereignweb.site /requests/, /blocks/ and /records/. Messages carry links and ids only.
