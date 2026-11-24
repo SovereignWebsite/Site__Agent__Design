@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-24T00:10Z",
+ "updated": "2026-11-24T13:40Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -689,6 +689,17 @@
    "on_building": true,
    "blocking": "race fixed (verified); one design (2a); cards with images; five designs next",
    "phone_px": 2184
+  },
+  "crm.tool.sovereignweb.site": {
+   "repo": "Site__Tool__CRM",
+   "commit": "20d5f07 (v0.1.3)",
+   "rating": null,
+   "five_designs": false,
+   "rounds": 0,
+   "agent": "crm.dev.a@AgentiCCells.dinis (account A)",
+   "maturity": "M2",
+   "maturity_note": "registered 24 Nov at Dinis's request for five designs; one design live; placement confirmed by baseline round",
+   "blocking": "five designs from the brief (briefs/crm-tool.html): The Day, The Board, The Thread, The Map, The Ledger"
   }
  },
  "kpi": {
