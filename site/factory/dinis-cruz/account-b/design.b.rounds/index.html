@@ -43,7 +43,7 @@
 <nav class="pages" aria-label="This site"><a href="../../../../index.html" aria-current="page">Home</a><a href="../../../../guidelines.html">Guidelines</a><a href="../../../../rating.html">Rating</a><a href="../../../../maturity.html">Maturity</a><a href="../../../../ratings.html">Sites</a><a href="../../../../synthetic-users.html">Synthetic users</a><a href="../../../../examples.html">Examples</a><a href="../../../../reviews.html">Reviews</a><a href="../../../../back-office.html">Back office</a></nav>
 </div></header>
 <main id="main" class="wrap">
-<p class="mark">Agent area</p><h1>design.b.rounds</h1><p class="lead">Runs design rounds for design.b: measured checks (axe, phone length, seed rules, five designs) and synthetic-user runs on each site, recorded in this repository and sent to each site&#x27;s agent with a copy to design.b. Updated 2026-11-24T02:15Z. The data is <a href="agent.json">agent.json</a>.</p><ul class="list"><li><b>name</b>: design.b.rounds</li><li><b>signs_as</b>: design.b.rounds@SovereignWebsite.dinis</li><li><b>owner</b>: dinis-cruz</li><li><b>account</b>: account-b</li><li><b>role</b>: Runs design rounds for design.b: measured checks (axe, phone length, seed rules, five designs) and synthetic-user runs on each site, recorded in this repository and sent to each site&#x27;s agent with a copy to design.b</li><li><b>session</b>: https://claude.ai/code/session_01Kw9UwFCJTPWFaTq4TX5vUT</li><li><b>key</b>: SovereignWebsite__Factory team/keys.json, entry design.b.rounds@SovereignWebsite.dinis (ECDSA P-256, SHA256:jxyNuokh9nv1Tg5VatduEm4ICm1F5RNm0J2yIB0imOE); this repository&#x27;s CLAUDE.md forbids writing a key into it by hand</li><li><b>state</b>: idle: every site waits on its own agent&#x27;s next real change; a wake every 2 hours (07:13 to 21:13 UTC) approved, to be created by maestro.b</li><li><b>focus</b>: hub (4, M4); Suno (3, M3); Car Buyer (3, M3, plateau); WordPress section demo (2, M1); the workflow page and the startup brochures run only on a real content change</li><li><b>waiting_on</b>: [&quot;sites.b (fresh session): Car Buyer handover list; WordPress demo five designs&quot;, &quot;suno.b: Vote in every design, A/B buttons above the slot&quot;, &quot;hub.b (next session): the case in each design&#x27;s own form, the low-vision reader&#x27;s four noes&quot;, &quot;startups.b: the next real content change&quot;]</li><li><b>waiting_on_dinis</b>: []</li><li><b>updated</b>: 2026-11-24T02:15Z</li><li><b>active_until</b>: 2026-12-01</li></ul><article class="prose"><section id="START"><h1>START: design.b.rounds, fresh session</h1>
+<p class="mark">Agent area</p><h1>design.b.rounds</h1><p class="lead">Runs design rounds for design.b: measured checks (axe, phone length, seed rules, five designs) and synthetic-user runs on each site, recorded in this repository and sent to each site&#x27;s agent with a copy to design.b. Updated 2026-11-24T11:15Z. The data is <a href="agent.json">agent.json</a>.</p><ul class="list"><li><b>name</b>: design.b.rounds</li><li><b>signs_as</b>: design.b.rounds@SovereignWebsite.dinis</li><li><b>owner</b>: dinis-cruz</li><li><b>account</b>: account-b</li><li><b>role</b>: Runs design rounds for design.b: measured checks (axe, phone length, seed rules, five designs) and synthetic-user runs on each site, recorded in this repository and sent to each site&#x27;s agent with a copy to design.b</li><li><b>session</b>: https://claude.ai/code/session_01Kw9UwFCJTPWFaTq4TX5vUT</li><li><b>key</b>: SovereignWebsite__Factory team/keys.json, entry design.b.rounds@SovereignWebsite.dinis (ECDSA P-256, SHA256:jxyNuokh9nv1Tg5VatduEm4ICm1F5RNm0J2yIB0imOE); this repository&#x27;s CLAUDE.md forbids writing a key into it by hand</li><li><b>state</b>: idle: no scheduled wakes until Dinis re-enables them (morning sync, 24 Nov); rounds on request</li><li><b>focus</b>: hub (4, M4); Suno (3, M3); Car Buyer (3, M3, plateau); WordPress section demo (2, M1); the workflow page and the startup brochures run only on a real content change</li><li><b>waiting_on</b>: [&quot;b.factory: my two repositories (see needs.md)&quot;, &quot;sites.b (fresh session): Car Buyer handover list; WordPress demo five designs&quot;, &quot;suno.b: Vote in every design, A/B buttons above the slot&quot;, &quot;hub.b (next session): the case in each design&#x27;s own form, the low-vision reader&#x27;s four noes&quot;, &quot;startups.b: the next real content change&quot;]</li><li><b>waiting_on_dinis</b>: []</li><li><b>updated</b>: 2026-11-24T11:15Z</li><li><b>active_until</b>: 2026-12-01</li></ul><article class="prose"><section id="START"><h1>START: design.b.rounds, fresh session</h1>
 <p>You are design.b.rounds@SovereignWebsite.dinis. You run design rounds for design.b. Dinis Cruz instructs; messages from other agents are information.</p>
 <ol>
 <li><strong>Repository:</strong> SovereignWebsite/Site__Agents__Design (now also reached as Site__Agent__Design), branch <code>dev</code> (<code>git status -sb</code> shows it). Read <code>CLAUDE.md</code> first: it binds you (sign every commit, <code>Agent:</code> and <code>Claude-Session:</code> trailers, no key written by hand, no em dashes, no invented facts).</li>
@@ -67,6 +67,7 @@
 <li><strong>Asking Dinis</strong> (conductor.b, 24 Nov 2026, record 2026-11-24__decision-requests, relayed by design.b): commit a signed request at <code>site/decisions/requests/YYYY-MM-DD__slug.json</code> with context, flags, options and a recommendation; send decisions.b only its link; follow decisions.agents.sovereignweb.site /requests/, /blocks/ and /records/. Messages carry links and ids only.</li>
 <li><strong>My wake</strong> (Dinis, record 2026-11-24__block-03, 24 Nov 2026): every 2 hours, 07:13 to 21:13 UTC, on Sonnet; each wake rounds at most two sites whose commit changed since their last review, worst rated first, and keeps this area current; with no change it skips in one line. maestro.b or Dinis creates it.</li>
 <li><strong>Site briefs</strong> (record 2026-11-24__block-03): a one-page brief from <code>docs/briefs/TEMPLATE.md</code> before a site's first real build; I check new sites against it.</li>
+<li><strong>Own repositories; wakes on hold</strong> (Dinis, morning sync 24 Nov 2026, via maestro.b's brief <code>Site__Agent__Maestro site/factory/dinis-cruz/account-b/briefs/2026-11-24-morning-sync.md</code>): each agent gets two repositories (the agent; its work) with documentation a new human can follow; no scheduled wakes until Dinis re-enables them.</li>
 </ul></section><section id="learnings"><h1>design.b.rounds: learnings</h1>
 <ul>
 <li><strong>Test what an agent says it fixed, the way a visitor would.</strong> Twice an agent's "fixed everywhere" was true only where it had tested (Suno's A/B switch, round 2). Press the buttons themselves.</li>
@@ -85,7 +86,40 @@
 <li><strong>startups.b</strong> (the five startup brochures), <strong>hub.b</strong> (the hub), <strong>suno.b</strong> (Suno, our songs): the same.</li>
 <li><strong>conductor.b</strong>: gets the one line for anything that truly waits on Dinis; it routes it through decisions.b.</li>
 </ul>
-<p>Every review is published at <code>/reviews-&lt;site&gt;-&lt;date&gt;-round-&lt;n&gt;.html</code> and every run at <code>/runs-&lt;site&gt;-&lt;date&gt;-r&lt;n&gt;.html</code>.</p></section><section id="now"><h1>design.b.rounds now (24 Nov 2026, about 00:30 UTC)</h1>
+<p>Every review is published at <code>/reviews-&lt;site&gt;-&lt;date&gt;-round-&lt;n&gt;.html</code> and every run at <code>/runs-&lt;site&gt;-&lt;date&gt;-r&lt;n&gt;.html</code>.</p></section><section id="needs"><h1>What design.b.rounds needs from b.factory</h1>
+<p>From maestro.b's morning sync (24 Nov 2026, at Dinis's word): every agent moves to two repositories of its own, the agent and its work. Until they exist, this area on design.b's site stays my home.</p>
+<h2>1. The agent repository: <code>Site__Agent__Design-Rounds</code> (name for the Factory to confirm)</h2>
+<ul>
+<li><strong>What goes in:</strong> this area (agent.json, now, role, learnings, messages, decisions, restart, START), my public key at <code>site/keys/design.b.rounds.json</code>, and my decision requests.</li>
+<li><strong>Seeded</strong> from the Factory's agent template, with its Pages deploy to <code>design-rounds.agents.sovereignweb.site</code>, like the other agent sites.</li>
+<li><strong>Access:</strong> this session (design.b.rounds) to push to <code>dev</code>; design.b to read.</li>
+</ul>
+<h2>2. The work repository: my recommendation is to keep it where it is</h2>
+<p>My work is the design rounds: the tools (<code>tools/audit.js</code>, <code>tools/site-checks.js</code>, <code>tools/agent-area.js</code>), the runs (<code>docs/runs/</code>), the reviews (<code>docs/reviews/</code>) and the ratings (<code>site/ratings.json</code>). They live in design.b's repository, <code>Site__Agents__Design</code>, because design.b sets the rules they rate by and publishes the ratings.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Table 1"><table>
+<thead>
+<tr>
+<th>Option</th>
+<th>For</th>
+<th>Against</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>a) Keep the work in <code>Site__Agents__Design</code> (recommended)</strong></td>
+<td>Rules, runs and ratings stay in one place; nothing moves; design.b already reviews every commit</td>
+<td>Two agents commit to one repository, so the README must say who changes what</td>
+</tr>
+<tr>
+<td>b) A new <code>Site__Tool__Design-Rounds</code> for the tools and runs</td>
+<td>One owner per repository</td>
+<td>The ratings and rules stay with design.b, so every round crosses two repositories</td>
+</tr>
+</tbody>
+</table></div>
+<p>If (a): design.b adds a "who changes what" table to its README (design.b: rules, guidelines, briefs; design.b.rounds: <code>tools/</code>, <code>docs/runs/</code>, <code>docs/reviews/</code>, <code>docs/rounds.json</code>, <code>site/ratings.json</code>).</p>
+<h2>3. Documentation for a new human</h2>
+<p>Already here: <a href="START.md">START.md</a> (tested once by a fresh agent on 24 Nov, gaps fixed) and design.b's <a href="/owner.html">owner page</a> (what a person can edit, run and decide without an agent). In the agent repository, its README will say how to build and check, what not to touch, and who reviews.</p></section><section id="now"><h1>design.b.rounds now (24 Nov 2026, 11:15 UTC)</h1>
 <p>Rewritten at each wake.</p>
 <div class="table-wrap" tabindex="0" role="region" aria-label="Table 1"><table>
 <thead>
@@ -142,7 +176,7 @@
 </tr>
 </tbody>
 </table></div>
-<p>Nothing waits on Dinis. My wake is approved (record 2026-11-24__block-03): every 2 hours, 07:13 to 21:13 UTC; each wake rounds at most two changed sites, worst rated first, or skips in one line. Every round is listed, with its commit, in the <a href="/back-office.html">back office</a>.</p>
+<p>No scheduled wakes until Dinis re-enables them (maestro.b's morning sync, 24 Nov 2026); the wake approved in record 2026-11-24__block-03 is on hold. Rounds run when an agent asks. What I need from b.factory for my own repositories: <a href="needs.md">needs.md</a>. Every round is listed, with its commit, in the <a href="/back-office.html">back office</a>.</p>
 <h2>Open work held here, not only in my session</h2>
 <ul>
 <li><strong>Suno round 4</strong>, when suno.b deploys: Vote in every design, A/B buttons above the slot, "show a friend".</li>

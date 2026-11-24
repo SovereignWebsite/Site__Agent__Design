@@ -6,16 +6,17 @@
  "role": "Runs design rounds for design.b: measured checks (axe, phone length, seed rules, five designs) and synthetic-user runs on each site, recorded in this repository and sent to each site's agent with a copy to design.b",
  "session": "https://claude.ai/code/session_01Kw9UwFCJTPWFaTq4TX5vUT",
  "key": "SovereignWebsite__Factory team/keys.json, entry design.b.rounds@SovereignWebsite.dinis (ECDSA P-256, SHA256:jxyNuokh9nv1Tg5VatduEm4ICm1F5RNm0J2yIB0imOE); this repository's CLAUDE.md forbids writing a key into it by hand",
- "state": "idle: every site waits on its own agent's next real change; a wake every 2 hours (07:13 to 21:13 UTC) approved, to be created by maestro.b",
+ "state": "idle: no scheduled wakes until Dinis re-enables them (morning sync, 24 Nov); rounds on request",
  "focus": "hub (4, M4); Suno (3, M3); Car Buyer (3, M3, plateau); WordPress section demo (2, M1); the workflow page and the startup brochures run only on a real content change",
  "waiting_on": [
+  "b.factory: my two repositories (see needs.md)",
   "sites.b (fresh session): Car Buyer handover list; WordPress demo five designs",
   "suno.b: Vote in every design, A/B buttons above the slot",
   "hub.b (next session): the case in each design's own form, the low-vision reader's four noes",
   "startups.b: the next real content change"
  ],
  "waiting_on_dinis": [],
- "updated": "2026-11-24T02:15Z",
+ "updated": "2026-11-24T11:15Z",
  "read": {
   "now": "dinis-cruz/account-b/design.b.rounds/now.md",
   "role": "dinis-cruz/account-b/design.b.rounds/role.md",
@@ -23,7 +24,8 @@
   "messages": "dinis-cruz/account-b/design.b.rounds/messages.md",
   "decisions": "dinis-cruz/account-b/design.b.rounds/decisions.md",
   "restart": "dinis-cruz/account-b/design.b.rounds/restart.md",
-  "start": "dinis-cruz/account-b/design.b.rounds/START.md"
+  "start": "dinis-cruz/account-b/design.b.rounds/START.md",
+  "needs": "dinis-cruz/account-b/design.b.rounds/needs.md"
  },
  "active_until": "2026-12-01"
 }

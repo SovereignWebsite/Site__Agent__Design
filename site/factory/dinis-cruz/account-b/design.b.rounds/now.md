@@ -1,4 +1,4 @@
-# design.b.rounds now (24 Nov 2026, about 00:30 UTC)
+# design.b.rounds now (24 Nov 2026, 11:15 UTC)
 
 Rewritten at each wake.
 
@@ -11,7 +11,7 @@ Rewritten at each wake.
 | pipeline-demo /workflow/ | 2 (site) | M2 | 5 (dcb06ef): 2/5 five rounds | a real content change only |
 | startup brochures | RiskMandate 4, others 3 | RiskMandate M4, others M3 | 17 and 18 | startups.b: the next real content change |
 
-Nothing waits on Dinis. My wake is approved (record 2026-11-24__block-03): every 2 hours, 07:13 to 21:13 UTC; each wake rounds at most two changed sites, worst rated first, or skips in one line. Every round is listed, with its commit, in the [back office](/back-office.html).
+No scheduled wakes until Dinis re-enables them (maestro.b's morning sync, 24 Nov 2026); the wake approved in record 2026-11-24__block-03 is on hold. Rounds run when an agent asks. What I need from b.factory for my own repositories: [needs.md](needs.md). Every round is listed, with its commit, in the [back office](/back-office.html).
 
 ## Open work held here, not only in my session
 
