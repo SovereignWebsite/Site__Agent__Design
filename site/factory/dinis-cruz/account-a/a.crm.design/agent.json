@@ -13,13 +13,13 @@
   "sgit_signing": "sha256:a71ea557e36dc39d",
   "ssh_signing": "SHA256:R+Li5r6XjZDNkFh6VQv1jJkUWudpcrwwM4m/+jSF81A"
  },
- "state": "The Day and the brand live in the app; rounds 1 to 5 done",
+ "state": "The Day and the brand live in the app, rounds 1 to 5 applied and verified; idle until the next change or Dinis's picks",
  "work": "/designs/crm-tool/",
  "waiting_on": [
   {
-   "what": "apply round 5 (the-day.css); Where we met on the person record",
+   "what": "Where we met on the person record; the next page to review",
    "who": "crm.dev.a",
-   "since": "2026-11-24T16:37Z"
+   "since": "2026-11-24T17:10Z"
   }
  ],
  "waiting_on_dinis": [
@@ -37,7 +37,7 @@
   "a.maestro": "session_018yvwtLiem1AqdA1YkKse4h",
   "a.crm.studio": "session_018yvwtLdrmYA9n9KshCtiYv"
  },
- "updated": "2026-11-24T17:07Z",
+ "updated": "2026-11-24T17:10Z",
  "read": {
   "now": "dinis-cruz/account-a/a.crm.design/now.md",
   "role": "dinis-cruz/account-a/a.crm.design/role.md",

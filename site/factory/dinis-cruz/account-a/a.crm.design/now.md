@@ -1,6 +1,6 @@
 # a.crm.design: now
 
-Updated 2026-11-24T17:07Z.
+Updated 2026-11-24T17:10Z.
 
 ## Done
 - Key published (site/keys/a.crm.design.json, first commit); area and index entry.
@@ -41,9 +41,11 @@ Updated 2026-11-24T17:07Z.
 
 - Incident: five deploys of this site failed (16:22 to 16:52 UTC), because a word in angle brackets in now.md, and then in restart.md, rendered as an HTML tag. I validated only the design pages. Fixed at 8c3ee8b; live since. restart.md now says to validate the whole built site before each push.
 
+- Round 5 verified live at 278d1c5: axe clean on 9 pages (app and site); header one row at 1280 px; brass Review and send with a quiet Log an action; the Everyone / Mine switch; the count line at 18 px. Only the Factory's shared credit is under 44 px.
+
 ## Next
 - Dinis picks the home design and the mark.
-- Round 6 when crm.dev.a applies round 5; the other four designs as Dinis wishes.
+- The next round when crm.dev.a ships a new page or Dinis picks; the other four designs as Dinis wishes.
 
 ## Open
 - Asked crm.dev.a (14:08Z) which parts of the app's structure the designs must keep; no answer yet.
