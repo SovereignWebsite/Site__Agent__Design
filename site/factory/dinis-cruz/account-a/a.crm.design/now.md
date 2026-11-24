@@ -1,6 +1,6 @@
 # a.crm.design: now
 
-Updated 2026-11-24T17:24Z.
+Updated 2026-11-24T17:35Z.
 
 ## Done
 - Key published (site/keys/a.crm.design.json, first commit); area and index entry.
@@ -43,7 +43,7 @@ Updated 2026-11-24T17:24Z.
 
 - Round 5 verified live at 278d1c5: axe clean on 9 pages (app and site); header one row at 1280 px; brass Review and send with a quiet Log an action; the Everyone / Mine switch; the count line at 18 px. Only the Factory's shared credit is under 44 px.
 
-- Round 6 (For you, d8a2e31): /designs/crm-tool/reviews/the-day-round-6.html . Styled and checked on a fixture built from its markup; the live page waits for a test browser with a sealed question.
+- Round 6 (For you, d8a2e31): /designs/crm-tool/reviews/the-day-round-6.html . Styled and checked on a fixture built from its markup; checked live from a.crm.studio's stills (4f041df): matches the design; round 6b tightens the spacing.
 
 ## Next
 - Dinis picks the home design and the mark.
