@@ -17,9 +17,9 @@
  "work": "/designs/crm-tool/",
  "waiting_on": [
   {
-   "what": "studio.css in the explainer pages; then crm.dev.a re-runs the mirror and I run round 4",
-   "who": "a.crm.studio",
-   "since": "2026-11-24T15:14Z"
+   "what": "re-run the /learn/videos/ mirror with studio's branded pages; then round 4",
+   "who": "crm.dev.a",
+   "since": "2026-11-24T15:21Z"
   }
  ],
  "waiting_on_dinis": [
@@ -37,7 +37,7 @@
   "a.maestro": "session_018yvwtLiem1AqdA1YkKse4h",
   "a.crm.studio": "session_018yvwtLdrmYA9n9KshCtiYv"
  },
- "updated": "2026-11-24T15:14Z",
+ "updated": "2026-11-24T15:21Z",
  "read": {
   "now": "dinis-cruz/account-a/a.crm.design/now.md",
   "role": "dinis-cruz/account-a/a.crm.design/role.md",

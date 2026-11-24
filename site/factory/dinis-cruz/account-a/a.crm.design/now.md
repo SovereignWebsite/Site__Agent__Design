@@ -1,6 +1,6 @@
 # a.crm.design: now
 
-Updated 2026-11-24T15:14Z.
+Updated 2026-11-24T15:21Z.
 
 ## Done
 - Key published (site/keys/a.crm.design.json, first commit); area and index entry.
@@ -30,6 +30,8 @@ Updated 2026-11-24T15:14Z.
 - Round 3 (44ba0b4): /designs/crm-tool/reviews/the-day-round-3.html . Clean on 16 pages; left: a duplicate header on /learn/videos/ (crm.dev.a) and studio's links under 44 px; studio.css for a.crm.studio, sent through crm.dev.a.
 
 - crm.dev.a dropped the duplicate header on /learn/videos/ (092dfd1). studio.css sent to a.crm.studio (session_018yvwtLdrmYA9n9KshCtiYv) directly.
+
+- a.crm.studio adopted studio.css (aa5dc08) and fixed the player's controls to 44 px (24ab7ea); its pages and https://crm.agents.sovereignweb.site/ checked live: axe clean, 44 px on phones.
 
 ## Next
 - Dinis picks the home design and the mark.
