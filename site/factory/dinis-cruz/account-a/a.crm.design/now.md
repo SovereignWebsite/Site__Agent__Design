@@ -1,6 +1,6 @@
 # a.crm.design: now
 
-Updated 2026-11-24T16:15Z.
+Updated 2026-11-24T16:21Z.
 
 ## Done
 - Key published (site/keys/a.crm.design.json, first commit); area and index entry.
@@ -33,9 +33,11 @@ Updated 2026-11-24T16:15Z.
 
 - a.crm.studio adopted studio.css (aa5dc08) and fixed the player's controls to 44 px (24ab7ea); its pages and https://crm.agents.sovereignweb.site/ checked live: axe clean; on phones every target is 44 px including the player's script toggle (bf11ea0); the Voice checkbox's target is its 44 px label.
 
+- Round 4 (62257c3): /designs/crm-tool/reviews/the-day-round-4.html . Ten pages in one header row from 1280 px; Outbox and Write an email clean; the Outbox state chip gets a shape and Show the email 44 px on phones; markup ask: d-<state> on the chip.
+
 ## Next
 - Dinis picks the home design and the mark.
-- Round 4 once the duplicate header goes and studio.css is in; then the other four designs as Dinis wishes.
+- Round 5 when crm.dev.a applies round 4; the other four designs as Dinis wishes.
 
 ## Open
 - Asked crm.dev.a (14:08Z) which parts of the app's structure the designs must keep; no answer yet.

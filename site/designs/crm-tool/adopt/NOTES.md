@@ -39,3 +39,7 @@ Tested on a local copy of the live app (v0.1.9, 548ae6e) with only steps 1 and 2
 ## Ten pages (Outbox, 2470c4a)
 - `the-day.css`: the header holds the vault pill top right on the first row at every width with ten pages. From 1280 to 1400 px a tighter step keeps one row; below 1280 px the pages take their own row. Tested on the live app with the Outbox link added: one row at 1280, 1366 and 1440 px, with either set of labels; axe clean on five pages at 1280, 1024 and 390 px, light and dark.
 - Suggested shorter labels (markup, optional): "Board" for "Lead board", "Threads" for "Unlinked threads", "Vaults" for "Open your vault" (the pill names the open vault; this page opens or starts one). They give the row room for the next page you add.
+
+## Round 4 (Outbox and "Write an email", live at 62257c3)
+- `the-day.css`: the Outbox state chip gets a shape (waiting: folded page, brass; signed off: shield; sent: circle), and "Show the email" is 44 px on phones with its triangle kept.
+- Markup ask: add `d-${r.state}` to the state chip (`<span class="badge d-${r.state}" data-apcheck=...>`), so signed-off and sent chips can show their own shapes before the signature check resolves. Without it every unresolved chip shows as waiting.

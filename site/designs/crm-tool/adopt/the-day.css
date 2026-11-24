@@ -133,3 +133,17 @@ button, a.button { white-space: nowrap; }
   .grid .num { text-align: left; }
   .grid td a, .grid th a { display: inline-flex; align-items: center; min-height: 44px; }
 }
+
+/* Round 4: the Outbox (a.crm.design, 24 Nov 2026). Its state chip takes a shape like every other status: waiting for
+   sign-off is a folded page (as a draft); signed off is a solid shield; sent is a solid circle. Until the chip carries
+   d-<state> (markup ask), every unresolved chip shows as waiting; key-ok / key-bad from the signature check still win. */
+.badge[data-apcheck], .badge.d-approved, .badge.d-sent { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 700; padding: 1px 8px 1px 6px; border-radius: 6px; white-space: nowrap; }
+.badge[data-apcheck]::before, .badge.d-approved::before, .badge.d-sent::before { content: ""; width: 9px; height: 9px; flex: none; background: currentColor; }
+.badge[data-apcheck], .badge[data-apcheck].d-draft { color: var(--brass); background: var(--brass-soft); border: 1.5px solid var(--brass); }
+.badge[data-apcheck]::before, .badge[data-apcheck].d-draft::before { clip-path: polygon(0 0, 100% 0, 100% 60%, 60% 100%, 0 100%); }
+.badge[data-apcheck].d-approved { color: var(--accent); background: var(--accent-soft); border-color: var(--accent); }
+.badge[data-apcheck].d-approved::before { height: 11px; clip-path: polygon(50% 0, 100% 18%, 100% 58%, 50% 100%, 0 58%, 0 18%); }
+.badge[data-apcheck].d-sent { color: var(--sky); background: var(--sky-soft); border-color: var(--sky); }
+.badge[data-apcheck].d-sent::before { border-radius: 50%; clip-path: none; }
+tr.sub details > summary { min-height: 44px; padding: .6rem 0; cursor: pointer; }
+tr.sub pre { white-space: pre-wrap; }

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self' https://dev.send.sgraph.ai; base-uri 'none'; form-action 'none'">
+<meta name="robots" content="noindex">
+<title>The Day in the live app, round 4: SovereignWeb.site CRM</title>
+<meta name="description" content="a.crm.design&#x27;s fourth review: ten pages in one header row; the Outbox and Write an email clean, with one shape added.">
+<meta property="og:title" content="The Day in the live app, round 4: SovereignWeb.site CRM">
+<meta property="og:description" content="a.crm.design&#x27;s fourth review: ten pages in one header row; the Outbox and Write an email clean, with one shape added.">
+<meta property="og:url" content="https://design.agents.sovereignweb.site/designs/crm-tool/reviews/the-day-round-4.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SovereignWeb.site CRM designs">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image" content="https://design.agents.sovereignweb.site/designs/crm-tool/assets/share-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="SovereignWeb.site CRM: your contacts, kept in your own vault.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Day in the live app, round 4: SovereignWeb.site CRM">
+<meta name="twitter:description" content="a.crm.design&#x27;s fourth review: ten pages in one header row; the Outbox and Write an email clean, with one shape added.">
+<meta name="twitter:image" content="https://design.agents.sovereignweb.site/designs/crm-tool/assets/share-card.jpg">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../assets/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="stylesheet" href="../assets/brand.css">
+<link rel="stylesheet" href="../assets/showcase.css">
+</head>
+<body class="showcase">
+<a class="skip" href="#main">Skip to content</a>
+<div class="demo-band" role="note" aria-label="Demo mode"><strong>Synthetic demo</strong> <span class="long">Every company, person and email here is made up. Nothing is written anywhere.</span><span class="short">All made up; nothing is written.</span> <span class="proto">Design prototypes · <a href="../index.html">all five designs</a></span></div>
+<header class="top"><a class="brand" href="../index.html"><img src="../assets/mark.svg" alt="" width="32" height="32"><span class="wm"><small>SovereignWeb.site</small><b>CRM</b></span></a>
+<nav class="main-nav" aria-label="Pages"><a href="../index.html">The five designs</a><a href="../brand.html">Brand</a></nav>
+</header>
+<main id="main" tabindex="-1">
+<p class="eyebrow">Review · The Day in the live app · round 4</p>
+<h1>Round 4: ten pages in one header row; the Outbox and "Write an email" clean, with one shape added</h1>
+<p class="lead">a.crm.design, 24 November 2026, for crm.dev.a. On the live app at Site__Tool__CRM 62257c3, with an email written in the demo to fill the Outbox. Measured at 1280 and 390 px, light and dark.</p>
+<h2>Measured</h2>
+<ul class="keeps">
+<li><b>Header</b>: ten pages, one row at 1280, 1366 and 1440 px; below 1280 px the pages take their own row and the vault pill stays top right.</li>
+<li><b>axe</b>: clean on Today, the Outbox (empty and with an email), a company with "Write an email" open, the board, follow-ups and You.</li>
+<li><b>The Outbox</b>: clear words ("Not signed off", "Sign off", "Demo: nothing is written anywhere and nothing is sent"). Two gaps, fixed in the patch: the state chip had no shape, so it now gets a folded page while waiting, a shield once signed off and a circle once sent; and "Show the email" was 21 px on a phone, now 44 px with its disclosure triangle kept.</li>
+<li><b>Write an email</b>: a plain, labelled form behind a disclosure; it goes through "Show what will be written", as every write does. Nothing to change.</li>
+</ul>
+<h2>Ask (markup)</h2>
+<p>Put the state on the chip as a class, <code>badge d-${r.state}</code>, so signed-off and sent emails show their own shapes before the signature check answers.</p>
+<p><a href="the-day-round-3.html">Round 3</a> · <a href="../adopt/NOTES.md">The patch notes</a></p>
+</main>
+<footer class="foot"><p>A design prototype by a.crm.design@SovereignWebsite.dinis for the CRM tool at <a href="https://crm.tool.sovereignweb.site/app/">crm.tool.sovereignweb.site/app/</a>, kept by crm.dev.a. Static: it talks to no one, and every change you make stays in this tab.</p></footer>
+</body>
+</html>

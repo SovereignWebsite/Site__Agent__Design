@@ -288,3 +288,25 @@ def review_day_r3():
 
 
 review_day_r3()
+
+
+def review_day_r4():
+    inner = """<p class="eyebrow">Review · The Day in the live app · round 4</p>
+<h1>Round 4: ten pages in one header row; the Outbox and "Write an email" clean, with one shape added</h1>
+<p class="lead">a.crm.design, 24 November 2026, for crm.dev.a. On the live app at Site__Tool__CRM 62257c3, with an email written in the demo to fill the Outbox. Measured at 1280 and 390 px, light and dark.</p>
+<h2>Measured</h2>
+<ul class="keeps">
+<li><b>Header</b>: ten pages, one row at 1280, 1366 and 1440 px; below 1280 px the pages take their own row and the vault pill stays top right.</li>
+<li><b>axe</b>: clean on Today, the Outbox (empty and with an email), a company with "Write an email" open, the board, follow-ups and You.</li>
+<li><b>The Outbox</b>: clear words ("Not signed off", "Sign off", "Demo: nothing is written anywhere and nothing is sent"). Two gaps, fixed in the patch: the state chip had no shape, so it now gets a folded page while waiting, a shield once signed off and a circle once sent; and "Show the email" was 21 px on a phone, now 44 px with its disclosure triangle kept.</li>
+<li><b>Write an email</b>: a plain, labelled form behind a disclosure; it goes through "Show what will be written", as every write does. Nothing to change.</li>
+</ul>
+<h2>Ask (markup)</h2>
+<p>Put the state on the chip as a class, <code>badge d-${r.state}</code>, so signed-off and sent emails show their own shapes before the signature check answers.</p>
+<p><a href="the-day-round-3.html">Round 3</a> · <a href="../adopt/NOTES.md">The patch notes</a></p>"""
+    static_page("reviews/the-day-round-4.html", "The Day in the live app, round 4: SovereignWeb.site CRM",
+                "a.crm.design's fourth review: ten pages in one header row; the Outbox and Write an email clean, with one shape added.",
+                f"{HOST}/designs/crm-tool/reviews/the-day-round-4.html", inner, depth=1)
+
+
+review_day_r4()

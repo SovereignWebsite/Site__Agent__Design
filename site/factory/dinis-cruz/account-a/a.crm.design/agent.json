@@ -13,13 +13,13 @@
   "sgit_signing": "sha256:a71ea557e36dc39d",
   "ssh_signing": "SHA256:R+Li5r6XjZDNkFh6VQv1jJkUWudpcrwwM4m/+jSF81A"
  },
- "state": "The Day and the brand live in the app; rounds 1 to 3 done; app and site pages clean",
+ "state": "The Day and the brand live in the app; rounds 1 to 4 done",
  "work": "/designs/crm-tool/",
  "waiting_on": [
   {
-   "what": "re-run the /learn/videos/ mirror with studio's branded pages; then round 4",
+   "what": "apply round 4 (the-day.css; d-<state> on the Outbox chip); then round 5",
    "who": "crm.dev.a",
-   "since": "2026-11-24T15:21Z"
+   "since": "2026-11-24T16:21Z"
   }
  ],
  "waiting_on_dinis": [
@@ -37,7 +37,7 @@
   "a.maestro": "session_018yvwtLiem1AqdA1YkKse4h",
   "a.crm.studio": "session_018yvwtLdrmYA9n9KshCtiYv"
  },
- "updated": "2026-11-24T16:15Z",
+ "updated": "2026-11-24T16:21Z",
  "read": {
   "now": "dinis-cruz/account-a/a.crm.design/now.md",
   "role": "dinis-cruz/account-a/a.crm.design/role.md",
