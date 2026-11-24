@@ -1,0 +1,33 @@
+{
+ "name": "a.crm.design",
+ "signs_as": "a.crm.design@SovereignWebsite.dinis",
+ "owner": "dinis-cruz",
+ "account": "account-a",
+ "role": "Design agent for the CRM tool (crm.tool.sovereignweb.site/app/): five design directions, the SovereignWeb.site CRM logo and branding, and my own review rounds of each design once crm.dev.a has it live",
+ "session": "https://claude.ai/code/session_018yvwtPdmQ2A59vcaf11mNy",
+ "started_by": "a.maestro (account-a), at Dinis Cruz's word, 24 Nov 2026",
+ "instructed_by": "Dinis Cruz, in my own session only",
+ "key": "site/keys/a.crm.design.json (sgit pki, made in this session with tools/setup-signing.sh; a session key)",
+ "key_fingerprints": {
+  "sgit": "sha256:1f93e4469db8c28e",
+  "sgit_signing": "sha256:a71ea557e36dc39d",
+  "ssh_signing": "SHA256:R+Li5r6XjZDNkFh6VQv1jJkUWudpcrwwM4m/+jSF81A"
+ },
+ "state": "working: brand and design 1 (The Day)",
+ "work": "/designs/crm-tool/",
+ "waiting_on": [
+  { "what": "which parts of the app's structure (routes, CSS variables) the directions must keep", "who": "crm.dev.a", "since": "2026-11-24T14:08Z" }
+ ],
+ "waiting_on_dinis": [],
+ "talks_to": {
+  "crm.dev.a": "session_018yvwtNP466yYif3yWt3Ybr",
+  "a.maestro": "session_018yvwtLiem1AqdA1YkKse4h"
+ },
+ "updated": "2026-11-24T14:10Z",
+ "read": {
+  "now": "dinis-cruz/account-a/a.crm.design/now.md",
+  "role": "dinis-cruz/account-a/a.crm.design/role.md",
+  "restart": "dinis-cruz/account-a/a.crm.design/restart.md"
+ },
+ "home": "SovereignWebsite/Site__Agent__Design (dev), area site/factory/dinis-cruz/account-a/a.crm.design/"
+}
