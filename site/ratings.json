@@ -651,7 +651,7 @@
   },
   "car-buyer.tool.sovereignweb.site": {
    "repo": "Site__Tool__Car-Buyer",
-   "commit": "226e696 (v0.1.20)",
+   "commit": "1fecc1e (v0.1.21)",
    "rating": 3,
    "five_designs": true,
    "rounds": 13,
@@ -659,9 +659,9 @@
    "owner": "Dinis Cruz (his own tool; decision 2026-11-23__car-buyer)",
    "maturity": "M3",
    "maturity_note": "M3 since f9aba32 (23 Nov): five home-page structures, told apart by 4 of 5 synthetic users; the checklist still shares one layout",
-   "phone_px": 5035,
+   "phone_px": 5664,
    "on_building": true,
-   "blocking": "round 13 (My car): the question box scrolls the phone sideways in all five designs; carry each idea into the first screen, Road atlas furthest; Service book's step text; then the other pages"
+   "blocking": "round 13 check-back: sideways scroll fixed; each idea to reach the Next card and heading on My car, Road atlas furthest; Service book's step text; then the other pages"
   },
   "suno.platform.sovereignweb.site": {
    "repo": "Site__Platform__Suno",
