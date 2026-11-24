@@ -117,3 +117,4 @@ main [id] { scroll-margin-top: 120px; }
 .facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px 18px; }
 .facts dt { color: var(--muted); }
 .facts dd { margin: 0; }
+.foot .sws-version { opacity: 1; color: var(--ink); min-height: 32px; display: flex; align-items: center; }
