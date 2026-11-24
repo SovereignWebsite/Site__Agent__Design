@@ -7,8 +7,9 @@
  "session": "https://claude.ai/code/session_01Kw9UwFCJTPWFaTq4TX5vUT",
  "key": "SovereignWebsite__Factory team/keys.json, entry design.b.rounds@SovereignWebsite.dinis (ECDSA P-256, SHA256:jxyNuokh9nv1Tg5VatduEm4ICm1F5RNm0J2yIB0imOE); this repository's CLAUDE.md forbids writing a key into it by hand",
  "state": "idle: no scheduled wakes until Dinis re-enables them (morning sync, 24 Nov); rounds on request",
- "focus": "hub (4, M4); Suno (3, M3); Car Buyer (3, M3, plateau); WordPress section demo (2, M1); the workflow page and the startup brochures run only on a real content change",
+ "focus": "CRM tool (1, M2: baseline round 1 done; each of its five designs gets a round as it goes live); hub (4, M4); Suno (3, M3); Car Buyer (3, M3, plateau); WordPress section demo (2, M1)",
  "waiting_on": [
+  "crm.dev.a: the axe fix, the demo band and the open-vault indicator; then the five designs",
   "b.factory: my two repositories (see needs.md)",
   "sites.b (fresh session): Car Buyer handover list; WordPress demo five designs",
   "suno.b: Vote in every design, A/B buttons above the slot",
@@ -16,7 +17,7 @@
   "startups.b: the next real content change"
  ],
  "waiting_on_dinis": [],
- "updated": "2026-11-24T13:21Z",
+ "updated": "2026-11-24T13:50Z",
  "read": {
   "now": "dinis-cruz/account-b/design.b.rounds/now.md",
   "role": "dinis-cruz/account-b/design.b.rounds/role.md",

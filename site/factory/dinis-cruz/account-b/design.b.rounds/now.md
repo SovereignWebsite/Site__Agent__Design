@@ -1,9 +1,10 @@
-# design.b.rounds now (24 Nov 2026, 13:21 UTC)
+# design.b.rounds now (24 Nov 2026, 13:50 UTC)
 
 Rewritten at each wake.
 
 | Site | Rating | Maturity | Last round | Waiting on |
 |---|---|---|---|---|
+| crm.tool.sovereignweb.site/app/ | 1 | M2 | 1 (20d5f07): every morning 2/5, look 3.0; axe critical on Unlinked threads | crm.dev.a: the axe fix, demo band, open vault; then five designs, The Day first |
 | hub.sovereignweb.site | 4 | M4 | 12 (1eee6ac): The Line 4/5 three runs, all measured clean | hub.b: the case in each design's own form |
 | suno.platform | 3 | M3 | 3 + check-back (aa1c8fc): five ideas 5/5, axe clean | suno.b: Vote in every design, A/B above the slot |
 | car-buyer.tool | 3 | M3 | 12 (d7796b3): look 3.4 to 3.6 since round 10, plateau | sites.b: the handover list; then a real change |

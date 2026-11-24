@@ -693,13 +693,14 @@
   "crm.tool.sovereignweb.site": {
    "repo": "Site__Tool__CRM",
    "commit": "20d5f07 (v0.1.3)",
-   "rating": null,
+   "rating": 1,
    "five_designs": false,
-   "rounds": 0,
+   "rounds": 1,
    "agent": "crm.dev.a@AgentiCCells.dinis (account A)",
    "maturity": "M2",
-   "maturity_note": "registered 24 Nov at Dinis's request for five designs; one design live; placement confirmed by baseline round",
-   "blocking": "five designs from the brief (briefs/crm-tool.html): The Day, The Board, The Thread, The Map, The Ledger"
+   "maturity_note": "registered 24 Nov at Dinis's request for five designs; one design live; M2 confirmed by baseline round 1",
+   "blocking": "axe critical: 8 unlabelled selects on Unlinked threads; demo band on Requests and fixed; open vault shown on every page; then the five designs from the brief, The Day first",
+   "phone_px": 2280
   }
  },
  "kpi": {

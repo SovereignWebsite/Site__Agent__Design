@@ -161,6 +161,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | suno.platform | suno.b | [1](reviews-suno-2026-11-23-round-1.html): stage reads 4/5; compare takes 0/5; one design; M1 | bd44923 | | 2 | [compare 0/5, back 1/5](runs-suno-2026-11-23-r1.html) |
 | suno.platform | suno.b | [2](reviews-suno-2026-11-23-round-2.html): five ideas (4/5); two measured fails; M2 | 6761b06 | | 2 | [compare 2/5, back 1/5](runs-suno-2026-11-23-r2.html) |
 | wordpress-section.demo | sites.b | [1](reviews-wordpress-section-2026-11-23-round-1.html): honest and working; a feed race; one design | a44d8fc | | 2 | [show a client 2/5](runs-wordpress-section-2026-11-23-r1.html) |
+| crm.tool | crm.dev.a | [1](reviews-crm-tool-2026-11-24-round-1.html): baseline; axe critical on Unlinked threads; no open-vault indicator; one design | 20d5f07 | | 1 | [every morning 2/5](runs-crm-tool-2026-11-24-r1.html) |
 | suno.platform | suno.b | [3](reviews-suno-2026-11-23-round-3.html): faults fixed; two axe findings; 3 once fixed | 2a12f44 | | 1 | [ideas 5/5, friend 3/5](runs-suno-2026-11-23-r3.html) |
 | suno.platform | suno.b | [3, check-back](reviews-suno-2026-11-23-round-3.html): axe clean on aa1c8fc; rated 3, M3 | aa1c8fc | | 3 | |
 | donna-freed.author | (via design.b) | [1](reviews-donna-freed-2026-11-23-round-1.html): five skins, no images, not on the hub; M2 | 3bee275 | | 2 | [2.4](runs-donna-freed-2026-11-23-r1.html) |
@@ -237,6 +238,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [Suno, our songs, round 1](runs-suno-2026-11-23-r1.html): on the three-song shape, stage and journey 4 of 5, compare takes 0 of 5, come back 1 of 5; look 2.8
 - [Suno, our songs, round 2](runs-suno-2026-11-23-r2.html): five designs, five ideas (4 of 5); compare 2 of 5, come back 1 of 5; look 3.0
 - [The WordPress section demo, round 1](runs-wordpress-section-2026-11-23-r1.html): would an agency show this to a client? 2 of 5; look 2.8
+- [The CRM tool, round 1](runs-crm-tool-2026-11-24-r1.html): would you use this every morning? 2 of 5; look 3.0
 - [Suno, our songs, round 3](runs-suno-2026-11-23-r3.html): five ideas (5 of 5); compare 3 of 5, show a friend 3 of 5; look 2.8
 - [Donna Freed, round 1](runs-donna-freed-2026-11-23-r1.html): 2.4; design 4 weakest for all five
 - [Yiheng (Vicky) Wang, round 1](runs-yiheng-wang-2026-11-23-r1.html): 3.6; The Brief voted best
