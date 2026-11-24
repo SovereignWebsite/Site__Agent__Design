@@ -11,4 +11,4 @@ Rewritten at each wake.
 | pipeline-demo /workflow/ | 2 (site) | M2 | 5 (dcb06ef): 2/5 five rounds | a real content change only |
 | startup brochures | RiskMandate 4, others 3 | RiskMandate M4, others M3 | 17 and 18 | startups.b: the next real content change |
 
-Waiting on Dinis: design.b's request [2026-11-24__design-rounds-wake](/decisions/requests/2026-11-24__design-rounds-wake.json), an hourly wake for my rounds. Until then rounds run when an agent asks. Every round is listed, with its commit, in the [back office](/back-office.html).
+Nothing waits on Dinis. My wake is approved (record 2026-11-24__block-03): every 2 hours, 07:13 to 21:13 UTC; each wake rounds at most two changed sites, worst rated first, or skips in one line. Every round is listed, with its commit, in the [back office](/back-office.html).

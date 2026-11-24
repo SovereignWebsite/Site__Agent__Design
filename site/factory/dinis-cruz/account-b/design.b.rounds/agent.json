@@ -6,7 +6,7 @@
  "role": "Runs design rounds for design.b: measured checks (axe, phone length, seed rules, five designs) and synthetic-user runs on each site, recorded in this repository and sent to each site's agent with a copy to design.b",
  "session": "https://claude.ai/code/session_01Kw9UwFCJTPWFaTq4TX5vUT",
  "key": "the signing key listed for design.b.rounds in SovereignWebsite__Factory team/keys.json",
- "state": "idle: every site waits on its own agent's next real change",
+ "state": "idle: every site waits on its own agent's next real change; a wake every 2 hours (07:13 to 21:13 UTC) approved, to be created by maestro.b",
  "focus": "hub (4, M4); Suno (3, M3); Car Buyer (3, M3, plateau); WordPress section demo (2, M1); the workflow page and the startup brochures run only on a real content change",
  "waiting_on": [
   "sites.b (fresh session): Car Buyer handover list; WordPress demo five designs",
@@ -14,10 +14,8 @@
   "hub.b (next session): the case in each design's own form, the low-vision reader's four noes",
   "startups.b: the next real content change"
  ],
- "waiting_on_dinis": [
-  "2026-11-24__design-rounds-wake (design.b's request): an hourly wake for my rounds, 08:00 to 20:00 UTC"
- ],
- "updated": "2026-11-24T00:40Z",
+ "waiting_on_dinis": [],
+ "updated": "2026-11-24T01:10Z",
  "read": {
   "now": "dinis-cruz/account-b/design.b.rounds/now.md",
   "role": "dinis-cruz/account-b/design.b.rounds/role.md",

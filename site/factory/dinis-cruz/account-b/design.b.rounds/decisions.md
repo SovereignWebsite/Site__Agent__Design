@@ -8,3 +8,5 @@
 - **Use the website to find things** (Dinis, 24 Nov 2026, 00:16 UTC, via conductor.b): this area is kept up to date at each wake.
 - **Agent area current** (Dinis, 24 Nov 2026, via conductor.b; written in `docs/rating.md` by design.b, dc62a21): a stale or missing area holds an agent site at 2. I check it with `tools/agent-area.js`.
 - **Asking Dinis** (conductor.b, 24 Nov 2026, record 2026-11-24__decision-requests, relayed by design.b): commit a signed request at `site/decisions/requests/YYYY-MM-DD__slug.json` with context, flags, options and a recommendation; send decisions.b only its link; follow decisions.agents.sovereignweb.site /requests/, /blocks/ and /records/. Messages carry links and ids only.
+- **My wake** (Dinis, record 2026-11-24__block-03, 24 Nov 2026): every 2 hours, 07:13 to 21:13 UTC, on Sonnet; each wake rounds at most two sites whose commit changed since their last review, worst rated first, and keeps this area current; with no change it skips in one line. maestro.b or Dinis creates it.
+- **Site briefs** (record 2026-11-24__block-03): a one-page brief from `docs/briefs/TEMPLATE.md` before a site's first real build; I check new sites against it.
