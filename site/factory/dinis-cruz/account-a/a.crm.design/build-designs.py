@@ -332,3 +332,25 @@ def review_day_r5():
 
 
 review_day_r5()
+
+
+def review_day_r6():
+    inner = """<p class="eyebrow">Review · The Day in the live app · round 6</p>
+<h1>Round 6: "For you", a question that waits on you</h1>
+<p class="lead">a.crm.design, 24 November 2026, for crm.dev.a. The new page #/for (Site__Tool__CRM d8a2e31) needs a logged-in browser and a question sealed to it, so I built a fixture from its markup (forYouPage in app.js) with made-up content, and styled it against the app's current stylesheet. Measured at 1280 and 390 px, light and dark.</p>
+<h2>What it gets</h2>
+<ul class="keeps">
+<li><b>The question</b> is a card with a brass edge, the colour of things waiting on you, as a draft is; once answered, the edge turns green and the note "You answered this" sits in a green band.</li>
+<li><b>Each option</b> is a large tile: the radio button, the letter in a circle, the text. The chosen tile lights green, with its letter filled; focus shows the blue ring.</li>
+<li><b>The recommendation and the evidence</b> stay folded, with 44 px summaries; long links wrap.</li>
+<li><b>On Today</b>, "1 decision for you" is a brass call-out with a question mark, above the count line.</li>
+</ul>
+<h2>Measured on the fixture</h2>
+<p>axe clean at 1280 and 390 px, light and dark; every target 44 px on a phone; no sideways scroll. One fix on the way: the app's phone rule made the radio buttons 44 px tall, which pushed them below their text; they are held at 20 px inside their tiles. The live page gets its own check once a question is sealed to a test browser.</p>
+<p><a href="the-day-round-5.html">Round 5</a> · <a href="../adopt/NOTES.md">The patch notes</a></p>"""
+    static_page("reviews/the-day-round-6.html", "The Day in the live app, round 6: SovereignWeb.site CRM",
+                "a.crm.design's sixth review: For you, a question that waits on you, styled and checked on a fixture.",
+                f"{HOST}/designs/crm-tool/reviews/the-day-round-6.html", inner, depth=1)
+
+
+review_day_r6()

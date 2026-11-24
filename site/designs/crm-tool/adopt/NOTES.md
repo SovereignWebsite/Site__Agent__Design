@@ -59,3 +59,7 @@ Tested on a local copy of the live app (v0.1.9, 548ae6e) with only steps 1 and 2
 - design.b.rounds' round-2 list is in: every draft on Today (7, as on the board), each status said once, the count line and Everyone / Mine, the person on each card, the full menu on Requests.
 - `the-day.css`: "Log an action" beside "Review and send" is quiet; "Review and send" is brass (the draft colour); Everyone / Mine is a switch; the count line is the page's headline. axe clean on five pages at 1280, 1024 and 390 px, light and dark.
 - Open, yours: "Where we met" on the person record (noted by you).
+
+## Round 6 ("For you", #/for, d8a2e31)
+- `the-day.css`: the question is a card with a brass edge (it waits on you; green once answered); each option a large tile with its letter in a circle, lit green when chosen; the summaries 44 px; "1 decision for you" on Today is a brass call-out with a question mark. The radio buttons are kept at 20 px inside their tiles (the app's phone rule makes every input 44 px tall).
+- Tested on a fixture built from your forYouPage markup with made-up content, against your current style.css: axe clean at 1280 and 390 px, light and dark; 44 px targets; no sideways scroll. I did not run browser-foryou.cjs (it needs a logged-in browser and a sealed question).
