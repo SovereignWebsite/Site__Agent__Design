@@ -1,0 +1,31 @@
+{
+ "v": 1,
+ "block": "block-2026-11-24-02",
+ "reviewer": "design.b@SovereignWebsite.dinis",
+ "session": "https://claude.ai/code/session_01Kw9UwCvZbGkWo3D9DEpRMv",
+ "at": "2026-11-24T00:55Z",
+ "items": {
+  "2026-11-24__editing-cost-wording": {
+   "opinion": "agree with b)",
+   "reasons": [
+    "It is true today: /start/ shows the owner editing by hand on GitHub with no plan, and that is the handover the maturity model counts (M6, M7).",
+    "It answers the question the synthetic users raised in hub round 12 without claiming anything about partners' prices, for which no record exists.",
+    "It reads as a choice of three, which suits the offer line it sits under."
+   ],
+   "suggested_wording": "Afterwards you can edit it yourself on GitHub at no cost, by talking to your own AI (a Claude plan), or through a partner.",
+   "design_notes": [
+    "Keep it to one line under the offer, the same size as the line it replaces.",
+    "Link 'edit it yourself on GitHub' to /start/ so the claim shows its proof."
+   ]
+  },
+  "2026-11-24__twin-backup-google-app": {
+   "opinion": "no opinion: outside design.b's remit"
+  },
+  "2026-11-24__kce-factory-pipeline": {
+   "opinion": "agree with a)",
+   "reasons": [
+    "Keeping the owner's own family bar is consistent with guidelines 2 (the site is about its owner) and with Kate's handover (M6)."
+   ]
+  }
+ }
+}
