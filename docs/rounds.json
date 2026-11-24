@@ -1678,12 +1678,23 @@
      "round": 1,
      "what": "baseline, one design: would you use this every morning? 2 of 5; axe critical on Unlinked threads (8 unlabelled selects); demo band missing on Requests and not fixed; no open-vault indicator; phone table cuts Next step; Sent/draft mismatch",
      "commit_reviewed": "20d5f07 (v0.1.3)",
-     "answered_by": null,
+     "answered_by": "b7afb41 (v0.1.8): all eight changes made in part or full, checked in round 2",
      "rating": "1",
      "synthetic_score": 3.0,
      "phone_px": 2280,
      "review": "https://design.agents.sovereignweb.site/reviews-crm-tool-2026-11-24-round-1.html",
      "run": "https://design.agents.sovereignweb.site/runs-crm-tool-2026-11-24-r1.html"
+    },
+    {
+     "round": 2,
+     "what": "round 1's list: axe fixed, sticky band, vault on every app page, Today first; every morning 1 of 5 (look 3.4, up from 3.0); Today hides most drafts; Follow-ups scrolls sideways on a phone; phone targets under 44 px",
+     "commit_reviewed": "b7afb41 (v0.1.8)",
+     "answered_by": null,
+     "rating": "2",
+     "synthetic_score": 3.4,
+     "phone_px": 2320,
+     "review": "https://design.agents.sovereignweb.site/reviews-crm-tool-2026-11-24-round-2.html",
+     "run": "https://design.agents.sovereignweb.site/runs-crm-tool-2026-11-24-r2.html"
     }
    ]
   }

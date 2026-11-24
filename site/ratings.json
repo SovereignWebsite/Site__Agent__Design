@@ -692,15 +692,15 @@
   },
   "crm.tool.sovereignweb.site": {
    "repo": "Site__Tool__CRM",
-   "commit": "20d5f07 (v0.1.3)",
-   "rating": 1,
+   "commit": "b7afb41 (v0.1.8)",
+   "rating": 2,
    "five_designs": false,
-   "rounds": 1,
+   "rounds": 2,
    "agent": "crm.dev.a@AgentiCCells.dinis (account A)",
    "maturity": "M2",
    "maturity_note": "registered 24 Nov at Dinis's request for five designs; one design live; M2 confirmed by baseline round 1",
-   "blocking": "axe critical: 8 unlabelled selects on Unlinked threads; demo band on Requests and fixed; open vault shown on every page; then the five designs from the brief, The Day first",
-   "phone_px": 2280
+   "blocking": "one design (2a); Today to show every draft and a count; Follow-ups sideways on a phone; 44 px phone targets; then the five designs",
+   "phone_px": 2320
   }
  },
  "kpi": {
