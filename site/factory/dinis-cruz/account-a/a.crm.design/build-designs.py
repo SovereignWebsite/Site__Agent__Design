@@ -124,7 +124,7 @@ if __name__ == "__main__":
 
 
 # The overview and the brand page: plain static pages, no script beyond the switcher-free header.
-STATUS = {"day": "live as a prototype", "board": "live as a prototype", "thread": "live as a prototype", "map": "next", "ledger": "to come"}
+STATUS = {"day": "live as a prototype", "board": "live as a prototype", "thread": "live as a prototype", "map": "live as a prototype", "ledger": "next"}
 
 
 def static_page(path, title, desc, url, inner, depth=0):
