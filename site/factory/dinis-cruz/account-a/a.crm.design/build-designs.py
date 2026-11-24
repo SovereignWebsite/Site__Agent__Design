@@ -124,7 +124,7 @@ if __name__ == "__main__":
 
 
 # The overview and the brand page: plain static pages, no script beyond the switcher-free header.
-STATUS = {"day": "live as a prototype", "board": "live as a prototype", "thread": "live as a prototype", "map": "live as a prototype", "ledger": "next"}
+STATUS = {"day": "live as a prototype", "board": "live as a prototype", "thread": "live as a prototype", "map": "live as a prototype", "ledger": "live as a prototype"}
 
 
 def static_page(path, title, desc, url, inner, depth=0):
@@ -152,6 +152,15 @@ def overview():
 <h1>Five designs for the SovereignWeb.site CRM</h1>
 <p class="lead">Five different ideas of the same tool, not five colour skins. Each one is a clickable prototype on made-up data: Today, the lead board, a company with its Activity and Log an action, follow-ups, contacts, import, open or start a vault, requests and You. Dinis chooses the home design after seeing all five; crm.dev.a builds it at <a href="https://crm.tool.sovereignweb.site/app/">crm.tool.sovereignweb.site/app/</a>.</p>
 <ol class="designs">{cards}</ol>
+<h2>Which one, and for whom</h2>
+<table class="cmp"><caption class="vh">The five designs compared</caption><thead><tr><th scope="col">Design</th><th scope="col">First screen</th><th scope="col">Best for</th><th scope="col">On a phone</th></tr></thead><tbody>
+<tr><th scope="row"><a href="day/">The Day</a></th><td>Today's diary: overdue, due, drafts and replies, each with its action</td><td>"What do I do this morning?"</td><td>The strongest: one column, the action full width</td></tr>
+<tr><th scope="row"><a href="board/">The Board</a></th><td>Four stage columns of cards; overdue cards folded</td><td>Seeing the whole pipeline; demos to a client</td><td>Columns become tabs with counts</td></tr>
+<tr><th scope="row"><a href="thread/">The Thread</a></th><td>An inbox of companies, newest activity first</td><td>People who live in email; fits the Email Cell</td><td>List, then thread; the reply box at the foot</td></tr>
+<tr><th scope="row"><a href="map/">The Map</a></th><td>Who met whom, by where they came from</td><td>The summit follow-up; showing provenance</td><td>No wires; the same facts in words</td></tr>
+<tr><th scope="row"><a href="ledger/">The Ledger</a></th><td>One sortable table; filters in the address</td><td>Heavy daily use from a keyboard; printing</td><td>Rows become cards with their action</td></tr>
+</tbody></table>
+<p><b>My recommendation:</b> The Day as the home, as design.b's brief says, with The Ledger one click away for heavy use; The Board for demos. The three share every page, so the choice is the first screen, not the data.</p>
 <h2>What every design keeps</h2>
 <ul class="keeps">
 <li><b>The demo band</b>, fixed at the top of every page, in words: "Synthetic demo".</li>

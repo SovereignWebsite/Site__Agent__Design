@@ -37,3 +37,8 @@ img.card { width: 100%; max-width: 720px; height: auto; border: 1px solid var(--
 .dirs p { margin: 4px 0; }
 .sizes { display: flex; align-items: end; gap: 14px; }
 .rules li { margin: 6px 0; }
+.cmp { width: 100%; border-collapse: collapse; margin: 8px 0 12px; }
+.cmp th, .cmp td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+.cmp thead th { font-size: 13px; color: var(--muted); border-bottom: 2px solid var(--ink); }
+.cmp tbody th a { display: inline-flex; min-height: 32px; font-family: var(--serif); font-size: 18px; }
+@media (max-width: 700px) { .cmp thead { display: none; } .cmp, .cmp tbody, .cmp tr, .cmp th, .cmp td { display: block; } .cmp tr { padding: 8px 0; border-bottom: 1px solid var(--line); } .cmp th, .cmp td { border: 0; padding: 2px 0; } .cmp tbody th a { min-height: 44px; align-items: center; } }
