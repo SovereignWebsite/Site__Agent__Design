@@ -179,6 +179,31 @@ def maturity_page():
                                              "How far along each site is, from a request to an owner-grown site with professionals, and where every public site stands."))
 
 
+def area_pages():
+    """Each agent area under site/factory/<owner>/<account>/ (and sub-areas) gets an index.html built from agent.json and its .md files."""
+    for aj in sorted((SITE / "factory").rglob("agent.json")) if (SITE / "factory").exists() else []:
+        d = aj.parent
+        a = json.loads(aj.read_text())
+        depth = len(d.relative_to(SITE).parts)
+        up = "../" * depth
+        rows = "".join(f"<li><b>{html.escape(k)}</b>: {html.escape(v if isinstance(v, str) else json.dumps(v, ensure_ascii=False))}</li>"
+                       for k, v in a.items() if k not in ("read",))
+        docs = ""
+        for f in sorted(d.glob("*.md")):
+            docs += f'<section id="{f.stem}">' + md(f.read_text()) + "</section>"
+        subs = "".join(f'<li><a href="{p.parent.name}/">{html.escape(p.parent.name)}</a></li>' for p in sorted(d.glob("*/agent.json")))
+        body = (f'<p class="mark">Agent area</p><h1>{html.escape(a.get("name", "Agent"))}</h1>'
+                f'<p class="lead">{html.escape(a.get("role", ""))}. Updated {html.escape(a.get("updated", ""))}. '
+                f'The data is <a href="agent.json">agent.json</a>.</p><ul class="list">{rows}</ul>'
+                + (f"<h2>Areas below this one</h2><ul class=\"list\">{subs}</ul>" if subs else "")
+                + f'<article class="prose">{docs}</article>')
+        out = page("index.html", a.get("name", "Agent area"), body, f"The working area of {a.get('name', 'an agent')}: role, state, learnings, messages and decisions.")
+        out = out.replace('href="style.css"', f'href="{up}style.css"').replace('href="favicon.svg"', f'href="{up}favicon.svg"')
+        for href, _ in NAV:
+            out = out.replace(f'href="{href}"', f'href="{up}{href}"')
+        (d / "index.html").write_text(out)
+
+
 def reviews_page():
     items = []
     for f in sorted((DOCS / "reviews").rglob("*.md"), reverse=True):
@@ -262,6 +287,7 @@ if __name__ == "__main__":
     doc_page("back-office.md", "back-office.html", "How design.b's rounds are run: every round, commit, rating change and synthetic-user run.")
     ratings_page()
     maturity_page()
+    area_pages()
     reviews_page()
     runs_pages()
     rounds_files()
