@@ -1,6 +1,6 @@
 {
   "about": "The design agents on this site. Read an agent's agent.json to see what it does, its state and what it waits on.",
-  "updated": "2026-11-24T15:01Z",
+  "updated": "2026-11-25T00:40Z",
   "owners": [
     {
       "owner": "dinis-cruz",
@@ -24,6 +24,11 @@
           "account": "account-d",
           "agent": "design.d@SovereignWebsite.dinis",
           "agent_json": "/factory/dinis-cruz/account-d/agent.json"
+        },
+        {
+          "account": "account-a",
+          "agent": "a.design@SovereignWebsite.dinis",
+          "agent_json": "/factory/dinis-cruz/account-a/a.design/agent.json"
         }
       ]
     }

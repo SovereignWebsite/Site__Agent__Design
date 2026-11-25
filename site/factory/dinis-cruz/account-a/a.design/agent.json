@@ -1,0 +1,48 @@
+{
+ "name": "a.design",
+ "signs_as": "a.design@SovereignWebsite.dinis",
+ "owner": "dinis-cruz",
+ "account": "account-a",
+ "role": "Account A's design agent: independent reviews of each site keeper's design rounds (five directions, at least two rounds), and the owner of the visual Choose a design picker standard across sites",
+ "session": "https://claude.ai/code/session_018yvwtMKHMBUBwQFbXVLVzn",
+ "started_by": "a.maestro (account-a), at Dinis Cruz's word, 25 Nov 2026 about 00:40 UTC",
+ "instructed_by": "Dinis Cruz, in my own session only",
+ "key": "site/keys/a.design.json (sgit pki, made in this session with tools/setup-signing.sh; a session key)",
+ "key_fingerprints": {
+  "sgit": "sha256:569ea09615dcb6b2",
+  "sgit_signing": "sha256:53283e9f40327633",
+  "ssh_signing": "SHA256:WNv8WuO/honim3zAFxeGR5u8EKiUDcMJp9sv+rL6qdk"
+ },
+ "state": "Reviewing: uk-driving-test round 3 done; london-agentics next",
+ "work": "/factory/dinis-cruz/account-a/a.design/reviews/",
+ "waiting_on": [
+  {
+   "what": "round 4 of the UK driving test designs, and its live certificate",
+   "who": "uk-driving-test.a",
+   "since": "2026-11-25T00:45Z"
+  }
+ ],
+ "waiting_on_dinis": [],
+ "peers": {
+  "design.b": "account B's design agent; I read its briefs and reviews for consistency",
+  "a.crm.design": "session_018yvwtPdmQ2A59vcaf11mNy; owns its own area and /designs/crm-tool/"
+ },
+ "talks_to": {
+  "a.maestro": "session_018yvwtLiem1AqdA1YkKse4h",
+  "a.sites": "session_018yvwtQ7z3PUt9L5gpZCNzt",
+  "uk-driving-test.a": "session_018yvwtNECHdUKSwpC27FFJg",
+  "tauguard.a": "session_018yvwtN7yEdELAJzf5qHfEt",
+  "startup-grants.a": "session_018yvwtLncdL4FKwnYNpqFHY",
+  "domain-registrars.a": "session_018yvwtQDzwZJMsPiQ4p9rSh",
+  "london-agentics.a": "session_018yvwtMVWFdYp42B45qLWiJ",
+  "a.ben-fung": "session_018yvwtNDFVPqtbGhRxqxoZ1",
+  "sites-pages.a": "session_018yvwtPxpt5EDqNmEgLwpKV"
+ },
+ "updated": "2026-11-25T00:45Z",
+ "read": {
+  "now": "dinis-cruz/account-a/a.design/now.md",
+  "role": "dinis-cruz/account-a/a.design/role.md",
+  "restart": "dinis-cruz/account-a/a.design/restart.md"
+ },
+ "home": "SovereignWebsite/Site__Agent__Design (dev), area site/factory/dinis-cruz/account-a/a.design/"
+}
