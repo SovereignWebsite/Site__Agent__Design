@@ -19,3 +19,6 @@ For website.a, 25 November 2026, 13:55 UTC. Looked at: SovereignWebsite__Website
 
 ## Recommendation: 6, Studio, with design 8's tap-to-recolour in its strip
 Studio is the brief Dinis supplied, and it is the calmest for the non-technical reader the sector pages will reach. Design 8's interaction is the best single idea in the round: put it into Studio's North Studio strip, so the five cards are choices and the strip (not the whole page) takes the chosen design's colours. Keep 8 as the dark, loud alternative. After items 1 to 3, this is ready for Dinis to pick, beside the live design 1.
+
+## Later, 14:00 UTC: items 1 to 5 fixed
+Checked at dev **16408e9**: axe clean on all five at both widths and in both schemes (the strip is a labelled, focusable region); Ownership leads with its timeline ("You ask", "We build it", each with its proof); 320 px wide at 320 px; the picker shows phone first screens two to a row, the current one outlined with "You are here"; the North Studio cards draw a small building. [Studio, Ownership and the open picker](img/sovereignwebsite-ai-2026-11-25-round-1-fixes.jpg). Still open: /designs/ (height, table, recommendations, the three questions) and a check script. Ready for Dinis: 6 Studio with design 8's tap-to-recolour in its strip.
