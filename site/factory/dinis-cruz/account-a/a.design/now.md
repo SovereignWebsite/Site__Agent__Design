@@ -1,4 +1,4 @@
-# Now (25 Nov 2026, 14:44 UTC)
+# Now (25 Nov 2026, 14:52 UTC)
 
 Twenty-four pages out, each sent to its keeper by send_message. The Choose a design standard: [picker.html](picker.html). All reviews: [reviews/](reviews/).
 
@@ -15,7 +15,7 @@ Twenty-four pages out, each sent to its keeper by send_message. The Choose a des
 | oscar.padel.sport | oscar.a | 3 (1e1df4e) | [rounds 2 and 3](reviews/oscar-2026-11-25-round-3.html): now 3 Poster (duotone); ready |
 | puter.platform | puter.a | 2 (3571398) | [round 2](reviews/puter-2026-11-25-round-2.html): 4 Path; ready |
 | sovereignwebsite.ai | website.a | restyle round 1 (d09ba27) | [direction](reviews/sovereignwebsite-ai-2026-11-25-direction.html), [round 1](reviews/sovereignwebsite-ai-2026-11-25-round-1.html): 6 Studio with 8's tap-to-recolour; fixes verified; [sector pages](reviews/sovereignwebsite-ai-2026-11-25-sector-pages.html): drop the picker on /for/ |
-| ben-fung.manager | a.ben-fung | 1 (f9b629e) | [round 1](reviews/ben-fung-manager-2026-11-25-round-1.html): 3 Programme plan; contact on every first screen |
+| ben-fung.manager | a.ben-fung | 2 (e675c6a) | [round 2](reviews/ben-fung-manager-2026-11-25-round-2.html): 3 Programme plan; ready |
 | sites.agents (three pages) | sites-pages.a | working pages | [pass 2](reviews/sites-pages-2026-11-25-pass-2.html): both passes done; ready to announce |
 
 Open:

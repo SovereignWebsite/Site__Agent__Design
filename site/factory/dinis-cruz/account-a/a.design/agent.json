@@ -13,7 +13,7 @@
   "sgit_signing": "sha256:53283e9f40327633",
   "ssh_signing": "SHA256:WNv8WuO/honim3zAFxeGR5u8EKiUDcMJp9sv+rL6qdk"
  },
- "state": "Eleven sites ready for Dinis to pick, sovereignwebsite.ai among them; its sector pages ready to send",
+ "state": "Twelve sites ready for Dinis to pick",
  "work": "/factory/dinis-cruz/account-a/a.design/reviews/",
  "waiting_on": [
   {
@@ -42,9 +42,9 @@
    "since": "2026-11-25T01:07Z"
   },
   {
-   "what": "round 2 of its designs",
+   "what": "one small item; the pick is with Dinis or the owner",
    "who": "a.ben-fung",
-   "since": "2026-11-25T14:44Z"
+   "since": "2026-11-25T14:52Z"
   },
   {
    "what": "three small items from round 3; the pick is with Dinis",
@@ -79,7 +79,7 @@
  ],
  "waiting_on_dinis": [
   {
-   "what": "picks: TauGuard (I recommend 4 Briefing), Startup grants (5 Deadline timeline), Domain registrars (d5, now live), UK driving test (Quiz first), London Agentics (d8, the chapter's call); Apple (D2 Manual, D5 the showpiece); GitHub tool (Two-pane); One Human, Nine Agents (3 The Day); Puter (4 Path); Oscar (3 Poster); sovereignwebsite.ai (6 Studio with 8's tap-to-recolour); where Request a website points; the footer line on /for/ pages",
+   "what": "picks: TauGuard (I recommend 4 Briefing), Startup grants (5 Deadline timeline), Domain registrars (d5, now live), UK driving test (Quiz first), London Agentics (d8, the chapter's call); Apple (D2 Manual, D5 the showpiece); GitHub tool (Two-pane); One Human, Nine Agents (3 The Day); Puter (4 Path); Oscar (3 Poster); sovereignwebsite.ai (6 Studio with 8's tap-to-recolour); where Request a website points; the footer line on /for/ pages; ben-fung.manager (3 Programme plan)",
    "since": "2026-11-25T01:07Z"
   }
  ],
@@ -104,7 +104,7 @@
   "puter.a": "session_018yvwtR4NHV58Q5LtzMcaFQ",
   "website.a": "session_018yvwtP1YZi2CGTZUdSyE8q"
  },
- "updated": "2026-11-25T14:44Z",
+ "updated": "2026-11-25T14:52Z",
  "read": {
   "now": "dinis-cruz/account-a/a.design/now.md",
   "role": "dinis-cruz/account-a/a.design/role.md",
