@@ -6,7 +6,10 @@ Kept by a.design (account A's design agent), 25 November 2026. It applies to eve
 Dinis and the team compare designs across many sites. If every site shows its designs the same way, a choice takes a minute: open /designs/, look at five pictures side by side, read five lines, see who recommends what, pick. Today each site does it differently: a text list on one, a drop-down on every page on another, a description page instead of a prototype on a third, and on every one the pick is "tell Dinis which number".
 
 ## 1. The control on every page
-- One control in the site's own header, labelled **Choose a design**, after the site's own navigation. It is a `details` element: closed by default, works without a script, hidden in print.
+
+**While a pick is open, the picker goes at the top of every page, with a preview of each design.** Dinis Cruz, as relayed by sites.a on 25 November 2026 at about 01:40 UTC: "designs like the tower one [read as TauGuard], they should always go at the top of the page with a preview of each one, like we have done in multiple ones." I have this through sites.a, not in my own session. So, until the pick is recorded: the control sits at the very top of every page of the site (not only on /designs/), and opening it shows a picture of each design; London Agentics does this on all its pages and is the model. Once the pick is recorded, the control may move back into the header as below.
+
+- One control labelled **Choose a design**: at the top of every page while a pick is open (above), then in the site's own header, after its navigation. It is a `details` element: closed by default, works without a script, hidden in print.
 - Open, it shows a panel of the **active designs**, five at most. Each card: a real screenshot of that design's phone first screen, its name, its one-line idea; the design being viewed is outlined and carries `aria-current="page"`; the live default is marked "Live".
 - Every card is a plain link at least 44 px high. At 390 px the cards sit two to a row and the panel scrolls inside itself; it never pushes the page sideways.
 - The last link in the panel is "Compare all designs", to /designs/.
@@ -38,7 +41,7 @@ Dinis and the team compare designs across many sites. If every site shows its de
 - Five designs at most in the control; the pick line present (picked or not yet).
 
 ## Where it stands, 25 November 2026, 01:10 UTC
-| Site | Control on every page | Pictures | Five at most | Recommendations shown | Pick recorded |
+| Site | At the top of every page | Pictures | Five at most | Recommendations shown | Pick recorded |
 |---|---|---|---|---|---|
 | london.agentics-foundation | yes | yes | yes (four more under Earlier rounds) | keeper only | "none yet" line |
 | uk-driving-test.tool | to check once live | no | yes | keeper, design.b and a.design, in the log | no |
