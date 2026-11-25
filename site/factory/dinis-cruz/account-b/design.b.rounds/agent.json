@@ -7,7 +7,7 @@
  "session": "https://claude.ai/code/session_01Kw9UwFCJTPWFaTq4TX5vUT",
  "key": "SovereignWebsite__Factory team/keys.json, entry design.b.rounds@SovereignWebsite.dinis (ECDSA P-256, SHA256:jxyNuokh9nv1Tg5VatduEm4ICm1F5RNm0J2yIB0imOE); this repository's CLAUDE.md forbids writing a key into it by hand",
  "state": "idle: no scheduled wakes until Dinis re-enables them (morning sync, 24 Nov); rounds on request",
- "focus": "CRM tool (2, M2: round 2 done; each of its five designs gets a round as it goes live); hub (3, M3 from round 13 until /directory/ is under 8,000 px); Suno (3, M3); Car Buyer (3, M3, plateau); WordPress section demo (2, M1)",
+ "focus": "CRM tool (2, M2: round 2 done; each of its five designs gets a round as it goes live); hub (3, M3: rounds 13 and 14 on /directory/); Suno (3, M3); Car Buyer (3, M3, plateau); WordPress section demo (2, M1)",
  "waiting_on": [
   "crm.dev.a: Today as the whole list, Follow-ups on a phone, 44 px targets; then the five designs (rounds may move to a.crm.design on account A; Dinis decides)",
   "b.factory: my two repositories (see needs.md)",
@@ -15,10 +15,10 @@
   "startups.b: the next real content change",
   "b.site.car-buyer: each idea into My car's Next card and heading; then the other pages (round 14)",
   "uk-driving-test.a (account A, via maestro.b): the live address to serve (TLS failed at 00:25 UTC, 25 Nov); then the persona run on five designs, phone first",
-  "hub.b: /directory/ under 8,000 px; keepers and labels; each map tag as it lands"
+  "hub.b: a keeper and the site's label on every directory entry; the consent fix; each map tag as it lands"
  ],
  "waiting_on_dinis": [],
- "updated": "2026-11-25T01:30Z",
+ "updated": "2026-11-25T01:50Z",
  "read": {
   "now": "dinis-cruz/account-b/design.b.rounds/now.md",
   "role": "dinis-cruz/account-b/design.b.rounds/role.md",

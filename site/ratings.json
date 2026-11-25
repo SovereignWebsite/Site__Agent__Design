@@ -37,15 +37,15 @@
   },
   "hub.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Hub",
-   "commit": "74135e7 (v0.1.74)",
+   "commit": "a851c4e (v0.1.75)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 13,
+   "rounds": 14,
    "agent": "hub.b",
-   "blocking": "round 13: /directory/ under 8,000 px on a phone (then 4 and M4 return); a keeper and the finer label on every entry; search over labels; People first",
+   "blocking": "round 14: a keeper and the site's own label on every directory entry, search over labels, one example open; then four of five find the musician and its keeper, twice, for 4",
    "maturity": "M3",
-   "maturity_note": "M4 from 1eee6ac (23 Nov); held at M3 from round 13 (25 Nov, 74135e7) under Keeping a 4: /directory/ fails the phone height (9,736 px); returns to 4 and M4 when it is under 8,000 px",
-   "phone_px": 9736
+   "maturity_note": "M4 from 1eee6ac (23 Nov); M3 from round 13 (25 Nov): /directory/ over the phone limit, then (round 14) two runs below 3.4 and the map brief's musician question failed 0 of 5",
+   "phone_px": 5379
   },
   "vault.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Vault",

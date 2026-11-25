@@ -1302,12 +1302,23 @@
      "round": 13,
      "what": "/directory/ (map step 1, six groups): find a musician and its keeper in 30 s 0 of 5; want one 1 of 5; look 3.0; 9,736 px on a phone (over 8,000); no keeper on any entry; search reads names only",
      "commit_reviewed": "74135e7 (v0.1.74)",
-     "answered_by": null,
+     "answered_by": "a851c4e (v0.1.75): under 8,000 px (verified), People first; keeper and labels still missing",
      "rating": "3",
      "synthetic_score": 3.0,
      "phone_px": 9736,
      "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-25-round-13.html",
      "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-25-r13.html"
+    },
+    {
+     "round": 14,
+     "what": "/directory/ folded: 2,516 px closed, any one group under 5,400 (fixed); musician and keeper in 30 s 0 of 5 again; want one 2 of 5; look 2.6; two runs below 3.4 and the map brief's question failed, so holds at 3",
+     "commit_reviewed": "a851c4e (v0.1.75)",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 2.6,
+     "phone_px": 5379,
+     "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-25-round-14.html",
+     "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-25-r14.html"
     }
    ]
   },
