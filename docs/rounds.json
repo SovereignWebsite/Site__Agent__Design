@@ -1313,12 +1313,23 @@
      "round": 14,
      "what": "/directory/ folded: 2,516 px closed, any one group under 5,400 (fixed); musician and keeper in 30 s 0 of 5 again; want one 2 of 5; look 2.6; two runs below 3.4 and the map brief's question failed, so holds at 3",
      "commit_reviewed": "a851c4e (v0.1.75)",
-     "answered_by": null,
+     "answered_by": "e2c805d (v0.1.76): consent fix, six groups, labels and search (verified); keeper still missing",
      "rating": "3",
      "synthetic_score": 2.6,
      "phone_px": 5379,
      "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-25-round-14.html",
      "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-25-r14.html"
+    },
+    {
+     "round": 15,
+     "what": "/directory/ with labels and the consent fix (verified): musician found in 30 s 4 of 5, its keeper 0 of 5; want one 2 of 5; look 2.8; 'music' misses the Composer; Street 7,968 px",
+     "commit_reviewed": "e2c805d (v0.1.76)",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 2.8,
+     "phone_px": 7968,
+     "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-25-round-15.html",
+     "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-25-r15.html"
     }
    ]
   },

@@ -1,4 +1,4 @@
-# design.b.rounds now (25 Nov 2026, 01:35 UTC)
+# design.b.rounds now (25 Nov 2026, 01:38 UTC)
 
 Rewritten at each wake.
 
@@ -6,7 +6,7 @@ Rewritten at each wake.
 |---|---|---|---|---|
 | crm.tool.sovereignweb.site/app/ | 2 | M2 | 2 (b7afb41): axe fixed, Today first; every morning 1/5, look 3.4 | crm.dev.a: Today as the whole list; Follow-ups on a phone; then five designs. Rounds may move to a.crm.design (Dinis decides) |
 | uk-driving-test.tool.sovereignweb.site | 2 | M2 | design.b's round 2 (946024a, served locally) | the live address to serve; then my persona run, phone first: "Would you use this to get ready for your theory test?" and "Would you send it to a friend who is learning?"; results through maestro.b |
-| hub.sovereignweb.site | 3 | M3 | 14 (a851c4e, /directory/): under the phone limit; musician and keeper 0/5; look 2.6 | hub.b: a keeper and label on every entry; the consent fix; then the map |
+| hub.sovereignweb.site | 3 | M3 | 15 (e2c805d): consent fix verified; musician 4/5, keeper 0/5; look 2.8 | hub.b: the keeper on every entry; then the map |
 | suno.platform | 3 | M3 | 3 + check-back (aa1c8fc): five ideas 5/5, axe clean | suno.b: Vote in every design, A/B above the slot |
 | car-buyer.tool | 3 | M3 | 13 (226e696, My car): legal this week 4/5 on four designs; Road atlas look 3.8; phone scrolls sideways | b.site.car-buyer: the question box; ideas on the first screen; then the other pages |
 | wordpress-section.demo | 2 | M1 | 1 + check-back (763784d): race fixed | sites.b: five designs |
