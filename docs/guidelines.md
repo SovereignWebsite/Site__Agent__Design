@@ -64,6 +64,7 @@ From Dinis's review of Lee-Elle Horowitz's guided tours ("pic2 looks very vanill
 - the close shows what we can do, claiming only what is live;
 - the PDF has no drop shadows, one 16:9 slide per page, and a file name for sharing.
 - two layout traps measured on Lee-Elle's decks (5d9eb41): a grid whose auto column holds a size-contained frame (`container-type: inline-size`, centred with `place-items: center`) collapses to a fraction of its width, so use `grid-template-columns: minmax(0, 1fr)`; and forced page breaks can add blank PDF pages in Chromium, so give each slide a fixed, clipped height instead.
+- never give a slide container the same class as a component inside it: on Lee-Elle's decks, sections named `s-team`, `s-score` and `s-ladder` shared their names with the lists inside them, so a list grid (`repeat(4, 1fr)`) shrank whole slides to 294 and 110 px on screen while the PDF stayed full width (fixed in 34ef1ec).
 
 ## 2b. Navigation: one browsing experience (Dinis Cruz, 23 November 2026)
 
