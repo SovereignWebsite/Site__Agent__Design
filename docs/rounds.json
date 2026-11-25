@@ -1771,7 +1771,7 @@
      "round": 3,
      "what": "the wow pass, English and Hebrew: book a lesson Conversation 3/5 (3.8), Notebook 3/5 (3.8), Alef-bet 3/5 (3.6), The Stage 0/5, Three Tenses 0/5; axe serious on Three Tenses (scrollable-region-focusable); language button over the enquiry button on Alef-bet; first screens differ more (89 vs 62)",
      "commit_reviewed": "ba92bcf",
-     "answered_by": "981bc4e: Three Tenses axe clean, English and Hebrew (verified in the decks review)",
+     "answered_by": "981bc4e (axe fixed) and 7c07881: The Stage says Hebrew on its first phone screen; the Hebrew's mixed lines fixed (verified)",
      "rating": "1",
      "synthetic_score": 3.2,
      "phone_px": 7567,
