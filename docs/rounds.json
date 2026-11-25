@@ -1324,7 +1324,7 @@
      "round": 15,
      "what": "/directory/ with labels and the consent fix (verified): musician found in 30 s 4 of 5, its keeper 0 of 5; want one 2 of 5; look 2.8; 'music' misses the Composer; Street 7,968 px",
      "commit_reviewed": "e2c805d (v0.1.76)",
-     "answered_by": "9482abe (v0.1.77): People open on arrival, 3,055 px; consent fix holds; keeper still missing (check-back, measured only)",
+     "answered_by": "9482abe and ba78fbc (v0.1.79): People open, search over related words ('music' finds 4), consent holds (verified); keeper still missing",
      "rating": "3",
      "synthetic_score": 2.8,
      "phone_px": 7968,

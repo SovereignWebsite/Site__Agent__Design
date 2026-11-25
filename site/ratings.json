@@ -37,12 +37,12 @@
   },
   "hub.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Hub",
-   "commit": "9482abe (v0.1.77)",
+   "commit": "ba78fbc (v0.1.79)",
    "rating": 3,
    "five_designs": true,
    "rounds": 15,
    "agent": "hub.b",
-   "blocking": "round 15: the keeper on every directory entry (the only missing half of the map question); search over related words; matches on the first phone screen; the Street 32 px under the phone limit",
+   "blocking": "the keeper on every directory entry (the only missing half of the map question); the Street 32 px under the phone limit",
    "maturity": "M3",
    "maturity_note": "M4 from 1eee6ac (23 Nov); M3 from round 13 (25 Nov): /directory/ over the phone limit, then (round 14) two runs below 3.4 and the map brief's musician question failed 0 of 5",
    "phone_px": 7968
