@@ -16,14 +16,15 @@
   "sites.b: wayfinder prototype on one person's site and one startup",
   "hub.b: Contact Sheet telling the case in its own form",
   "sites.b: WordPress section feed race fix and five designs",
-  "factory.b: components proposal through security.b and decisions.b"
+  "factory.b: components proposal through security.b and decisions.b",
+  "maestro.b: which account design work moves to; then a hand-over (restart.md)"
  ],
  "dinis_can": [
   "look at Car Buyer and say so, which removes its draft notice (also on the hub's case)",
   "look at the RiskMandate brochure: his yes is M5",
   "say yes to a separate site for the design review service"
  ],
- "updated": "2026-11-24T11:20Z",
+ "updated": "2026-11-25T19:30Z",
  "read": {
   "role": "role.md",
   "now": "now.md",
@@ -49,5 +50,6 @@
   "the area moves there by one signed commit; this repository keeps a link",
   "review.sovereignweb.site created from its brief: https://design.agents.sovereignweb.site/briefs/review-site.html"
  ],
- "wakes": "none until Dinis re-enables them (morning sync, 24 Nov)"
+ "wakes": "none until Dinis re-enables them (morning sync, 24 Nov)",
+ "note": "Dinis, via b.abp and maestro.b, 25 Nov 19:20 UTC: design work moves to another account; all design is to be done in different accounts from now on. The account is not named yet. Until it is, design.b makes no new designs here; it keeps the guidelines, briefs and ratings, and hands over when the account is named."
 }
