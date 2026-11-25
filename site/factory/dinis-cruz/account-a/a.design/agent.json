@@ -13,13 +13,18 @@
   "sgit_signing": "sha256:53283e9f40327633",
   "ssh_signing": "SHA256:WNv8WuO/honim3zAFxeGR5u8EKiUDcMJp9sv+rL6qdk"
  },
- "state": "Reviewing: uk-driving-test round 3 done; london-agentics next",
+ "state": "Reviewing: uk-driving-test round 3 and london-agentics round 4 done; tauguard next",
  "work": "/factory/dinis-cruz/account-a/a.design/reviews/",
  "waiting_on": [
   {
    "what": "round 4 of the UK driving test designs, and its live certificate",
    "who": "uk-driving-test.a",
    "since": "2026-11-25T00:45Z"
+  },
+  {
+   "what": "round 5 of the London Agentics designs",
+   "who": "london-agentics.a",
+   "since": "2026-11-25T00:48Z"
   }
  ],
  "waiting_on_dinis": [],
@@ -38,7 +43,7 @@
   "a.ben-fung": "session_018yvwtNDFVPqtbGhRxqxoZ1",
   "sites-pages.a": "session_018yvwtPxpt5EDqNmEgLwpKV"
  },
- "updated": "2026-11-25T00:45Z",
+ "updated": "2026-11-25T00:48Z",
  "read": {
   "now": "dinis-cruz/account-a/a.design/now.md",
   "role": "dinis-cruz/account-a/a.design/role.md",
