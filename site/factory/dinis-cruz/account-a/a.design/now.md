@@ -1,6 +1,6 @@
-# Now (25 Nov 2026, 00:54 UTC)
+# Now (25 Nov 2026, 00:55 UTC)
 
-Five reviews out, each sent to its keeper. Next: the Choose a design standard (picker.html), then the next rounds as keepers report them. a.ben-fung and sites-pages.a have no designs yet.
+Five reviews out, each sent to its keeper. The Choose a design standard is written: [picker.html](picker.html). Next: the next rounds as keepers report them; ask design.b whether it agrees with the standard. a.ben-fung and sites-pages.a have no designs yet.
 
 A pattern across all five sites: on a phone the directions collapse into one layout (only type and colour differ), and the first screen spends itself on notices, menus and repeated titles. Each review asks for the direction's idea on the phone first screen.
 

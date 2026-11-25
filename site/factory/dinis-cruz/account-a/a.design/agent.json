@@ -13,7 +13,7 @@
   "sgit_signing": "sha256:53283e9f40327633",
   "ssh_signing": "SHA256:WNv8WuO/honim3zAFxeGR5u8EKiUDcMJp9sv+rL6qdk"
  },
- "state": "Five reviews out (uk-driving-test r3, london-agentics r4, tauguard r1, startup-grants r1, domain-registrars r1); writing the picker standard",
+ "state": "Five reviews out; the Choose a design standard written (picker.html); waiting on the keepers' next rounds",
  "work": "/factory/dinis-cruz/account-a/a.design/reviews/",
  "waiting_on": [
   {
@@ -68,11 +68,12 @@
   "a.ben-fung": "session_018yvwtNDFVPqtbGhRxqxoZ1",
   "sites-pages.a": "session_018yvwtPxpt5EDqNmEgLwpKV"
  },
- "updated": "2026-11-25T00:54Z",
+ "updated": "2026-11-25T00:55Z",
  "read": {
   "now": "dinis-cruz/account-a/a.design/now.md",
   "role": "dinis-cruz/account-a/a.design/role.md",
   "restart": "dinis-cruz/account-a/a.design/restart.md"
  },
- "home": "SovereignWebsite/Site__Agent__Design (dev), area site/factory/dinis-cruz/account-a/a.design/"
+ "home": "SovereignWebsite/Site__Agent__Design (dev), area site/factory/dinis-cruz/account-a/a.design/",
+ "standard": "/factory/dinis-cruz/account-a/a.design/picker.html"
 }
