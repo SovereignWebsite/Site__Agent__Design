@@ -88,3 +88,5 @@ th { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: 
 
 /* The pipeline's version chip sits in the footer: full text colour, so it keeps 4.5:1 after the seed's opacity. */
 .site-footer .sws-version { color: var(--fg); opacity: 1; }
+
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}

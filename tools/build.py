@@ -98,15 +98,19 @@ def page(path, title, body, description, extra_head=""):
 """
 
 
+_TABLES = [0]
+
+
 def md(text):
     out = markdown.markdown(text, extensions=["tables", "fenced_code", "sane_lists"])
     # Wide tables scroll inside their own focusable box.
-    n = [0]
-
+    # Numbered across the whole build, so two tables on one page never share a label (axe landmark-unique).
     def wrap(m):
-        n[0] += 1
-        return f'<div class="table-wrap" tabindex="0" role="region" aria-label="Table {n[0]}">{m.group(0)}</div>'
+        _TABLES[0] += 1
+        return f'<div class="table-wrap" tabindex="0" role="region" aria-label="Table {_TABLES[0]}">{m.group(0)}</div>'
 
+    # An empty header cell (a table's corner) gets a hidden label, for axe's empty-table-header rule.
+    out = out.replace("<th></th>", '<th><span class="visually-hidden">Row</span></th>')
     return re.sub(r"<table>.*?</table>", wrap, out, flags=re.S)
 
 
@@ -190,7 +194,7 @@ def area_pages():
                        for k, v in a.items() if k not in ("read",))
         docs = ""
         for f in sorted(d.glob("*.md")):
-            docs += f'<section id="{f.stem}">' + md(f.read_text()) + "</section>"
+            docs += f'<div id="{f.stem}">' + md(f.read_text()) + "</div>"
         subs = "".join(f'<li><a href="{p.parent.name}/">{html.escape(p.parent.name)}</a></li>' for p in sorted(d.glob("*/agent.json")))
         body = (f'<p class="mark">Agent area</p><h1>{html.escape(a.get("name", "Agent"))}</h1>'
                 f'<p class="lead">{html.escape(a.get("role", ""))}. Updated {html.escape(a.get("updated", ""))}. '
