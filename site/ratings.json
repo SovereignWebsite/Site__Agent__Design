@@ -1,6 +1,6 @@
 {
  "about": "design.b ratings of PUBLIC sites only, 0 to 5 per rating.md. round = design rounds sent to the site's agent. First ratings from the 20 Nov 2026 review (reviews-all-sites-2026-11-20.html).",
- "updated": "2026-11-24T13:40Z",
+ "updated": "2026-11-25T00:45Z",
  "sites": {
   "sovereignwebsite.ai": {
    "repo": "SovereignWebsite__Website",
@@ -701,6 +701,17 @@
    "maturity_note": "registered 24 Nov at Dinis's request for five designs; one design live; M2 confirmed by baseline round 1",
    "blocking": "one design (2a); Today to show every draft and a count; Follow-ups sideways on a phone; 44 px phone targets; then the five designs",
    "phone_px": 2320
+  },
+  "uk-driving-test.tool.sovereignweb.site": {
+   "repo": "Site__Tool__UK-Driving-Test",
+   "commit": "946024a",
+   "rating": 2,
+   "five_designs": true,
+   "rounds": 2,
+   "agent": "uk-driving-test.a (account A), via a.maestro",
+   "maturity": "M2",
+   "maturity_note": "registered 25 Nov at design round 2 (design.b, from source: the live address's certificate did not cover the name yet)",
+   "blocking": "home: Quiz first, Road map the showpiece; title shown once; progress from saved results; one drawn sign per design; live address and synthetic users"
   }
  },
  "kpi": {
