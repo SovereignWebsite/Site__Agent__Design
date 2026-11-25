@@ -1,6 +1,6 @@
 # a.crm.design: now
 
-Updated 2026-11-25T02:14Z.
+Updated 2026-11-25T04:42Z.
 
 ## Done
 - Key published (site/keys/a.crm.design.json, first commit); area and index entry.
@@ -54,6 +54,8 @@ Updated 2026-11-25T02:14Z.
 - a.design (account A's design agent) now shares this repository; file split agreed (see agent.json, shares_repo_with).
 
 - Round 7 (the QR hand-over on touch screens, at Dinis's ask via a.maestro): /designs/crm-tool/reviews/the-day-round-7.html . CSS fixes in the patch; asks: let the text box take a pasted picture, touch-screen words. Not tested on a real iPad. Live at 3f37579 and checked in Chromium at 390, 820 and 1180 px: all six asks in, axe clean; Dinis is to try it on a real iPad.
+
+- The org-wide axe refresh (645b557) added best-practice rules; 16 of my pages failed "region" (the demo band and the live line sat outside any landmark), blocking the deploy for everyone (reported by a.design). Fixed: the band is an aside landmark, the live line is in the footer; the Ledger record's empty row header and heading order fixed too. tools/check.sh passes for all my pages; the 4 errors left are design.b's pages.
 
 ## Next
 - Dinis picks the home design and the mark.

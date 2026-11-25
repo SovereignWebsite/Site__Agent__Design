@@ -64,7 +64,7 @@ def head(title, desc, url, css, depth):
 def band(proto, depth):
     up = "../" * depth
     return f"""<a class="skip" href="#main">Skip to content</a>
-<div class="demo-band" role="note" aria-label="Demo mode"><strong>Synthetic demo</strong> <span class="long">Every company, person and email here is made up. Nothing is written anywhere.</span><span class="short">All made up; nothing is written.</span> <span class="proto">{proto} · <a href="{up}index.html">all five designs</a></span></div>
+<aside class="demo-band" aria-label="Demo mode"><strong>Synthetic demo</strong> <span class="long">Every company, person and email here is made up. Nothing is written anywhere.</span><span class="short">All made up; nothing is written.</span> <span class="proto">{proto} · <a href="{up}index.html">all five designs</a></span></aside>
 """
 
 
@@ -100,8 +100,7 @@ def design_page(folder, n, name, line, nav):
 {switcher(1, "#/vault/")}
 </header>
 <main id="main" tabindex="-1"><h1>{name}</h1><p>This prototype draws its pages with a script from this site. If you see this line, scripts are off.</p></main>
-<p id="live" class="vh" aria-live="polite"></p>
-{footer()}<script src="../assets/data.js"></script>
+{footer('<p id="live" class="vh" aria-live="polite"></p>')}<script src="../assets/data.js"></script>
 <script src="../assets/shell.js"></script>
 <script src="{folder}.js"></script>
 </body>

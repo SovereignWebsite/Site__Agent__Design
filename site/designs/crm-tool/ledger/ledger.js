@@ -55,8 +55,8 @@
         <tr><th scope="row">Next step</th><td>${esc(c.next)}</td></tr><tr><th scope="row">Due</th><td class="num">${c.due} (${fmt(c.due, true)})</td></tr>
         <tr><th scope="row">From</th><td>${esc(sourceName(c.source))}${intro ? `, through <a href="#/company/${intro.id}">${esc(intro.name)}</a>` : ''}</td></tr><tr><th scope="row">Met by</th><td>${esc(person(c.metBy))}</td></tr>
         <tr><th scope="row">Domain</th><td><code>${esc(c.domain)}</code></td></tr>
-        ${c.people.map((p, n) => `<tr><th scope="row">${n ? '' : 'People'}</th><td>${esc(p.name)}, ${esc(p.role)} ${keyTag(p, c)} <a href="mailto:${esc(p.email)}">${esc(p.email)}</a></td></tr>`).join('')}</tbody></table>
-        <section class="rec-act" aria-labelledby="la-h">${c.draft ? `<div id="draft">${draftBox(c)}</div>` : ''}<div id="log"><h2 id="la-h">Log an action <kbd aria-hidden="true">l</kbd></h2>${logForm(c, { rows: 2 })}</div></section></div>
+        ${c.people.map((p, n) => `<tr><th scope="row">${n ? `<span class="vh">Person ${n + 1}</span>` : 'People'}</th><td>${esc(p.name)}, ${esc(p.role)} ${keyTag(p, c)} <a href="mailto:${esc(p.email)}">${esc(p.email)}</a></td></tr>`).join('')}</tbody></table>
+        <section class="rec-act" aria-labelledby="la-h">${c.draft ? `<h2 class="vh">Draft waiting</h2><div id="draft">${draftBox(c)}</div>` : ''}<div id="log"><h2 id="la-h">Log an action <kbd aria-hidden="true">l</kbd></h2>${logForm(c, { rows: 2 })}</div></section></div>
       <table class="acts-t"><caption>Activity, newest first</caption><thead><tr><th scope="col">Date</th><th scope="col">Kind</th><th scope="col">Way</th><th scope="col">By</th><th scope="col">What</th></tr></thead>
         <tbody>${c.activity.map((a) => `<tr class="${a.fresh ? 'fresh' : ''}"><td class="num"><time datetime="${a.at}">${a.at}</time></td><td>${esc(a.kind)}</td><td>${a.dir === 'in' ? 'In' : 'Out'}</td><td>${esc(short(a.by))}</td><td>${esc(a.text)}</td></tr>`).join('')}</tbody></table></div>` };
   }
