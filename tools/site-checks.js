@@ -51,8 +51,8 @@ const OG = ['og:title', 'og:description', 'og:type', 'og:url', 'og:image', 'og:i
     // Since 23 Nov 2026 the startup brochures carry it in the footer as <nav aria-label="Designs"> (design.b's decision),
     // so a nav labelled "Designs" counts too.
     r.designs = await page.evaluate(() => {
-      // "Views of this page" counts too (Suno, 23 Nov 2026: a nav of the five designs with thumbnails).
-      const isChooser = el => /choose a design/i.test((el.querySelector('summary, button, h2')?.textContent || '')) || /^(designs?|views?)( of this page)?$|^choose a design/i.test(el.getAttribute('aria-label') || '');
+      // "Views of this page" counts too (Suno, 23 Nov 2026: a nav of the five designs with thumbnails), and "Five designs for this site" (25 Nov 2026).
+      const isChooser = el => /choose a design/i.test((el.querySelector('summary, button, h2')?.textContent || '')) || /^(designs?|views?)( of this page)?$|^choose a design|^(the )?five designs/i.test(el.getAttribute('aria-label') || '');
       const box = [...document.querySelectorAll('details')].find(isChooser) || [...document.querySelectorAll('nav, [role=menu]')].find(isChooser);
       if (!box) {
         // A labelled <select> also counts (Car Buyer, 23 Nov 2026): its label says "Choose a design" and each option is a design.
