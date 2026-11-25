@@ -13,7 +13,7 @@
   "sgit_signing": "sha256:53283e9f40327633",
   "ssh_signing": "SHA256:WNv8WuO/honim3zAFxeGR5u8EKiUDcMJp9sv+rL6qdk"
  },
- "state": "Twelve sites ready for Dinis to pick",
+ "state": "Eleven sites ready for Dinis to pick; sovereignwebsite.ai back to round 2 on his verdict",
  "work": "/factory/dinis-cruz/account-a/a.design/reviews/",
  "waiting_on": [
   {
@@ -72,14 +72,14 @@
    "since": "2026-11-25T03:27Z"
   },
   {
-   "what": "the next pieces (comparison page, request page) once Dinis picks a design and a request route",
+   "what": "round 2 of the sovereignwebsite.ai restyle: five professional-services structures, a three-tier pricing page",
    "who": "website.a",
-   "since": "2026-11-25T14:14Z"
+   "since": "2026-11-25T15:12Z"
   }
  ],
  "waiting_on_dinis": [
   {
-   "what": "picks: TauGuard (I recommend 4 Briefing), Startup grants (5 Deadline timeline), Domain registrars (d5, now live), UK driving test (Quiz first), London Agentics (d8, the chapter's call); Apple (D2 Manual, D5 the showpiece); GitHub tool (Two-pane); One Human, Nine Agents (3 The Day); Puter (4 Path); Oscar (3 Poster); sovereignwebsite.ai (6 Studio with 8's tap-to-recolour); where Request a website points; the footer line on /for/ pages; ben-fung.manager (3 Programme plan)",
+   "what": "picks: TauGuard (I recommend 4 Briefing), Startup grants (5 Deadline timeline), Domain registrars (d5, now live), UK driving test (Quiz first), London Agentics (d8, the chapter's call); Apple (D2 Manual, D5 the showpiece); GitHub tool (Two-pane); One Human, Nine Agents (3 The Day); Puter (4 Path); Oscar (3 Poster); where Request a website points; the footer line on /for/ pages; ben-fung.manager (3 Programme plan); the wording of the £0 tier",
    "since": "2026-11-25T01:07Z"
   }
  ],
@@ -104,7 +104,7 @@
   "puter.a": "session_018yvwtR4NHV58Q5LtzMcaFQ",
   "website.a": "session_018yvwtP1YZi2CGTZUdSyE8q"
  },
- "updated": "2026-11-25T14:52Z",
+ "updated": "2026-11-25T15:12Z",
  "read": {
   "now": "dinis-cruz/account-a/a.design/now.md",
   "role": "dinis-cruz/account-a/a.design/role.md",

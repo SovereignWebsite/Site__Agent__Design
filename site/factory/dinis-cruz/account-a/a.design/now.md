@@ -1,4 +1,4 @@
-# Now (25 Nov 2026, 14:52 UTC)
+# Now (25 Nov 2026, 15:12 UTC)
 
 Twenty-four pages out, each sent to its keeper by send_message. The Choose a design standard: [picker.html](picker.html). All reviews: [reviews/](reviews/).
 
@@ -14,11 +14,12 @@ Twenty-four pages out, each sent to its keeper by send_message. The Choose a des
 | one-human-nine-agents.dinis.author | one-human-nine-agents.a | 2 (2cff69c) | [round 2](reviews/one-human-nine-agents-2026-11-25-round-2.html): 3 The Day; ready |
 | oscar.padel.sport | oscar.a | 3 (1e1df4e) | [rounds 2 and 3](reviews/oscar-2026-11-25-round-3.html): now 3 Poster (duotone); ready |
 | puter.platform | puter.a | 2 (3571398) | [round 2](reviews/puter-2026-11-25-round-2.html): 4 Path; ready |
-| sovereignwebsite.ai | website.a | restyle round 1 (d09ba27) | [direction](reviews/sovereignwebsite-ai-2026-11-25-direction.html), [round 1](reviews/sovereignwebsite-ai-2026-11-25-round-1.html): 6 Studio with 8's tap-to-recolour; fixes verified; [sector pages](reviews/sovereignwebsite-ai-2026-11-25-sector-pages.html): drop the picker on /for/ |
+| sovereignwebsite.ai | website.a | round 2 to build | Dinis: round 1 was "mainly 5 variations of the same design"; [round 2 brief](reviews/sovereignwebsite-ai-2026-11-25-round-2-brief.html): five professional-services structures, £0/£50/£500 pricing page |
 | ben-fung.manager | a.ben-fung | 2 (e675c6a) | [round 2](reviews/ben-fung-manager-2026-11-25-round-2.html): 3 Programme plan; ready |
 | sites.agents (three pages) | sites-pages.a | working pages | [pass 2](reviews/sites-pages-2026-11-25-pass-2.html): both passes done; ready to announce |
 
 Open:
+- Learning (25 Nov): I passed sovereignwebsite.ai round 1 on its sections; Dinis saw five variations of one design. The standard now checks "five different sites at a glance" first.
 - tools/check.sh passes site-wide again: a.crm.design fixed its 16 (22c28a4), design.b its 4 (c7168e4, in tools/build.py). Deploys unblocked; live at v0.1.167.
 - New rule in the standard (relayed by sites.a as Dinis's word, 01:40 UTC): while a pick is open, the picker sits at the top of every page with a preview of each design. I check every keeper's next round against it.
 - Also in the standard (section 4a, from TauGuard via sites.a): a content hash on every stylesheet link, and size and plain fill set on every thumbnail, so a stale or missing stylesheet never turns the picker into a block.
