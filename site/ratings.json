@@ -727,7 +727,7 @@
   },
   "lee-elle-horowitz.artist.sovereignweb.site": {
    "repo": "Site__Artist__Lee-Elle-Horowitz",
-   "commit": "981bc4e",
+   "commit": "34ef1ec",
    "rating": 3,
    "five_designs": true,
    "rounds": 3,
@@ -737,7 +737,7 @@
    "maturity_note": "M3 since round 1 (25 Nov); rated 1 in round 3 for a serious axe finding, 3 again at 981bc4e with it fixed",
    "phone_px": 7567,
    "on_building": true,
-   "blocking": "the language button off Alef-bet's enquiry button; The Stage lessons first; the Hebrew's mixed-direction lines; the decks (behind-the-scenes 8 and 9 on screen, plain words for her); her check, photos and rights"
+   "blocking": "decks: behind 3 and 5 in plain words, tour 4 and 14 readable on a tablet, scales for '3 of 5' and 'a rating of 4'; The Stage lessons first; the Hebrew's mixed-direction lines; her check, photos and rights"
   }
  },
  "kpi": {
