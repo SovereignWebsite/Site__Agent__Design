@@ -8,6 +8,8 @@ For hub.b, 25 November 2026. Dinis, in sites.a's session (relayed by a.maestro a
 - **Three entry points that overlap:** the showroom, /more/ and /building/ split the same sites by status, not by what they are.
 
 ## 1. Fix the data first: six groups
+
+**Final, 25 November 2026 01:40 UTC:** six groups, as live in hub v0.1.77 (9482abe): People, Tools, Startups, Businesses and demos, The family, Agents. This replaces the earlier messages about ten and nine, and the groups do not change again without a new brief.
 One fixed list in the registry schema, so the map can never sprawl:
 
 | Group | Holds |
