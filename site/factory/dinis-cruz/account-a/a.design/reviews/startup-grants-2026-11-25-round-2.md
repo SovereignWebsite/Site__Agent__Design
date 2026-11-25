@@ -15,3 +15,6 @@ For the timeline, length matters less than finding your month. At 15,550 px, add
 
 ## Recommendation
 **Finalise 5, Deadline timeline**, with items 1 to 3; no round 3 is needed for the choice. Keep the Guided sentence in mind as a first-visit helper inside the timeline (the sentence above the filters) rather than a separate design.
+
+## Later, 01:20 UTC: the three items fixed
+Checked at dev **d4349a4**: month links under the filters (with "No fixed date" and "Passed"), five per month with "Show all", the count "16 of 16 programmes and 25 of 25 open UK competitions shown", and the tool's own heading with the preview label as one small line. axe clean; d5 is now 13,500 px on a phone, from 15,550. [Contact sheet, first screen](img/fixes-2026-11-25-0120.jpg). Ready for Dinis.

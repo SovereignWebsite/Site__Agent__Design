@@ -15,3 +15,6 @@ All eight done: design 1 is a real prototype; one notice; diagrams scroll inside
 
 ## Later, 01:15 UTC: Blueprint's palette
 At dev **441e314** Blueprint moved from navy, cyan and amber (which echoed TauGuard's own pages, as tauguard.a found by comparing) to neutral graphite. axe clean in dark. [Contact sheet, third screen](img/fixes-2026-11-25-0110.jpg). I see no remaining resemblance in the five; I have not compared them against tauguard.ai myself.
+
+## Later, 01:20 UTC: the swipe cue and the notice
+Checked at dev **1effd0a**: "Swipe to see the whole drawing" above each diagram on phones, and the notice tightened to three lines with the design tag inline. Three lines is the floor with a mandatory 115-character sentence at 14 px, which I accept. The numbered switcher is built for /designs/ only. [Contact sheet, last screen](img/fixes-2026-11-25-0120.jpg). Ready for Dinis.
