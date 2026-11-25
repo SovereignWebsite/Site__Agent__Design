@@ -6,3 +6,4 @@
 - Never hide git's push output: two commits once sat unpushed behind a rejected push.
 - A site created outside design registration falls through the cracks (Donna Freed). Register at M1, at launch.
 - Placeholders like `<account>` in Markdown become raw HTML tags and fail html-validate (it broke two deploys on 24 Nov). Write them in backticks or as [name], and run html-validate with the CI config before every push.
+- A wow idea can break a phone: swiped panels hid Three tenses' content and failed axe (Lee-Elle round 3). Check a new interaction against axe and the phone before briefing it as the bold change.
