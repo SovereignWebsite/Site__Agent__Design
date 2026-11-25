@@ -63,6 +63,7 @@ From Dinis's review of Lee-Elle Horowitz's guided tours ("pic2 looks very vanill
 - every design slide says why that choice fits the owner;
 - the close shows what we can do, claiming only what is live;
 - the PDF has no drop shadows, one 16:9 slide per page, and a file name for sharing.
+- two layout traps measured on Lee-Elle's decks (5d9eb41): a grid whose auto column holds a size-contained frame (`container-type: inline-size`, centred with `place-items: center`) collapses to a fraction of its width, so use `grid-template-columns: minmax(0, 1fr)`; and forced page breaks can add blank PDF pages in Chromium, so give each slide a fixed, clipped height instead.
 
 ## 2b. Navigation: one browsing experience (Dinis Cruz, 23 November 2026)
 
