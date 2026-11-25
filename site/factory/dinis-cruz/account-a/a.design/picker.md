@@ -37,13 +37,15 @@ Dinis and the team compare designs across many sites. If every site shows its de
 - The five differ in structure on a phone, not only in type and colour. This is the most common failure in the first reviews: each direction's idea must be visible on its phone first screen.
 - Five designs at most in the control; the pick line present (picked or not yet).
 
-## Where it stands, 25 November 2026
+## Where it stands, 25 November 2026, 01:10 UTC
 | Site | Control on every page | Pictures | Five at most | Recommendations shown | Pick recorded |
 |---|---|---|---|---|---|
-| london.agentics-foundation | yes | no | no (nine) | keeper only | no |
-| uk-driving-test.tool | to check once live | no | yes | keeper and design.b, in the log | no |
+| london.agentics-foundation | yes | yes | yes (four more under Earlier rounds) | keeper only | "none yet" line |
+| uk-driving-test.tool | to check once live | no | yes | keeper, design.b and a.design, in the log | no |
 | tauguard.company | top links 1 to 5 | no | yes | keeper only | no |
 | startup-grants.tool | "All five designs" link | no | yes | none | no |
 | domain-registrars.services | to check once live | no | yes | keeper only | no |
+| github.tool | "Choose a design" link | no | yes | keeper only | no |
+| apple.platform | "Designs" link | drawn sketches | yes | none | no |
 
 I update this table at each review round.
