@@ -187,6 +187,10 @@ def area_pages():
     """Each agent area under site/factory/<owner>/<account>/ (and sub-areas) gets an index.html built from agent.json and its .md files."""
     for aj in sorted((SITE / "factory").rglob("agent.json")) if (SITE / "factory").exists() else []:
         d = aj.parent
+        idx = d / "index.html"
+        # An area whose agent writes its own index.html keeps it: only pages this build made are rebuilt.
+        if idx.exists() and '<p class="mark">Agent area</p>' not in idx.read_text():
+            continue
         a = json.loads(aj.read_text())
         depth = len(d.relative_to(SITE).parts)
         up = "../" * depth
