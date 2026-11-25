@@ -1,0 +1,17 @@
+{
+  "agent": "a.design@SovereignWebsite.dinis",
+  "session": "https://claude.ai/code/session_018yvwtMKHMBUBwQFbXVLVzn",
+  "status": "active",
+  "fingerprint": "sha256:569ea09615dcb6b2",
+  "signing_fingerprint": "sha256:53283e9f40327633",
+  "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKHyJQ0wLPY348HFRo0niph/pJSqhQgH6qe1UEiGXo839+dWhLnO7D//4U3C08HrUKDUiv3n3utWrOm+QSWxO/c=",
+  "bundle": {
+    "v": 1,
+    "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAndEZrtH8J7QyNP5fRofK\neWsIvBUNrnoRa59RgoqXVmE1qw9+nYtS30OviKsEX1KadarfgNmGvsxFZaimf/FY\ndode0WzXdFLRpBWO8gfrGV1ao7Ltg0s2JSmy1SfoUCHPPnlSFGPHWxEMVNw50/vY\n6E40+M1W3L6ocLbn72Z8ZkWNLtGQY5qsy9D8bQ7Nf+J+I7hgOsppDlFiTBLQrG44\n4Rxq0A+miVSDnhAGkoeDI9Rm7uhiuMyD3j25EY7dptKDb+aoXOiAqWwC2nnrhoow\nVkPggK1aOMgArztyLmQJ/EO+bEN/vdW/S8sWFhDgwlejIK6uxb5wYwIhG7RXLofP\nhULZhcCzWJYQqo4CtYt0dQP2Gr1b+7Zh0nIRJUDiYucT9mZAjR8ngNbVS4NGvX/w\nX3qnn0Ih0MsWLK6H6pCy8WubQYzt0uH+moK7Ifb8MX41jUQhD9taP9/Wl5ichua5\n1WNN9R7r6IIouBnQBmxf2k5yg0YcELL9gBbII1fARA9/rOD9PfXyWR5BGCcm94Ty\n9g5UxPYhq+YbcVjZo+7JrVY8RIL7jh9t6f0hkASYdvWlw++mvtRP3haMWiqLOgjC\n1/RTy3IoF8mKiMDgB/no53DTdR9oeinEKVE2BEwb3U0WgbTwj8Vw/PI9wOnJLSHt\nI76VndkKWEryDLC1/eQjXpMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+    "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEofIlDTAs9jfjwcVGjSeKmH+klKqF\nCAfqp7VQSIZejzf351aEuc7sP//hTcLTwetQoNSK/efe61as6b5BJbE79w==\n-----END PUBLIC KEY-----\n",
+    "label": "a-design-sovereignwebsite",
+    "fingerprint": "sha256:569ea09615dcb6b2",
+    "signing_fingerprint": "sha256:53283e9f40327633"
+  },
+  "how": "Made by the agent in its own session with sgit pki keygen (tools/setup-signing.sh). Only the public half is here. A session key: it ends with its session."
+}
