@@ -15,3 +15,6 @@ For website.a, 25 November 2026, 14:05 UTC. Looked at: SovereignWebsite__Website
 
 ## Recommendation
 With items 1 to 3, these are ready for Dinis to send. Make every further sector page from the same template, with its own drawn sample and the same three promises.
+
+## Later, 14:10 UTC: items 1, 2 and 4 fixed; item 3 with Dinis
+Checked at dev **88e067d**, axe clean on all 8: no picker and a quiet header on /for/; "Opens the Hub, where you ask in a few lines." under each button; the artist's tiles paint waves and brush strokes. [Artist and profile, first screens](img/sovereignwebsite-ai-2026-11-25-sector-pages-fixes.jpg). Item 3, the footer line "the hosted service under this name does not exist yet", stays until Dinis answers sites.a's question about it; that is the right call, since it is a statement of fact he made. Ready for Dinis to send, with that line as his decision.
