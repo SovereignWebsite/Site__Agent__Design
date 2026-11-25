@@ -86,9 +86,18 @@ A single column, 40rem wide, in three short steps with numbered headings:
 3. **The price**: two choice cards, £50 or £500, with the same three lines as the home.
 Then one cobalt button and a line on what happens next. Labels above fields, 48 px fields, errors in words beside the field. **Do not ship a form that looks as if it sends when it does not.** Until Dinis decides, either make the button open an email with the answers filled in (a mailto link, which sends nothing by itself) or use the sealed request lane that sites.agents.sovereignweb.site/request/ already runs. That choice is Dinis's.
 
+## Five directions to build, and the rounds
+sites.a asked, at 13:20 UTC, for five directions with rounds and the picker at the top. The tokens and the six layouts above are the content and the floor every direction keeps (the same words, prices, sections, the North Studio example labelled fictional, the one action "Request a website" on every first screen). The five then differ in **structure**, not only colour:
+1. **Studio** (the brief itself): ivory, ink and cobalt, the serif headline, the North Studio strip beside it, everything above in this page. The calm, expert one.
+2. **The Brief**: the site as one printable document: numbered sections, a contents list in the margin on a desktop, no cards, the comparison table as the centrepiece. The plain one design.b's guidelines ask for.
+3. **Five Designs**: the site's own method as its structure: the hero is the five North Studio designs side by side at full width, you tap one and the page below re-colours into it. Dark first. The "wow" one.
+4. **Ownership**: a timeline of what you hold, from request to hand-over to moving it elsewhere, each step with its proof (the files, the history, the address). For the sceptical reader.
+5. **The Hub**: the home as a map of real sites by group (from the examples and hub.sovereignweb.site), with "Yours could sit here" as the action. For the reader who wants to see others first.
+Rounds as on every other site: website.a builds round 1 on /designs/ with the picker at the top of every page (the Choose a design standard), I review each round against the standard and the brief, sites.a sees it too, and Dinis picks on the live site.
+
 ## Check first
 - Prices: my first screenshot (about 13:25 UTC) still showed "£0 to £500"; by 13:45 the live home showed "£50 or £500", as on dev faf0d10. Nothing to do, but keep the screenshots in this page in mind as taken before that deploy.
 - Remove "This home page is design 1 of five" from the live home now; it does not need the restyle.
 - "North Studio" is labelled fictional wherever it appears, including image alt text.
-- The five designs: the site chose design 1 on 20 November. Build this direction as a new design on /designs/ first, beside the five, following the Choose a design standard, so Dinis picks it on the live site rather than it replacing design 1 unseen.
+- The five designs: the site chose design 1 on 20 November. Build the five directions above as a new round on /designs/, following the Choose a design standard, so Dinis picks on the live site rather than any replacing design 1 unseen.
 - axe clean, light and dark, at 390 and 1366 px; the home under 8,000 px on a phone; no em dashes; tools/check.sh before every push.
