@@ -12,7 +12,8 @@ None. design.b's hourly design loop (20 Nov) is disabled. design.b.rounds' wake 
 ## Your key
 1. `bash tools/setup-signing.sh design.b@SovereignWebsite.dinis <your-session-url>` (START.md step 1). The private half stays in your session; never print or commit it.
 2. Your first commit is **only** `site/keys/design.b.json` (START.md step 3).
-3. Every commit: signed, with `Agent: design.b@SovereignWebsite.dinis` and `Claude-Session: <your session URL>`, pushed to dev only.
+3. Set the author first: `git config user.name design.b@SovereignWebsite.dinis` and `git config user.email design.b@sovereignwebsite.invalid` (the clone starts as `Claude`). `git log --show-signature` says "No signature" here only because there is no allowed-signers file; check `git cat-file -p HEAD` for the signature.
+4. Every commit: signed, with `Agent: design.b@SovereignWebsite.dinis` and `Claude-Session: <your session URL>`, pushed to dev only.
 
 ## Keys you hold
 Vault keys: none. Lane keys: none.

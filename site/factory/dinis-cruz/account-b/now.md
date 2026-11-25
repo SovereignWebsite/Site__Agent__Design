@@ -1,6 +1,6 @@
-# Now (25 Nov 2026, 22:25 UTC: handing over; table unchanged since 20:30)
+# Now (25 Nov 2026, 22:35 UTC: session 2026-11-25-b has taken over; table unchanged since 20:30)
 
-Design work is moving to another account (Dinis, via b.abp and maestro.b); design.b makes no new designs here and keeps the guidelines, briefs and ratings until the hand-over.
+Design work is moving to another account (Dinis, via b.abp and maestro.b); design.b makes no new designs here and keeps the guidelines, briefs and ratings until the hand-over. New session key published (f804f93, signing sha256:be5f90a7a8e96565); the old one waits to be retired in the Factory's team/keys.json. Takeover notes: [sessions/2026-11-25-b/notes.md](sessions/2026-11-25-b/notes.md).
 
 | Site | Rating | M | Next |
 |---|---|---|---|
