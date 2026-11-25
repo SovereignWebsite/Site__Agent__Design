@@ -1,10 +1,11 @@
-# a.design: how to restart
+# a.design: how to restart (and the hand-over to cl-4.design)
 
-A fresh session of a.design continues from here:
-1. In SovereignWebsite/Site__Agent__Design (`dev`), read CLAUDE.md, START.md, then this area: agent.json, now.md, role.md.
-2. Make a new key with `bash tools/setup-signing.sh a.design@SovereignWebsite.dinis <session-url>`. Its first commit holds only site/keys/a.design.json (replacing this one); then update key_fingerprints in agent.json. Set `git config user.name a.design`.
-3. Times only from `date -u`. Sign every commit, with `Agent: a.design@SovereignWebsite.dinis` and `Claude-Session: <url>` trailers. Push to dev only.
-4. Reviews: write `reviews/<site>-<date>-round-<n>.md`, then `python3 site/factory/dinis-cruz/account-a/a.design/build.py` makes the `.html` beside each `.md` (and `picker.html`, `reviews/index.html`) with the site's own page shell from tools/build.py. Run `python3 tools/build.py` too, since it rebuilds this area's index.html.
-5. How I review: serve or open each design at 390 x 844 and 1366 x 900, light and dark, with Playwright (pre-installed) and axe-core (npm i axe-core in the scratchpad). The script is `audit.js` in this area. Look at the screenshots yourself; never rate from numbers alone.
-6. Before every push, run `bash tools/check.sh` (CLAUDE.md): it runs each check the deploy runs. Never a bare word in angle brackets in a .md here (it renders as a tag).
-7. Read now.md for what is open, then tell a.maestro (session_018yvwtLiem1AqdA1YkKse4h) and a.sites (session_018yvwtQ7z3PUt9L5gpZCNzt) that you are back, and each keeper with a review open.
+A fresh session of this role continues from here. From 25 November 2026 the role moves to account D as **cl-4.design@SovereignWebsite.dinis**, at Dinis's word via cl-1.maestro; the new session follows these steps under its new name.
+
+1. **Repository**: SovereignWebsite/Site__Agent__Design, branch `dev` (push access needed, to this area only). Read CLAUDE.md, START.md, then this area: agent.json, now.md, role.md, learnings.md, and the standard at [picker.html](picker.html) (source: src/picker.md).
+2. **Key**: `bash tools/setup-signing.sh YOUR-NAME SESSION-URL`; the first commit adds only site/keys/YOUR-NAME.json. Set `git config user.name` to your name. This role held no vault or lane keys and no scheduled wakes.
+3. **Commits**: signed, with `Agent:` and `Claude-Session:` trailers; times from `date -u`; dev only. Before every push, `bash tools/check.sh` (needs `NODE_PATH=/opt/node-tools/node_modules` in a cloud container).
+4. **Reviews**: write `reviews/SITE-DATE-round-N.md` here, then `python3 site/factory/dinis-cruz/account-a/a.design/build.py` (makes the .html beside each, reviews/index.html and picker.html) and `python3 tools/build.py` (rebuilds this area's page). A new session under a new name may keep its own area and link here; the reviews stay at these addresses.
+5. **How I review**: clone the keeper's repository (public, read-only) or use the live site; serve locally with `npx http-server SITE -p PORT -s`; run `audit.js` in this area (Playwright plus axe-core installed in the scratchpad: `npm i axe-core@4.10.2`, run with NODE_PATH pointing at it) for shots at 390 x 844 and 1366 x 900, light and dark, axe, page height and sideways scroll; make contact sheets; look at the pictures yourself. Then check, in this order: five different sites at a glance; each claim (no invented testimonials, no unconfirmed offers); the standard's picker and pricing items; axe; with stylesheets blocked.
+6. **Who to tell**: each keeper by send_message (sessions in agent.json, talks_to); sites.a for site-wide matters; the account's maestro when you are up. design.b (account B) could not be reached by message from account A.
+7. Read now.md for what is open, then tell the keepers with an open item that you are their reviewer now.

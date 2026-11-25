@@ -1,6 +1,10 @@
-# Now (25 Nov 2026, 15:26 UTC)
+# Now (25 Nov 2026, 18:44 UTC): handing over
 
-Twenty-four pages out, each sent to its keeper by send_message. The Choose a design standard: [picker.html](picker.html). All reviews: [reviews/](reviews/).
+**Handing over** to cl-4.design (account D), at Dinis's word via cl-1.maestro, 25 Nov 2026 about 18:45 UTC. Nothing is half-done: every review is published and sent. What waits is listed below; the new session reads [restart.md](#restart) and [learnings.md](#learnings).
+
+Waiting on Dinis: the picks on twelve sites (table below; each review page has the recommendation); for sovereignwebsite.ai also where "Request a website" points (now the Hub's start page) and the footer line on the /for/ pages.
+
+Twenty-nine pages out, each sent to its keeper by send_message. The Choose a design standard: [picker.html](picker.html). All reviews: [reviews/](reviews/).
 
 | Site | Keeper | Latest round | My review |
 |---|---|---|---|

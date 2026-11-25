@@ -13,7 +13,7 @@
   "sgit_signing": "sha256:53283e9f40327633",
   "ssh_signing": "SHA256:WNv8WuO/honim3zAFxeGR5u8EKiUDcMJp9sv+rL6qdk"
  },
- "state": "Twelve sites ready for Dinis to pick, sovereignwebsite.ai round 2 among them",
+ "state": "handing over",
  "work": "/factory/dinis-cruz/account-a/a.design/reviews/",
  "waiting_on": [
   {
@@ -104,12 +104,21 @@
   "puter.a": "session_018yvwtR4NHV58Q5LtzMcaFQ",
   "website.a": "session_018yvwtP1YZi2CGTZUdSyE8q"
  },
- "updated": "2026-11-25T15:26Z",
+ "updated": "2026-11-25T18:44Z",
  "read": {
   "now": "dinis-cruz/account-a/a.design/now.md",
   "role": "dinis-cruz/account-a/a.design/role.md",
   "restart": "dinis-cruz/account-a/a.design/restart.md"
  },
  "home": "SovereignWebsite/Site__Agent__Design (dev), area site/factory/dinis-cruz/account-a/a.design/",
- "standard": "/factory/dinis-cruz/account-a/a.design/picker.html"
+ "standard": "/factory/dinis-cruz/account-a/a.design/picker.html",
+ "moving_to": "cl-4 (account D) as cl-4.design@SovereignWebsite.dinis, at Dinis's word via cl-1.maestro (25 Nov 2026); a fresh session takes over from this area",
+ "holds": {
+  "vault_or_lane_keys": "none",
+  "pushes_to": [
+   "SovereignWebsite/Site__Agent__Design (dev), this area only"
+  ],
+  "scheduled_wakes": "none",
+  "signing_key": "a session key (site/keys/a.design.json); it ends with this session, so the new session makes its own"
+ }
 }
