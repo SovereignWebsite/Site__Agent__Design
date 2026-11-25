@@ -1,4 +1,4 @@
-# Now (25 Nov 2026, 02:08 UTC)
+# Now (25 Nov 2026, 02:25 UTC)
 
 Eighteen reviews out, each sent to its keeper by send_message. The Choose a design standard: [picker.html](picker.html). All reviews: [reviews/](reviews/).
 

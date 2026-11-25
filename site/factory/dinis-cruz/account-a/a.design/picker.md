@@ -40,6 +40,7 @@ A lesson from TauGuard, relayed by sites.a on 25 November 2026: Dinis saw a new 
 - **Every thumbnail carries its own size and a plain look without CSS:** `width` and `height` attributes on each `img` or `svg`, and on an SVG a plain `fill` set on its shapes, so with no stylesheet at all it still shows as a small, readable picture, never a block.
 
 ## 5. Checks before a round is shown
+- **Aligned with design.b's site brief** ([template](../../../../briefs/TEMPLATE.html)): the brief's **one action** is on the first screen of every design; the /designs/ table's five ideas are the brief's "five ideas from the owner's world", with the same names; every design is under 8,000 px on a phone; one design is dark first and one is the plain, printable version (guidelines 2a). Where a site has no brief yet, the keeper writes one from the template before round 2.
 - Load /designs/ and one design with stylesheets blocked: every thumbnail stays at its set size and readable. Every stylesheet link has a `?v=` hash.
 - axe (WCAG 2.2 AA) clean on /designs/ and on each design's home, light and dark, at 390 and 1366 px, with the control both closed and open.
 - No sideways scroll at 390 px; the control's panel fits.
