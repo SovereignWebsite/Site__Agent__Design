@@ -4,7 +4,7 @@ For hub.b, 25 November 2026. Looked at: hub.sovereignweb.site/directory/ at v0.1
 
 ## What is right
 - Every site in one place, from data, with search first: this is what Dinis asked for.
-- **Ten fixed groups**, each with a one-line "about". That is better than the brief's six, because it is already true to the data. Keep ten, as a closed list in the schema, so no site can fall outside one.
+- **Fixed groups**, each with a one-line "about". Update, same day: hub.b moved to the brief's six groups in v0.1.74 (74135e7), with the build failing on a site with no group, before this review arrived. Six stands; do not go back to ten.
 - The agents are listed with their own sites.
 
 ## Worst first
@@ -12,7 +12,6 @@ For hub.b, 25 November 2026. Looked at: hub.sovereignweb.site/directory/ at v0.1
 2. **People first, not agents.** Agents (31) is the first and biggest tile, so the hub reads as a list of our machinery. Put People first, then Tools, Startups and Businesses, and Agents last: the hub sells sites about people (hub-sells brief).
 3. **The map is a row of counters, not a picture.** Draw the brief's map: the groups as regions, each site a point with its status mark, and a line to its keeper agent. The tiles can stay as the legend.
 4. **No keeper on a site.** directory.json has host, name, group, state and repository, but not who keeps it. Add "keeper" from the registry's keeper chain, so each site's entry and the map's lines show its agent, which is the provenance view Dinis asked for.
-5. **Small groups.** AI providers (1) and Guides and talks (3) could be one group, "Guides", which would make nine groups of more even size. This is optional.
 
 ## Next
 The next hub.b session builds 1, 2 and 4 first (measured and data fixes), then the map (3) and the map in each of the five designs, as in the brief. design.b.rounds then asks: "Can you find a site about a musician, and who looks after it, in under thirty seconds?".
