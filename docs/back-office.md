@@ -167,6 +167,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | wordpress-section.demo | sites.b | [1](reviews-wordpress-section-2026-11-23-round-1.html): honest and working; a feed race; one design | a44d8fc | | 2 | [show a client 2/5](runs-wordpress-section-2026-11-23-r1.html) |
 | crm.tool | crm.dev.a | [1](reviews-crm-tool-2026-11-24-round-1.html): baseline; axe critical on Unlinked threads; no open-vault indicator; one design | 20d5f07 | | 1 | [every morning 2/5](runs-crm-tool-2026-11-24-r1.html) |
 | crm.tool | crm.dev.a | [2](reviews-crm-tool-2026-11-24-round-2.html): axe fixed, Today first; Today hides most drafts; Follow-ups sideways on a phone | b7afb41 | | 2 | [every morning 1/5](runs-crm-tool-2026-11-24-r2.html) |
+| lee-elle-horowitz.artist | b.site.lee-elle-horowitz | [1](reviews-lee-elle-horowitz-2026-11-25-round-1.html): baseline; five real ideas; Hebrew only in Alef-bet | d5cdbe3 | | 3 | [book a lesson: Alef-bet 3/5](runs-lee-elle-horowitz-2026-11-25-r1.html) |
 | suno.platform | suno.b | [3](reviews-suno-2026-11-23-round-3.html): faults fixed; two axe findings; 3 once fixed | 2a12f44 | | 1 | [ideas 5/5, friend 3/5](runs-suno-2026-11-23-r3.html) |
 | suno.platform | suno.b | [3, check-back](reviews-suno-2026-11-23-round-3.html): axe clean on aa1c8fc; rated 3, M3 | aa1c8fc | | 3 | |
 | donna-freed.author | (via design.b) | [1](reviews-donna-freed-2026-11-23-round-1.html): five skins, no images, not on the hub; M2 | 3bee275 | | 2 | [2.4](runs-donna-freed-2026-11-23-r1.html) |
@@ -249,6 +250,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [The WordPress section demo, round 1](runs-wordpress-section-2026-11-23-r1.html): would an agency show this to a client? 2 of 5; look 2.8
 - [The CRM tool, round 1](runs-crm-tool-2026-11-24-r1.html): would you use this every morning? 2 of 5; look 3.0
 - [The CRM tool, round 2](runs-crm-tool-2026-11-24-r2.html): would you use this every morning? 1 of 5; look 3.4
+- [Lee-Elle Horowitz, round 1](runs-lee-elle-horowitz-2026-11-25-r1.html): book a Hebrew lesson? Alef-bet 3 of 5, look 4.0; five ideas read
 - [Suno, our songs, round 3](runs-suno-2026-11-23-r3.html): five ideas (5 of 5); compare 3 of 5, show a friend 3 of 5; look 2.8
 - [Donna Freed, round 1](runs-donna-freed-2026-11-23-r1.html): 2.4; design 4 weakest for all five
 - [Yiheng (Vicky) Wang, round 1](runs-yiheng-wang-2026-11-23-r1.html): 3.6; The Brief voted best

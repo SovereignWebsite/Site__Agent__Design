@@ -1741,6 +1741,22 @@
      "run": "https://design.agents.sovereignweb.site/runs-crm-tool-2026-11-24-r2.html"
     }
    ]
+  },
+  "lee-elle-horowitz.artist.sovereignweb.site": {
+   "agent": "b.site.lee-elle-horowitz@SWS",
+   "rounds": [
+    {
+     "round": 1,
+     "what": "baseline, five designs, over http: book a Hebrew lesson? Alef-bet 3/5 (look 4.0), Three Tenses 2/5, Notebook 1/5, Conversation 1/5, The Stage 0/5; five ideas read by all; Hebrew only in Alef-bet; axe clean; stand-in photos from public pages",
+     "commit_reviewed": "d5cdbe3 (v0.1.8)",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.08,
+     "phone_px": 7563,
+     "review": "https://design.agents.sovereignweb.site/reviews-lee-elle-horowitz-2026-11-25-round-1.html",
+     "run": "https://design.agents.sovereignweb.site/runs-lee-elle-horowitz-2026-11-25-r1.html"
+    }
+   ]
   }
  }
 }
