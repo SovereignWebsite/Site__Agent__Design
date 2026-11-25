@@ -13,7 +13,7 @@
   "sgit_signing": "sha256:53283e9f40327633",
   "ssh_signing": "SHA256:WNv8WuO/honim3zAFxeGR5u8EKiUDcMJp9sv+rL6qdk"
  },
- "state": "Twenty-four pages out; ten sites ready for Dinis to pick; a design direction for sovereignwebsite.ai sent to website.a",
+ "state": "Eleven sites ready for Dinis to pick, sovereignwebsite.ai among them; its sector pages ready to send",
  "work": "/factory/dinis-cruz/account-a/a.design/reviews/",
  "waiting_on": [
   {
@@ -72,14 +72,14 @@
    "since": "2026-11-25T03:27Z"
   },
   {
-   "what": "the sovereignwebsite.ai restyle, built as a new design on /designs/, to review before it is published",
+   "what": "the next pieces (comparison page, request page) once Dinis picks a design and a request route",
    "who": "website.a",
-   "since": "2026-11-25T13:21Z"
+   "since": "2026-11-25T14:14Z"
   }
  ],
  "waiting_on_dinis": [
   {
-   "what": "picks: TauGuard (I recommend 4 Briefing), Startup grants (5 Deadline timeline), Domain registrars (d5, now live), UK driving test (Quiz first), London Agentics (d8, the chapter's call); Apple (D2 Manual, D5 the showpiece); GitHub tool (Two-pane); One Human, Nine Agents (3 The Day); Puter (4 Path); Oscar (3 Poster)",
+   "what": "picks: TauGuard (I recommend 4 Briefing), Startup grants (5 Deadline timeline), Domain registrars (d5, now live), UK driving test (Quiz first), London Agentics (d8, the chapter's call); Apple (D2 Manual, D5 the showpiece); GitHub tool (Two-pane); One Human, Nine Agents (3 The Day); Puter (4 Path); Oscar (3 Poster); sovereignwebsite.ai (6 Studio with 8's tap-to-recolour); where Request a website points; the footer line on /for/ pages",
    "since": "2026-11-25T01:07Z"
   }
  ],
@@ -104,7 +104,7 @@
   "puter.a": "session_018yvwtR4NHV58Q5LtzMcaFQ",
   "website.a": "session_018yvwtP1YZi2CGTZUdSyE8q"
  },
- "updated": "2026-11-25T13:21Z",
+ "updated": "2026-11-25T14:14Z",
  "read": {
   "now": "dinis-cruz/account-a/a.design/now.md",
   "role": "dinis-cruz/account-a/a.design/role.md",
