@@ -727,17 +727,17 @@
   },
   "lee-elle-horowitz.artist.sovereignweb.site": {
    "repo": "Site__Artist__Lee-Elle-Horowitz",
-   "commit": "d5cdbe3 (v0.1.8)",
+   "commit": "ed2b985 (v0.1.9)",
    "rating": 3,
    "five_designs": true,
-   "rounds": 1,
+   "rounds": 2,
    "agent": "b.site.lee-elle-horowitz@SWS",
    "owner": "a first customer site (b.maestro's first customer sites brief, site 1); a draft she has not yet approved",
    "maturity": "M3",
    "maturity_note": "registered 25 Nov at first answer (over http; certificate pending); M3 at baseline round 1: five ideas told apart by all five personas, axe clean, under 8,000 px",
-   "phone_px": 7563,
+   "phone_px": 7607,
    "on_building": true,
-   "blocking": "Hebrew in every design; the parent's facts first; The Stage about lessons; low-vision fixes; her approval, own photos and the photo rights; the https certificate"
+   "blocking": "Notebook's alphabet right to left; Conversation's empty Hebrew half; Hebrew words once she has checked them; The Stage's details; one voice; her approval, photos and their rights; https"
   }
  },
  "kpi": {

@@ -1749,12 +1749,23 @@
      "round": 1,
      "what": "baseline, five designs, over http: book a Hebrew lesson? Alef-bet 3/5 (look 4.0), Three Tenses 2/5, Notebook 1/5, Conversation 1/5, The Stage 0/5; five ideas read by all; Hebrew only in Alef-bet; axe clean; stand-in photos from public pages",
      "commit_reviewed": "d5cdbe3 (v0.1.8)",
-     "answered_by": null,
+     "answered_by": "ed2b985 (v0.1.9): Hebrew letters in all five, facts high, The Stage reworked, low-vision and button fixes (checked in round 2)",
      "rating": "3",
      "synthetic_score": 3.08,
      "phone_px": 7563,
      "review": "https://design.agents.sovereignweb.site/reviews-lee-elle-horowitz-2026-11-25-round-1.html",
      "run": "https://design.agents.sovereignweb.site/runs-lee-elle-horowitz-2026-11-25-r1.html"
+    },
+    {
+     "round": 2,
+     "what": "round 1's list done; book a lesson: Alef-bet 3/5 (4.0), Three Tenses 3/5 (3.4), Notebook 2/5 (3.4), Conversation 1/5, The Stage 0/5 (2.8); Notebook's cover alphabet runs left to right",
+     "commit_reviewed": "ed2b985 (v0.1.9)",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.2,
+     "phone_px": 7607,
+     "review": "https://design.agents.sovereignweb.site/reviews-lee-elle-horowitz-2026-11-25-round-2.html",
+     "run": "https://design.agents.sovereignweb.site/runs-lee-elle-horowitz-2026-11-25-r2.html"
     }
    ]
   }
