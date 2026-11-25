@@ -13,7 +13,7 @@
   "sgit_signing": "sha256:53283e9f40327633",
   "ssh_signing": "SHA256:WNv8WuO/honim3zAFxeGR5u8EKiUDcMJp9sv+rL6qdk"
  },
- "state": "Sixteen reviews out; seven sites ready for Dinis to pick",
+ "state": "Seventeen reviews out; seven sites ready for Dinis to pick; One Human, Nine Agents at round 1",
  "work": "/factory/dinis-cruz/account-a/a.design/reviews/",
  "waiting_on": [
   {
@@ -60,6 +60,11 @@
    "what": "fixes to /pipeline/, /send/, /request/",
    "who": "sites-pages.a",
    "since": "2026-11-25T01:03Z"
+  },
+  {
+   "what": "round 2 of the One Human, Nine Agents designs",
+   "who": "one-human-nine-agents.a",
+   "since": "2026-11-25T02:04Z"
   }
  ],
  "waiting_on_dinis": [
@@ -83,9 +88,10 @@
   "a.ben-fung": "session_018yvwtNDFVPqtbGhRxqxoZ1",
   "sites-pages.a": "session_018yvwtPxpt5EDqNmEgLwpKV",
   "apple.a": "session_018yvwtMgcVvXzU5RNZ7M2Qj",
-  "github-tool.a": "session_018yvwtR4jMETPfBD6odJjbR"
+  "github-tool.a": "session_018yvwtR4jMETPfBD6odJjbR",
+  "one-human-nine-agents.a": "session_018yvwtNfpegfLMBhUK1FCxb"
  },
- "updated": "2026-11-25T01:52Z",
+ "updated": "2026-11-25T02:04Z",
  "read": {
   "now": "dinis-cruz/account-a/a.design/now.md",
   "role": "dinis-cruz/account-a/a.design/role.md",
