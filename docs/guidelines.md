@@ -55,6 +55,15 @@ Dinis, in b.site.lee-elle-horowitz's session, of a switcher made of text pills a
 
 design.b.rounds checks the chooser in every round: the button is present, the panel shows a screenshot for each design, and the screenshots match the live designs.
 
+### Presentations (decks) on a site (Dinis Cruz, 25 November 2026)
+
+From Dinis's review of Lee-Elle Horowitz's guided tours ("pic2 looks very vanilla"; "more meat ... collage or multiple pages or parts of the site"; "explain the philosophy and the concepts and the thinking behind it"). The full brief: [the two decks](briefs/lee-elle-horowitz-decks.html). For every site's decks:
+- several layouts (cover, statement, collage, why, side by side, mirror, graph, close), never one template for every slide;
+- each design's slide wears that design, with a collage of real screenshots;
+- every design slide says why that choice fits the owner;
+- the close shows what we can do, claiming only what is live;
+- the PDF has no drop shadows, one 16:9 slide per page, and a file name for sharing.
+
 ## 2b. Navigation: one browsing experience (Dinis Cruz, 23 November 2026)
 
 Dinis, record 2026-11-23__navigation-and-review, "super critical": "every website almost, I should be able to navigate easily across every website, find the home, go up, go down, find the agent, connect with, etc. And have that browsing experience."
