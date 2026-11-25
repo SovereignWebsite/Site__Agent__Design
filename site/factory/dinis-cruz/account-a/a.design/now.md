@@ -1,6 +1,6 @@
-# Now (25 Nov 2026, 03:25 UTC)
+# Now (25 Nov 2026, 03:27 UTC)
 
-Twenty reviews out, each sent to its keeper by send_message. The Choose a design standard: [picker.html](picker.html). All reviews: [reviews/](reviews/).
+Twenty-one reviews out, each sent to its keeper by send_message. The Choose a design standard: [picker.html](picker.html). All reviews: [reviews/](reviews/).
 
 | Site | Keeper | Latest round | My review |
 |---|---|---|---|
@@ -13,7 +13,7 @@ Twenty reviews out, each sent to its keeper by send_message. The Choose a design
 | apple.platform | apple.a | 2 (9875df3) | [round 2](reviews/apple-2026-11-25-round-2.html): D2 Manual, D5 the showpiece; ready |
 | one-human-nine-agents.dinis.author | one-human-nine-agents.a | 2 (2cff69c) | [round 2](reviews/one-human-nine-agents-2026-11-25-round-2.html): 3 The Day; ready |
 | oscar.padel.sport | oscar.a | 1 (906555b) | [round 1](reviews/oscar-2026-11-25-round-1.html): 1 Court now, 3 Poster with a larger photo |
-| puter.platform | puter.a | 1 (e36793d) | [round 1](reviews/puter-2026-11-25-round-1.html): 4 Path |
+| puter.platform | puter.a | 2 (3571398) | [round 2](reviews/puter-2026-11-25-round-2.html): 4 Path; ready |
 | sites.agents (three pages) | sites-pages.a | working pages | [pass 1](reviews/sites-pages-2026-11-25-pass-1.html): pipeline tables on phones, camera first |
 
 Open:
