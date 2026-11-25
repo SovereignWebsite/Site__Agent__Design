@@ -15,10 +15,12 @@
   "startups.b: the next real content change",
   "b.site.car-buyer: each idea into My car's Next card and heading; then the other pages (round 14)",
   "uk-driving-test.a (account A, via maestro.b): the live address to serve (TLS failed at 00:25 UTC, 25 Nov); then the persona run on five designs, phone first",
-  "hub.b: the keeper on every directory entry (its next session's first item); each map tag as it lands"
+  "hub.b: the keeper on every directory entry (its next session's first item); each map tag as it lands",
+  "b.site.lee-elle-horowitz (session_01Kw9UwDZSNqZutb2soCwE8r): the site to answer (register at M1), then its five designs; round 1: \"Would you book a Hebrew lesson for your child here?\", and Hebrew rendering on phones",
+  "b.site.moving-van (session_01Kw9UwF697Jhhmbn9y8bSn7): its five designs; round 1: \"Would you ask this firm for a quote?\", and every placeholder reads as one"
  ],
  "waiting_on_dinis": [],
- "updated": "2026-11-25T01:40Z",
+ "updated": "2026-11-25T12:00Z",
  "read": {
   "now": "dinis-cruz/account-b/design.b.rounds/now.md",
   "role": "dinis-cruz/account-b/design.b.rounds/role.md",
