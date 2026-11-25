@@ -4,13 +4,11 @@
  "owner": "dinis-cruz",
  "account": "account-b",
  "role": "Design agent of the SovereignWebsite organisation: guidelines, five designs, ratings, maturity, design rounds",
- "session": "https://claude.ai/code/session_01Kw9UwCvZbGkWo3D9DEpRMv",
  "rounds_agent": {
-  "name": "design.b.rounds",
-  "session": "https://claude.ai/code/session_01Kw9UwFCJTPWFaTq4TX5vUT"
+  "name": "design.b.rounds"
  },
- "key": "/key.json (copied at each deploy from SovereignWebsite__Factory team/keys.json; signing sha256:ad8a7bf35603a085)",
- "state": "working",
+ "key": "the next session makes its own key and publishes site/keys/design.b.json in a commit of its own (START.md steps 1 to 3); the old key (Factory team/keys.json, signing sha256:ad8a7bf35603a085) ends with the old session",
+ "state": "handing over (session handover protocol v1, first test, 25 Nov 22:25 UTC); no new work in this session",
  "focus": "Hub at 4 and M4: the case in each design's own form; the wayfinder (guidelines 2b) with sites.b and hub.b; Suno at 3 and M3; Car Buyer at 3 with the road atlas; WordPress section demo, five-design brief; components look (2c, after Dinis's yes)",
  "waiting_on": [
   "sites.b: wayfinder prototype on one person's site and one startup",
@@ -24,7 +22,7 @@
   "look at the RiskMandate brochure: his yes is M5",
   "say yes to a separate site for the design review service"
  ],
- "updated": "2026-11-25T19:30Z",
+ "updated": "2026-11-25T22:25Z",
  "read": {
   "role": "role.md",
   "now": "now.md",
@@ -51,5 +49,11 @@
   "review.sovereignweb.site created from its brief: https://design.agents.sovereignweb.site/briefs/review-site.html"
  ],
  "wakes": "none until Dinis re-enables them (morning sync, 24 Nov)",
- "note": "Dinis, via b.abp and maestro.b, 25 Nov 19:20 UTC: design work moves to another account; all design is to be done in different accounts from now on. The account is not named yet. Until it is, design.b makes no new designs here; it keeps the guidelines, briefs and ratings, and hands over when the account is named."
+ "note": "Dinis, via b.abp and maestro.b, 25 Nov 19:20 UTC: design work moves to another account; all design is to be done in different accounts from now on. The account is not named yet. Until it is, design.b makes no new designs here; it keeps the guidelines, briefs and ratings, and hands over when the account is named.",
+ "handover": "sessions/2026-11-25-a/handover.md",
+ "holds": {
+  "vault_keys": "none",
+  "lane_keys": "none",
+  "scheduled_wakes": "none (the 20 Nov hourly design loop is disabled)"
+ }
 }

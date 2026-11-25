@@ -1,4 +1,4 @@
-# Now (25 Nov 2026, 20:30 UTC)
+# Now (25 Nov 2026, 22:25 UTC: handing over; table unchanged since 20:30)
 
 Design work is moving to another account (Dinis, via b.abp and maestro.b); design.b makes no new designs here and keeps the guidelines, briefs and ratings until the hand-over.
 

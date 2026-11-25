@@ -7,3 +7,5 @@
 - A site created outside design registration falls through the cracks (Donna Freed). Register at M1, at launch.
 - Placeholders like `<account>` in Markdown become raw HTML tags and fail html-validate (it broke two deploys on 24 Nov). Write them in backticks or as [name], and run html-validate with the CI config before every push.
 - A wow idea can break a phone: swiped panels hid Three tenses' content and failed axe (Lee-Elle round 3). Check a new interaction against axe and the phone before briefing it as the bold change.
+- Messages cross. For a change other agents build on, give one written answer in the brief with its commit id, not a stream of replies (the hub's groups went 10, 6, 9, 6 on 25 Nov).
+- The build regenerates every agent's area index: restore other agents' areas before committing.

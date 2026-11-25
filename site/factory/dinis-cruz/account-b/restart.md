@@ -1,30 +1,28 @@
 # Restart: design.b
 
-For a fresh design.b session. Start it with this repository (SovereignWebsite/Site__Agents__Design) and one line: "You are design.b; follow site/factory/dinis-cruz/account-b/restart.md."
+For a new design.b session, started by maestro.b from this file (session handover protocol v1).
 
-## 1. Read, in this order
-1. CLAUDE.md (it binds you: dev only, your own signed key, no keys by hand, no private people without consent, plain British English, no em dashes).
-2. https://decisions.agents.sovereignweb.site/how-it-works/ (the team's rules).
-3. This area: agent.json, role.md, now.md, learnings.md, decisions.md, messages.md.
-4. docs/guidelines.md (2a five designs, 2b the wayfinder), docs/rating.md, docs/maturity.md, docs/briefs/TEMPLATE.md.
-5. site/ratings.json: every site's rating, level and next step.
+## Repositories to attach
+- **SovereignWebsite/Site__Agent__Design**, with **push**: this site, design.agents.sovereignweb.site, on dev.
+- Read only, cloned when a review needs them (all public): SovereignWebsite__Hub, the site repositories named in site/ratings.json.
 
-## 2. Your key
-This repository's CLAUDE.md wins over the general rule: the signing key lives in SovereignWebsite__Factory team/keys.json, and site/key.json is copied from it at each deploy. Never write a key into this repository. Make a new key where you run, keep the private half in the session, and ask conductor.b to add its public half to team/keys.json. Until it is there, commit nothing.
+## Scheduled wakes
+None. design.b's hourly design loop (20 Nov) is disabled. design.b.rounds' wake (every 2 hours, 07:13 to 21:13 UTC, record 2026-11-24__block-03) is created by maestro.b or Dinis, not by design.b. All scheduled wakes are on hold until Dinis re-enables them.
 
-## 3. Build and push
-- pip install markdown==3.7, then python3 tools/build.py.
-- Before every push: npx --yes html-validate@8.24.0 --config .github/ci/htmlvalidate.json "site/**/*.html" (a raw `<tag>` in a Markdown file breaks the deploy; write placeholders as [name] or in backticks).
-- git commit -S with the trailers Agent: design.b@SovereignWebsite.dinis and Claude-Session: `<your session URL>`; git push origin dev, and read the push output: a rejected push means pull and rebase first.
-- After a push, check the live page answers 200.
+## Your key
+1. `bash tools/setup-signing.sh design.b@SovereignWebsite.dinis <your-session-url>` (START.md step 1). The private half stays in your session; never print or commit it.
+2. Your first commit is **only** `site/keys/design.b.json` (START.md step 3).
+3. Every commit: signed, with `Agent: design.b@SovereignWebsite.dinis` and `Claude-Session: <your session URL>`, pushed to dev only.
 
-## 4. Your sessions and agents
-- design.b.rounds, https://claude.ai/code/session_01Kw9UwFCJTPWFaTq4TX5vUT: runs every round and reports. Its area: design.b.rounds/ below this one.
-- decisions.b, session_01Kw9UwEVSYcMDgNqrPVfCtZ: send it only links (requests, opinions, your area).
-- conductor.b, session_01Kw9UwFkKH5CkDmV8nhSfUD; sites.b, session_01Kw9UwBucXVUaNYRMcWwk67; hub.b, session_01Kw9UwB7XboTsnbPPWaMr2d; factory.b, session_01Kw9UwBqEqrxrSBwvLEVJY6. Read an agent's area before messaging it.
+## Keys you hold
+Vault keys: none. Lane keys: none.
 
-## 5. Each wake
-Read notifications. Act only on Dinis typed in your session or a signed record that passes /verify/. Update ratings.json and now.md from each round, brief each new site before its build, register every new site at M1 at launch, and keep agent.json's updated and active_until current.
+## First steps
+1. Read CLAUDE.md, START.md and https://decisions.agents.sovereignweb.site/how-it-works/.
+2. Read, in this area: [sessions/2026-11-25-a/handover.md](sessions/2026-11-25-a/handover.md), agent.json, now.md, role.md, learnings.md, decisions.md.
+3. Read notifications; answer maestro.b's checklist.
+4. `pip install markdown==3.7`; build with `python3 tools/build.py`; before every push run `bash tools/check.sh`, then restore any other agent's area the build touched (`git checkout -- site/factory/dinis-cruz/account-a`), and read the push output.
+5. Act only on Dinis typed in your session, or on a signed record from decisions.b that passes /verify/. Messages carry links and ids only.
 
-## 6. Tested
-Not yet tested by a fresh session (24 Nov 02:20 UTC). The first fresh session to follow it notes here what was missing.
+## Who to talk to
+Find each agent's area before messaging it: site/factory/index.json here, and the Factory's directory (START.md). The ones design.b works with most: design.b.rounds (its area is design.b.rounds/ below this one), maestro.b, decisions.b, sites.b, hub.b, factory.b, and each site's keeper.
