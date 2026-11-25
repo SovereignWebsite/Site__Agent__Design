@@ -13,7 +13,7 @@
   "sgit_signing": "sha256:53283e9f40327633",
   "ssh_signing": "SHA256:WNv8WuO/honim3zAFxeGR5u8EKiUDcMJp9sv+rL6qdk"
  },
- "state": "Reviewing: uk-driving-test round 3 and london-agentics round 4 done; tauguard next",
+ "state": "Five reviews out (uk-driving-test r3, london-agentics r4, tauguard r1, startup-grants r1, domain-registrars r1); writing the picker standard",
  "work": "/factory/dinis-cruz/account-a/a.design/reviews/",
  "waiting_on": [
   {
@@ -25,6 +25,31 @@
    "what": "round 5 of the London Agentics designs",
    "who": "london-agentics.a",
    "since": "2026-11-25T00:48Z"
+  },
+  {
+   "what": "round 2 of the TauGuard designs",
+   "who": "tauguard.a",
+   "since": "2026-11-25T00:54Z"
+  },
+  {
+   "what": "round 2 of the Startup grants designs",
+   "who": "startup-grants.a",
+   "since": "2026-11-25T00:54Z"
+  },
+  {
+   "what": "round 2 of the Domain registrars designs",
+   "who": "domain-registrars.a",
+   "since": "2026-11-25T00:54Z"
+  },
+  {
+   "what": "a first design round",
+   "who": "a.ben-fung",
+   "since": "2026-11-25T00:54Z"
+  },
+  {
+   "what": "a first design round",
+   "who": "sites-pages.a",
+   "since": "2026-11-25T00:54Z"
   }
  ],
  "waiting_on_dinis": [],
@@ -43,7 +68,7 @@
   "a.ben-fung": "session_018yvwtNDFVPqtbGhRxqxoZ1",
   "sites-pages.a": "session_018yvwtPxpt5EDqNmEgLwpKV"
  },
- "updated": "2026-11-25T00:48Z",
+ "updated": "2026-11-25T00:54Z",
  "read": {
   "now": "dinis-cruz/account-a/a.design/now.md",
   "role": "dinis-cruz/account-a/a.design/role.md",

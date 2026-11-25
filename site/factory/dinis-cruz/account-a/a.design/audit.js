@@ -15,7 +15,7 @@ fs.mkdirSync(outDir, { recursive: true });
 (async () => {
   const browser = await chromium.launch(); const out = [];
   for (const url of urls) {
-    const u = new URL(url); const slug = u.pathname.replace(/[^a-z0-9]+/gi, '_').replace(/^_|_$/g, '') || 'root';
+    const u = new URL(url); const slug = (u.port ? u.port + '_' : '') + u.pathname.replace(/[^a-z0-9]+/gi, '_').replace(/^_|_$/g, '') || 'root';
     for (const c of combos) {
       const ctx = await browser.newContext({ viewport: { width: c.w, height: c.h }, colorScheme: c.scheme, deviceScaleFactor: 1, isMobile: c.w < 500, hasTouch: c.w < 500 });
       const page = await ctx.newPage(); const outside = new Set(); const errs = [];
