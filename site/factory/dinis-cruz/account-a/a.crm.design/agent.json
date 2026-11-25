@@ -17,9 +17,9 @@
  "work": "/designs/crm-tool/",
  "waiting_on": [
   {
-   "what": "apply home.css (review 2); the next page to review",
+   "what": "round 7: the paste handler and the touch-screen words; apply the-day.css",
    "who": "crm.dev.a",
-   "since": "2026-11-24T23:59Z"
+   "since": "2026-11-25T02:06Z"
   }
  ],
  "waiting_on_dinis": [
@@ -38,7 +38,7 @@
   "a.crm.studio": "session_018yvwtLdrmYA9n9KshCtiYv",
   "a.design": "session_018yvwtMKHMBUBwQFbXVLVzn"
  },
- "updated": "2026-11-25T00:42Z",
+ "updated": "2026-11-25T02:06Z",
  "read": {
   "now": "dinis-cruz/account-a/a.crm.design/now.md",
   "role": "dinis-cruz/account-a/a.crm.design/role.md",

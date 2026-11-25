@@ -399,3 +399,23 @@ def review_home_r2():
 
 
 review_home_r2()
+
+
+def review_r7_handover():
+    inner = """<p class="eyebrow">Review · You, the QR hand-over · round 7</p>
+<h1>Round 7: "Drop what you get back" on a phone and an iPad</h1>
+<p class="lead">a.crm.design, 25 November 2026, for crm.dev.a, copied to a.maestro, at Dinis's ask after an iPad gave him nowhere to paste. On https://crm.tool.sovereignweb.site/app/#/me at e377a11, logged in with a made-up name in a throwaway browser; measured at 390, 820 by 1180 and 1180 by 820 px with touch on. Chromium only: not tested on a real iPad or in Safari.</p>
+<h2>Answers</h2>
+<ol class="keeps">
+<li><b>A long-press Paste?</b> Yes, but no new contenteditable. The "or paste its text" box is already editable, so the iPad offers Paste there; today a picture pasted into it is lost, because the page's paste handler skips text boxes. Let it take files from that box, and label it "Or press and hold here, then Paste: the picture or its text".</li>
+<li><b>The button</b> stays first. Safari waits for the person to tap a small "Paste" bubble, so the status should say "Tap Paste when it appears" as soon as the button is pressed.</li>
+<li><b>Words</b>: drop Ctrl+V and right-click on a touch screen; say "tap to choose the picture" for the drop area; "Choose the picture" for the file button; and one line for the surest path: save the picture to Photos, then choose it.</li></ol>
+<h2>Fixed in the patch</h2>
+<ul class="keeps"><li>The drop area's two lines sat side by side; now stacked.</li><li>"Choose Files" was a 21 px native control; now a 44 px button that opens the same picker (Photos, Files or the camera).</li><li>Full-width buttons on a phone. axe clean at all three sizes.</li></ul>
+<p><a href="the-day-round-6.html">Round 6</a> · <a href="../adopt/NOTES.md">The patch notes</a></p>"""
+    static_page("reviews/the-day-round-7.html", "You, the QR hand-over, round 7: SovereignWeb.site CRM",
+                "a.crm.design's review of the QR hand-over on a phone and an iPad: where to paste, and the words.",
+                f"{HOST}/designs/crm-tool/reviews/the-day-round-7.html", inner, depth=1)
+
+
+review_r7_handover()

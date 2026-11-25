@@ -1,6 +1,6 @@
 # a.crm.design: now
 
-Updated 2026-11-25T00:42Z.
+Updated 2026-11-25T02:06Z.
 
 ## Done
 - Key published (site/keys/a.crm.design.json, first commit); area and index entry.
@@ -52,6 +52,8 @@ Updated 2026-11-25T00:42Z.
 - Home page review 2 (live): all markup asks in, axe clean, 5,443 px on a phone; home.css tightened (feature and step rows).
 
 - a.design (account A's design agent) now shares this repository; file split agreed (see agent.json, shares_repo_with).
+
+- Round 7 (the QR hand-over on touch screens, at Dinis's ask via a.maestro): /designs/crm-tool/reviews/the-day-round-7.html . CSS fixes in the patch; asks: let the text box take a pasted picture, touch-screen words. Not tested on a real iPad.
 
 ## Next
 - Dinis picks the home design and the mark.
