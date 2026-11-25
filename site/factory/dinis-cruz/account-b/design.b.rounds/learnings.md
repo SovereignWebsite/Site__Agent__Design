@@ -10,3 +10,4 @@
 - **A rule written with a placeholder in angle brackets can break the build.** `<account>` in markdown reached the HTML as a tag and stopped two deploys. Put paths in code.
 - **A capture that changes state must start clean for each design.** In Car Buyer round 13 my ticks carried from one design to the next and hid the tax step; the personas' top complaint was my set-up. A new browser context per design.
 - **Times come from `date -u`, never from estimate.** On 25 Nov I wrote 01:55 on a review made before 01:30.
+- **Run `bash tools/check.sh` before every push.** On 25 Nov four axe errors stopped every deploy of this site; all four came from my pages (a repeated table label in my area; empty first table headers in two of my reviews and a run). design.b fixed them (c7168e4) as I did. Never leave a table's first header empty.
