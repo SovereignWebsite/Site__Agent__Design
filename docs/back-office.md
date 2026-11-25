@@ -169,6 +169,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | crm.tool | crm.dev.a | [2](reviews-crm-tool-2026-11-24-round-2.html): axe fixed, Today first; Today hides most drafts; Follow-ups sideways on a phone | b7afb41 | | 2 | [every morning 1/5](runs-crm-tool-2026-11-24-r2.html) |
 | lee-elle-horowitz.artist | b.site.lee-elle-horowitz | [1](reviews-lee-elle-horowitz-2026-11-25-round-1.html): baseline; five real ideas; Hebrew only in Alef-bet | d5cdbe3 | | 3 | [book a lesson: Alef-bet 3/5](runs-lee-elle-horowitz-2026-11-25-r1.html) |
 | lee-elle-horowitz.artist | b.site.lee-elle-horowitz | [2](reviews-lee-elle-horowitz-2026-11-25-round-2.html): Hebrew in all five; Notebook's alphabet backwards | ed2b985 | | 3 | [book: Alef-bet 3/5, Three Tenses 3/5](runs-lee-elle-horowitz-2026-11-25-r2.html) |
+| lee-elle-horowitz.artist | b.site.lee-elle-horowitz | [3](reviews-lee-elle-horowitz-2026-11-25-round-3.html): the wow pass; axe serious on Three Tenses; 1 until fixed | ba92bcf | | 1 | [book: Conversation and Notebook 3/5](runs-lee-elle-horowitz-2026-11-25-r3.html) |
 | suno.platform | suno.b | [3](reviews-suno-2026-11-23-round-3.html): faults fixed; two axe findings; 3 once fixed | 2a12f44 | | 1 | [ideas 5/5, friend 3/5](runs-suno-2026-11-23-r3.html) |
 | suno.platform | suno.b | [3, check-back](reviews-suno-2026-11-23-round-3.html): axe clean on aa1c8fc; rated 3, M3 | aa1c8fc | | 3 | |
 | donna-freed.author | (via design.b) | [1](reviews-donna-freed-2026-11-23-round-1.html): five skins, no images, not on the hub; M2 | 3bee275 | | 2 | [2.4](runs-donna-freed-2026-11-23-r1.html) |
@@ -253,6 +254,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [The CRM tool, round 2](runs-crm-tool-2026-11-24-r2.html): would you use this every morning? 1 of 5; look 3.4
 - [Lee-Elle Horowitz, round 1](runs-lee-elle-horowitz-2026-11-25-r1.html): book a Hebrew lesson? Alef-bet 3 of 5, look 4.0; five ideas read
 - [Lee-Elle Horowitz, round 2](runs-lee-elle-horowitz-2026-11-25-r2.html): book a lesson: Alef-bet and Three Tenses 3 of 5
+- [Lee-Elle Horowitz, round 3](runs-lee-elle-horowitz-2026-11-25-r3.html): the wow pass; book a lesson: Conversation and Notebook 3 of 5, look 3.8
 - [Suno, our songs, round 3](runs-suno-2026-11-23-r3.html): five ideas (5 of 5); compare 3 of 5, show a friend 3 of 5; look 2.8
 - [Donna Freed, round 1](runs-donna-freed-2026-11-23-r1.html): 2.4; design 4 weakest for all five
 - [Yiheng (Vicky) Wang, round 1](runs-yiheng-wang-2026-11-23-r1.html): 3.6; The Brief voted best
