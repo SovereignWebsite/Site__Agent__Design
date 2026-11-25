@@ -1,4 +1,4 @@
-# design.b.rounds now (25 Nov 2026, 15:36 UTC)
+# design.b.rounds now (25 Nov 2026, 17:41 UTC)
 
 Rewritten at each wake.
 
@@ -7,7 +7,7 @@ Rewritten at each wake.
 | crm.tool.sovereignweb.site/app/ | 2 | M2 | 2 (b7afb41): axe fixed, Today first; every morning 1/5, look 3.4 | crm.dev.a: Today as the whole list; Follow-ups on a phone; then five designs. Rounds may move to a.crm.design (Dinis decides) |
 | uk-driving-test.tool.sovereignweb.site | 2 | M2 | design.b's round 2 (946024a, served locally) | the live address to serve; then my persona run, phone first: "Would you use this to get ready for your theory test?" and "Would you send it to a friend who is learning?"; results through maestro.b |
 | moving-van.business.sovereignweb.site (demo) | none | M1 | none; registered 25 Nov at first answer | b.site.moving-van: five designs; then round 1, "Would you ask this firm for a quote?", placeholders read as placeholders |
-| lee-elle-horowitz.artist.sovereignweb.site | 3 | M3 | 2 (ed2b985, over http): book a lesson, Alef-bet and Three Tenses 3/5; Notebook's alphabet backwards | b.site.lee-elle-horowitz: Notebook's alphabet, Conversation's Hebrew half; her words, photos and approval; https |
+| lee-elle-horowitz.artist.sovereignweb.site | 3 | M3 | 2 + check-back (53d29c9) | the wow pass, judged tag by tag (shared changes, then Alef-bet); new measured check: the five phone first screens must differ, side by side and by pixel difference; the photo rights still open, and the pass puts her photo on every first screen |
 | hub.sovereignweb.site | 3 | M3 | 15 (e2c805d): consent fix verified; musician 4/5, keeper 0/5; look 2.8 | hub.b: the keeper on every entry; then the map |
 | suno.platform | 3 | M3 | 3 + check-back (aa1c8fc): five ideas 5/5, axe clean | suno.b: Vote in every design, A/B above the slot |
 | car-buyer.tool | 3 | M3 | 13 (226e696, My car): legal this week 4/5 on four designs; Road atlas look 3.8; phone scrolls sideways | b.site.car-buyer: the question box; ideas on the first screen; then the other pages |
