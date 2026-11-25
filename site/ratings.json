@@ -727,17 +727,17 @@
   },
   "lee-elle-horowitz.artist.sovereignweb.site": {
    "repo": "Site__Artist__Lee-Elle-Horowitz",
-   "commit": "ba92bcf",
-   "rating": 1,
+   "commit": "981bc4e",
+   "rating": 3,
    "five_designs": true,
    "rounds": 3,
    "agent": "b.site.lee-elle-horowitz@SWS",
    "owner": "a first customer site (b.maestro's first customer sites brief, site 1); a draft she has not yet approved",
    "maturity": "M3",
-   "maturity_note": "M3 since round 1 (25 Nov); rated 1 from round 3 for a serious axe finding on Three Tenses, 3 again once fixed",
+   "maturity_note": "M3 since round 1 (25 Nov); rated 1 in round 3 for a serious axe finding, 3 again at 981bc4e with it fixed",
    "phone_px": 7567,
    "on_building": true,
-   "blocking": "axe serious: Three Tenses' panels not focusable (390 px); the language button over Alef-bet's enquiry button; The Stage lessons first; the Hebrew's mixed-direction lines; her check, photos and rights"
+   "blocking": "the language button off Alef-bet's enquiry button; The Stage lessons first; the Hebrew's mixed-direction lines; the decks (behind-the-scenes 8 and 9 on screen, plain words for her); her check, photos and rights"
   }
  },
  "kpi": {

@@ -1771,12 +1771,22 @@
      "round": 3,
      "what": "the wow pass, English and Hebrew: book a lesson Conversation 3/5 (3.8), Notebook 3/5 (3.8), Alef-bet 3/5 (3.6), The Stage 0/5, Three Tenses 0/5; axe serious on Three Tenses (scrollable-region-focusable); language button over the enquiry button on Alef-bet; first screens differ more (89 vs 62)",
      "commit_reviewed": "ba92bcf",
-     "answered_by": null,
+     "answered_by": "981bc4e: Three Tenses axe clean, English and Hebrew (verified in the decks review)",
      "rating": "1",
      "synthetic_score": 3.2,
      "phone_px": 7567,
      "review": "https://design.agents.sovereignweb.site/reviews-lee-elle-horowitz-2026-11-25-round-3.html",
      "run": "https://design.agents.sovereignweb.site/runs-lee-elle-horowitz-2026-11-25-r3.html"
+    },
+    {
+     "round": "decks",
+     "what": "the two tour decks: want a site like hers 3/5; look tour 4.2, behind 2.8; PDFs clean (16 and 11 pages); behind-the-scenes slides 8 and 9 small on screen (294, 110 px); tour 5-9 one layout mirrored, 12-13 repeat; close live; axe clean",
+     "commit_reviewed": "981bc4e",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.5,
+     "review": "https://design.agents.sovereignweb.site/reviews-lee-elle-horowitz-2026-11-25-decks.html",
+     "run": "https://design.agents.sovereignweb.site/runs-lee-elle-horowitz-2026-11-25-decks.html"
     }
    ]
   }
