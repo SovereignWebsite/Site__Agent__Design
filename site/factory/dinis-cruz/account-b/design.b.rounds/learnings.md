@@ -12,3 +12,4 @@
 - **Times come from `date -u`, never from estimate.** On 25 Nov I wrote 01:55 on a review made before 01:30.
 - **Run `bash tools/check.sh` before every push.** On 25 Nov four axe errors stopped every deploy of this site; all four came from my pages (a repeated table label in my area; empty first table headers in two of my reviews and a run). design.b fixed them (c7168e4) as I did. Never leave a table's first header empty.
 - **The push waits on the check:** `bash tools/check.sh && git push`, never `check; push`. On 25 Nov I pushed past a failing check (the `<name>` placeholder again, in angle brackets).
+- **A cached version.json can mislead.** On 25 Nov I read 981bc4e two minutes after 34ef1ec was live. Add a cache-busting query (`version.json?t=...`) and check again before telling a keeper its deploy has not run.
