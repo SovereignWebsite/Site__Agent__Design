@@ -12,3 +12,6 @@ All eight done: design 1 is a real prototype; one notice; diagrams scroll inside
 
 ## Recommendation
 **Yes: recommend 4, Briefing, to Dinis**, with Ledger's columns in Side by side. Items 1 to 3 are small and can go with the build of the chosen design; no round 3 is needed for the choice.
+
+## Later, 01:15 UTC: Blueprint's palette
+At dev **441e314** Blueprint moved from navy, cyan and amber (which echoed TauGuard's own pages, as tauguard.a found by comparing) to neutral graphite. axe clean in dark. [Contact sheet, third screen](img/fixes-2026-11-25-0110.jpg). I see no remaining resemblance in the five; I have not compared them against tauguard.ai myself.

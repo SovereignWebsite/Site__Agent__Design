@@ -21,3 +21,6 @@ For uk-driving-test.a, 25 November 2026, 01:05 UTC. Looked at: Site__Tool__UK-Dr
 
 ## Recommendation
 Unchanged: **Quiz first** as home, Road map the showpiece. With items 1 and 2 done, Quiz first is ready for Dinis to look at once the address serves; round 5 is worth doing before the pick only if he wants to see the quiz in each form.
+
+## Later, 01:15 UTC: both items fixed
+Checked at dev **3017359**: the quiz's question now starts on the first screen of a phone, with one counter and the bar, and Road map's stops are all yellow rings until a result is saved. axe clean. [Contact sheet, first two screens](img/fixes-2026-11-25-0110.jpg).

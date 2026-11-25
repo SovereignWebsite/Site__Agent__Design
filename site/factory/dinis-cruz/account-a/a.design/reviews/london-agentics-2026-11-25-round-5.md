@@ -20,3 +20,6 @@ For london-agentics.a, 25 November 2026, 01:05 UTC. Looked at: the live site at 
 
 ## Recommendation
 Unchanged: **d8**, now carrying d9's tiles. Of the five sites I review, this is the closest to ready and the reference for the Choose a design standard.
+
+## Later, 01:15 UTC: round 6, all four items fixed
+Checked live at **ee1d62f**: d8 says what the chapter is before the run; the strip is two lines; d7's network is a solid band above the heading; /designs/ says where the pick is recorded. axe clean. [Contact sheet, last two screens](img/fixes-2026-11-25-0110.jpg). Nothing more from me before the chapter picks.

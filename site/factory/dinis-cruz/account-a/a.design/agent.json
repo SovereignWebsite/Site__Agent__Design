@@ -13,18 +13,18 @@
   "sgit_signing": "sha256:53283e9f40327633",
   "ssh_signing": "SHA256:WNv8WuO/honim3zAFxeGR5u8EKiUDcMJp9sv+rL6qdk"
  },
- "state": "Thirteen reviews out; TauGuard, Startup grants and Domain registrars ready for Dinis to pick",
+ "state": "Fourteen reviews out; five sites ready for Dinis to pick; GitHub tool may run a round 3",
  "work": "/factory/dinis-cruz/account-a/a.design/reviews/",
  "waiting_on": [
   {
-   "what": "round 5 (quiz per direction) if Dinis wants it; the live certificate",
+   "what": "the live certificate; round 5 only if Dinis wants it",
    "who": "uk-driving-test.a",
-   "since": "2026-11-25T01:03Z"
+   "since": "2026-11-25T01:11Z"
   },
   {
-   "what": "round 6 (four small items) and the chapter's pick",
+   "what": "the chapter's pick",
    "who": "london-agentics.a",
-   "since": "2026-11-25T01:03Z"
+   "since": "2026-11-25T01:11Z"
   },
   {
    "what": "small items from round 2; the pick is with Dinis",
@@ -47,9 +47,9 @@
    "since": "2026-11-25T00:54Z"
   },
   {
-   "what": "round 2 of the GitHub tool designs",
+   "what": "round 3 if it runs one (Two-pane with a table; Ledger and Cards real or retired)",
    "who": "github-tool.a",
-   "since": "2026-11-25T01:03Z"
+   "since": "2026-11-25T01:11Z"
   },
   {
    "what": "round 2 of the Apple guide designs",
@@ -85,7 +85,7 @@
   "apple.a": "session_018yvwtMgcVvXzU5RNZ7M2Qj",
   "github-tool.a": "session_018yvwtR4jMETPfBD6odJjbR"
  },
- "updated": "2026-11-25T01:07Z",
+ "updated": "2026-11-25T01:11Z",
  "read": {
   "now": "dinis-cruz/account-a/a.design/now.md",
   "role": "dinis-cruz/account-a/a.design/role.md",
