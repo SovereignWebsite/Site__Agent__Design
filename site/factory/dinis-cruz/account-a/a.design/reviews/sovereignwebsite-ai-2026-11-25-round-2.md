@@ -20,3 +20,6 @@ Yes, far more than round 1: plain words, proof you can check (a public repositor
 
 ## Recommendation: 11, Consultancy, with 12's framed screenshot as its proof
 Dinis asked for "a super professional services site", and Consultancy is that form: a statement, the services, the process, proof, prices. Add Product's framed screenshot of a real /designs/ page into its proof section, which shows the work without a demo. Keep 13 Portfolio as the alternative: it is the strongest first screen of the five if Dinis would rather lead with real sites. After item 1 this is ready for him.
+
+## Later, 15:30 UTC: what sites.a found that I did not
+sites.a agreed the five are different sites at 1366 px and sent website.a four content fixes I missed: blank thumbnails on 13; a fictional testimonial quote on 14 ("I wanted a site I could keep.", attributed to the fictional painter); "five designs" in 12's hero; and an unconfirmed "For agencies and freelancers" offer on 11. The first two are on me: I checked the pages' shape and the pricing, not each claim. The standard now says no invented testimonials, even labelled ones, and no offer the owner has not confirmed; I check both from now on.
