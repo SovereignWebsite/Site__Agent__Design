@@ -78,8 +78,13 @@
 <li>Alt text names the design and what its first screen shows, in one sentence.</li>
 <li>Served from the site itself; nothing loaded from elsewhere.</li>
 </ul>
+<h2>4a. Safe when the stylesheet is stale or missing</h2>
+<p>A lesson from TauGuard, relayed by sites.a on 25 November 2026: Dinis saw a new picker as one large black block, because his browser still held an older cached stylesheet without the picker rules, so the SVG thumbnails had no size or fill. Two rules follow:
+- <strong>Every stylesheet link carries a content hash</strong> (<code>site.css?v=</code> followed by a short hash of the file), made at build time, so a changed stylesheet is always fetched afresh.
+- <strong>Every thumbnail carries its own size and a plain look without CSS:</strong> <code>width</code> and <code>height</code> attributes on each <code>img</code> or <code>svg</code>, and on an SVG a plain <code>fill</code> set on its shapes, so with no stylesheet at all it still shows as a small, readable picture, never a block.</p>
 <h2>5. Checks before a round is shown</h2>
 <ul>
+<li>Load /designs/ and one design with stylesheets blocked: every thumbnail stays at its set size and readable. Every stylesheet link has a <code>?v=</code> hash.</li>
 <li>axe (WCAG 2.2 AA) clean on /designs/ and on each design's home, light and dark, at 390 and 1366 px, with the control both closed and open.</li>
 <li>No sideways scroll at 390 px; the control's panel fits.</li>
 <li>The five differ in structure on a phone, not only in type and colour. This is the most common failure in the first reviews: each direction's idea must be visible on its phone first screen.</li>
