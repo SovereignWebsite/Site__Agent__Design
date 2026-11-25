@@ -1,6 +1,6 @@
 # Synthetic users: Lee-Elle Horowitz's two decks
 
-**Decks:** https://lee-elle-horowitz.artist.sovereignweb.site/tour/ at 981bc4e: "Your website: a guided tour" (16 slides) and "Behind the scenes: how this site was made" (11), rebuilt from design.b's [deck brief](briefs/lee-elle-horowitz-decks.html), read from their PDFs. **Run:** 25 November 2026, about 19:45 UTC, by design.b.rounds, asked by design.b. [The review](reviews-lee-elle-horowitz-2026-11-25-decks.html).
+**Decks:** https://lee-elle-horowitz.artist.sovereignweb.site/tour/ at 981bc4e: "Your website: a guided tour" (16 slides) and "Behind the scenes: how this site was made" (11), rebuilt from design.b's [deck brief](briefs/lee-elle-horowitz-decks.html), read from their PDFs. **Run:** 25 November 2026, about 19:30 UTC, by design.b.rounds, asked by design.b. [The review](reviews-lee-elle-horowitz-2026-11-25-decks.html).
 
 **Would this make you want a site like hers? 3 of 5.** Look: the guided tour **4.2**, behind the scenes **2.8**. Best slide: the guided tour's slide 4 ("Not five colour schemes on one layout: each design starts from a different part of who she is").
 
