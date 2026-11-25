@@ -34,8 +34,8 @@ def main():
     idx.write_text("# a.design: reviews, newest first\n\nEach review names the commit it looked at, what was checked, the weakest point of each direction, a recommendation and the changes for the next round. The keeper makes the changes.\n\n" + "\n".join(items) + "\n")
     render(idx, AREA / "reviews" / "index.html", "a.design's design reviews for account A's sites, newest first.")
     idx.unlink()
-    if (AREA / "picker.md").exists():
-        render(AREA / "picker.md", AREA / "picker.html", "The Choose a design standard: one way to compare five designs and pick one, on every site.")
+    if (AREA / "src" / "picker.md").exists():
+        render(AREA / "src" / "picker.md", AREA / "picker.html", "The Choose a design standard: one way to compare five designs and pick one, on every site.")
     print("built", len(items), "reviews")
 
 
