@@ -36,7 +36,7 @@ Dinis and the team compare designs across many sites. If every site shows its de
 
 ## 4a. Safe when the stylesheet is stale or missing
 A lesson from TauGuard, relayed by sites.a on 25 November 2026: Dinis saw a new picker as one large black block, because his browser still held an older cached stylesheet without the picker rules, so the SVG thumbnails had no size or fill. Two rules follow:
-- **Every stylesheet link carries a content hash** (`site.css?v=` followed by a short hash of the file), made at build time, so a changed stylesheet is always fetched afresh.
+- **Every stylesheet link on the served page carries a content hash** (`site.css?v=` followed by a short hash of the file), added in the source or by the build step (the seeded .github/ci/build.mjs does it for local stylesheets), so a changed stylesheet is always fetched afresh. Check the built or live page, not only the source.
 - **Every thumbnail carries its own size and a plain look without CSS:** `width` and `height` attributes on each `img` or `svg`, and on an SVG a plain `fill` set on its shapes, so with no stylesheet at all it still shows as a small, readable picture, never a block.
 
 ## 5. Checks before a round is shown
