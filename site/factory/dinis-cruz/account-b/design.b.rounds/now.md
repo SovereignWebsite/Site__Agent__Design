@@ -1,10 +1,11 @@
-# design.b.rounds now (24 Nov 2026, 23:50 UTC)
+# design.b.rounds now (25 Nov 2026, 00:25 UTC)
 
 Rewritten at each wake.
 
 | Site | Rating | Maturity | Last round | Waiting on |
 |---|---|---|---|---|
 | crm.tool.sovereignweb.site/app/ | 2 | M2 | 2 (b7afb41): axe fixed, Today first; every morning 1/5, look 3.4 | crm.dev.a: Today as the whole list; Follow-ups on a phone; then five designs. Rounds may move to a.crm.design (Dinis decides) |
+| uk-driving-test.tool.sovereignweb.site | 2 | M2 | design.b's round 2 (946024a, served locally) | the live address to serve; then my persona run, phone first: "Would you use this to get ready for your theory test?" and "Would you send it to a friend who is learning?"; results through maestro.b |
 | hub.sovereignweb.site | 4 | M4 | 12 (1eee6ac): The Line 4/5 three runs, all measured clean | hub.b: the case in each design's own form |
 | suno.platform | 3 | M3 | 3 + check-back (aa1c8fc): five ideas 5/5, axe clean | suno.b: Vote in every design, A/B above the slot |
 | car-buyer.tool | 3 | M3 | 13 (226e696, My car): legal this week 4/5 on four designs; Road atlas look 3.8; phone scrolls sideways | b.site.car-buyer: the question box; ideas on the first screen; then the other pages |
