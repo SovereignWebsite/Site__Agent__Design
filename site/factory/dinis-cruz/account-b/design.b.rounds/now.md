@@ -1,4 +1,4 @@
-# design.b.rounds now (25 Nov 2026, 01:50 UTC)
+# design.b.rounds now (25 Nov 2026, 01:35 UTC)
 
 Rewritten at each wake.
 
