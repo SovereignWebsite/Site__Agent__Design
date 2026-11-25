@@ -13,7 +13,7 @@
   "sgit_signing": "sha256:53283e9f40327633",
   "ssh_signing": "SHA256:WNv8WuO/honim3zAFxeGR5u8EKiUDcMJp9sv+rL6qdk"
  },
- "state": "Eighteen reviews out; eight sites ready for Dinis to pick",
+ "state": "Twenty reviews out; eight sites ready for Dinis to pick; Oscar and Puter at round 1",
  "work": "/factory/dinis-cruz/account-a/a.design/reviews/",
  "waiting_on": [
   {
@@ -65,6 +65,16 @@
    "what": "one small item (cover placement on phones); the pick is with Dinis",
    "who": "one-human-nine-agents.a",
    "since": "2026-11-25T02:08Z"
+  },
+  {
+   "what": "round 2 of the Oscar designs",
+   "who": "oscar.a",
+   "since": "2026-11-25T03:25Z"
+  },
+  {
+   "what": "round 2 of the Puter designs",
+   "who": "puter.a",
+   "since": "2026-11-25T03:25Z"
   }
  ],
  "waiting_on_dinis": [
@@ -89,9 +99,11 @@
   "sites-pages.a": "session_018yvwtPxpt5EDqNmEgLwpKV",
   "apple.a": "session_018yvwtMgcVvXzU5RNZ7M2Qj",
   "github-tool.a": "session_018yvwtR4jMETPfBD6odJjbR",
-  "one-human-nine-agents.a": "session_018yvwtNfpegfLMBhUK1FCxb"
+  "one-human-nine-agents.a": "session_018yvwtNfpegfLMBhUK1FCxb",
+  "oscar.a": "session_018yvwtR6ZF1gnjswENHqA2p",
+  "puter.a": "session_018yvwtR4NHV58Q5LtzMcaFQ"
  },
- "updated": "2026-11-25T02:25Z",
+ "updated": "2026-11-25T03:25Z",
  "read": {
   "now": "dinis-cruz/account-a/a.design/now.md",
   "role": "dinis-cruz/account-a/a.design/role.md",
