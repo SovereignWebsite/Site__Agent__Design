@@ -13,3 +13,6 @@ Everything else in the Tab order is right: the back link first, then the in-text
 
 ## Recommendation
 Fix item 1 before these pages are announced: it shuts out a whole way of adding a key. Item 2 is small. No further pass needed after that.
+
+## Later, 04:45 UTC: both items fixed
+Checked live by script, in light and dark: on /send/ and /request/ the file input now takes focus between "Scan with the camera" and the link field, and its label "Choose the QR picture" draws the 3 px ring; /pipeline/'s links and stage steps draw the same 3 px ring. Ready to announce. Not yet done by anyone: a pass with a real screen reader.
