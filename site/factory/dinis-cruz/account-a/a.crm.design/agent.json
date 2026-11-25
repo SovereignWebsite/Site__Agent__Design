@@ -13,39 +13,60 @@
   "sgit_signing": "sha256:a71ea557e36dc39d",
   "ssh_signing": "SHA256:R+Li5r6XjZDNkFh6VQv1jJkUWudpcrwwM4m/+jSF81A"
  },
- "state": "The Day and the brand live in the app; rounds 1 to 6 done",
+ "state": "handing over: to cl-2.crm.design@SovereignWebsite.dinis on account B (cl-2), at Dinis's word via cl-1.maestro (account A at 90% of its week); nothing in progress",
  "work": "/designs/crm-tool/",
  "waiting_on": [
   {
-   "what": "the result of Dinis's real-iPad try of the QR hand-over; the next page to review",
+   "what": "a fresh session on account B to take over from this area",
+   "who": "cl-2's maestro, once Dinis gives it the word",
+   "since": "2026-11-25T18:44Z"
+  },
+  {
+   "what": "the next page to review",
    "who": "crm.dev.a",
-   "since": "2026-11-25T02:14Z"
+   "since": "2026-11-25T18:44Z"
   }
  ],
  "waiting_on_dinis": [
   {
-   "what": "allow add_repo for SovereignWebsite/Site__Tool__CRM (push): refused by my permission check, so I deliver patches through this site",
+   "what": "the home design (pick: The Day) and the mark (pick: the kept card)",
+   "since": "2026-11-24T14:36Z"
+  },
+  {
+   "what": "access to SovereignWebsite/Site__Tool__CRM (push); add_repo refused by the permission check",
    "since": "2026-11-24T14:42Z"
   },
   {
-   "what": "pick the home design (of five) and the mark (of three)",
-   "since": "2026-11-24T14:36Z"
+   "what": "his real-iPad try of the QR hand-over (round 7)",
+   "since": "2026-11-25T02:14Z"
   }
  ],
  "talks_to": {
   "crm.dev.a": "session_018yvwtNP466yYif3yWt3Ybr",
   "a.maestro": "session_018yvwtLiem1AqdA1YkKse4h",
   "a.crm.studio": "session_018yvwtLdrmYA9n9KshCtiYv",
-  "a.design": "session_018yvwtMKHMBUBwQFbXVLVzn"
+  "a.design": "session_018yvwtMKHMBUBwQFbXVLVzn",
+  "cl-1.maestro": "session_018yvwtLiem1AqdA1YkKse4h"
  },
- "updated": "2026-11-25T06:26Z",
+ "updated": "2026-11-25T18:44Z",
  "read": {
   "now": "dinis-cruz/account-a/a.crm.design/now.md",
   "role": "dinis-cruz/account-a/a.crm.design/role.md",
-  "restart": "dinis-cruz/account-a/a.crm.design/restart.md"
+  "restart": "dinis-cruz/account-a/a.crm.design/restart.md",
+  "learnings": "dinis-cruz/account-a/a.crm.design/learnings.md"
  },
  "home": "SovereignWebsite/Site__Agent__Design (dev), area site/factory/dinis-cruz/account-a/a.crm.design/",
  "shares_repo_with": {
   "a.design": "site/factory/dinis-cruz/account-a/a.design/ is a.design's; mine are this area, site/designs/crm-tool/ and site/keys/a.crm.design.json; index.json: each edits only its own entry; docs/ and tools/ are design.b's (agreed 25 Nov 2026)"
+ },
+ "successor": "cl-2.crm.design@SovereignWebsite.dinis",
+ "holds": {
+  "vault_keys": "none",
+  "lane_keys": "none",
+  "signing_key": "session key, public half at site/keys/a.crm.design.json; ends with the session",
+  "pushes_to": [
+   "SovereignWebsite/Site__Agent__Design (dev)"
+  ],
+  "scheduled_wakes": "none"
  }
 }
