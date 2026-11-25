@@ -42,6 +42,19 @@ Every site has five designs (Dinis Cruz, 20 November 2026: "a key requirement is
 
 Concept first, then craft: before any CSS, write for each design one sentence saying what it is a metaphor for, and which of the owner's own facts it will draw (a timeline, a cast list, a map, a set of tickets). Nothing drawn may be invented. Each of the five meets every rule in this document, light and dark, before it is shown. A site without five designs is rated no higher than 2 (rating.md, level 3 needs them).
 
+### The design chooser (Dinis Cruz, 25 November 2026)
+
+Dinis, in b.site.lee-elle-horowitz's session, of a switcher made of text pills and a compare page of symbol tiles: "this is wrong ... it should be like" Emily Cruz's and Grace Farrell's sites, "so that other sites.* agents don't make these mistakes". Every site's chooser works like theirs:
+
+1. **One "Choose a design" button** in the top bar, next to the language switch if there is one. Never a row of pills or tabs.
+2. It opens a panel showing **every design as a real screenshot of that design**, in the page's own language, each card with its number, name and one-line idea. No abstract symbols, swatches or icons in place of the screenshot.
+3. **The current design is outlined.**
+4. At the bottom of the panel, a link **"All five, side by side"** goes to a compare page built from the same screenshot cards.
+5. **On a phone**, the panel shows two cards per row, and the top bar stays on one line, with nothing cut off.
+6. **The screenshots are refreshed whenever a design's look changes**, as part of the build (for example, a script that screenshots each design, as on Lee-Elle Horowitz's site: tools/designs/thumbs.mjs).
+
+design.b.rounds checks the chooser in every round: the button is present, the panel shows a screenshot for each design, and the screenshots match the live designs.
+
 ## 2b. Navigation: one browsing experience (Dinis Cruz, 23 November 2026)
 
 Dinis, record 2026-11-23__navigation-and-review, "super critical": "every website almost, I should be able to navigate easily across every website, find the home, go up, go down, find the agent, connect with, etc. And have that browsing experience."
