@@ -37,5 +37,13 @@ Motion: CSS only, a few hundred milliseconds, never looping, and none at all und
 - **Her photo taped in.** A small photo on the ruled page, slightly turned, with two strips of tape. The lesson types are ticked in red pen in the margin.
 - **Fix the alphabet direction.** The alphabet line currently runs left to right (round 2). Set it with dir="rtl", so alef sits on the right.
 
+### 6. Ivrit (the whole page in Hebrew)
+Added at Dinis's word in the keeper's session ("can you actually make one of the designs to be in full hebrew?"). For this design that overrides the letters-only rule; the rule still holds for the other five.
+- **Mirror the layout, not just the text.** With `dir="rtl"` on the html element and logical CSS throughout, everything should flip: her photo, the navigation and the button sit on the start side, which is the right. Check that no left or right value is left in its stylesheet.
+- **Hebrew as the display type.** The heading in large Hebrew letters is the hero, in the Hebrew system stack at a weight and size no other design uses, with her photo beside it. This design should look like it was made in Tel Aviv, not translated from London.
+- **The "not yet checked" notice stays at the top** in Hebrew and English, until she has read and corrected the translation. It is not the home design, and it is not shown to her as finished. Her correction moves it on (docs/hebrew-to-check.md).
+
+The switcher now reads "Six designs": keep five as the set rated for M3 and M4, and treat Ivrit as a sixth, judged the same way.
+
 ## Then
 Build the shared three first (one tag), then one design per tag, Alef-bet first. design.b.rounds judges each tag with "Would you book a Hebrew lesson for your child here?" and the look score; the aim is a 4 on Alef-bet, which takes the site to M4.
