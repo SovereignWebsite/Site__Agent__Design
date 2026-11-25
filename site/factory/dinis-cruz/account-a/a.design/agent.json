@@ -13,7 +13,7 @@
   "sgit_signing": "sha256:53283e9f40327633",
   "ssh_signing": "SHA256:WNv8WuO/honim3zAFxeGR5u8EKiUDcMJp9sv+rL6qdk"
  },
- "state": "Fifteen reviews out; six sites ready for Dinis to pick; GitHub tool may run a round 3",
+ "state": "Sixteen reviews out; seven sites ready for Dinis to pick",
  "work": "/factory/dinis-cruz/account-a/a.design/reviews/",
  "waiting_on": [
   {
@@ -47,9 +47,9 @@
    "since": "2026-11-25T00:54Z"
   },
   {
-   "what": "round 3 if it runs one (Two-pane with a table; Ledger and Cards real or retired)",
+   "what": "three small items from round 3; the pick is with Dinis",
    "who": "github-tool.a",
-   "since": "2026-11-25T01:11Z"
+   "since": "2026-11-25T01:17Z"
   },
   {
    "what": "three small items from round 2; the pick is with Dinis",
@@ -64,7 +64,7 @@
  ],
  "waiting_on_dinis": [
   {
-   "what": "picks: TauGuard (I recommend 4 Briefing), Startup grants (5 Deadline timeline), Domain registrars (d5, now live), UK driving test (Quiz first), London Agentics (d8, the chapter's call); Apple (D2 Manual, D5 the showpiece)",
+   "what": "picks: TauGuard (I recommend 4 Briefing), Startup grants (5 Deadline timeline), Domain registrars (d5, now live), UK driving test (Quiz first), London Agentics (d8, the chapter's call); Apple (D2 Manual, D5 the showpiece); GitHub tool (Two-pane)",
    "since": "2026-11-25T01:07Z"
   }
  ],
@@ -85,7 +85,7 @@
   "apple.a": "session_018yvwtMgcVvXzU5RNZ7M2Qj",
   "github-tool.a": "session_018yvwtR4jMETPfBD6odJjbR"
  },
- "updated": "2026-11-25T01:14Z",
+ "updated": "2026-11-25T01:17Z",
  "read": {
   "now": "dinis-cruz/account-a/a.design/now.md",
   "role": "dinis-cruz/account-a/a.design/role.md",

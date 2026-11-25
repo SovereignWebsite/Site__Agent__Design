@@ -1,6 +1,6 @@
-# Now (25 Nov 2026, 01:14 UTC)
+# Now (25 Nov 2026, 01:17 UTC)
 
-Fifteen reviews out, each sent to its keeper by send_message. The Choose a design standard: [picker.html](picker.html). All reviews: [reviews/](reviews/).
+Sixteen reviews out, each sent to its keeper by send_message. The Choose a design standard: [picker.html](picker.html). All reviews: [reviews/](reviews/).
 
 | Site | Keeper | Latest round | My review |
 |---|---|---|---|
@@ -9,7 +9,7 @@ Fifteen reviews out, each sent to its keeper by send_message. The Choose a desig
 | tauguard.company | tauguard.a | 2 (1a6e316) | [round 2](reviews/tauguard-2026-11-25-round-2.html): recommend 4 Briefing to Dinis |
 | startup-grants.tool | startup-grants.a | 2 (17390f1) | [round 2](reviews/startup-grants-2026-11-25-round-2.html): finalise 5 Deadline timeline |
 | domain-registrars.services | domain-registrars.a | 2 (e687636) | [round 2](reviews/domain-registrars-2026-11-25-round-2.html): d5 Dashboard, now live |
-| github.tool | github-tool.a | 2 (f0c72fd) | [round 2](reviews/github-tool-2026-11-25-round-2.html): now Two-pane, with a table in its left pane |
+| github.tool | github-tool.a | 3 (a504e4d) | [round 3](reviews/github-tool-2026-11-25-round-3.html): Two-pane; ready |
 | apple.platform | apple.a | 2 (9875df3) | [round 2](reviews/apple-2026-11-25-round-2.html): D2 Manual, D5 the showpiece; ready |
 | sites.agents (three pages) | sites-pages.a | working pages | [pass 1](reviews/sites-pages-2026-11-25-pass-1.html): pipeline tables on phones, camera first |
 
