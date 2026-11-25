@@ -727,7 +727,7 @@
   },
   "lee-elle-horowitz.artist.sovereignweb.site": {
    "repo": "Site__Artist__Lee-Elle-Horowitz",
-   "commit": "0985ed3",
+   "commit": "d9e8114",
    "rating": 3,
    "five_designs": true,
    "rounds": 3,
@@ -737,7 +737,7 @@
    "maturity_note": "M3 since round 1 (25 Nov); rated 1 in round 3 for a serious axe finding, 3 again at 981bc4e with it fixed",
    "phone_px": 7567,
    "on_building": true,
-   "blocking": "decks: tour 4 and 14 readable on a tablet, tour 13's button; The Stage lessons first; the Hebrew's mixed-direction lines; her check, photos and rights"
+   "blocking": "decks on a tablet: design-slide pictures cut off and overlapping, the empty 'Hers, and portable' card, behind 4's 'design rating'; then the decks close; site: The Stage lessons first, the Hebrew's mixed-direction lines, her check, photos and rights"
   }
  },
  "kpi": {
