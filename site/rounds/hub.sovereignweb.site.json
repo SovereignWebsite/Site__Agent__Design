@@ -109,6 +109,17 @@
    },
    "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-23-round-12.html",
    "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-23-r12.html"
+  },
+  {
+   "round": 13,
+   "what": "/directory/ (map step 1, six groups): find a musician and its keeper in 30 s 0 of 5; want one 1 of 5; look 3.0; 9,736 px on a phone (over 8,000); no keeper on any entry; search reads names only",
+   "commit_reviewed": "74135e7 (v0.1.74)",
+   "answered_by": null,
+   "rating": "3",
+   "synthetic_score": 3.0,
+   "phone_px": 9736,
+   "review": "https://design.agents.sovereignweb.site/reviews-hub-2026-11-25-round-13.html",
+   "run": "https://design.agents.sovereignweb.site/runs-hub-2026-11-25-r13.html"
   }
  ]
 }

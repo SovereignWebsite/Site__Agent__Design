@@ -37,15 +37,15 @@
   },
   "hub.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Hub",
-   "commit": "1eee6ac (v0.1.57)",
-   "rating": 4,
+   "commit": "74135e7 (v0.1.74)",
+   "rating": 3,
    "five_designs": true,
-   "rounds": 12,
+   "rounds": 13,
    "agent": "hub.b",
-   "blocking": "rated 4, M4; next: the case in each design's own form, the low-vision reader's four noes, the editing-cost line on phones",
-   "maturity": "M4",
-   "maturity_note": "M4 since 1eee6ac (23 Nov): rated 4 (Line 4 of 5 in rounds 10, 11 and 12), axe clean on 20 views, every design under 8,000 px; kept under Keeping a 4",
-   "phone_px": 7932
+   "blocking": "round 13: /directory/ under 8,000 px on a phone (then 4 and M4 return); a keeper and the finer label on every entry; search over labels; People first",
+   "maturity": "M3",
+   "maturity_note": "M4 from 1eee6ac (23 Nov); held at M3 from round 13 (25 Nov, 74135e7) under Keeping a 4: /directory/ fails the phone height (9,736 px); returns to 4 and M4 when it is under 8,000 px",
+   "phone_px": 9736
   },
   "vault.sovereignwebsite.site": {
    "repo": "SovereignWebsite__Vault",

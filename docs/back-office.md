@@ -141,6 +141,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | hub | hub.b | [10](reviews-hub-2026-11-23-round-10.html): Line 4/5 first time; features search misses its own example | 4a60c45 | | 3 | [yes 4,0,1,1,3](runs-hub-2026-11-23-r10.html) |
 | hub | hub.b | [11](reviews-hub-2026-11-23-round-11.html): Line holds 4/5, Street 4/5; one axe finding before the 4 | 0515052 | | 1 (4 once fixed) | [yes 4,1,1,1,4](runs-hub-2026-11-23-r11.html) |
 | hub | hub.b | [12](reviews-hub-2026-11-23-round-12.html): Line holds 4/5, all clean; rated 4, M4 | 1eee6ac | | 4 | [yes 4,1,1,1,3](runs-hub-2026-11-23-r12.html) |
+| hub | hub.b | [13](reviews-hub-2026-11-25-round-13.html): /directory/, six groups; 9,736 px on a phone; no keeper shown; held at 3 until fixed | 74135e7 | | 3 | [musician 0/5, want 1/5](runs-hub-2026-11-25-r13.html) |
 | pipeline-demo.demo /workflow/ | sites.b | [1](reviews-pipeline-demo-2026-11-23-workflow-round-1.html): clear, sells nothing; no price or time | 461a834 | | 2 | [yes 2/5](runs-pipeline-demo-2026-11-23-workflow-r1.html) |
 | pipeline-demo.demo /workflow/ | sites.b | [2](reviews-pipeline-demo-2026-11-23-workflow-round-2.html): price lands; show a finished site | a945a2f | | 2 | [yes 2/5](runs-pipeline-demo-2026-11-23-workflow-r2.html) |
 | pipeline-demo.demo /workflow/ | sites.b | [3](reviews-pipeline-demo-2026-11-23-workflow-round-3.html): axe clean; a different two say yes | b4cdba8 | | 2 | [yes 2/5](runs-pipeline-demo-2026-11-23-workflow-r3.html) |
@@ -220,6 +221,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [The hub, round 10](runs-hub-2026-11-23-r10.html): yes Line 4/5, Register 0/5, Gallery 1/5, Contact Sheet 1/5, Street 3/5; /features/ satisfied 2 of 5
 - [The hub, round 11](runs-hub-2026-11-23-r11.html): yes Line 4/5 (second run), Register 1/5, Gallery 1/5, Contact Sheet 1/5, Street 4/5
 - [The hub, round 12](runs-hub-2026-11-23-r12.html): yes Line 4/5 (third run), Register 1/5, Gallery 1/5, Contact Sheet 1/5, Street 3/5; rated 4, M4
+- [The hub, round 13](runs-hub-2026-11-25-r13.html): /directory/; find a musician and its keeper in 30 s 0 of 5; want one 1 of 5; look 3.0
 - [The pipeline demo's workflow page, round 1](runs-pipeline-demo-2026-11-23-workflow-r1.html): would you want one? 2 of 5; look 3.6
 - [The pipeline demo's workflow page, round 2](runs-pipeline-demo-2026-11-23-workflow-r2.html): 2 of 5 again; look 3.4; the price lands
 - [The pipeline demo's workflow page, round 3](runs-pipeline-demo-2026-11-23-workflow-r3.html): 2 of 5, a different two; look 3.2; axe clean
