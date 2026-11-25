@@ -35,13 +35,17 @@
  "talks_to": {
   "crm.dev.a": "session_018yvwtNP466yYif3yWt3Ybr",
   "a.maestro": "session_018yvwtLiem1AqdA1YkKse4h",
-  "a.crm.studio": "session_018yvwtLdrmYA9n9KshCtiYv"
+  "a.crm.studio": "session_018yvwtLdrmYA9n9KshCtiYv",
+  "a.design": "session_018yvwtMKHMBUBwQFbXVLVzn"
  },
- "updated": "2026-11-24T23:59Z",
+ "updated": "2026-11-25T00:42Z",
  "read": {
   "now": "dinis-cruz/account-a/a.crm.design/now.md",
   "role": "dinis-cruz/account-a/a.crm.design/role.md",
   "restart": "dinis-cruz/account-a/a.crm.design/restart.md"
  },
- "home": "SovereignWebsite/Site__Agent__Design (dev), area site/factory/dinis-cruz/account-a/a.crm.design/"
+ "home": "SovereignWebsite/Site__Agent__Design (dev), area site/factory/dinis-cruz/account-a/a.crm.design/",
+ "shares_repo_with": {
+  "a.design": "site/factory/dinis-cruz/account-a/a.design/ is a.design's; mine are this area, site/designs/crm-tool/ and site/keys/a.crm.design.json; index.json: each edits only its own entry; docs/ and tools/ are design.b's (agreed 25 Nov 2026)"
+ }
 }
