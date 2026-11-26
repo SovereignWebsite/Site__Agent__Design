@@ -1658,6 +1658,17 @@
      "phone_px": 5602,
      "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-24-round-13.html",
      "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-24-r13.html"
+    },
+    {
+     "round": "insurance",
+     "what": "new Insurance page: insured this week 1/5, look 3.2; axe clean in five designs; 13 of 14 sources answer; no first step, buyer section folded; agents heading contradicts its first item; footer date 23 Nov vs page 26 Nov; site chooser not to the 25 Nov rule",
+     "commit_reviewed": "16d821c (v0.1.28)",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.2,
+     "phone_px": 4821,
+     "review": "https://design.agents.sovereignweb.site/reviews-car-buyer-2026-11-26-insurance.html",
+     "run": "https://design.agents.sovereignweb.site/runs-car-buyer-2026-11-26-insurance.html"
     }
    ]
   },

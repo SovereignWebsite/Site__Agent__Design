@@ -162,6 +162,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | car-buyer.tool | sites.b | [11](reviews-car-buyer-2026-11-23-round-11.html): phone map works; both maps on desktop | 0f95793 | | 3 | [use 5/5, friend 5/5](runs-car-buyer-2026-11-23-r11.html) |
 | car-buyer.tool | sites.b | [12](reviews-car-buyer-2026-11-24-round-12.html): map bug fixed; plateau at 3.4 to 3.6 | d7796b3 | | 3 | [use 4/5, friend 4/5](runs-car-buyer-2026-11-24-r12.html) |
 | car-buyer.tool | b.site.car-buyer | [13](reviews-car-buyer-2026-11-24-round-13.html): My car in five designs; three ideas read, below the fold; question box scrolls the phone sideways | 226e696 | | 3 | [legal this week 4/5 on four; Road atlas look 3.8](runs-car-buyer-2026-11-24-r13.html) |
+| car-buyer.tool | b.site.car-buyer | [Insurance](reviews-car-buyer-2026-11-26-insurance.html): new page; clean and sourced; no first step | 16d821c | | 3 | [insured this week 1/5](runs-car-buyer-2026-11-26-insurance.html) |
 | suno.platform | suno.b | [1](reviews-suno-2026-11-23-round-1.html): stage reads 4/5; compare takes 0/5; one design; M1 | bd44923 | | 2 | [compare 0/5, back 1/5](runs-suno-2026-11-23-r1.html) |
 | suno.platform | suno.b | [2](reviews-suno-2026-11-23-round-2.html): five ideas (4/5); two measured fails; M2 | 6761b06 | | 2 | [compare 2/5, back 1/5](runs-suno-2026-11-23-r2.html) |
 | wordpress-section.demo | sites.b | [1](reviews-wordpress-section-2026-11-23-round-1.html): honest and working; a feed race; one design | a44d8fc | | 2 | [show a client 2/5](runs-wordpress-section-2026-11-23-r1.html) |
@@ -248,6 +249,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [Car Buyer, round 11](runs-car-buyer-2026-11-23-r11.html): the map on a phone; look 3.6, three 4s; both maps on desktop
 - [Car Buyer, round 12](runs-car-buyer-2026-11-24-r12.html): one map per width; look 3.4; plateau
 - [Car Buyer, round 13](runs-car-buyer-2026-11-24-r13.html): My car; legal this week 4 of 5 on four designs; Road atlas look 3.8
+- [Car Buyer, the Insurance page](runs-car-buyer-2026-11-26-insurance.html): insured this week? 1 of 5; look 3.2
 - [Suno, our songs, round 1](runs-suno-2026-11-23-r1.html): on the three-song shape, stage and journey 4 of 5, compare takes 0 of 5, come back 1 of 5; look 2.8
 - [Suno, our songs, round 2](runs-suno-2026-11-23-r2.html): five designs, five ideas (4 of 5); compare 2 of 5, come back 1 of 5; look 3.0
 - [The WordPress section demo, round 1](runs-wordpress-section-2026-11-23-r1.html): would an agency show this to a client? 2 of 5; look 2.8

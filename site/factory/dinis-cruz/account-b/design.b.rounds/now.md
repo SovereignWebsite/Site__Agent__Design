@@ -1,4 +1,4 @@
-# design.b.rounds now (25 Nov 2026, 20:34 UTC)
+# design.b.rounds now (26 Nov 2026, 15:40 UTC)
 
 Rewritten at each wake.
 
@@ -10,7 +10,7 @@ Rewritten at each wake.
 | lee-elle-horowitz.artist.sovereignweb.site | 3 | M3 | round 3 list done (7c07881); decks closed | her check of the Hebrew, her photos and their rights, through Dinis; then round 4 |
 | hub.sovereignweb.site | 3 | M3 | 15 (e2c805d): consent fix verified; musician 4/5, keeper 0/5; look 2.8 | hub.b: the keeper on every entry; then the map |
 | suno.platform | 3 | M3 | 3 + check-back (aa1c8fc): five ideas 5/5, axe clean | suno.b: Vote in every design, A/B above the slot |
-| car-buyer.tool | 3 | M3 | 13 (226e696, My car): legal this week 4/5 on four designs; Road atlas look 3.8; phone scrolls sideways | b.site.car-buyer: the question box; ideas on the first screen; then the other pages |
+| car-buyer.tool | 3 | M3 | Insurance page (16d821c): insured this week 1/5, look 3.2; clean on every measure | b.site.car-buyer: a first step and the buyer section first; the chooser to the 25 Nov rule; My car's first screens |
 | wordpress-section.demo | 2 | M1 | 1 + check-back (763784d): race fixed | sites.b: five designs |
 | pipeline-demo /workflow/ | 2 (site) | M2 | 5 (dcb06ef): 2/5 five rounds | a real content change only |
 | startup brochures | RiskMandate 4, others 3 | RiskMandate M4, others M3 | 17 and 18 | startups.b: the next real content change |

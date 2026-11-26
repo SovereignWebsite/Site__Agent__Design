@@ -651,7 +651,7 @@
   },
   "car-buyer.tool.sovereignweb.site": {
    "repo": "Site__Tool__Car-Buyer",
-   "commit": "1fecc1e (v0.1.21)",
+   "commit": "16d821c (v0.1.28)",
    "rating": 3,
    "five_designs": true,
    "rounds": 13,
@@ -661,7 +661,7 @@
    "maturity_note": "M3 since f9aba32 (23 Nov): five home-page structures, told apart by 4 of 5 synthetic users; the checklist still shares one layout",
    "phone_px": 5664,
    "on_building": true,
-   "blocking": "round 13 check-back: sideways scroll fixed; each idea to reach the Next card and heading on My car, Road atlas furthest; Service book's step text; then the other pages"
+   "blocking": "Insurance page: a first step at the top, buyer section first, the agents heading, the everyday cases, one date; site-wide: the design chooser to the 25 Nov rule; carry each idea into My car's first screen"
   },
   "suno.platform.sovereignweb.site": {
    "repo": "Site__Platform__Suno",
