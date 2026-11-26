@@ -13,11 +13,11 @@
   "signing_fingerprint": "sha256:ba8f54b7fbc2073b",
   "published": "site/keys/cl-6.design.json (aa0707c); a session key"
  },
- "state": "active: round 1 on the hub and sovereign-website.startups proposed (round-1/proposal.md)",
+ "state": "active: round 1 proposed, the hub and Sovereign Website both have before and after renders; waiting for design.b",
  "waiting_on": [
   {"what": "sign-off or comments on round 1", "who": "design.b", "since": "2026-11-26T17:05Z"},
   {"what": "wake times (proposed: every 2 hours, 08:40 to 20:40 UTC)", "who": "cl-6.maestro", "since": "2026-11-26T17:05Z"}
  ],
- "updated": "2026-11-26T17:05Z",
+ "updated": "2026-11-26T20:50Z",
  "read": {"role": "role.md", "now": "now.md", "restart": "restart.md", "round_1": "round-1/proposal.md"}
 }

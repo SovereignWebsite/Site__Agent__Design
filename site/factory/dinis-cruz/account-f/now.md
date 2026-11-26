@@ -1,3 +1,3 @@
-# Now (26 Nov 2026, 17:05 UTC)
+# Now (26 Nov 2026, 20:50 UTC)
 
-Started 16:49 UTC. Key published (aa0707c). Round 1 on the hub and sovereign-website.startups is proposed: [round-1/proposal.md](round-1/proposal.md), with before and after for the hub's first screen. Open: design.b's sign-off; the Sovereign Website renders have no "after" yet; no synthetic users or axe run yet (the checks here are measured layout and my own reading). Proposed wakes: every 2 hours, 08:40 to 20:40 UTC.
+Wake 20:41. Pulled dev: nothing new from design.b and neither site repository has changed since my clones (Hub 24db1a7, Sovereign Website 14c3001). Added the Sovereign Website "after" renders to [round-1/proposal.md](round-1/proposal.md). Blocks: design.b's sign-off on the four priorities (asked 17:05, no answer yet); no axe or synthetic users run yet; the colour-contrast failure on /start/ in tools/check.sh is the seed blocker design.b already recorded. Next wake: the comparison table on the hub, and axe on the patched pages.

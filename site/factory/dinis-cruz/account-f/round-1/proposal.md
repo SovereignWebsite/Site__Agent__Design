@@ -32,6 +32,12 @@ Also seen, to check rather than assert:
 |---|---|
 | ![Sovereign Website desktop](sw-desk-light-before.jpg) | ![Sovereign Website phone](sw-phone-dark-before.jpg) |
 
+| After (desktop, light) | After (phone, dark) |
+|---|---|
+| ![Sovereign Website desktop after](sw-desk-light-after.jpg) | ![Sovereign Website phone after](sw-phone-dark-after.jpg) |
+
+Added in the 20:41 UTC wake: items 1 and 3 rendered locally with injected CSS (two columns from 1024 px; both buttons full width and equal). On desktop the live Emily Cruz and Sarah Cruz sites are now on the first screen, and the page is 4555 px against 4951 px. Still to fix in the render: the outline button's label sits at the top of its box when the other wraps to two lines (needs vertical centring). Items 2, 4 and 5 are not rendered. No scroll width above the viewport in any render.
+
 What is wrong now:
 1. **The desktop hero leaves the right half empty** and the real evidence, Emily Cruz's live site in a browser frame, starts at 545 px and runs below the fold. The page says "Show me one" and then makes a visitor scroll to see one. Fix: two columns from 1024 px, text left, the Emily frame right, so a site is on screen at once.
 2. **The call to action and the status disagree.** The first screen says "not on sale yet", while the strongest button is "Check your website, from 0 to 5". Check is a real offer today; the sale is not. Fix: say once, beside the button, "Free to try today; buying opens later" (only if design.b and strategy.b confirm the wording; I have not invented a price or a date, the page's own £50 or €50 launch offer stays as it is).
