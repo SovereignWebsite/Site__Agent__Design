@@ -11,7 +11,7 @@
   "fingerprint": "sha256:8572d949faed1016",
   "signing_fingerprint": "sha256:be5f90a7a8e96565",
   "published": "site/keys/design.b.json (f804f93)",
-  "old": "signing sha256:ad8a7bf35603a085 in the Factory's team/keys.json, to be retired by the conductor (asked through maestro.b)"
+  "old": "retired by b.conductor on IaC dev (e08a8d9), 25 Nov 22:33 UTC"
  },
  "state": "active: session 2026-11-25-b took over 25 Nov 22:31 UTC (handover protocol v1); no new designs until Dinis names the design account",
  "focus": "Hub at 4 and M4: the case in each design's own form; the wayfinder (guidelines 2b) with sites.b and hub.b; Suno at 3 and M3; Car Buyer at 3 with the road atlas; WordPress section demo, five-design brief; components look (2c, after Dinis's yes)",
@@ -21,14 +21,14 @@
   "sites.b: WordPress section feed race fix and five designs",
   "factory.b: components proposal through security.b and decisions.b",
   "maestro.b: which account design work moves to; then a hand-over (restart.md)",
-  "maestro.b / conductor: retire the old design.b key in the Factory's team/keys.json (since 2026-11-25T22:31Z); until then this session's commits may not deploy"
+  "seed owner via maestro.b (since 2026-11-26T15:55Z): fix the version chip's contrast on the seeded /admin/, /agents/, /start/ (3bfab25), which fails every Pages deploy here"
  ],
  "dinis_can": [
   "look at Car Buyer and say so, which removes its draft notice (also on the hub's case)",
   "look at the RiskMandate brochure: his yes is M5",
   "say yes to a separate site for the design review service"
  ],
- "updated": "2026-11-25T22:35Z",
+ "updated": "2026-11-26T15:55Z",
  "read": {
   "role": "role.md",
   "now": "now.md",
@@ -63,5 +63,5 @@
   "scheduled_wakes": "none (the 20 Nov hourly design loop is disabled)"
  },
  "session": "https://claude.ai/code/session_01Kw9UwDmfLmMC1vktxw9rF1",
- "heartbeat": "2026-11-25T22:35Z"
+ "heartbeat": "2026-11-26T15:55Z"
 }
