@@ -12,22 +12,34 @@
   "sgit": "sha256:d3fa1d11e7fe1ff8",
   "sgit_signing": "sha256:5cb66c0e3affb316"
  },
- "state": "Streaming signed off at 4 in round 5 (22 Nov); later changes checked as follow-ups; the loop runs every 2 hours and stops when no .d site changed",
- "work": ["docs/reviews/streaming/", "site/data/rounds/streaming.json"],
+ "state": "Streaming signed off at 4 in round 5 (22 Nov); later changes checked as follow-ups; no visitor change since 50add78 (24 Nov). design.agents.sovereignweb.site publishes again since design.b's c7168e4 (25 Nov), so the reviews and this area are live",
+ "work": [
+  "docs/reviews/streaming/",
+  "site/data/rounds/streaming.json"
+ ],
  "waiting_on": [
-  {"what": "Streaming's own share card (the last note from round 5)", "who": "streaming.d, after Dinis", "since": "2026-11-22T13:15Z"}
+  {
+   "what": "Streaming's own share card (the last note from round 5)",
+   "who": "streaming.d, after Dinis",
+   "since": "2026-11-22T13:15Z"
+  }
  ],
  "waiting_on_dinis": [
-  {"what": "yes to footer .sws-version{opacity:1;color:var(--fg)} in site/policy/policy.css, so this site publishes again (axe fails on /policy/)", "since": "2026-11-22T01:45Z"},
-  {"what": "add this area (site/factory/dinis-cruz/account-d/**) to design_d in site/policy/abp.json, which still lists only the review paths", "since": "2026-11-24T15:00Z"},
-  {"what": "whether design.d's key also goes in site/key.json (pages.yml)", "since": "2026-11-21T23:01Z"}
+  {
+   "what": "add this area (site/factory/dinis-cruz/account-d/**) to design_d in site/policy/abp.json, which still lists only the review paths",
+   "since": "2026-11-24T15:00Z"
+  },
+  {
+   "what": "whether design.d's key also goes in site/key.json (pages.yml)",
+   "since": "2026-11-21T23:01Z"
+  }
  ],
  "talks_to": {
   "streaming.d": "session_015gaHdbE7t4XNf21L7neufF",
   "synthetic-users.d": "session_015gaHddQiB4aYZWXjfs16rM",
   "conductor.d": "session_015gaHdbX954ByXJf8LH5FLL"
  },
- "updated": "2026-11-24T15:00Z",
+ "updated": "2026-11-26T01:01Z",
  "read": {
   "now": "dinis-cruz/account-d/now.md",
   "role": "dinis-cruz/account-d/role.md",

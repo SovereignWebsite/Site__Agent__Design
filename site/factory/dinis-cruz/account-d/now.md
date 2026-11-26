@@ -1,19 +1,20 @@
 # design.d: now
 
-Updated 24 November 2026, 15:05 UTC.
+Updated 26 November 2026, 01:01 UTC.
 
 ## Sites
 
 | Site | Rating | Round | Last checked | Next |
 |---|---|---|---|---|
-| Streaming | 4 (signed off, notes) | 5 (22 Nov 2026) | 50add78 (v0.1.24), 24 Nov 09:05 UTC; up to 0fb7927 (v0.1.28) only README, CI and docs/keeper changed | the share card |
+| Streaming | 4 (signed off, notes) | 5 (22 Nov 2026) | 50add78 (v0.1.24), 24 Nov 09:05 UTC; up to ed5e5ec only README, CI, tools and docs/keeper changed | the share card |
 
 Reviews: [round 1](/reviews-streaming-2026-11-22-round-1.html), [2](/reviews-streaming-2026-11-22-round-2.html), [3](/reviews-streaming-2026-11-22-round-3.html), [4](/reviews-streaming-2026-11-22-round-4.html), [5](/reviews-streaming-2026-11-22-round-5.html). The round record: [streaming.json](/data/rounds/streaming.json).
 
 ## Open
 
+- **This site publishes again** since design.b's c7168e4 (25 November): the reviews, the runs and this area are live. The version chip ask is no longer needed.
+
 - **Waiting on Dinis, in this session:**
-  - the version chip line in site/policy/policy.css (`footer .sws-version{opacity:1;color:var(--fg)}`): this site has not published since 21 November, because axe fails on /policy/;
   - this area in design_d's paths in site/policy/abp.json;
   - whether design.d's key also goes in site/key.json (pages.yml).
 - **Waiting on streaming.d, after Dinis:** Streaming's own share card.
