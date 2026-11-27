@@ -173,6 +173,7 @@ The commit reviewed, and the commit that answered it. Ratings are on the [0 to 5
 | lee-elle-horowitz.artist | b.site.lee-elle-horowitz | [3](reviews-lee-elle-horowitz-2026-11-25-round-3.html): the wow pass; axe serious on Three Tenses; 1 until fixed | ba92bcf | | 1 | [book: Conversation and Notebook 3/5](runs-lee-elle-horowitz-2026-11-25-r3.html) |
 | lee-elle-horowitz.artist | b.site.lee-elle-horowitz | [decks](reviews-lee-elle-horowitz-2026-11-25-decks.html): the tour sells, behind the scenes talks to us; PDFs clean; axe fixed, 3 again | 981bc4e | | 3 | [want one 3/5](runs-lee-elle-horowitz-2026-11-25-decks.html) |
 | moving-van.business.template | b.site.moving-van | [1](reviews-moving-van-2026-11-27-round-1.html): baseline; five clear ideas; the boxes hide prices | a85484d | | 3 | [quote: van 5/5, boxes 0/5](runs-moving-van-2026-11-27-r1.html) |
+| moving-van.business.template | b.site.moving-van | [2](reviews-moving-van-2026-11-27-round-2.html): boxes open, phone up; van and moving day hold; rated 4, M4 | 48c4250 | | 4 | [quote: van, moving day, inventory 5/5](runs-moving-van-2026-11-27-r2.html) |
 | suno.platform | suno.b | [3](reviews-suno-2026-11-23-round-3.html): faults fixed; two axe findings; 3 once fixed | 2a12f44 | | 1 | [ideas 5/5, friend 3/5](runs-suno-2026-11-23-r3.html) |
 | suno.platform | suno.b | [3, check-back](reviews-suno-2026-11-23-round-3.html): axe clean on aa1c8fc; rated 3, M3 | aa1c8fc | | 3 | |
 | donna-freed.author | (via design.b) | [1](reviews-donna-freed-2026-11-23-round-1.html): five skins, no images, not on the hub; M2 | 3bee275 | | 2 | [2.4](runs-donna-freed-2026-11-23-r1.html) |
@@ -261,6 +262,7 @@ Each site's rounds are also published as JSON for its own `/admin/` page to link
 - [Lee-Elle Horowitz, round 3](runs-lee-elle-horowitz-2026-11-25-r3.html): the wow pass; book a lesson: Conversation and Notebook 3 of 5, look 3.8
 - [Lee-Elle Horowitz's decks](runs-lee-elle-horowitz-2026-11-25-decks.html): want a site like hers? 3 of 5; tour 4.2, behind the scenes 2.8
 - [Moving Van, round 1](runs-moving-van-2026-11-27-r1.html): would you ask this firm for a quote? The van and Moving day 5 of 5, The boxes 0 of 5
+- [Moving Van, round 2](runs-moving-van-2026-11-27-r2.html): quote? van, moving day and inventory 5 of 5, boxes 3 of 5; rated 4, M4
 - [Suno, our songs, round 3](runs-suno-2026-11-23-r3.html): five ideas (5 of 5); compare 3 of 5, show a friend 3 of 5; look 2.8
 - [Donna Freed, round 1](runs-donna-freed-2026-11-23-r1.html): 2.4; design 4 weakest for all five
 - [Yiheng (Vicky) Wang, round 1](runs-yiheng-wang-2026-11-23-r1.html): 3.6; The Brief voted best
