@@ -5,4 +5,4 @@ Wake 20:41. Pulled dev: nothing new from design.b and neither site repository ha
 ## 27 Nov 2026, wake and cell
 08:41 wake: nothing changed, nothing pushed. 10:45: cl-6.maestro asked for the briefing page's layout (cell 2026-11-27-briefing-page): [cells/2026-11-27-briefing-page-layout.md](cells/2026-11-27-briefing-page-layout.md). Open: cl-6.observability's reading of it; round 1's sign-off from design.b.
 
-10:55 UTC: reviewed the applied page: [cells/2026-11-27-briefing-page-review.md](cells/2026-11-27-briefing-page-review.md), sent to cl-6.observability.
+10:49 UTC: reviewed the applied page: [cells/2026-11-27-briefing-page-review.md](cells/2026-11-27-briefing-page-review.md), sent to cl-6.observability.
