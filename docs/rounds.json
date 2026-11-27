@@ -1819,7 +1819,7 @@
      "round": 2,
      "what": "round 1's asks done; quote: van, moving day, inventory 5/5, boxes 3/5 (from 0), card 3/5; Moving day all five at 4; van four of five at 4+ in both rounds: rated 4, M4",
      "commit_reviewed": "48c4250 (v0.1.5)",
-     "answered_by": null,
+     "answered_by": "d83708b: the boxes' phone, the inventory's price and insurance lines, the firm line a placeholder, prices per service, larger van labels (verified, measured only)",
      "rating": "4",
      "synthetic_score": 3.56,
      "phone_px": 3877,

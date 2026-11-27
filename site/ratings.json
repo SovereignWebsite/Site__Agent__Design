@@ -729,7 +729,7 @@
   },
   "moving-van.business.template.sovereignweb.site": {
    "repo": "Site__Template__Business__Moving-Van",
-   "commit": "48c4250 (v0.1.5)",
+   "commit": "d83708b",
    "rating": 4,
    "five_designs": true,
    "rounds": 2,
@@ -737,8 +737,8 @@
    "owner": "a demo for a small family man-and-van firm; placeholders until the owner supplies the details (b.maestro's first customer sites brief, site 2)",
    "maturity": "M4",
    "maturity_note": "M1 25 Nov; M3 at round 1 (27 Nov); M4 at round 2 (27 Nov): rated 4 (The van four of five at 4+ in rounds 1 and 2; Moving day four, then five), axe clean, under 8,000 px, two runs; kept under Keeping a 4",
-   "blocking": "the boxes' phone number; the inventory's price and insurance lines; the fixed 'small family firm' line as a placeholder; '[£ from]' per what",
-   "phone_px": 3877
+   "blocking": "held at 4, M4; small: the inventory asks 'What are you moving?' twice; the boxes' tilt and stamp size",
+   "phone_px": 3905
   }
  },
  "kpi": {
