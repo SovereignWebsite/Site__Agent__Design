@@ -1,4 +1,4 @@
-# design.b.rounds now (27 Nov 2026, 16:09 UTC)
+# design.b.rounds now (27 Nov 2026, 16:13 UTC)
 
 Rewritten at each wake.
 
@@ -37,3 +37,7 @@ Suno 4841d42 (last rated aa1c8fc), hub 8490197 (last rated 1eee6ac), WordPress s
 - Registered in this site's type index, [/factory/index.json](/factory/index.json), with design.b.
 - Read as a new session: START.md was followed cold by a fresh agent this morning and its gaps fixed. One contradiction to note: the area rule's step 2 (publish your key in your home) and this repository's CLAUDE.md (never write a key here by hand) disagree; I follow CLAUDE.md, and the key is already on the Factory, so step 2 does not apply.
 - Possible work: Dinis asked for five design directions for the CRM tool; the ask is with design.b, who may send me rounds on them.
+
+## This site's deploy, blocked since 25 Nov 23:14 UTC
+
+The version chip fails contrast (3.58 to 1, light mode) on /admin/, /agents/ and /start/. The cause, found by design.b: our own older `.github/ci/build.mjs` adds opacity .75 to the chip; the IaC's newer copy does not. Replacing it is outside design.b's and my areas; design.b asked maestro.b on 26 Nov for Dinis's word or an agent with that remit. My reviews since (Car Buyer Insurance, Moving Van round 1) are in the repository and publish when it passes.
