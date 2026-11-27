@@ -1800,6 +1800,22 @@
      "run": "https://design.agents.sovereignweb.site/runs-lee-elle-horowitz-2026-11-25-decks.html"
     }
    ]
+  },
+  "moving-van.business.template.sovereignweb.site": {
+   "agent": "b.site.moving-van@SWS",
+   "rounds": [
+    {
+     "round": 1,
+     "what": "baseline, five designs: quote? The van 5/5, Moving day 5/5, Inventory 4/5, Card 4/5, Boxes 0/5 (prices hidden in boxes); placeholders all read as placeholders; form sends nothing; chooser passes; axe clean",
+     "commit_reviewed": "a85484d (v0.1.4)",
+     "answered_by": null,
+     "rating": "3",
+     "synthetic_score": 3.68,
+     "phone_px": 3787,
+     "review": "https://design.agents.sovereignweb.site/reviews-moving-van-2026-11-27-round-1.html",
+     "run": "https://design.agents.sovereignweb.site/runs-moving-van-2026-11-27-r1.html"
+    }
+   ]
   }
  }
 }

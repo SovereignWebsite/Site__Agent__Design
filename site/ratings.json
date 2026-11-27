@@ -713,18 +713,6 @@
    "maturity_note": "registered 25 Nov at design round 2 (design.b, from source: the live address's certificate did not cover the name yet)",
    "blocking": "home: Quiz first, Road map the showpiece; title shown once; progress from saved results; one drawn sign per design; live address and synthetic users"
   },
-  "moving-van.business.sovereignweb.site": {
-   "repo": "being made by factory.b",
-   "commit": "3c97361 (v0.1.0)",
-   "rating": null,
-   "five_designs": false,
-   "rounds": 0,
-   "agent": "b.site.moving-van@SWS",
-   "owner": "a demo for a small family man-and-van firm; placeholders until the owner supplies the details (b.maestro's first customer sites brief, site 2)",
-   "maturity": "M1",
-   "maturity_note": "registered 25 Nov at first answer: the pipeline's first page; brief briefs/moving-van.html",
-   "blocking": "five designs from the brief; every placeholder must read as a placeholder; then round 1 (\"Would you ask this firm for a quote?\")"
-  },
   "lee-elle-horowitz.artist.sovereignweb.site": {
    "repo": "Site__Artist__Lee-Elle-Horowitz",
    "commit": "dfd8bcc",
@@ -738,6 +726,19 @@
    "phone_px": 7567,
    "on_building": true,
    "blocking": "her check of the Hebrew, her photos and their rights (waiting on her, through Dinis); then round 4"
+  },
+  "moving-van.business.template.sovereignweb.site": {
+   "repo": "Site__Template__Business__Moving-Van",
+   "commit": "a85484d (v0.1.4)",
+   "rating": 3,
+   "five_designs": true,
+   "rounds": 1,
+   "agent": "b.site.moving-van@SWS",
+   "owner": "a demo for a small family man-and-van firm; placeholders until the owner supplies the details (b.maestro's first customer sites brief, site 2)",
+   "maturity": "M3",
+   "maturity_note": "registered 25 Nov at M1 as moving-van.business.sovereignweb.site; moved to the template address; M3 at baseline round 1 (27 Nov): five ideas told apart by all five personas, axe clean",
+   "blocking": "The boxes: prices and services outside the boxes; the phone number higher; The inventory for small jobs; Moving day's price sooner",
+   "phone_px": 3787
   }
  },
  "kpi": {

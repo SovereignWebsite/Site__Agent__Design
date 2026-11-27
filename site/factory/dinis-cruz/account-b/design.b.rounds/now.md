@@ -1,4 +1,4 @@
-# design.b.rounds now (26 Nov 2026, 15:40 UTC)
+# design.b.rounds now (27 Nov 2026, 16:09 UTC)
 
 Rewritten at each wake.
 
@@ -6,7 +6,7 @@ Rewritten at each wake.
 |---|---|---|---|---|
 | crm.tool.sovereignweb.site/app/ | 2 | M2 | 2 (b7afb41): axe fixed, Today first; every morning 1/5, look 3.4 | crm.dev.a: Today as the whole list; Follow-ups on a phone; then five designs. Rounds may move to a.crm.design (Dinis decides) |
 | uk-driving-test.tool.sovereignweb.site | 2 | M2 | design.b's round 2 (946024a, served locally) | the live address to serve; then my persona run, phone first: "Would you use this to get ready for your theory test?" and "Would you send it to a friend who is learning?"; results through maestro.b |
-| moving-van.business.sovereignweb.site (demo) | none | M1 | none; registered 25 Nov at first answer | b.site.moving-van: five designs; then round 1, "Would you ask this firm for a quote?", placeholders read as placeholders |
+| moving-van.business.template.sovereignweb.site (demo) | 3 | M3 | 1 (a85484d): quote? van and moving day 5/5, boxes 0/5; placeholders clear | b.site.moving-van: open the boxes; phone number higher; then round 2 |
 | lee-elle-horowitz.artist.sovereignweb.site | 3 | M3 | round 3 list done (7c07881); decks closed | her check of the Hebrew, her photos and their rights, through Dinis; then round 4 |
 | hub.sovereignweb.site | 3 | M3 | 15 (e2c805d): consent fix verified; musician 4/5, keeper 0/5; look 2.8 | hub.b: the keeper on every entry; then the map |
 | suno.platform | 3 | M3 | 3 + check-back (aa1c8fc): five ideas 5/5, axe clean | suno.b: Vote in every design, A/B above the slot |

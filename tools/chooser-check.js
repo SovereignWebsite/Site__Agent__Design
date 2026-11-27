@@ -33,7 +33,9 @@ const { chromium } = require('playwright');
       await btn.click(); await p.waitForTimeout(500);
       res.panel = await p.evaluate(() => {
         const vis = e => { const b = e.getBoundingClientRect(); return b.width > 0 && b.height > 0 && getComputedStyle(e).visibility !== 'hidden'; };
-        const links = [...document.querySelectorAll('a[href]')].filter(a => vis(a) && a.querySelector('img') && /designs?\//.test(a.getAttribute('href')));
+        // a card is a same-site link with a screenshot, under /designs/ or inside the opened panel (designs may live at their own paths: Moving Van, 27 Nov 2026)
+        const inPanel = a => !!a.closest('details[open], dialog[open], [role=dialog], [popover], [aria-modal="true"], [id*=design i], [class*=chooser i], [class*=picker i]');
+        const links = [...document.querySelectorAll('a[href]')].filter(a => vis(a) && a.querySelector('img') && new URL(a.href, location.href).host === location.host && (/designs?\//.test(a.getAttribute('href')) || inPanel(a)));
         const cards = links.map(a => { const b = a.getBoundingClientRect(); const img = a.querySelector('img'); const cs = getComputedStyle(a); const cur = a.getAttribute('aria-current') || a.closest('[aria-current]');
           return { href: new URL(a.href, location.href).href, img: img.currentSrc || img.src, text: a.textContent.trim().replace(/\s+/g, ' ').slice(0, 80), top: Math.round(b.top), current: !!cur,
             outlined: !!cur && (cs.outlineStyle !== 'none' || parseFloat(cs.borderTopWidth) >= 2 || cs.boxShadow !== 'none') }; });
