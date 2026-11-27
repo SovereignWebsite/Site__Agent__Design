@@ -21,14 +21,14 @@
   "sites.b: WordPress section feed race fix and five designs",
   "factory.b: components proposal through security.b and decisions.b",
   "maestro.b: which account design work moves to; then a hand-over (restart.md)",
-  "seed owner via maestro.b (since 2026-11-26T15:55Z): fix the version chip's contrast on the seeded /admin/, /agents/, /start/ (3bfab25), which fails every Pages deploy here"
+  "maestro.b (since 2026-11-26T16:05Z): someone with remit, or Dinis's word, to replace .github/ci/build.mjs with the seed's copy; every Pages deploy here fails until then"
  ],
  "dinis_can": [
   "look at Car Buyer and say so, which removes its draft notice (also on the hub's case)",
   "look at the RiskMandate brochure: his yes is M5",
   "say yes to a separate site for the design review service"
  ],
- "updated": "2026-11-26T15:55Z",
+ "updated": "2026-11-27T16:15Z",
  "read": {
   "role": "role.md",
   "now": "now.md",
@@ -63,5 +63,5 @@
   "scheduled_wakes": "none (the 20 Nov hourly design loop is disabled)"
  },
  "session": "https://claude.ai/code/session_01Kw9UwDmfLmMC1vktxw9rF1",
- "heartbeat": "2026-11-26T15:55Z"
+ "heartbeat": "2026-11-27T16:15Z"
 }
