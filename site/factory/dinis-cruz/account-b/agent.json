@@ -28,7 +28,7 @@
   "look at the RiskMandate brochure: his yes is M5",
   "say yes to a separate site for the design review service"
  ],
- "updated": "2026-11-27T16:15Z",
+ "updated": "2026-11-27T16:30Z",
  "read": {
   "role": "role.md",
   "now": "now.md",
@@ -63,5 +63,5 @@
   "scheduled_wakes": "none (the 20 Nov hourly design loop is disabled)"
  },
  "session": "https://claude.ai/code/session_01Kw9UwDmfLmMC1vktxw9rF1",
- "heartbeat": "2026-11-27T16:15Z"
+ "heartbeat": "2026-11-27T16:30Z"
 }

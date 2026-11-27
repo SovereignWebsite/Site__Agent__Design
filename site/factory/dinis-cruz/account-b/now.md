@@ -1,4 +1,4 @@
-# Now (27 Nov 2026, 16:15 UTC)
+# Now (27 Nov 2026, 16:30 UTC)
 
 Design work is moving to another account (Dinis, via b.abp and maestro.b); design.b makes no new designs here and keeps the guidelines, briefs and ratings until the hand-over. New session key published (f804f93, signing sha256:be5f90a7a8e96565); the old one waits to be retired in the Factory's team/keys.json. Takeover notes: [sessions/2026-11-25-b/notes.md](sessions/2026-11-25-b/notes.md).
 
@@ -6,7 +6,7 @@ Design work is moving to another account (Dinis, via b.abp and maestro.b); desig
 |---|---|---|---|
 | hub.sovereignweb.site | 3 | M3 | The keeper on each site (after the keeper-chain record), then the drawn map ([brief](../../../briefs/hub-map.html)) |
 | lee-elle-horowitz.artist | 3 | M3 | Decks closed (984fbe4). The Stage: lessons first; Hebrew mixed-direction lines; her check of the Hebrew; her photos |
-| moving-van.business.template (demo) | 3 | M3 | Round 1 (27 Nov, a85484d, b923c50): five ideas told apart; quote: van and moving day 5/5, boxes 0/5. Next: boxes in the quote ([brief](../../../briefs/moving-van.html)) |
+| moving-van.business.template (demo) | 4 | M4 | Round 2 (27 Nov, 48c4250, 9e57556): The van and Moving day at four of five giving 4 or more in rounds 1 and 2; design.b upholds the 4 (rating.html: "4 of 5 or better"). Quote boxes 3/5. Next: the fixed line "A small family firm with a van and a pair of careful hands" becomes a placeholder ([brief](../../../briefs/moving-van.html)) |
 | car-buyer.tool | 3 | M3 | Insurance page reviewed 26 Nov (f771a1c): clean; no first step; the chooser is still a select. Each design's idea on the first screen; Service book rethought |
 | suno.platform | 3 | M3 | Vote in every design; A/B above the slot |
 | crm.tool | 2 | M2 | Five designs and the brand (now with the account A design agents) |
